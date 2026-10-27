@@ -1,4 +1,5 @@
 ---
+import { url } from "../../lib/url.ts";
 import type { Incident } from "../../../schema/incident.ts";
 import { brandName } from "../../../schema/names.ts";
 import Logo from "../../components/Logo.astro";
@@ -40,7 +41,7 @@ steps.push("Turn on two-factor authentication for this account if it offers it."
 
 <Base title={name} description={i.summary.en}>
   <article class="wrap">
-    <p class="crumb"><a href="/">All breaches</a></p>
+    <p class="crumb"><a href={url("/")}>All breaches</a></p>
     <header class="head">
       <Logo name={i.organization.name_en} domain={i.organization.domain} size="lg" />
       <div>
@@ -80,7 +81,7 @@ steps.push("Turn on two-factor authentication for this account if it offers it."
           <h2>What to do if you use {name}</h2>
           <ul class="steps">{steps.map((s) => <li>{s}</li>)}</ul>
           <p class="more">
-            More in our guide to <a href="/guide">limiting your exposure</a>.
+            More in our guide to <a href={url("/guide")}>limiting your exposure</a>.
           </p>
         </section>
 

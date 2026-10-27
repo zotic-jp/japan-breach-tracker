@@ -1,4 +1,5 @@
 ---
+import { url } from "../lib/url.ts";
 import { brandName } from "../../schema/names.ts";
 import Logo from "../components/Logo.astro";
 import Base from "../layouts/Base.astro";
@@ -62,7 +63,7 @@ const tags = (i: (typeof incidents)[number]) =>
           <p><strong id="watch-title"></strong></p>
           <p class="sub" id="watch-names"></p>
         </div>
-        <a class="button secondary" href="/services" id="watch-link">Choose my services</a>
+        <a class="button secondary" href={url("/services")} id="watch-link">Choose my services</a>
       </div>
     </section>
 
@@ -123,7 +124,7 @@ const tags = (i: (typeof incidents)[number]) =>
                 </span>
                 <Logo name={i.organization.name_en} domain={i.organization.domain} />
                 <div class="who">
-                  <a href={`/incidents/${i.id}`} class="name">
+                  <a href={url(`/incidents/${i.id}`)} class="name">
                     {brandName(i.organization.name_en)}
                   </a>
                   <span class="name-ja" lang="ja">
@@ -177,7 +178,7 @@ const tags = (i: (typeof incidents)[number]) =>
           <li>
             <Logo name={i.organization.name_en} domain={i.organization.domain} />
             <div>
-              <a href={`/incidents/${i.id}`}>{brandName(i.organization.name_en)}</a>
+              <a href={url(`/incidents/${i.id}`)}>{brandName(i.organization.name_en)}</a>
               <span class="when">{formatDate(i.disclosed_on)}</span>
               <p>{i.summary.en}</p>
             </div>
@@ -193,7 +194,7 @@ const tags = (i: (typeof incidents)[number]) =>
         <h2>Make the next breach less painful</h2>
         <p>Five habits that stop one leaked account from exposing the rest.</p>
       </div>
-      <a class="button" href="/guide">Protect yourself</a>
+      <a class="button" href={url("/guide")}>Protect yourself</a>
     </div>
   </section>
 </Base>

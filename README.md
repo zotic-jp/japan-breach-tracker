@@ -30,7 +30,7 @@ npm run logos      # save logos for new organizations into public/logos (Wikidat
 
 ## Setup
 
-- Cloudflare Pages: connect the repository, build command `npm run build`, output directory `dist`, environment variable `SITE_URL` set to the public URL.
+- The site deploys to GitHub Pages from `main` (`.github/workflows/pages.yml`) at https://zotic-jp.github.io/japan-breach-tracker/. For a custom domain, set `SITE_URL` and `BASE_PATH=/` in that workflow.
 
 
 ## Logos

@@ -1,4 +1,5 @@
 ---
+import { pagePath, url } from "../lib/url.ts";
 import "../styles/global.css";
 
 interface Props {
@@ -8,7 +9,7 @@ interface Props {
 
 const { title, description } = Astro.props;
 const fullTitle = title === "Japan Breach Tracker" ? title : `${title} | Japan Breach Tracker`;
-const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const path = pagePath(Astro.url.pathname);
 const nav = [
   { href: "/", label: "Breaches" },
   { href: "/services", label: "My services" },
@@ -24,8 +25,8 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="alternate" type="application/rss+xml" title="Japan Breach Tracker" href="/rss.xml" />
+    <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Japan Breach Tracker" href={url("/rss.xml")} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=M+PLUS+Rounded+1c:wght@700;800&display=swap" rel="stylesheet" />
@@ -33,8 +34,8 @@ const nav = [
   <body>
     <header class="site-header">
       <div class="wrap bar">
-        <a class="brand" href="/">
-          <img src="/favicon.svg" alt="" width="36" height="36" />
+        <a class="brand" href={url("/")}>
+          <img src={url("/favicon.svg")} alt="" width="36" height="36" />
           <span class="brand-text">
             <span class="brand-en">Japan Breach Tracker</span>
             <span class="brand-ja" lang="ja">日本の情報漏えいトラッカー</span>
@@ -45,7 +46,7 @@ const nav = [
             {
               nav.map((item) => (
                 <li>
-                  <a href={item.href} aria-current={path === item.href ? "page" : undefined}>
+                  <a href={url(item.href)} aria-current={path === item.href ? "page" : undefined}>
                     {item.label}
                   </a>
                 </li>
@@ -62,13 +63,13 @@ const nav = [
       <div class="wrap">
         <p>
           Every entry links to the organisation's own notice or a published news report. Entries are drafted
-          and checked by AI each day. Spotted a mistake? <a href="/about#corrections">Report a correction</a>.
+          and checked by AI each day. Spotted a mistake? <a href={url("/about#corrections")}>Report a correction</a>.
         </p>
         <p class="muted">
           Logos are trademarks of their owners and appear only to identify each organisation. Owners can ask for a
           logo to be removed through the same correction link.
         </p>
-        <p class="muted"><a href="/rss.xml">RSS feed</a></p>
+        <p class="muted"><a href={url("/rss.xml")}>RSS feed</a></p>
       </div>
     </footer>
   </body>

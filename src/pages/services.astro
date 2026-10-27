@@ -1,4 +1,5 @@
 ---
+import { url } from "../lib/url.ts";
 import { CATEGORIES } from "../../schema/service.ts";
 import Logo from "../components/Logo.astro";
 import Base from "../layouts/Base.astro";
@@ -73,7 +74,7 @@ const groups = CATEGORIES.map((c) => ({ category: c, items: services.filter((s) 
   <div class="dock" id="dock" hidden>
     <div class="wrap dock-inner">
       <p id="summary" aria-live="polite"></p>
-      <a class="button" href="/?mine=1">Show my breaches</a>
+      <a class="button" href={url("/?mine=1")}>Show my breaches</a>
     </div>
   </div>
 </Base>
