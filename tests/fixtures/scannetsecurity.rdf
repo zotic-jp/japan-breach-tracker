@@ -3,7 +3,7 @@
   <channel rdf:about="https://scan.netsecurity.ne.jp/">
     <title>ScanNetSecurity</title>
     <link>https://scan.netsecurity.ne.jp/</link>
-    <description>国内最大級の情報セキュリティ専門ポータルサイト</description>
+    <description>&lt;p&gt;本文は省略しました（テスト用）。&lt;/p&gt;</description>
     <items>
       <rdf:Seq>
         <rdf:li rdf:resource="https://scan.netsecurity.ne.jp/article/2026/10/27/56589.html" />
