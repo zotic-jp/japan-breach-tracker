@@ -12,8 +12,8 @@
     "check": "astro check && tsc --noEmit -p tsconfig.json",
     "test": "vitest run",
     "validate": "tsx collector/validate.ts",
-    "logos": "tsx collector/logos.ts",
-    "candidates": "tsx collector/candidates.ts",
+    "logos": "NODE_USE_ENV_PROXY=1 tsx collector/logos.ts",
+    "candidates": "NODE_USE_ENV_PROXY=1 tsx collector/candidates.ts",
     "apply": "tsx collector/apply.ts"
   },
   "dependencies": {
