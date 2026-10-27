@@ -3,7 +3,7 @@ import os from "node:os";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import type { Incident, Source } from "../schema/incident.ts";
-import type { ExtractedIncident } from "../collector/extract.ts";
+import type { ExtractedIncident } from "../collector/extraction.ts";
 import { extractArticleText } from "../collector/article.ts";
 import { parseFeed, toTokyoDate } from "../collector/feeds.ts";
 import { hostMatches, iconCandidates, imageWidth } from "../collector/logos.ts";

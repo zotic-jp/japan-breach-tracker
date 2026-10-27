@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { IncidentSchema, type Incident, type Source } from "../schema/incident.ts";
-import type { ExtractedIncident } from "./extract.ts";
+import type { ExtractedIncident } from "./extraction.ts";
 
 export const INCIDENTS_DIR = "data/incidents";
 export const SEEN_FILE = "data/state/seen.json";
