@@ -1,0 +1,53 @@
+{
+  "id": "2026-yamato-deferred-payment",
+  "organization": {
+    "name_ja": "ヤマト運輸株式会社",
+    "name_en": "Yamato Transport Co., Ltd.",
+    "domain": "kuronekoyamato.co.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2026-09-29",
+  "discovered_on": "2026-09-28",
+  "affected": {
+    "count": 5260000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 5.26 million customer records of the Kuroneko deferred-payment service (about 490,000 of them include email addresses). In addition, about 50,000 delivery recipient records and about 4,100 merchant records were taken; Kyodo reported the combined total as about 5.31 million. Credit card data and passwords are not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Yamato Transport confirmed on 2026-09-28 that its Kuroneko deferred-payment service had been accessed without authorization by a third party. Its investigation found that about 5.26 million customer records, about 50,000 recipient records and about 4,100 merchant records had been taken.",
+    "ja": "ヤマト運輸は2026年9月28日、「クロネコ代金後払いサービス」が第三者による不正アクセスを受けたことを確認した。調査の結果、利用者情報約526万件、お届け先情報約5万件、加盟店情報約4,100件が不正に持ち出されたことが判明した。"
+  },
+  "official_notice_url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+  "sources": [
+    {
+      "url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+      "title": "【第4報】「クロネコ代金後払いサービス」への不正アクセスに関する調査結果と今後の対応について",
+      "publisher": "ヤマト運輸株式会社",
+      "published_on": "2026-10-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56361.html",
+      "title": "「クロネコ代金後払いサービス」に不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-01"
+    },
+    {
+      "url": "https://kumanichi.com/articles/2047275",
+      "title": "ヤマト運輸、531万件情報流出 顧客氏名や住所、不正アクセス",
+      "publisher": "熊本日日新聞 (共同通信)",
+      "published_on": "2026-10-16"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

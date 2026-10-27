@@ -1,0 +1,161 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const fullTitle = title === "Japan Breach Tracker" ? title : `${title} | Japan Breach Tracker`;
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const nav = [
+  { href: "/", label: "Breaches" },
+  { href: "/services", label: "My services" },
+  { href: "/guide", label: "Protect yourself" },
+  { href: "/about", label: "About" },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Japan Breach Tracker" href="/rss.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=M+PLUS+Rounded+1c:wght@700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="/">
+          <img src="/favicon.svg" alt="" width="36" height="36" />
+          <span class="brand-text">
+            <span class="brand-en">Japan Breach Tracker</span>
+            <span class="brand-ja" lang="ja">日本の情報漏えいトラッカー</span>
+          </span>
+        </a>
+        <nav aria-label="Main">
+          <ul>
+            {
+              nav.map((item) => (
+                <li>
+                  <a href={item.href} aria-current={path === item.href ? "page" : undefined}>
+                    {item.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Every entry links to the organisation's own notice or a published news report. AI drafts each entry and a
+          person checks it before it goes live. Spotted a mistake? <a href="/about#corrections">Report a correction</a>.
+        </p>
+        <p class="muted">
+          Logos are trademarks of their owners and appear only to identify each organisation. Owners can ask for a
+          logo to be removed through the same correction link.
+        </p>
+        <p class="muted"><a href="/rss.xml">RSS feed</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: color-mix(in srgb, var(--surface) 92%, transparent);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+  .brand-en {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.0625rem;
+  }
+  .brand-ja {
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav a {
+    display: block;
+    color: var(--muted);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: var(--step--1);
+    padding: 8px 14px;
+    border-radius: 999px;
+  }
+  nav a:hover {
+    color: var(--ink);
+    background: var(--sunken);
+  }
+  nav a[aria-current="page"] {
+    color: var(--primary);
+    background: var(--primary-soft);
+  }
+  main {
+    padding: 40px 0 72px;
+  }
+  .site-footer {
+    border-top: 1px solid var(--line);
+    background: var(--surface);
+    padding: 28px 0 40px;
+    font-size: var(--step--1);
+  }
+  .site-footer .wrap > * + * {
+    margin-top: 10px;
+  }
+  .site-footer p {
+    max-width: var(--measure);
+  }
+  @media (max-width: 560px) {
+    nav {
+      width: 100%;
+    }
+  }
+</style>

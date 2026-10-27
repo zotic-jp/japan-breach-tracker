@@ -1,0 +1,53 @@
+{
+  "id": "2026-sagawa-tracking",
+  "organization": {
+    "name_ja": "佐川急便株式会社",
+    "name_en": "Sagawa Express Co., Ltd.",
+    "domain": "sagawa-exp.co.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2026-09-30",
+  "discovered_on": "2026-09-30",
+  "affected": {
+    "count": 53230000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Maximum of about 53.23 million records that may have leaked, including duplicates; Sagawa says it does not represent the number of individuals. Covers waybill data for parcels from 2026-06-21 to 2026-09-30, freight contract customer lists and Smart Club member data. Handwritten waybills, credit card data and passwords are not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Sagawa Express confirmed unauthorized access by a third party to its online parcel inquiry service on 2026-09-30. It reported that up to about 53.23 million records (including duplicates) of sender and recipient names, addresses and phone numbers, plus some customer and member data, may have leaked.",
+    "ja": "佐川急便は2026年9月30日、Webサイトの「お荷物問い合わせサービス」への第三者による不正アクセスを確認した。送り状データの依頼主・届け先の氏名、住所、電話番号や一部の顧客・会員情報について、重複を含め最大約5,323万件が流出した可能性があると公表した。"
+  },
+  "official_notice_url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
+  "sources": [
+    {
+      "url": "https://www2.sagawa-exp.co.jp/information/detail/430/",
+      "title": "「お荷物問い合わせサービス」の再開および個人情報の流出に関する調査状況について（第5報）",
+      "publisher": "佐川急便株式会社",
+      "published_on": "2026-10-23"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2145343.html",
+      "title": "佐川急便「お荷物問い合わせサービス」不正アクセスにより情報流出の可能性、ウェブの荷物問い合わせなどを停止中",
+      "publisher": "INTERNET Watch (Impress)",
+      "published_on": "2026-10-02"
+    },
+    {
+      "url": "https://www.security-next.com/191906",
+      "title": "荷物問合サービスの侵害、流出対象件数を取りまとめ - 佐川急便",
+      "publisher": "Security NEXT",
+      "published_on": "2026-10-26"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2026-yakiniku-king-app",
+  "organization": {
+    "name_ja": "株式会社物語コーポレーション",
+    "name_en": "Monogatari Corporation",
+    "domain": "yakiniku-king.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2026-10-05",
+  "discovered_on": "2026-10-02",
+  "affected": {
+    "count": 10788963,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Members of the Yakiniku King (焼肉きんぐ) official app, out of 10,808,784 registered users. Passwords, birthdates, gender, postal codes and store usage history were not leaked; the company does not hold payment card data."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "A third party gained unauthorized access to the member management system of the Yakiniku King official app, which the company detected on 2026-10-02. Monogatari Corporation confirmed that member numbers, registered names, email addresses and phone numbers of 10,788,963 members leaked.",
+    "ja": "「焼肉きんぐ」公式アプリの会員管理システムが第三者による不正アクセスを受け、2026年10月2日に確認された。物語コーポレーションは10,788,963件の会員番号、アプリ登録名、メールアドレス、電話番号の漏えいを確認したと発表した。"
+  },
+  "official_notice_url": "https://www.monogatari.co.jp/news/261005_news/",
+  "sources": [
+    {
+      "url": "https://www.monogatari.co.jp/news/261005_news/",
+      "title": "『焼肉きんぐ』公式アプリ 会員管理システムへの第三者からの不正アクセスによる個人情報漏えいに関するお詫び",
+      "publisher": "株式会社物語コーポレーション",
+      "published_on": "2026-10-05"
+    },
+    {
+      "url": "https://www.monogatari.co.jp/news/261020_news/",
+      "title": "『焼肉きんぐ』公式アプリにおける今後のセキュリティおよび個人情報保護強化策について",
+      "publisher": "株式会社物語コーポレーション",
+      "published_on": "2026-10-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56521.html",
+      "title": "上場企業の個人情報漏えい 2026年は100万件以上がすでに10件 過去最悪ペース",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-21"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

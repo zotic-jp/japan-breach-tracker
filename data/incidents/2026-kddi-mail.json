@@ -1,0 +1,50 @@
+{
+  "id": "2026-kddi-mail",
+  "organization": {
+    "name_ja": "KDDI株式会社",
+    "name_en": "KDDI Corporation",
+    "domain": "kddi.com"
+  },
+  "industry": "telecom",
+  "disclosed_on": "2026-06-23",
+  "discovered_on": "2026-06-17",
+  "affected": {
+    "count": 12231954,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses created on KDDI's mail platform for ISP operators (e.g. BIGLOBE, @nifty, J:COM). Includes 7,616,173 cases where the password also leaked. KDDI counted these as 対象人数 (persons). Figure corrected on 2026-07-21 (initially 12,233,087); the 2026-06-23 first report said up to about 14.22 million might be affected."
+  },
+  "data_types": [
+    "email",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Attackers exploited a vulnerability in third-party software in KDDI's email platform for ISP operators, with access starting on 2026-05-16. KDDI confirmed that 12,231,954 email addresses leaked, 7,616,173 of them together with passwords; au, UQ mobile and au one net mail were not affected.",
+    "ja": "ISP事業者向けメールシステムに組み込まれた第三者製ソフトウェアの脆弱性が悪用され、2026年5月16日から不正アクセスが発生した。KDDIは12,231,954件のメールアドレスの漏えいを確認し、うち7,616,173件はパスワードも漏えいしたとしている。auメール等の自社サービスは影響を受けていない。"
+  },
+  "official_notice_url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf",
+  "sources": [
+    {
+      "url": "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-73_4619/kddi_nr_s-73_4619_pdf_01.pdf",
+      "title": "ISP事業者向けメールシステムに対する不正アクセスについてのお詫びとご報告",
+      "publisher": "KDDI株式会社",
+      "published_on": "2026-07-06"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2122740.html",
+      "title": "KDDI、ISP向けメールシステムへの不正アクセスで続報。1223万件のメールアドレス、762万件のパスワードが漏えい",
+      "publisher": "INTERNET Watch (Impress)",
+      "published_on": "2026-07-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56521.html",
+      "title": "上場企業の個人情報漏えい 2026年は100万件以上がすでに10件 過去最悪ペース",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-21"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

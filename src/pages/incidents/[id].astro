@@ -1,0 +1,411 @@
+---
+import type { Incident } from "../../../schema/incident.ts";
+import { brandName } from "../../../schema/names.ts";
+import Logo from "../../components/Logo.astro";
+import Base from "../../layouts/Base.astro";
+import {
+  CAUSE_LABELS,
+  DATA_LABELS,
+  INDUSTRY_LABELS,
+  SENSITIVE,
+  formatCount,
+  formatDate,
+  incidents,
+} from "../../lib/incidents.ts";
+import { servicesFor } from "../../lib/services.ts";
+
+export function getStaticPaths() {
+  return incidents.map((incident) => ({ params: { id: incident.id }, props: { incident } }));
+}
+
+const { incident: i } = Astro.props as { incident: Incident };
+const rank = incidents.findIndex((x) => x.id === i.id) + 1;
+const sensitive = i.data_types.filter((d) => SENSITIVE.includes(d));
+const name = brandName(i.organization.name_en);
+const service = servicesFor(i)[0];
+
+const steps: string[] = [];
+if (i.data_types.includes("password"))
+  steps.push(`Change your ${name} password, and the password on any other site where you used the same one.`);
+if (i.data_types.includes("credit_card"))
+  steps.push("Check your card statements for charges you don't recognise, and ask your card company for a new card number.");
+if (i.data_types.includes("bank_account")) steps.push("Watch your bank account for unexpected transfers.");
+if (i.data_types.includes("id_document") || i.data_types.includes("my_number"))
+  steps.push("Be wary of anyone contacting you who already knows your ID details. Scammers use leaked IDs to seem genuine.");
+steps.push(
+  `Expect phishing. Emails or SMS messages claiming to be from ${name} about this incident may be fake. Go to their website directly rather than clicking links.`,
+);
+steps.push("Turn on two-factor authentication for this account if it offers it.");
+---
+
+<Base title={name} description={i.summary.en}>
+  <article class="wrap">
+    <p class="crumb"><a href="/">All breaches</a></p>
+    <header class="head">
+      <Logo name={i.organization.name_en} domain={i.organization.domain} size="lg" />
+      <div>
+        <h1>{name}</h1>
+        <p class="ja" lang="ja">{i.organization.name_ja}</p>
+      </div>
+    </header>
+    {
+      service && (
+        <button type="button" class="use" id="use" data-service={service.id} aria-pressed="false">
+          <span class="off">I use {service.name_en}</span>
+          <span class="on">On my services list</span>
+        </button>
+      )
+    }
+
+    <div class="figure">
+      <p class="status">
+        <span class:list={["badge", { possible: i.status === "possible" }]}>
+          {i.status === "possible" ? "May have been leaked" : "Leaked"}
+        </span>
+        <span>Ranked {rank} of {incidents.length} by size</span>
+      </p>
+      <p class="count">{formatCount(i)}</p>
+      {i.affected.note && <p class="note">{i.affected.note}</p>}
+    </div>
+
+    <div class="cols">
+      <div class="main">
+        <section class="panel prose">
+          <h2>What happened</h2>
+          <p>{i.summary.en}</p>
+          <p lang="ja" class="ja-summary">{i.summary.ja}</p>
+        </section>
+
+        <section class="panel">
+          <h2>What to do if you use {name}</h2>
+          <ul class="steps">{steps.map((s) => <li>{s}</li>)}</ul>
+          <p class="more">
+            More in our guide to <a href="/guide">limiting your exposure</a>.
+          </p>
+        </section>
+
+        <section class="panel">
+          <h2>Sources</h2>
+          <ul class="sources">
+            {
+              i.official_notice_url && (
+                <li>
+                  <a href={i.official_notice_url} rel="noopener">
+                    Official notice from {name}
+                  </a>
+                </li>
+              )
+            }
+            {
+              i.sources.map((s) => (
+                <li>
+                  <a href={s.url} rel="noopener">
+                    {s.title}
+                  </a>
+                  <span class="muted">
+                    {s.publisher}
+                    {s.published_on && `, ${formatDate(s.published_on)}`}
+                  </span>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </div>
+
+      <dl class="facts panel">
+        <div>
+          <dt>Disclosed</dt>
+          <dd>{formatDate(i.disclosed_on)}</dd>
+        </div>
+        {
+          i.discovered_on && (
+            <div>
+              <dt>Discovered</dt>
+              <dd>{formatDate(i.discovered_on)}</dd>
+            </div>
+          )
+        }
+        <div>
+          <dt>Cause</dt>
+          <dd>{CAUSE_LABELS[i.cause]}</dd>
+        </div>
+        {
+          i.via_vendor && (
+            <div>
+              <dt>Through supplier</dt>
+              <dd>{i.via_vendor}</dd>
+            </div>
+          )
+        }
+        <div>
+          <dt>Industry</dt>
+          <dd>{INDUSTRY_LABELS[i.industry]}</dd>
+        </div>
+        <div>
+          <dt>Data exposed</dt>
+          <dd>
+            {
+              i.data_types.length ? (
+                <ul class="tags">
+                  {i.data_types.map((d) => (
+                    <li class={sensitive.includes(d) ? "sensitive" : undefined}>{DATA_LABELS[d]}</li>
+                  ))}
+                </ul>
+              ) : (
+                "Not disclosed"
+              )
+            }
+          </dd>
+        </div>
+        <div>
+          <dt>Last checked</dt>
+          <dd>{formatDate(i.updated_at)}</dd>
+        </div>
+      </dl>
+    </div>
+  </article>
+</Base>
+
+<script>
+  import { getWatched, setWatched } from "../../lib/watch.ts";
+
+  const button = document.getElementById("use");
+  if (button) {
+    const id = button.dataset.service!;
+    const sync = () => button.setAttribute("aria-pressed", String(getWatched().has(id)));
+    button.addEventListener("click", () => {
+      const watched = getWatched();
+      if (!watched.delete(id)) watched.add(id);
+      setWatched(watched);
+      sync();
+    });
+    sync();
+  }
+</script>
+
+<style>
+  .use {
+    margin-top: 20px;
+    padding: 10px 18px 10px 14px;
+    font: inherit;
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--primary);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .use::before {
+    content: "+";
+    display: inline-block;
+    width: 1.1em;
+    font-size: 1.1em;
+  }
+  .use .on,
+  .use[aria-pressed="true"] .off {
+    display: none;
+  }
+  .use[aria-pressed="true"] .on {
+    display: inline;
+  }
+  .use[aria-pressed="true"] {
+    color: #fff;
+    background: var(--primary);
+    border-color: var(--primary);
+  }
+  .use[aria-pressed="true"]::before {
+    content: "✓";
+  }
+  .crumb {
+    font-size: var(--step--1);
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .crumb a {
+    text-decoration: none;
+  }
+  .crumb a::before {
+    content: "‹ ";
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  h1 {
+    font-size: clamp(var(--step-2), 5vw, var(--step-3));
+    line-height: 1.15;
+  }
+  .ja {
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .figure {
+    margin: 28px 0 24px;
+    padding: 24px 28px;
+    background: var(--alarm-soft);
+    border-radius: var(--radius);
+  }
+  .status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .badge {
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: var(--alarm);
+    color: #fff;
+  }
+  .badge.possible {
+    background: var(--warn-soft);
+    color: var(--warn);
+  }
+  .count {
+    margin-top: 10px;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+    line-height: 1.15;
+    color: var(--alarm);
+  }
+  .note {
+    margin-top: 12px;
+    max-width: var(--measure);
+    font-size: var(--step--1);
+    color: var(--ink);
+  }
+  .cols {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 17rem;
+    gap: 16px;
+    align-items: start;
+  }
+  .main {
+    display: grid;
+    gap: 16px;
+  }
+  .panel {
+    margin: 0;
+    padding: 24px 28px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .panel h2 {
+    font-size: var(--step-1);
+    margin: 0 0 12px;
+  }
+  .prose.panel h2 + p {
+    margin-top: 0;
+  }
+  .ja-summary {
+    color: var(--muted);
+  }
+  .steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+  }
+  .steps li {
+    position: relative;
+    padding-left: 34px;
+  }
+  .steps li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--primary-soft)
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.5 6.2l2.3 2.3 4.7-5' fill='none' stroke='%232f5bea' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+      no-repeat center / 12px;
+  }
+  .more {
+    margin-top: 16px;
+    font-size: var(--step--1);
+  }
+  .sources {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+  }
+  .sources li {
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: anywhere;
+  }
+  .sources .muted {
+    font-size: var(--step--1);
+  }
+  .facts {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .facts > div {
+    padding: 12px 0;
+  }
+  .facts > div + div {
+    border-top: 1px solid var(--line);
+  }
+  dt {
+    font-size: var(--step--1);
+    color: var(--muted);
+  }
+  dd {
+    margin: 2px 0 0;
+    font-weight: 700;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    margin: 6px 0 0;
+    padding: 0;
+  }
+  .tags li {
+    font-size: 0.75rem;
+    line-height: 1;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: var(--sunken);
+    color: var(--muted);
+  }
+  .tags .sensitive {
+    background: var(--alarm-soft);
+    color: var(--alarm);
+  }
+  @media (max-width: 760px) {
+    .cols {
+      grid-template-columns: 1fr;
+    }
+    .facts {
+      order: -1;
+    }
+    .head {
+      gap: 14px;
+    }
+    .head :global(.logo) {
+      width: 88px;
+      height: 60px;
+      border-radius: 14px;
+    }
+    .panel,
+    .figure {
+      padding: 20px;
+    }
+  }
+</style>

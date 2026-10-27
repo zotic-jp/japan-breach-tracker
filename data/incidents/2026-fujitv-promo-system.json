@@ -1,0 +1,45 @@
+{
+  "id": "2026-fujitv-promo-system",
+  "organization": {
+    "name_ja": "株式会社フジテレビジョン",
+    "name_en": "Fuji Television Network, Inc.",
+    "domain": "fujitv.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-10-20",
+  "discovered_on": null,
+  "affected": {
+    "count": 730,
+    "unit": "records",
+    "approximate": false,
+    "note": "Preliminary maximum of 730 records of media contacts registered in the program promotion system. No viewer data is stored in the system."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Fuji Television confirmed that a third party had accessed its program promotion system without authorization on the night of 2026-10-19. Personal data of media contacts, such as names, company names and email addresses, may have leaked, with up to 730 records affected as of the announcement.",
+    "ja": "フジテレビジョンは、2026年10月19日夜に番組宣伝システムへの第三者による不正アクセスが発生したことを確認した。登録されていたメディア関係者の氏名、会社名、メールアドレス等が外部に漏えいした可能性があり、対象は発表時点で最大730件とされる。"
+  },
+  "official_notice_url": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf",
+  "sources": [
+    {
+      "url": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf",
+      "title": "番組宣伝システムへの不正アクセスについて",
+      "publisher": "株式会社フジテレビジョン",
+      "published_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.security-next.com/191719",
+      "title": "番組宣伝システムでメディア関係者情報が流出か - フジテレビ",
+      "publisher": "Security NEXT",
+      "published_on": "2026-10-22"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

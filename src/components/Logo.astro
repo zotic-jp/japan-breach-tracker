@@ -1,0 +1,66 @@
+---
+import { brandName } from "../../schema/names.ts";
+import { logoUrl } from "../lib/logos.ts";
+
+interface Props {
+  name: string;
+  domain: string | null;
+  size?: "sm" | "lg";
+}
+
+const { name, domain, size = "sm" } = Astro.props;
+const src = logoUrl(domain);
+const words = brandName(name).split(/\s+/).filter((w) => /^[A-Za-z0-9]/.test(w) && w !== "and");
+const initials = (words.length > 1 ? words[0][0] + words[1][0] : (words[0] ?? "?").slice(0, 1)).toUpperCase();
+// A stable tint per organization, from hues spaced far apart, so neighbouring tiles are told apart.
+const HUES = [222, 268, 330, 18, 160, 196];
+const hue = HUES[[...name].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 9973, 7) % HUES.length];
+---
+
+<span class:list={["logo", size, { initials: !src }]} style={src ? undefined : `--hue:${hue}`} aria-hidden="true">
+  {src ? <img src={src} alt="" loading="lazy" decoding="async" /> : initials}
+</span>
+
+<style>
+  .logo {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 72px;
+    height: 48px;
+    padding: 6px 8px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .logo.lg {
+    width: 120px;
+    height: 80px;
+    padding: 10px 14px;
+    border-radius: 18px;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .initials {
+    background: hsl(var(--hue) 70% 94%);
+    border-color: transparent;
+    color: hsl(var(--hue) 55% 32%);
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.125rem;
+    letter-spacing: 0.02em;
+  }
+  .lg.initials {
+    font-size: 1.75rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    .initials {
+      background: hsl(var(--hue) 35% 22%);
+      color: hsl(var(--hue) 70% 82%);
+    }
+  }
+</style>

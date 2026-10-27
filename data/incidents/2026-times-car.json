@@ -1,0 +1,56 @@
+{
+  "id": "2026-times-car",
+  "organization": {
+    "name_ja": "タイムズモビリティ株式会社",
+    "name_en": "Times Mobility Co., Ltd.",
+    "domain": "timescar.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2026-09-25",
+  "discovered_on": "2026-09-25",
+  "affected": {
+    "count": 6628007,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Times Car car-sharing accounts with traces of external transmission, including withdrawn members (final figure in the 2026-10-23 fifth report; earlier reported as about 6.6 million). Separately, 1,464,800 encrypted ID document images (e.g. driver's license images) showed transmission traces and 891,602 more were accessed without transmission traces. Credit card data was not leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "phone",
+    "email",
+    "id_document",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Times Mobility, a Park24 subsidiary, detected unauthorized access to the Times Car web system on 2026-09-25. Its investigation found that data from 6,628,007 accounts, including names, addresses, birthdates and driver's license details, had been sent externally after a vulnerability in the web system was exploited.",
+    "ja": "パーク24の子会社タイムズモビリティは、2026年9月25日に「タイムズカーWebシステム」への不正アクセスを検知した。調査の結果、Webシステムの脆弱性が悪用され、氏名、住所、生年月日、運転免許情報などを含む6,628,007件のアカウント情報に外部送信の痕跡が確認された。"
+  },
+  "official_notice_url": "https://share.timescar.jp/news/2026/1023/1825.html",
+  "sources": [
+    {
+      "url": "https://share.timescar.jp/news/2026/1023/1825.html",
+      "title": "「タイムズカーWebシステム」への不正アクセスによる個人情報漏えいに関するご報告と今後の対応について（第5報）",
+      "publisher": "タイムズモビリティ株式会社",
+      "published_on": "2026-10-23"
+    },
+    {
+      "url": "https://share.timescar.jp/news/2026/0928/1815.html",
+      "title": "「タイムズカーWebシステム」への不正アクセスに関する調査結果および今後の対応について（第2報）",
+      "publisher": "タイムズモビリティ株式会社",
+      "published_on": "2026-09-28"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news038.html",
+      "title": "タイムズカーで不正アクセス 「退会済み」含む約660万件の情報が流出",
+      "publisher": "@IT (ITmedia)",
+      "published_on": "2026-09-30"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

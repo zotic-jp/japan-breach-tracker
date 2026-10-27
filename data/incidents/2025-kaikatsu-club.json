@@ -1,0 +1,53 @@
+{
+  "id": "2025-kaikatsu-club",
+  "organization": {
+    "name_ja": "株式会社快活フロンティア（AOKIホールディングス）",
+    "name_en": "Kaikatsu Frontier Inc. (AOKI Holdings)",
+    "domain": "kaikatsu.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2025-01-21",
+  "discovered_on": "2025-01-18",
+  "affected": {
+    "count": 7290087,
+    "unit": "records",
+    "approximate": false,
+    "note": "Members and provisional members of Kaikatsu CLUB and some FiT24 members. ID documents, credit card data, email addresses and app passwords are not included. The company said no actual leak or secondary damage had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kaikatsu Frontier, an AOKI Holdings subsidiary that runs the Kaikatsu CLUB internet cafe chain, detected unauthorized access to its servers on the evening of 2025-01-18. It reported that personal data of 7,290,087 members, including names, addresses, phone numbers and birthdates, may have leaked.",
+    "ja": "AOKIホールディングス子会社で「快活CLUB」を運営する快活フロンティアは、2025年1月18日夕刻にサーバーへの不正アクセスを検知した。氏名、住所、電話番号、生年月日などを含む7,290,087件の会員情報が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://kaikatsufrontier.co.jp/release/bfaa6a8e591cf5f7480b1569cf942c9a.pdf",
+  "sources": [
+    {
+      "url": "https://kaikatsufrontier.co.jp/release/bfaa6a8e591cf5f7480b1569cf942c9a.pdf",
+      "title": "不正アクセスの発生及び個人情報漏えいの可能性に関するお知らせ（続報）",
+      "publisher": "株式会社快活フロンティア",
+      "published_on": "2025-01-28"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/1658143.html",
+      "title": "「快活CLUB」「FiT24」に不正アクセス、会員情報約729万件が漏えいの可能性",
+      "publisher": "INTERNET Watch (Impress)",
+      "published_on": "2025-01-28"
+    },
+    {
+      "url": "https://webtan.impress.co.jp/n/2026/02/06/52123",
+      "title": "2025年の個人情報漏えい、被害人数は3,063万人 大型事故多発で前年比93％増【TSR調べ】",
+      "publisher": "Web担当者Forum (Impress)",
+      "published_on": "2026-02-06"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

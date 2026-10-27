@@ -1,0 +1,54 @@
+{
+  "id": "2026-furusato-choice",
+  "organization": {
+    "name_ja": "株式会社トラストバンク",
+    "name_en": "trustbank, Inc.",
+    "domain": "furusato-tax.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-20",
+  "discovered_on": "2026-10-19",
+  "affected": {
+    "count": 4454097,
+    "unit": "records",
+    "approximate": false,
+    "note": "Donor (member) records of the furusato nozei portal ふるさとチョイス; the company says the figure may change as the investigation continues. Passwords were hashed."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "trustbank, operator of the hometown tax donation portal Furusato Choice, noticed unusual access patterns on 2026-10-19 and found that unauthorized access had occurred on 2026-10-17. It announced that 4,454,097 donor records, including names, addresses, phone numbers, email addresses, hashed passwords and estimated tax deduction amounts, had leaked.",
+    "ja": "ふるさと納税サイト「ふるさとチョイス」を運営するトラストバンクは、2026年10月19日に通常と異なるアクセス傾向を把握し、10月17日に不正アクセスがあったことを確認した。氏名、住所、電話番号、メールアドレス、ハッシュ化されたパスワード、寄附控除試算額を含む4,454,097件の寄附者情報が外部に流出したと発表した。"
+  },
+  "official_notice_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+  "sources": [
+    {
+      "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+      "title": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ",
+      "publisher": "株式会社トラストバンク",
+      "published_on": "2026-10-20"
+    },
+    {
+      "url": "https://www.security-next.com/191714",
+      "title": "「ふるさとチョイス」に不正アクセス - 会員情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2026-10-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56543.html",
+      "title": "「ふるさとチョイス」に不正アクセス、4,454,097件の会員情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-22"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

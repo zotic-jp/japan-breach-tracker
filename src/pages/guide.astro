@@ -1,0 +1,82 @@
+---
+import Base from "../layouts/Base.astro";
+import { AFFILIATE } from "../lib/site.ts";
+---
+
+<Base
+  title="Protect yourself"
+  description="Five habits that limit the damage when a Japanese site you use is breached."
+>
+  <div class="wrap">
+    <article class="prose page">
+      <h1>Limit the damage from the next breach</h1>
+      <p class="lead">
+        You can't stop a company from being hacked. You can make sure a leak from one site doesn't open up the rest of
+        your accounts. These five habits do most of the work.
+      </p>
+
+      <h2>Use a different email address for each site</h2>
+      <p>
+        Sign up with a separate alias for each shop, point card and app, all forwarding to your real inbox. When one site
+        leaks, the leaked address can't be linked to your other accounts. You'll also know who leaked it when spam starts
+        arriving at that alias, and you can switch the alias off.
+      </p>
+      <ul>
+        <li>
+          <a href={AFFILIATE.fastmail} rel="sponsored noopener">Fastmail</a> (paid) creates a masked address for
+          each site from your inbox or password manager. <span class="disclosure">Affiliate link: we may earn a commission if
+          you subscribe. It costs you nothing extra.</span>
+        </li>
+        <li>
+          <a href="https://duckduckgo.com/email/" rel="noopener">DuckDuckGo Email Protection</a> (free) forwards
+          @duck.com aliases to the inbox you already have.
+        </li>
+        <li>
+          <a href="https://relay.firefox.com/" rel="noopener">Firefox Relay</a> has a free plan with a small number of
+          aliases.
+        </li>
+      </ul>
+
+      <h2>Use a password manager and a unique password everywhere</h2>
+      <p>
+        Attackers try leaked passwords on other sites within hours. If every password is different, one leak stays one
+        leak. A password manager such as <a href="https://bitwarden.com/" rel="noopener">Bitwarden</a> (free plan) creates
+        and remembers them for you.
+      </p>
+
+      <h2>Turn on two-factor authentication</h2>
+      <p>
+        Use an authenticator app or a passkey where a site offers one. SMS codes are better than nothing but can be
+        intercepted. Start with email, banking, and any shop that stores your card.
+      </p>
+
+      <h2>Delete accounts you no longer use</h2>
+      <p>
+        Old point-card, online shop and furusato nozei accounts still hold your name, address and phone number. If you
+        haven't used one in a year, close it. Don't let small shops save your card; enter it each time or use a wallet
+        such as Apple Pay or Google Pay.
+      </p>
+
+      <h2>Treat apology emails with suspicion</h2>
+      <p>
+        After a breach is announced, fake 「お詫び」 emails and SMS messages follow. They often offer compensation points
+        or ask you to confirm your details. Go to the company's website yourself instead of clicking the link.
+      </p>
+    </article>
+  </div>
+</Base>
+
+<style>
+  h1 {
+    font-size: clamp(var(--step-2), 4vw, var(--step-3));
+  }
+  .lead {
+    font-size: var(--step-1);
+    line-height: 1.55;
+  }
+  .disclosure {
+    display: block;
+    font-size: var(--step--1);
+    color: var(--muted);
+  }
+</style>

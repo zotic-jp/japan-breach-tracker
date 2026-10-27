@@ -1,0 +1,758 @@
+---
+import { brandName } from "../../schema/names.ts";
+import Logo from "../components/Logo.astro";
+import Base from "../layouts/Base.astro";
+import {
+  DATA_LABELS,
+  INDUSTRY_LABELS,
+  SENSITIVE,
+  byRecent,
+  compactCount,
+  formatDate,
+  hasSensitive,
+  incidents,
+  unitLabel,
+} from "../lib/incidents.ts";
+import { services, servicesFor } from "../lib/services.ts";
+
+const years = [...new Set(incidents.map((i) => i.disclosed_on.slice(0, 4)))].sort().reverse();
+const industries = [...new Set(incidents.map((i) => i.industry))].sort((a, b) =>
+  INDUSTRY_LABELS[a].localeCompare(INDUSTRY_LABELS[b]),
+);
+const lastUpdated = incidents.map((i) => i.updated_at).sort().at(-1);
+const latest = [...incidents].sort(byRecent).slice(0, 4);
+const serviceNames = Object.fromEntries(services.map((s) => [s.id, s.name_en]));
+const MAX_TAGS = 3;
+// Sensitive data first, so the most worrying items are the ones shown on a card.
+const tags = (i: (typeof incidents)[number]) =>
+  [...i.data_types].sort((a, b) => Number(SENSITIVE.includes(b)) - Number(SENSITIVE.includes(a)));
+---
+
+<Base
+  title="Japan Breach Tracker"
+  description="Check whether a Japanese company you use has leaked your data. Breaches ranked by size and updated daily."
+>
+  <form id="filters" role="search">
+    <section class="wrap hero">
+      <h1>Has a company in Japan leaked your data?</h1>
+      <p class="lead">
+        Search for a service you use. We track data breaches reported in Japan and update the list every morning.
+      </p>
+      <label class="search">
+        <span class="visually-hidden">Search companies and services</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"
+          ><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.4"></circle><path
+            d="M16.5 16.5L21 21"
+            stroke="currentColor"
+            stroke-width="2.4"
+            stroke-linecap="round"></path></svg
+        >
+        <input type="search" name="q" placeholder="Try KDDI, ヤマト or Capcom" autocomplete="off" />
+      </label>
+      <p class="stats">
+        <span>{incidents.length} breaches tracked</span>
+        {lastUpdated && <span>Updated {formatDate(lastUpdated)}</span>}
+      </p>
+      <div class="watch" id="watch">
+        <div id="watch-empty">
+          <p><strong>Get a list for just the services you use.</strong></p>
+          <p class="sub">Tick them once and we'll mark their breaches. Saved only in your browser.</p>
+        </div>
+        <div id="watch-mine" hidden>
+          <p><strong id="watch-title"></strong></p>
+          <p class="sub" id="watch-names"></p>
+        </div>
+        <a class="button secondary" href="/services" id="watch-link">Choose my services</a>
+      </div>
+    </section>
+
+    <section class="wrap results" aria-labelledby="results-heading">
+      <div class="toolbar">
+        <h2 id="results-heading" aria-live="polite">
+          <span id="shown">{incidents.length}</span> <span id="noun">breaches</span>
+        </h2>
+        <fieldset class="segmented">
+          <legend class="visually-hidden">Order</legend>
+          <label><input type="radio" name="sort" value="affected" checked /><span>Biggest</span></label>
+          <label><input type="radio" name="sort" value="recent" /><span>Newest</span></label>
+          <label><input type="radio" name="sort" value="sensitive" /><span>Sensitive data</span></label>
+        </fieldset>
+        <div class="selects">
+          <label class="mine-toggle" id="mine-toggle" hidden>
+            <input type="checkbox" name="mine" value="1" />
+            <span>Only my services</span>
+          </label>
+          <label>
+            <span class="visually-hidden">Year</span>
+            <select name="year">
+              <option value="">All years</option>
+              {years.map((y) => <option value={y}>{y}</option>)}
+            </select>
+          </label>
+          <label>
+            <span class="visually-hidden">Industry</span>
+            <select name="industry">
+              <option value="">All industries</option>
+              {industries.map((ind) => <option value={ind}>{INDUSTRY_LABELS[ind]}</option>)}
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <ol class="cards" id="league">
+        {
+          incidents.map((i, n) => {
+            const count = compactCount(i);
+            const shown = tags(i).slice(0, MAX_TAGS);
+            const more = i.data_types.length - shown.length;
+            return (
+              <li
+                class="card"
+                data-year={i.disclosed_on.slice(0, 4)}
+                data-industry={i.industry}
+                data-count={i.affected.count ?? -1}
+                data-date={i.disclosed_on}
+                data-sensitive={hasSensitive(i) ? "1" : "0"}
+                data-services={servicesFor(i)
+                  .map((s) => s.id)
+                  .join(" ")}
+                data-search={`${i.organization.name_en} ${i.organization.name_ja} ${i.organization.domain ?? ""} ${i.via_vendor ?? ""}`.toLowerCase()}
+              >
+                <span class="rank" aria-label={`Rank ${n + 1}`}>
+                  {n + 1}
+                </span>
+                <Logo name={i.organization.name_en} domain={i.organization.domain} />
+                <div class="who">
+                  <a href={`/incidents/${i.id}`} class="name">
+                    {brandName(i.organization.name_en)}
+                  </a>
+                  <span class="name-ja" lang="ja">
+                    {i.organization.name_ja}
+                  </span>
+                  <ul class="tags">
+                    <li class="mine" hidden>
+                      You use this
+                    </li>
+                    {i.status === "possible" && <li class="possible">Possible leak</li>}
+                    {shown.map((d) => (
+                      <li class={SENSITIVE.includes(d) ? "sensitive" : undefined}>{DATA_LABELS[d]}</li>
+                    ))}
+                    {more > 0 && <li class="more">+{more} more</li>}
+                  </ul>
+                </div>
+                <div class="size">
+                  {count ? (
+                    <>
+                      <span class="big">
+                        {i.affected.approximate && <span class="about">about </span>}
+                        {count}
+                      </span>
+                      <span class="unit">{unitLabel(i)}</span>
+                    </>
+                  ) : (
+                    <span class="unknown">Number not disclosed</span>
+                  )}
+                  <span class="when">{formatDate(i.disclosed_on)}</span>
+                </div>
+              </li>
+            );
+          })
+        }
+      </ol>
+      <div class="empty" id="empty" hidden>
+        <p><strong>No breaches match your search.</strong></p>
+        <p>
+          That doesn't guarantee your data is safe, only that we haven't tracked a breach there yet. Check the spelling,
+          try the Japanese name, or clear the year and industry filters.
+        </p>
+      </div>
+    </section>
+  </form>
+
+  <section class="wrap latest" aria-labelledby="latest-heading">
+    <h2 id="latest-heading">Just reported</h2>
+    <ul>
+      {
+        latest.map((i) => (
+          <li>
+            <Logo name={i.organization.name_en} domain={i.organization.domain} />
+            <div>
+              <a href={`/incidents/${i.id}`}>{brandName(i.organization.name_en)}</a>
+              <span class="when">{formatDate(i.disclosed_on)}</span>
+              <p>{i.summary.en}</p>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="wrap cta">
+    <div class="cta-inner">
+      <div>
+        <h2>Make the next breach less painful</h2>
+        <p>Five habits that stop one leaked account from exposing the rest.</p>
+      </div>
+      <a class="button" href="/guide">Protect yourself</a>
+    </div>
+  </section>
+</Base>
+
+<script type="application/json" id="service-names" set:html={JSON.stringify(serviceNames)} />
+
+<script>
+  import { getWatched } from "../lib/watch.ts";
+
+  const form = document.getElementById("filters") as HTMLFormElement;
+  const list = document.getElementById("league") as HTMLOListElement;
+  const empty = document.getElementById("empty") as HTMLDivElement;
+  const shown = document.getElementById("shown") as HTMLSpanElement;
+  const noun = document.getElementById("noun") as HTMLSpanElement;
+  const cards = [...list.querySelectorAll<HTMLLIElement>("li.card")];
+  const names: Record<string, string> = JSON.parse(document.getElementById("service-names")!.textContent!);
+
+  // Mark breaches at services this visitor has said they use.
+  const watched = getWatched();
+  const hits = new Set<string>();
+  for (const c of cards) {
+    const ids = c.dataset.services!.split(" ").filter((id) => watched.has(id));
+    if (!ids.length) continue;
+    ids.forEach((id) => hits.add(id));
+    c.classList.add("is-mine");
+    c.querySelector<HTMLElement>(".mine")!.hidden = false;
+  }
+  if (watched.size) {
+    const n = watched.size;
+    document.getElementById("watch-empty")!.hidden = true;
+    document.getElementById("watch-mine")!.hidden = false;
+    document.getElementById("watch-title")!.textContent = hits.size
+      ? `${hits.size} of your ${n} ${n === 1 ? "service has" : "services have"} had a breach`
+      : `None of your ${n} ${n === 1 ? "service is" : "services are"} on our list`;
+    document.getElementById("watch-names")!.textContent = hits.size
+      ? [...hits].map((id) => names[id] ?? id).join(", ")
+      : "Good news, but breaches are often announced months later. Check back.";
+    document.getElementById("watch-link")!.textContent = "Edit my services";
+    const toggle = document.getElementById("mine-toggle")!;
+    toggle.hidden = false;
+    if (new URLSearchParams(location.search).has("mine")) toggle.querySelector("input")!.checked = true;
+  }
+
+  const compare: Record<string, (a: HTMLElement, b: HTMLElement) => number> = {
+    affected: (a, b) => Number(b.dataset.count) - Number(a.dataset.count),
+    recent: (a, b) => b.dataset.date!.localeCompare(a.dataset.date!),
+    sensitive: (a, b) =>
+      Number(b.dataset.sensitive) - Number(a.dataset.sensitive) || Number(b.dataset.count) - Number(a.dataset.count),
+  };
+
+  function update() {
+    const data = new FormData(form);
+    const q = String(data.get("q") ?? "").trim().toLowerCase();
+    const year = String(data.get("year") ?? "");
+    const industry = String(data.get("industry") ?? "");
+    const mine = data.has("mine");
+    const visible = cards.filter(
+      (c) =>
+        (!year || c.dataset.year === year) &&
+        (!industry || c.dataset.industry === industry) &&
+        (!mine || c.classList.contains("is-mine")) &&
+        (!q || c.dataset.search!.includes(q)),
+    );
+    visible.sort(compare[String(data.get("sort"))] ?? compare.affected);
+    for (const c of cards) c.hidden = !visible.includes(c);
+    visible.forEach((c, n) => {
+      list.append(c);
+      const rank = c.querySelector<HTMLElement>(".rank")!;
+      rank.textContent = String(n + 1);
+      rank.setAttribute("aria-label", `Rank ${n + 1}`);
+    });
+    shown.textContent = String(visible.length);
+    noun.textContent = visible.length === 1 ? "breach" : "breaches";
+    empty.hidden = visible.length > 0;
+  }
+
+  form.addEventListener("input", update);
+  form.addEventListener("submit", (e) => e.preventDefault());
+  update();
+</script>
+
+<style>
+  .hero {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 40px;
+  }
+  h1 {
+    font-size: clamp(2rem, 5.4vw, var(--step-3));
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    max-width: 18ch;
+    margin: 0 auto;
+    text-wrap: balance;
+  }
+  .lead {
+    margin: 16px auto 0;
+    max-width: 46ch;
+    font-size: 1.125rem;
+    color: var(--muted);
+    text-wrap: pretty;
+  }
+  .search {
+    position: relative;
+    display: block;
+    max-width: 600px;
+    margin: 28px auto 0;
+  }
+  .search svg {
+    position: absolute;
+    left: 22px;
+    top: 50%;
+    width: 22px;
+    height: 22px;
+    transform: translateY(-50%);
+    color: var(--muted);
+    pointer-events: none;
+  }
+  .search input {
+    width: 100%;
+    height: 64px;
+    padding: 0 24px 0 58px;
+    font: inherit;
+    font-size: 1.125rem;
+    color: var(--ink);
+    background: var(--surface);
+    border: 2px solid var(--line);
+    border-radius: 999px;
+    box-shadow: 0 10px 30px -12px color-mix(in srgb, var(--primary) 35%, transparent);
+    transition: border-color 0.15s;
+  }
+  .search input::placeholder {
+    color: var(--muted);
+  }
+  .search input:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 18px;
+    font-size: var(--step--1);
+    color: var(--muted);
+  }
+  .stats span {
+    padding: 4px 12px;
+    background: var(--sunken);
+    border-radius: 999px;
+  }
+
+  .watch {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 20px;
+    max-width: 600px;
+    margin: 24px auto 0;
+    padding: 16px 16px 16px 22px;
+    text-align: left;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .watch > div {
+    flex: 1 1 260px;
+  }
+  .watch .sub {
+    margin-top: 2px;
+    font-size: var(--step--1);
+    color: var(--muted);
+  }
+  .mine-toggle {
+    position: relative;
+  }
+  .mine-toggle[hidden] {
+    display: none;
+  }
+  .mine-toggle input {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  .mine-toggle span {
+    display: block;
+    height: 40px;
+    padding: 0 16px;
+    line-height: 38px;
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .mine-toggle input:checked + span {
+    color: #fff;
+    background: var(--primary);
+    border-color: var(--primary);
+  }
+  .mine-toggle input:focus-visible + span {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+  .card.is-mine {
+    border-color: var(--primary);
+    box-shadow: inset 4px 0 0 var(--primary);
+  }
+  .tags .mine {
+    background: var(--primary);
+    color: #fff;
+  }
+  .tags .mine[hidden] {
+    display: none;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .toolbar h2 {
+    font-size: var(--step-1);
+    margin-right: auto;
+  }
+  .segmented {
+    display: flex;
+    margin: 0;
+    padding: 4px;
+    border: 0;
+    background: var(--sunken);
+    border-radius: 999px;
+  }
+  .segmented label {
+    position: relative;
+  }
+  .segmented input {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  .segmented span {
+    display: block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .segmented input:checked + span {
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: 0 1px 3px rgb(16 22 47 / 0.12);
+  }
+  .segmented input:focus-visible + span {
+    outline: 3px solid var(--focus);
+    outline-offset: 1px;
+  }
+  .selects {
+    display: flex;
+    gap: 8px;
+  }
+  select {
+    appearance: none;
+    font: inherit;
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--ink);
+    background: var(--surface)
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%235a6382' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+      no-repeat right 14px center / 11px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    height: 40px;
+    padding: 0 36px 0 16px;
+    max-width: 100%;
+    cursor: pointer;
+  }
+
+  .cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+  }
+  .card {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.75rem auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px 16px 16px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition:
+      border-color 0.15s,
+      transform 0.15s;
+  }
+  .card[hidden] {
+    display: none;
+  }
+  .card:hover {
+    border-color: color-mix(in srgb, var(--primary) 45%, var(--line));
+  }
+  .card:active {
+    transform: scale(0.995);
+  }
+  .rank {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--muted);
+    text-align: center;
+  }
+  .who {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .name {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  /* The whole card is the link target. */
+  .name::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+  }
+  .name:focus-visible {
+    outline: none;
+  }
+  .name:focus-visible::after {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+  }
+  .name-ja {
+    font-size: var(--step--1);
+    color: var(--muted);
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+  }
+  .tags li {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: var(--sunken);
+    color: var(--muted);
+  }
+  .tags .sensitive {
+    background: var(--alarm-soft);
+    color: var(--alarm);
+  }
+  .tags .possible {
+    background: var(--warn-soft);
+    color: var(--warn);
+  }
+  .tags .more {
+    background: none;
+    padding-left: 2px;
+  }
+  .size {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 1.25;
+  }
+  .big {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.75rem;
+    line-height: 1.1;
+    color: var(--alarm);
+  }
+  .about {
+    font-size: var(--step--1);
+    font-weight: 700;
+  }
+  .unit,
+  .unknown {
+    font-size: var(--step--1);
+    font-weight: 700;
+  }
+  .unknown {
+    color: var(--muted);
+  }
+  .when {
+    margin-top: 4px;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .empty {
+    padding: 32px 24px;
+    background: var(--surface);
+    border: 1px dashed var(--line);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .empty p + p {
+    margin: 6px auto 0;
+    max-width: 52ch;
+    color: var(--muted);
+  }
+
+  .latest {
+    margin-top: 56px;
+  }
+  .latest h2,
+  .cta h2 {
+    font-size: var(--step-1);
+  }
+  .latest ul {
+    list-style: none;
+    margin: 16px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .latest li {
+    display: flex;
+    gap: 14px;
+    padding: 16px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .latest a {
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .latest .when {
+    margin-left: 8px;
+  }
+  .latest p {
+    margin-top: 4px;
+    font-size: var(--step--1);
+    color: var(--muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .cta {
+    margin-top: 56px;
+  }
+  .cta-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px 24px;
+    padding: 28px;
+    background: var(--primary-soft);
+    border-radius: var(--radius);
+  }
+  .cta-inner > div {
+    flex: 1 1 280px;
+  }
+  .cta p {
+    margin-top: 4px;
+    color: var(--muted);
+  }
+
+  @media (max-width: 720px) {
+    .hero {
+      padding-top: 8px;
+      padding-bottom: 28px;
+    }
+    .search input {
+      height: 56px;
+      font-size: 1rem;
+    }
+    .toolbar h2 {
+      width: 100%;
+    }
+    .segmented,
+    .selects {
+      width: 100%;
+    }
+    .segmented label {
+      flex: 1;
+      text-align: center;
+    }
+    .selects label {
+      flex: 1;
+      min-width: 0;
+    }
+    .selects select {
+      width: 100%;
+    }
+    .card {
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 12px 14px;
+      padding: 16px;
+    }
+    /* A small badge on the logo's corner keeps the rank without spending a column on it. */
+    .rank {
+      position: absolute;
+      z-index: 1;
+      top: 8px;
+      left: 8px;
+      min-width: 22px;
+      height: 22px;
+      padding: 0 6px;
+      font-size: 0.75rem;
+      line-height: 22px;
+      color: var(--surface);
+      background: var(--ink);
+      border-radius: 999px;
+    }
+    .card :global(.logo) {
+      align-self: start;
+    }
+    .size {
+      grid-column: 1 / -1;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0 8px;
+      padding-top: 12px;
+      border-top: 1px solid var(--line);
+      text-align: left;
+    }
+    .big {
+      font-size: 1.5rem;
+    }
+    .when {
+      margin: 0 0 0 auto;
+    }
+    .latest ul {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

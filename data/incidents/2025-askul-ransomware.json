@@ -1,0 +1,49 @@
+{
+  "id": "2025-askul-ransomware",
+  "organization": {
+    "name_ja": "アスクル株式会社",
+    "name_en": "ASKUL Corporation",
+    "domain": "askul.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-10-19",
+  "discovered_on": "2025-10-19",
+  "affected": {
+    "count": 739700,
+    "unit": "records",
+    "approximate": true,
+    "note": "Confirmed leaked as of 2025-12-12: about 590,000 business-customer records, about 132,000 consumer-customer records, about 15,000 business-partner records and about 2,700 officer/employee records. On 2026-07-30 ASKUL identified about 600,000 additional records (names, addresses, phone numbers, email addresses) for which leakage cannot be ruled out, with no leak confirmed. Credit card data is not held by ASKUL."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "ASKUL was hit by a ransomware attack detected on 2025-10-19 that encrypted data and halted its logistics systems. The company confirmed that about 739,700 records of customers, business partners and employees were stolen and published by the attackers.",
+    "ja": "アスクルは2025年10月19日にランサムウェア攻撃を受け、データの暗号化により物流システムなどが停止した。顧客、取引先、役員・社員等に関する約73万9,700件の情報が攻撃者に窃取・公開されたことを確認したと公表した。"
+  },
+  "official_notice_url": "https://pdf.irpocket.com/C0032/PDLX/O3bg/N4O3.pdf",
+  "sources": [
+    {
+      "url": "https://pdf.irpocket.com/C0032/PDLX/O3bg/N4O3.pdf",
+      "title": "ランサムウェア攻撃の影響調査結果および安全性強化に向けた取り組みのご報告（第13報）",
+      "publisher": "アスクル株式会社",
+      "published_on": "2025-12-12"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2071318.html",
+      "title": "アスクル、ランサムウェア攻撃の詳細な調査結果を公開～個人情報など72万件以上の流出確認",
+      "publisher": "INTERNET Watch (Impress)",
+      "published_on": "2025-12-16"
+    },
+    {
+      "url": "https://www.askul.co.jp/shopnews/news_260730_rw_notification.html",
+      "title": "ランサムウェア攻撃に伴う情報漏えいのおそれに関する追加の本人通知について",
+      "publisher": "アスクル株式会社",
+      "published_on": "2026-07-30"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

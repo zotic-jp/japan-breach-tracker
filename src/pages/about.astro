@@ -1,0 +1,59 @@
+---
+import Base from "../layouts/Base.astro";
+import { CORRECTIONS_URL } from "../lib/site.ts";
+---
+
+<Base title="About" description="How the Japan Breach Tracker finds, checks and ranks data breaches.">
+  <div class="wrap">
+    <article class="prose page">
+      <h1>How the tracker works</h1>
+      <p class="lead">
+        Every morning we read new reports from Japanese security news sites, add any new breach to the list, and update
+        the ones we already track.
+      </p>
+
+      <h2>Where the information comes from</h2>
+      <ul>
+        <li><a href="https://www.security-next.com/" rel="noopener">Security NEXT</a></li>
+        <li><a href="https://piyolog.hatenadiary.jp/" rel="noopener">piyolog</a></li>
+        <li><a href="https://scan.netsecurity.ne.jp/" rel="noopener">ScanNetSecurity</a></li>
+        <li>The affected organisation's own notice, linked on each incident page wherever we can find it</li>
+      </ul>
+      <p>
+        We never download, show or link to leaked data, and we don't report claims that only appear on attackers' leak
+        sites.
+      </p>
+
+      <h2>How entries are made</h2>
+      <p>
+        AI (Claude, made by Anthropic) reads each new article and drafts the entry: organisation, date, number affected,
+        data exposed and cause. A person checks every draft against its sources before it is published. Where an
+        organisation says data may have been accessed, we mark the entry as a possible leak.
+      </p>
+
+      <h2>How the ranking works</h2>
+      <p>
+        The league table ranks incidents by the number the organisation published. Organisations count differently
+        (people, accounts, records or email addresses), so the unit is shown with every number. Incidents with no
+        published number appear at the bottom.
+      </p>
+
+      <h2 id="corrections">Corrections</h2>
+      <p>
+        If something is wrong or out of date, <a href={CORRECTIONS_URL} rel="noopener">report a correction</a> with a
+        link to the source. We aim to respond within two business days, and corrected entries show when they were last
+        checked.
+      </p>
+    </article>
+  </div>
+</Base>
+
+<style>
+  h1 {
+    font-size: clamp(var(--step-2), 4vw, var(--step-3));
+  }
+  .lead {
+    font-size: var(--step-1);
+    line-height: 1.55;
+  }
+</style>

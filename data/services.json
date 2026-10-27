@@ -1,0 +1,51 @@
+[
+  { "id": "amazon-jp", "name_en": "Amazon Japan", "name_ja": "Amazon.co.jp", "category": "shopping", "domains": ["amazon.co.jp"] },
+  { "id": "rakuten", "name_en": "Rakuten", "name_ja": "楽天", "category": "shopping", "domains": ["rakuten.co.jp", "rakuten-card.co.jp", "rakuten-bank.co.jp", "rakuten-sec.co.jp"] },
+  { "id": "yahoo-japan", "name_en": "Yahoo! JAPAN", "name_ja": "Yahoo! JAPAN", "category": "shopping", "domains": ["yahoo.co.jp"] },
+  { "id": "mercari", "name_en": "Mercari", "name_ja": "メルカリ", "category": "shopping", "domains": ["mercari.com"] },
+  { "id": "zozotown", "name_en": "ZOZOTOWN", "name_ja": "ゾゾタウン", "category": "shopping", "domains": ["zozo.jp"] },
+  { "id": "uniqlo", "name_en": "Uniqlo", "name_ja": "ユニクロ", "category": "shopping", "domains": ["uniqlo.com"] },
+  { "id": "yodobashi", "name_en": "Yodobashi Camera", "name_ja": "ヨドバシカメラ", "category": "shopping", "domains": ["yodobashi.com"] },
+  { "id": "askul", "name_en": "ASKUL and LOHACO", "name_ja": "アスクル・LOHACO", "category": "shopping", "domains": ["askul.co.jp", "lohaco.yahoo.co.jp"] },
+  { "id": "furusato-choice", "name_en": "Furusato Choice", "name_ja": "ふるさとチョイス", "category": "shopping", "domains": ["furusato-tax.jp", "trustbank.co.jp"] },
+
+  { "id": "paypay", "name_en": "PayPay", "name_ja": "PayPay", "category": "money", "domains": ["paypay.ne.jp"] },
+  { "id": "mufg", "name_en": "MUFG Bank", "name_ja": "三菱UFJ銀行", "category": "money", "domains": ["mufg.jp"] },
+  { "id": "smbc", "name_en": "SMBC", "name_ja": "三井住友銀行", "category": "money", "domains": ["smbc.co.jp"] },
+  { "id": "smbc-card", "name_en": "Sumitomo Mitsui Card", "name_ja": "三井住友カード", "category": "money", "domains": ["smbc-card.com"] },
+  { "id": "mizuho", "name_en": "Mizuho Bank", "name_ja": "みずほ銀行", "category": "money", "domains": ["mizuhobank.co.jp"] },
+  { "id": "japan-post-bank", "name_en": "Japan Post Bank", "name_ja": "ゆうちょ銀行", "category": "money", "domains": ["jp-bank.japanpost.jp"] },
+  { "id": "jcb", "name_en": "JCB", "name_ja": "JCB", "category": "money", "domains": ["jcb.co.jp"] },
+
+  { "id": "docomo", "name_en": "docomo", "name_ja": "ドコモ", "category": "phone", "domains": ["docomo.ne.jp", "nttdocomo.co.jp"] },
+  { "id": "au-kddi", "name_en": "au and KDDI", "name_ja": "au・KDDI", "category": "phone", "domains": ["au.com", "kddi.com", "uqwimax.jp"] },
+  { "id": "softbank", "name_en": "SoftBank and Y!mobile", "name_ja": "ソフトバンク・ワイモバイル", "category": "phone", "domains": ["softbank.jp", "softbank.co.jp", "ymobile.jp"] },
+  { "id": "line", "name_en": "LINE", "name_ja": "LINE", "category": "phone", "domains": ["line.me", "lycorp.co.jp"] },
+  { "id": "biglobe", "name_en": "BIGLOBE", "name_ja": "ビッグローブ", "category": "phone", "domains": ["biglobe.ne.jp"] },
+  { "id": "nifty", "name_en": "@nifty", "name_ja": "@nifty", "category": "phone", "domains": ["nifty.com"] },
+
+  { "id": "japan-post", "name_en": "Japan Post", "name_ja": "日本郵便", "category": "delivery", "domains": ["post.japanpost.jp"] },
+  { "id": "yamato", "name_en": "Yamato Transport", "name_ja": "ヤマト運輸", "category": "delivery", "domains": ["kuronekoyamato.co.jp", "yamato-hd.co.jp"] },
+  { "id": "sagawa", "name_en": "Sagawa Express", "name_ja": "佐川急便", "category": "delivery", "domains": ["sagawa-exp.co.jp"] },
+
+  { "id": "jr-east", "name_en": "JR East and Suica", "name_ja": "JR東日本・Suica", "category": "travel", "domains": ["jreast.co.jp"] },
+  { "id": "ana", "name_en": "ANA", "name_ja": "全日空", "category": "travel", "domains": ["ana.co.jp"] },
+  { "id": "jal", "name_en": "JAL", "name_ja": "日本航空", "category": "travel", "domains": ["jal.co.jp"] },
+  { "id": "jalan", "name_en": "Jalan", "name_ja": "じゃらん", "category": "travel", "domains": ["jalan.net"] },
+  { "id": "times-car", "name_en": "Times Car", "name_ja": "タイムズカー", "category": "travel", "domains": ["timescar.jp"] },
+
+  { "id": "tabelog", "name_en": "Tabelog", "name_ja": "食べログ", "category": "food", "domains": ["tabelog.com"] },
+  { "id": "hotpepper", "name_en": "Hot Pepper Gourmet", "name_ja": "ホットペッパーグルメ", "category": "food", "domains": ["hotpepper.jp"] },
+  { "id": "demae-can", "name_en": "Demae-can", "name_ja": "出前館", "category": "food", "domains": ["demae-can.com"] },
+  { "id": "yakiniku-king", "name_en": "Yakiniku King", "name_ja": "焼肉きんぐ", "category": "food", "domains": ["yakiniku-king.jp", "monogatari.co.jp"] },
+  { "id": "kaikatsu-club", "name_en": "Kaikatsu Club", "name_ja": "快活CLUB", "category": "food", "domains": ["kaikatsu.jp"] },
+
+  { "id": "nintendo", "name_en": "Nintendo", "name_ja": "任天堂", "category": "entertainment", "domains": ["nintendo.com", "nintendo.co.jp"] },
+  { "id": "playstation", "name_en": "PlayStation", "name_ja": "プレイステーション", "category": "entertainment", "domains": ["playstation.com"] },
+  { "id": "capcom", "name_en": "Capcom", "name_ja": "カプコン", "category": "entertainment", "domains": ["capcom.co.jp", "capcom.com"] },
+  { "id": "niconico", "name_en": "niconico", "name_ja": "ニコニコ", "category": "entertainment", "domains": ["nicovideo.jp", "dwango.co.jp"] },
+  { "id": "dmm", "name_en": "DMM", "name_ja": "DMM", "category": "entertainment", "domains": ["dmm.com"] },
+  { "id": "fujitv", "name_en": "Fuji TV", "name_ja": "フジテレビ", "category": "entertainment", "domains": ["fujitv.co.jp"] },
+
+  { "id": "mynaportal", "name_en": "Mynaportal", "name_ja": "マイナポータル", "category": "other", "domains": ["myna.go.jp"] }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "2026-capcom-id",
+  "organization": {
+    "name_ja": "株式会社カプコン",
+    "name_en": "Capcom Co., Ltd.",
+    "domain": "capcom.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2026-10-22",
+  "discovered_on": "2026-10-19",
+  "affected": {
+    "count": 11774247,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Worldwide total of CAPCOM ID records whose email address and system identifiers (account creation and last login times, login count, last login IP) leaked. 43 also included birthdate, gender, country/region and nickname; 196 accounts had passwords changed by the attacker. Capcom said user-set passwords and credit card data were not leaked."
+  },
+  "data_types": [
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Capcom found traces of unauthorized access to its CAPCOM ID service on 2026-10-19. It announced that email addresses and system identifiers of 11,774,247 accounts worldwide leaked, and that passwords of 196 accounts were changed without authorization.",
+    "ja": "カプコンは2026年10月19日に「CAPCOM ID」への不正アクセスの痕跡を発見した。全世界で11,774,247件のメールアドレスとシステム固有の識別情報が漏えいし、196件のアカウントでログインパスワードが不正に変更されたと発表した。"
+  },
+  "official_notice_url": "https://www.capcom.co.jp/ir/news/html/261022.html",
+  "sources": [
+    {
+      "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
+      "title": "不正アクセスによるお客様情報漏えいのお詫びとお知らせ",
+      "publisher": "株式会社カプコン",
+      "published_on": "2026-10-22"
+    },
+    {
+      "url": "https://gamebusiness.jp/article/2026/10/23/28420.html",
+      "title": "カプコン、不正アクセスでメールアドレス約1,100万件流出―パスワード漏えいはないものの「不正な変更」を196件確認",
+      "publisher": "GameBusiness.jp",
+      "published_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.security-next.com/191838",
+      "title": "「CAPCOM ID」で情報流出、パスワードの不正変更も - カプコン",
+      "publisher": "Security NEXT",
+      "published_on": "2026-10-23"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

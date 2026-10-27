@@ -1,0 +1,170 @@
+:root {
+  --bg: #f3f5fa;
+  --surface: #ffffff;
+  --sunken: #eaeef6;
+  --ink: #10162f;
+  --muted: #5a6382;
+  --line: #e1e6ef;
+  --primary: #2f5bea;
+  --primary-soft: #e6ecfd;
+  --alarm: #d93a3f;
+  --alarm-soft: #fdeceb;
+  --warn: #9a5b00;
+  --warn-soft: #fff1d6;
+  --link: #2f5bea;
+  --focus: #2f5bea;
+  --font-display: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "BIZ UDPGothic", system-ui, sans-serif;
+  --font-body: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", system-ui, sans-serif;
+  --step--1: 0.875rem;
+  --step-0: 1rem;
+  --step-1: 1.25rem;
+  --step-2: 1.75rem;
+  --step-3: 2.75rem;
+  --radius: 20px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --measure: 68ch;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1222;
+    --surface: #161d33;
+    --sunken: #1d2540;
+    --ink: #e8ecf6;
+    --muted: #9aa4c0;
+    --line: #283150;
+    --primary: #7f9cff;
+    --primary-soft: #232e55;
+    --alarm: #ff6b6e;
+    --alarm-soft: #3a1d26;
+    --warn: #ffc56b;
+    --warn-soft: #3a2c14;
+    --link: #9cb3ff;
+    --focus: #9cb3ff;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.65;
+  font-variant-numeric: tabular-nums;
+}
+
+a {
+  color: var(--link);
+  text-underline-offset: 0.18em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  line-height: 1.3;
+  margin: 0;
+  font-weight: 800;
+}
+
+p {
+  margin: 0;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.prose {
+  max-width: var(--measure);
+}
+
+.prose > * + * {
+  margin-top: 1em;
+}
+
+.prose h2 {
+  font-size: var(--step-1);
+}
+
+.prose ul {
+  padding-left: 1.25em;
+}
+
+.prose li + li {
+  margin-top: 0.4em;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Long-form pages (guide, about) sit on one card. */
+.page {
+  padding: clamp(20px, 5vw, 48px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  max-width: calc(var(--measure) + 96px);
+}
+
+.prose h2 {
+  margin-top: 1.75em;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background: color-mix(in srgb, var(--primary) 88%, #000);
+}
+
+.button.secondary {
+  background: var(--surface);
+  color: var(--primary);
+  border: 1px solid var(--line);
+}

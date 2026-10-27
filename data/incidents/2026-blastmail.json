@@ -1,0 +1,52 @@
+{
+  "id": "2026-blastmail",
+  "organization": {
+    "name_ja": "株式会社ラクスライトクラウド",
+    "name_en": "Rakus Lite Cloud Co., Ltd.",
+    "domain": "blastmail.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-21",
+  "discovered_on": null,
+  "affected": {
+    "count": null,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Contract and billing information of all Blastmail customers was taken; no total was published. As of 2026-10-27, 345 customer contracts were confirmed to have additional data (such as recipient lists) leaked. Many Blastmail customers, including local governments and companies, have published their own notices about their subscribers' data."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Rakus Lite Cloud, a subsidiary of Rakus, emergency-stopped its email delivery service Blastmail on 2026-10-21 after detecting suspicious access. An outside party had broken into two API servers and taken contract information of all customers from its sales management system, as well as recipient lists of some customers from the service database.",
+    "ja": "ラクスの子会社ラクスライトクラウドは、不審なアクセスを検知し2026年10月21日にメール配信システム「ブラストメール」を緊急停止した。外部の第三者がAPI用サーバー2台に侵入し、販売管理システムから全契約者の契約情報を、サービスのデータベースから一部契約者の配信先リストを持ち出したことが確認された。"
+  },
+  "official_notice_url": "https://info.blastmail.jp/information_20261021.html",
+  "sources": [
+    {
+      "url": "https://www.rakus.co.jp/news/2026/1021-3.html",
+      "title": "【第2報】当社子会社が提供する「ブラストメール」における不正アクセスによる情報漏えいおよびサービス停止について",
+      "publisher": "株式会社ラクス",
+      "published_on": "2026-10-21"
+    },
+    {
+      "url": "https://info.blastmail.jp/information_20261021.html",
+      "title": "【重要】ブラストメールの緊急停止および個人情報漏えいに関するお詫びとご報告",
+      "publisher": "株式会社ラクスライトクラウド",
+      "published_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.security-next.com/191846",
+      "title": "メール配信システムで契約者情報が流出 - ラクスグループ会社",
+      "publisher": "Security NEXT",
+      "published_on": "2026-10-26"
+    }
+  ],
+  "updated_at": "2026-10-27"
+}

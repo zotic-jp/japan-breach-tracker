@@ -1,0 +1,33 @@
+{
+  "name": "japan-breach-tracker",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check && tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "validate": "tsx collector/validate.ts",
+    "collect": "tsx collector/run.ts",
+    "logos": "tsx collector/logos.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@astrojs/rss": "^4.0.19",
+    "astro": "^7.4.2",
+    "cheerio": "^1.2.0",
+    "fast-xml-parser": "^5.11.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.12"
+  }
+}
