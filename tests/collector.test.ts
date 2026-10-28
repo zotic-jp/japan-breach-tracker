@@ -6,7 +6,7 @@ import type { Incident, Source } from "../schema/incident.ts";
 import type { ExtractedIncident } from "../collector/extraction.ts";
 import { extractArticleText } from "../collector/article.ts";
 import { parseFeed, toTokyoDate } from "../collector/feeds.ts";
-import { hostMatches, iconCandidates, imageWidth } from "../collector/logos.ts";
+import { UNSAFE_SVG, hostMatches, iconCandidates, imageWidth } from "../collector/logos.ts";
 import { brandName, brandNameJa } from "../schema/names.ts";
 import { SOURCES, looksLikeBreach } from "../collector/sources.ts";
 import { createIncident, loadIncidents, mergeIncident, newIncidentId, saveSeen, writeIncident } from "../collector/store.ts";
@@ -156,6 +156,13 @@ describe("logos", () => {
     expect(hostMatches("https://www.kddi.com/", "kddi.com")).toBe(true);
     expect(hostMatches("https://share.timescar.jp/", "timescar.jp")).toBe(true);
     expect(hostMatches("https://www.capcom.com/", "capcom.co.jp")).toBe(false);
+  });
+
+  it("rejects SVGs that could run script", () => {
+    expect(UNSAFE_SVG.test('<svg><script>alert(1)</script></svg>')).toBe(true);
+    expect(UNSAFE_SVG.test('<svg onload="x()"></svg>')).toBe(true);
+    expect(UNSAFE_SVG.test("<svg><foreignObject/></svg>")).toBe(true);
+    expect(UNSAFE_SVG.test('<svg viewBox="0 0 1 1"><path d="M0 0"/></svg>')).toBe(false);
   });
 
   it("reads PNG width", () => {

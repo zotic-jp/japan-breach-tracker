@@ -11,7 +11,7 @@ import { brandName, brandNameJa } from "../schema/names.ts";
 import { loadIncidents } from "./store.ts";
 
 export const LOGOS_DIR = path.resolve(import.meta.dirname, "../public/logos");
-const MAX_BYTES = 512 * 1024;
+const MAX_BYTES = 200 * 1024;
 const MIN_ICON_PX = 96;
 const EXTENSIONS: Record<string, string> = {
   "image/png": "png",
@@ -20,6 +20,8 @@ const EXTENSIONS: Record<string, string> = {
   "image/webp": "webp",
   "image/gif": "gif",
 };
+
+export const UNSAFE_SVG = /<script|<foreignObject|javascript:|\son[a-z]+\s*=/i;
 
 type Logo = { body: Buffer; ext: string };
 
@@ -42,7 +44,10 @@ async function image(url: string): Promise<Logo | null> {
   const ext = EXTENSIONS[res?.headers.get("content-type")?.split(";")[0].trim().toLowerCase() ?? ""];
   if (!res || !ext) return null;
   const body = Buffer.from(await res.arrayBuffer());
-  return body.length > 0 && body.length <= MAX_BYTES ? { body, ext } : null;
+  if (body.length === 0 || body.length > MAX_BYTES) return null;
+  // Logos are served from our own origin, so an SVG must not be able to run script if opened directly.
+  if (ext === "svg" && UNSAFE_SVG.test(body.toString("utf8"))) return null;
+  return { body, ext };
 }
 
 export function hostMatches(site: string, domain: string): boolean {
