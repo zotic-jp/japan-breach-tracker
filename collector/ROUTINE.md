@@ -19,7 +19,8 @@ fetching and file writing; your job is to read each article and decide what it s
    cause, status and dates are all stated there. Fix `work/extractions.json` and rerun from step 5 if not. When an
    article is ambiguous about whether personal data leaked, mark it not relevant: a missing entry can be added
    later, a wrong one names a company in public.
-7. `npm run logos`, then `npm run validate && npm test && npm run build`.
+7. `npm run logos`, then `npm run validate && npm test`. The pull request's CI also type-checks and builds the
+   site, so it does not matter if this machine's Node is too old for `npm run build`.
 8. Open a pull request, unless nothing under `data/` or `public/logos/` changed (then stop):
    - Commit only those paths to a branch named `collect/<YYYY-MM-DD>`, push it, and open a pull request titled
      `Daily breach collection <YYYY-MM-DD>` with `work/report.md` as its body.
