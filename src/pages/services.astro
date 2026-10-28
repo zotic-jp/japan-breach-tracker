@@ -4,7 +4,7 @@ import { CATEGORIES } from "../../schema/service.ts";
 import Logo from "../components/Logo.astro";
 import Base from "../layouts/Base.astro";
 import { logoUrl } from "../lib/logos.ts";
-import { CATEGORY_LABELS, incidentsFor, services } from "../lib/services.ts";
+import { CATEGORY_LABELS, curatedIds, incidentsFor, services } from "../lib/services.ts";
 
 const groups = CATEGORIES.map((c) => ({ category: c, items: services.filter((s) => s.category === c) })).filter(
   (g) => g.items.length,
@@ -31,17 +31,21 @@ const groups = CATEGORIES.map((c) => ({ category: c, items: services.filter((s) 
       <span class="visually-hidden">Find a service</span>
       <input type="search" id="find" placeholder="Find a service, e.g. 楽天 or PayPay" autocomplete="off" />
     </label>
+    <p class="hint">Popular services are listed below. Search to find any of the {services.length} services and companies we track.</p>
 
     <form id="picker">
       {
         groups.map((g) => (
-          <fieldset class="group">
+          <fieldset class="group" hidden={!g.items.some((s) => curatedIds.has(s.id))}>
             <legend>{CATEGORY_LABELS[g.category]}</legend>
             <div class="grid">
               {g.items.map((s) => {
                 const breaches = incidentsFor(s).length;
                 return (
-                  <label class="tile" data-search={`${s.name_en} ${s.name_ja} ${s.domains.join(" ")}`.toLowerCase()}>
+                  <label
+                    class:list={["tile", { extra: !curatedIds.has(s.id) }]}
+                    hidden={!curatedIds.has(s.id)}
+                    data-search={`${s.name_en} ${s.name_ja} ${s.domains.join(" ")}`.toLowerCase()}>
                     <input type="checkbox" name="service" value={s.id} />
                     <Logo name={s.name_en} domain={s.domains.find((d) => logoUrl(d)) ?? s.domains[0]} />
                     <span class="text">
@@ -106,22 +110,31 @@ const groups = CATEGORIES.map((c) => ({ category: c, items: services.filter((s) 
     render();
   });
 
-  find.addEventListener("input", () => {
+  // Popular services always show; the other tracked companies show when searched for or already ticked.
+  function visible(tile: HTMLElement, q: string): boolean {
+    if (q) return tile.dataset.search!.includes(q);
+    return !tile.classList.contains("extra") || tile.querySelector<HTMLInputElement>("input")!.checked;
+  }
+
+  function filter() {
     const q = find.value.trim().toLowerCase();
     let shown = 0;
     for (const group of form.querySelectorAll<HTMLFieldSetElement>(".group")) {
       let inGroup = 0;
       for (const tile of group.querySelectorAll<HTMLElement>(".tile")) {
-        tile.hidden = !!q && !tile.dataset.search!.includes(q);
+        tile.hidden = !visible(tile, q);
         if (!tile.hidden) inGroup++;
       }
       group.hidden = inGroup === 0;
       shown += inGroup;
     }
     none.hidden = shown > 0;
-  });
+  }
+
+  find.addEventListener("input", filter);
 
   render();
+  filter();
 </script>
 
 <style>
@@ -165,6 +178,11 @@ const groups = CATEGORIES.map((c) => ({ category: c, items: services.filter((s) 
   .search input:focus {
     outline: none;
     border-color: var(--primary);
+  }
+  .hint {
+    margin-bottom: 4px;
+    font-size: var(--step--1);
+    color: var(--muted);
   }
   .group {
     margin: 28px 0 0;

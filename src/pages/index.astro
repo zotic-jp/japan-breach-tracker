@@ -15,6 +15,7 @@ import {
   unitLabel,
 } from "../lib/incidents.ts";
 import { services, servicesFor } from "../lib/services.ts";
+import { actionsFor } from "../lib/actions.ts";
 
 const years = [...new Set(incidents.map((i) => i.disclosed_on.slice(0, 4)))].sort().reverse();
 const industries = [...new Set(incidents.map((i) => i.industry))].sort((a, b) =>
@@ -109,6 +110,7 @@ const tags = (i: (typeof incidents)[number]) =>
             return (
               <li
                 class="card"
+                hidden={n >= 30}
                 data-year={i.disclosed_on.slice(0, 4)}
                 data-industry={i.industry}
                 data-count={i.affected.count ?? -1}
@@ -140,6 +142,10 @@ const tags = (i: (typeof incidents)[number]) =>
                     ))}
                     {more > 0 && <li class="more">+{more} more</li>}
                   </ul>
+                  <p class="todo">
+                    <span class="todo-label">What to do:</span>
+                    {actionsFor(i)[0].short}
+                  </p>
                 </div>
                 <div class="size">
                   {count ? (
@@ -160,6 +166,7 @@ const tags = (i: (typeof incidents)[number]) =>
           })
         }
       </ol>
+      <button type="button" class="button secondary more-button" id="more" hidden></button>
       <div class="empty" id="empty" hidden>
         <p><strong>No breaches match your search.</strong></p>
         <p>
@@ -210,6 +217,10 @@ const tags = (i: (typeof incidents)[number]) =>
   const shown = document.getElementById("shown") as HTMLSpanElement;
   const noun = document.getElementById("noun") as HTMLSpanElement;
   const cards = [...list.querySelectorAll<HTMLLIElement>("li.card")];
+  const more = document.getElementById("more") as HTMLButtonElement;
+  // The full list runs to hundreds of entries; show the top ones until asked for the rest.
+  const PAGE = 30;
+  let showAll = false;
   const names: Record<string, string> = JSON.parse(document.getElementById("service-names")!.textContent!);
 
   // Mark breaches at services this visitor has said they use.
@@ -259,18 +270,25 @@ const tags = (i: (typeof incidents)[number]) =>
         (!q || c.dataset.search!.includes(q)),
     );
     visible.sort(compare[String(data.get("sort"))] ?? compare.affected);
-    for (const c of cards) c.hidden = !visible.includes(c);
+    const shownCards = showAll ? visible : visible.slice(0, PAGE);
+    for (const c of cards) c.hidden = !shownCards.includes(c);
     visible.forEach((c, n) => {
       list.append(c);
       const rank = c.querySelector<HTMLElement>(".rank")!;
       rank.textContent = String(n + 1);
       rank.setAttribute("aria-label", `Rank ${n + 1}`);
     });
+    more.hidden = shownCards.length === visible.length;
+    more.textContent = `Show all ${visible.length} breaches`;
     shown.textContent = String(visible.length);
     noun.textContent = visible.length === 1 ? "breach" : "breaches";
     empty.hidden = visible.length > 0;
   }
 
+  more.addEventListener("click", () => {
+    showAll = true;
+    update();
+  });
   form.addEventListener("input", update);
   form.addEventListener("submit", (e) => e.preventDefault());
   update();
@@ -408,6 +426,17 @@ const tags = (i: (typeof incidents)[number]) =>
   .card.is-mine {
     border-color: var(--primary);
     box-shadow: inset 4px 0 0 var(--primary);
+  }
+  .todo {
+    margin-top: 8px;
+    font-size: var(--step--1);
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .todo-label {
+    color: var(--muted);
+    font-weight: 400;
+    margin-right: 4px;
   }
   .tags .mine {
     background: var(--primary);
@@ -611,6 +640,16 @@ const tags = (i: (typeof incidents)[number]) =>
     margin-top: 4px;
     font-size: 0.75rem;
     color: var(--muted);
+  }
+  .more-button {
+    display: block;
+    margin: 16px auto 0;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .more-button[hidden] {
+    display: none;
   }
   .empty {
     padding: 32px 24px;

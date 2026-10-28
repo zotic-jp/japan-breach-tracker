@@ -42,6 +42,8 @@ for (const i of incidents) {
   });
 }
 
+export const curatedIds = new Set(curated.map((s) => s.id));
+
 export const services: Service[] = [...curated, ...generated].sort(
   (a, b) => CATEGORIES.indexOf(a.category) - CATEGORIES.indexOf(b.category),
 );

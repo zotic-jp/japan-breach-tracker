@@ -14,6 +14,7 @@ import {
   incidents,
 } from "../../lib/incidents.ts";
 import { servicesFor } from "../../lib/services.ts";
+import { actionsFor } from "../../lib/actions.ts";
 
 export function getStaticPaths() {
   return incidents.map((incident) => ({ params: { id: incident.id }, props: { incident } }));
@@ -25,18 +26,7 @@ const sensitive = i.data_types.filter((d) => SENSITIVE.includes(d));
 const name = brandName(i.organization.name_en);
 const service = servicesFor(i)[0];
 
-const steps: string[] = [];
-if (i.data_types.includes("password"))
-  steps.push(`Change your ${name} password, and the password on any other site where you used the same one.`);
-if (i.data_types.includes("credit_card"))
-  steps.push("Check your card statements for charges you don't recognise, and ask your card company for a new card number.");
-if (i.data_types.includes("bank_account")) steps.push("Watch your bank account for unexpected transfers.");
-if (i.data_types.includes("id_document") || i.data_types.includes("my_number"))
-  steps.push("Be wary of anyone contacting you who already knows your ID details. Scammers use leaked IDs to seem genuine.");
-steps.push(
-  `Expect phishing. Emails or SMS messages claiming to be from ${name} about this incident may be fake. Go to their website directly rather than clicking links.`,
-);
-steps.push("Turn on two-factor authentication for this account if it offers it.");
+const steps = actionsFor(i).map((a) => a.detail);
 ---
 
 <Base title={name} description={i.summary.en}>
