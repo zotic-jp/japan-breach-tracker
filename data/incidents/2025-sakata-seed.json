@@ -1,0 +1,46 @@
+{
+  "id": "2025-sakata-seed",
+  "organization": {
+    "name_ja": "株式会社サカタのタネ",
+    "name_en": "Sakata Seed Corporation",
+    "domain": "sakataseed.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2025-11-17",
+  "discovered_on": "2025-11-11",
+  "affected": {
+    "count": 56700,
+    "unit": "records",
+    "approximate": true,
+    "note": "Sum of the category figures in the 2026-08-19 final report (no overall total stated): about 44,000 wholesale customers and business partners, about 2,500 campaign applicants, about 5,000 job applicants and candidates, about 5,000 employees and former employees, and about 200 other business partners. A separate 2026 intrusion at the US subsidiary is not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Sakata Seed detected an intrusion into its servers and confirmed on 2025-11-11 that some data had been accessed, starting from a public remote-access server. Its final report listed about 56,700 records of customers, partners, applicants and employees that may have leaked.",
+    "ja": "サカタのタネは、リモートアクセス用の公開サーバーを起点とした不正侵入を感知し、2025年11月11日にデータの一部へのアクセス痕跡を確認した。最終報で、顧客、取引先、応募者、従業員などの個人情報計約5万6,700件が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://corporate.sakataseed.co.jp/news/2026/20260819.html",
+  "sources": [
+    {
+      "url": "https://corporate.sakataseed.co.jp/news/2026/20260819.html",
+      "title": "当社および米国連結子会社への不正アクセス に関するご報告（最終報）",
+      "publisher": "株式会社サカタのタネ",
+      "published_on": "2026-08-19"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/12/01/54134.html",
+      "title": "通常業務に大きな影響なし ～ サカタのタネに不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-12-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

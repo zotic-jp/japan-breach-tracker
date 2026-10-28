@@ -1,0 +1,47 @@
+{
+  "id": "2024-tokio-marine-takano-sogo-ransomware",
+  "organization": {
+    "name_ja": "東京海上グループ（東京海上日動火災保険株式会社、イーデザイン損害保険株式会社、東京海上日動あんしん生命保険株式会社）",
+    "name_en": "Tokio Marine Group (Tokio Marine & Nichido, E.design, Tokio Marine & Nichido Life)",
+    "domain": "tokiomarine-nichido.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2024-07-10",
+  "discovered_on": null,
+  "affected": {
+    "count": 63200,
+    "unit": "records",
+    "approximate": true,
+    "note": "Group-wide total about 63,200 per Security NEXT. Itemized: TMN 3,957 claims + 11; E.design 13,919 + 1,176 + 343; Anshin Life 27,824 + 82 (sum 47,312; remainder presumably other group companies, not itemized)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "税理士法人髙野総合会計事務所",
+  "status": "possible",
+  "summary": {
+    "en": "Tokio Marine group companies said Takano Sogo Accounting, a firm they had contracted for work, was hit by ransomware and some data was sent outside. About 63,200 records across the group, including insurance claim and policy data and employee information, may have leaked.",
+    "ja": "東京海上グループ各社は、業務を委託していた髙野総合会計事務所がランサムウェア被害を受け、外部への通信が確認されたと公表した。保険金の査定や契約に関する情報、従業員情報など、グループ全体で約6万3,200件の情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.tokiomarine-nichido.co.jp/company/release/pdf/240710_01.pdf",
+  "sources": [
+    {
+      "url": "https://www.tokiomarine-nichido.co.jp/company/release/pdf/240710_01.pdf",
+      "title": "当社業務委託先におけるランサムウェア被害に伴う情報漏えいのおそれについて",
+      "publisher": "東京海上日動火災保険株式会社",
+      "published_on": "2024-07-10"
+    },
+    {
+      "url": "https://www.security-next.com/159682",
+      "title": "東京海上Gの顧客情報が流出した可能性 - 損査業務には影響なし",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

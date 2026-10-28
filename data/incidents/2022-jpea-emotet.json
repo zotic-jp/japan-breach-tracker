@@ -1,0 +1,50 @@
+{
+  "id": "2022-jpea-emotet",
+  "organization": {
+    "name_ja": "一般社団法人太陽光発電協会（JPEA代行申請センター）",
+    "name_en": "Japan Photovoltaic Energy Association (JPEA Application Center)",
+    "domain": "jpea.gr.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2022-04-15",
+  "discovered_on": "2022-03-16",
+  "affected": {
+    "count": 95393,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "95,393 email addresses and 857,846 emails may have been taken from an Emotet-infected PC. The center had warned about spoofed emails from mid-March 2022; the counts were published on 2022-04-15."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The JPEA Application Center, which handles solar power applications on behalf of the industry ministry, found an Emotet malware infection after spoofed emails were sent in its name in March 2022. 857,846 emails and 95,393 email addresses may have been leaked.",
+    "ja": "経済産業省から業務を受託する太陽光発電協会のJPEA代行申請センターは、2022年3月になりすましメールが送信されたことを受けてEmotetの感染を確認した。メール85万7,846件とメールアドレス9万5,393件が外部に流出した可能性がある。"
+  },
+  "official_notice_url": "http://jp-ac-info.jp/information/info20220415.pdf",
+  "sources": [
+    {
+      "url": "http://jp-ac-info.jp/information/info20220415.pdf",
+      "title": "重要：マルウェア（Ｅｍｏｔｅｔ）感染に対するセキュリティ対策と業務再開についてのご連絡",
+      "publisher": "一般社団法人太陽光発電協会 JPEA代行申請センター",
+      "published_on": "2022-04-15"
+    },
+    {
+      "url": "https://www.security-next.com/135954",
+      "title": "Emotet感染でメール約85万件が流出した可能性 - JP-AC",
+      "publisher": "Security NEXT",
+      "published_on": "2022-04-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/05/11/47574.html",
+      "title": "Emotet感染でメールアドレス95,393件が流出の可能性、新たにドメインも取得",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-05-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

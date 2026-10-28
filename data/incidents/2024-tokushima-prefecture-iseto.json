@@ -1,0 +1,45 @@
+{
+  "id": "2024-tokushima-prefecture-iseto",
+  "organization": {
+    "name_ja": "徳島県",
+    "name_en": "Tokushima Prefecture",
+    "domain": "pref.tokushima.lg.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2024-06-07",
+  "discovered_on": "2024-07-01",
+  "affected": {
+    "count": 145000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 200,000 records / about 145,000 people: FY2023 auto tax print data (149,797 individual + 46,022 corporate records, 140,194 people), 4,260 people in tax-exemption reports, 1 refund notice. Earlier (June) notice covered 96 records/88 people as possible leak."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "株式会社イセトー",
+  "status": "confirmed",
+  "summary": {
+    "en": "Tokushima Prefecture said personal data of about 145,000 people, mainly FY2023 automobile tax print data, leaked from contractor ISETO's ransomware-hit network. ISETO had reported deleting the data after the job but it remained on a network where personal data was not supposed to be handled.",
+    "ja": "徳島県は、委託先イセトーのランサムウェア被害により、2023年度の自動車税関係の印刷データを中心に約14万5,000人分の個人情報が流出したと公表した。イセトーは業務完了後にデータを削除したと報告していたが、実際には本来個人情報を扱わないネットワーク上に残存していた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/158130",
+      "title": "委託先でランサム感染、被害ネットワーク内に個人情報 - 徳島県",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-07"
+    },
+    {
+      "url": "https://www.security-next.com/159274",
+      "title": "徳島県、委託先から個人情報約14.5万件が流出 - 削除報告受けるもデータ残存",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "2022-hokusen-card-sqli",
+  "organization": {
+    "name_ja": "株式会社ほくせん",
+    "name_en": "Hokusen Co., Ltd.",
+    "domain": "hokusen.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2022-01-17",
+  "discovered_on": null,
+  "affected": {
+    "count": 44559,
+    "unit": "records",
+    "approximate": false,
+    "note": "Includes 615 merchant records. 39,310 records had login IDs, passwords and email addresses; 190 of those also had names, addresses, phone numbers, birthdates and bank account details. A further 5,059 email addresses were affected. Card numbers were not leaked."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Credit card company Hokusen suspended its member website after an SQL injection attack on 2022-01-17. An investigation found that 44,559 records of personal data, mostly login credentials and email addresses, may have been leaked.",
+    "ja": "クレジットカード事業のほくせんは、2022年1月17日に会員向けサイト「ほくせんWebサービス」がSQLインジェクション攻撃を受け、サービスを停止した。調査の結果、ログイン情報やメールアドレスを中心に4万4,559件の個人情報が流出した可能性があると判明した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/01/26/47020.html",
+      "title": "サーバへ不正アクセス「ほくせんカード」「ローンカードOUEN」新規申込停止",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-01-26"
+    },
+    {
+      "url": "https://www.security-next.com/136600",
+      "title": "ほくせんカードの会員サイトにSQLi攻撃 - 顧客情報4.4万件が流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2022-05-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

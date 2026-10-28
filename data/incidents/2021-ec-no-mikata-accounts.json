@@ -1,0 +1,44 @@
+{
+  "id": "2021-ec-no-mikata-accounts",
+  "organization": {
+    "name_ja": "MIKATA株式会社",
+    "name_en": "MIKATA Inc.",
+    "domain": null
+  },
+  "industry": "media",
+  "disclosed_on": "2021-08-12",
+  "discovered_on": "2021-07-12",
+  "affected": {
+    "count": 13756,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Reader members registered on or before 2018-10-12 and login accounts of subscribing companies. Login email addresses and encrypted passwords only. The leak route was not identified."
+  },
+  "data_types": [
+    "email",
+    "password"
+  ],
+  "cause": "unknown",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "MIKATA, operator of the e-commerce industry news site ECのミカタ, was told by Nikkei on 2021-07-12 that its data might have leaked. It confirmed that login email addresses and encrypted passwords of 13,756 accounts registered by October 2018 had leaked, and reset all passwords.",
+    "ja": "EC業界メディア「ECのミカタ」を運営するMIKATAは、2021年7月12日に日本経済新聞社から情報流出の可能性を指摘された。2018年10月までに登録された13,756件のログイン用メールアドレスと暗号化されたパスワードが漏えいしたことを確認し、全利用者のパスワードをリセットした。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/08/19/46147.html",
+      "title": "EC・通販業界メディア「ECのミカタ」のアカウント情報13,756件が流出、日経の指摘で発覚",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-08-19"
+    },
+    {
+      "url": "https://www.security-next.com/129014",
+      "title": "eコマース事業者向け情報サイトでアカウント情報が流出 - 原因は調査中",
+      "publisher": "Security NEXT",
+      "published_on": "2021-08-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

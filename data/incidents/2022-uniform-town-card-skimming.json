@@ -1,0 +1,50 @@
+{
+  "id": "2022-uniform-town-card-skimming",
+  "organization": {
+    "name_ja": "株式会社ランドマーク",
+    "name_en": "Landmark Co., Ltd.",
+    "domain": "l-m.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-09-26",
+  "discovered_on": "2022-07-07",
+  "affected": {
+    "count": 63565,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who newly entered a card on Uniform Town between 2020-10-09 and 2022-03-07. Registered personal data and call center records were also affected."
+  },
+  "data_types": [
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Landmark, operator of the work uniform mail-order site Uniform Town, said attackers tampered with its payment application. Card details and other personal data of 63,565 customers may have been stolen and misused.",
+    "ja": "業務用ユニフォーム通販サイト「ユニフォームタウン」を運営するランドマークは、決済アプリケーションが改ざんされたと公表した。顧客6万3,565人のクレジットカード情報などが流出し、不正利用された可能性がある。"
+  },
+  "official_notice_url": "https://www.l-m.co.jp/apology/",
+  "sources": [
+    {
+      "url": "https://www.l-m.co.jp/apology/",
+      "title": "弊社が運営する「ユニフォームタウン」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社ランドマーク",
+      "published_on": "2022-09-26"
+    },
+    {
+      "url": "https://www.security-next.com/140038",
+      "title": "業務用ユニフォームの通信販売サイトに不正アクセス",
+      "publisher": "Security NEXT",
+      "published_on": "2022-09-27"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/09/29/48252.html",
+      "title": "「ユニフォームタウン」への不正アクセスで63,565名分のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-09-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

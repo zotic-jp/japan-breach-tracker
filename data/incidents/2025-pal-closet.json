@@ -1,0 +1,47 @@
+{
+  "id": "2025-pal-closet",
+  "organization": {
+    "name_ja": "株式会社パル（パルグループホールディングス）",
+    "name_en": "PAL Co., Ltd. (PAL GROUP Holdings)",
+    "domain": "palcloset.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-06-20",
+  "discovered_on": null,
+  "affected": {
+    "count": 194307,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "194,307 successful logins out of 1,722,379 login attempts on 2025-06-15 and 2025-06-16, believed to be credential stuffing using IDs and passwords obtained elsewhere. Member pages show name, kana, gender, birthdate, postal code, address, phone number and barcode number, but the company could not determine which pages were viewed. No credential leak from the company was found and credit card data is not held. All member passwords were invalidated on 2025-06-16."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "PAL said its online store PAL CLOSET was hit by a credential stuffing attack on 2025-06-15 and 2025-06-16, with 194,307 of 1,722,379 login attempts succeeding. Member information pages of those accounts may have been viewed.",
+    "ja": "パルは、通販サイト「PAL CLOSET」で2025年6月15日から16日にかけてリスト型攻撃とみられる不正ログインがあり、1,722,379件の試行のうち194,307件でログインされたと公表した。ログイン後に会員情報ページが閲覧されたおそれがあるとしている。"
+  },
+  "official_notice_url": "https://www.palgroup.holdings/news/%E3%80%8C615%E3%81%AB%E7%99%BA%E7%94%9F%E3%81%97%E3%81%9F%E4%B8%8D%E6%AD%A3%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%94%E5%A0%B1%E5%91%8A%E3%80%8D/",
+  "sources": [
+    {
+      "url": "https://www.palgroup.holdings/news/%E3%80%8C615%E3%81%AB%E7%99%BA%E7%94%9F%E3%81%97%E3%81%9F%E4%B8%8D%E6%AD%A3%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E3%81%94%E5%A0%B1%E5%91%8A%E3%80%8D/",
+      "title": "6/15に発生した不正ログインについてのご報告",
+      "publisher": "株式会社パルグループホールディングス",
+      "published_on": "2025-06-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/06/30/53128.html",
+      "title": "「PAL CLOSET」に 1,722,379 件の不正ログイン試行",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-06-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

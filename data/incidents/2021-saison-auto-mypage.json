@@ -1,0 +1,43 @@
+{
+  "id": "2021-saison-auto-mypage",
+  "organization": {
+    "name_ja": "セゾン自動車火災保険株式会社",
+    "name_en": "Saison Automobile and Fire Insurance Co., Ltd.",
+    "domain": "ins-saison.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2021-06-03",
+  "discovered_on": null,
+  "affected": {
+    "count": 10000,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "About 10,000 user IDs of the policyholder My Page were accessed without authorization between 2021-05-24 and 2021-06-01, as of 2021-06-03 17:00. The company said the figure could change."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Saison Automobile and Fire Insurance detected a large number of suspicious login attempts on its policyholder My Page. It found unauthorized access to about 10,000 user IDs between 2021-05-24 and 2021-06-01 and said customer information may have been viewed.",
+    "ja": "セゾン自動車火災保険は、契約者専用ページ「マイページ」への大量かつ不審なログインの試みを検知した。2021年5月24日から6月1日にかけて約1万件のユーザーIDへの不正アクセスがあり、顧客情報が閲覧された可能性があると公表した。"
+  },
+  "official_notice_url": "https://news-ins-saison.dga.jp/topics/down2.php?id=9000937&attach_id=1054&seq=1",
+  "sources": [
+    {
+      "url": "https://news-ins-saison.dga.jp/topics/down2.php?id=9000937&attach_id=1054&seq=1",
+      "title": "「マイページ」ログイン画面への不正アクセスについて",
+      "publisher": "セゾン自動車火災保険株式会社",
+      "published_on": "2021-06-03"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/06/21/45842.html",
+      "title": "セゾン自動車火災保険の契約者専用ページに不正ログイン、約1万件が被害に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-06-21"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2025-huis-ten-bosch-ransomware",
+  "organization": {
+    "name_ja": "ハウステンボス株式会社",
+    "name_en": "Huis Ten Bosch Co., Ltd.",
+    "domain": "huistenbosch.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2025-08-29",
+  "discovered_on": "2025-08-29",
+  "affected": {
+    "count": 1546000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Sum of published approximate figures: about 1,499,300 customers (name, birthdate, gender, address, phone, email), about 37,300 current and former officers and employees and their families (including My Number, health checkup results and disability information) and about 9,400 business partners (including My Number). The attacker entered via a remote access device and encrypted multiple servers and PCs. No credit card data is held. No damage had been confirmed as of 2025-12-12."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "my_number",
+    "health",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Huis Ten Bosch found on 2025-08-29 that an attacker who entered through a remote access device had encrypted files on multiple servers and PCs. It said personal data of about 1.5 million customers plus employees, their families and business partners, including some My Number data, may have leaked.",
+    "ja": "ハウステンボスは、2025年8月29日にリモートアクセス機器経由で侵入した第三者により複数のサーバーと端末のデータが暗号化されたことを確認した。顧客約149.9万人分に加え、役職員とその家族、取引先のマイナンバー情報などを含む個人情報が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.huistenbosch.co.jp/htb-news/490",
+  "sources": [
+    {
+      "url": "https://www.huistenbosch.co.jp/htb-news/490",
+      "title": "不正アクセス事案に関する調査結果のご報告とお詫び",
+      "publisher": "ハウステンボス株式会社",
+      "published_on": "2025-12-12"
+    },
+    {
+      "url": "https://www.huistenbosch.co.jp/htb-news/393",
+      "title": "不正アクセス事案発生のお知らせ",
+      "publisher": "ハウステンボス株式会社",
+      "published_on": null
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/12/18/54272.html",
+      "title": "ハウステンボスへの不正アクセス、サーバ内のファイルの一部が暗号化",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-12-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

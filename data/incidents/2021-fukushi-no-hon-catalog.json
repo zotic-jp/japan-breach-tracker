@@ -1,0 +1,43 @@
+{
+  "id": "2021-fukushi-no-hon-catalog",
+  "organization": {
+    "name_ja": "社会福祉法人全国社会福祉協議会",
+    "name_en": "Japan National Council of Social Welfare",
+    "domain": "fukushinohon.gr.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2021-12-23",
+  "discovered_on": "2021-12-13",
+  "affected": {
+    "count": 41970,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses of book purchasers and members of the publishing division's catalog site. Names, addresses, phone numbers and card data were not included."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "The Japan National Council of Social Welfare found signs of unauthorized access on 2021-12-13 to the catalog website of its publishing division. It announced that 41,970 email addresses of book purchasers and members had leaked.",
+    "ja": "全国社会福祉協議会は、出版部の「福祉の本 出版目録」サイトで2021年12月13日に第三者による不正アクセスの形跡を確認した。書籍購入者や会員のメールアドレス41,970件が流出したと公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/132863",
+      "title": "出版目録のサイトに不正アクセス、メアドが流出 - 全社協",
+      "publisher": "Security NEXT",
+      "published_on": "2021-12-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/12/28/46896.html",
+      "title": "「福祉の本 出版目録」に不正アクセス、41,970件のメールアドレス流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-12-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

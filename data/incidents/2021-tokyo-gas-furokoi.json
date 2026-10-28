@@ -1,0 +1,44 @@
+{
+  "id": "2021-tokyo-gas-furokoi",
+  "organization": {
+    "name_ja": "東京ガス株式会社",
+    "name_en": "Tokyo Gas Co., Ltd.",
+    "domain": "tokyo-gas.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2021-01-30",
+  "discovered_on": "2021-01-28",
+  "affected": {
+    "count": 10365,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Web members of the dating game Furokoi. Only email addresses and nicknames were involved."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Tokyo Gas found links to overseas adult sites planted on the website of its bathing-themed dating game Furokoi on 2021-01-28. Its investigation found that the site had been accessed without authorization and that the email addresses and nicknames of 10,365 web members had leaked.",
+    "ja": "東京ガスは2021年1月28日、入浴をテーマにした恋愛ゲーム「ふろ恋」のウェブサイトに海外アダルトサイトへのリンクが設置されていることを把握した。調査の結果、同サイトへの不正アクセスにより、ウェブ会員10,365件のメールアドレスとニックネームが流出していたと公表した。"
+  },
+  "official_notice_url": "https://www.tokyo-gas.co.jp/important/20210130-01.pdf",
+  "sources": [
+    {
+      "url": "https://www.tokyo-gas.co.jp/important/20210130-01.pdf",
+      "title": "恋愛ゲーム『ふろ恋 私だけの入浴執事』ウェブサイトへの不正アクセスによるお客さま情報の流出について",
+      "publisher": "東京ガス株式会社",
+      "published_on": "2021-01-30"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/02/03/45140.html",
+      "title": "東京ガス運営 恋愛ゲームWebサイトへ不正アクセス、会員情報10,365件流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-02-03"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

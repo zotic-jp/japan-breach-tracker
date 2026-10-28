@@ -1,0 +1,44 @@
+{
+  "id": "2023-eisai-cloud",
+  "organization": {
+    "name_ja": "エーザイ株式会社",
+    "name_en": "Eisai Co., Ltd.",
+    "domain": "eisai.co.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2023-05-19",
+  "discovered_on": "2023-04-28",
+  "affected": {
+    "count": 11000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 11,000 business-contact records across the whole Eisai group, including overseas affiliates; only part of them relate to the Japanese companies (Eisai, EA Pharma, Kan Research Institute, Sun Planet). Consumer data from self-care mail order and campaigns is not included."
+  },
+  "data_types": [
+    "name",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Eisai said an outsider using the account of an employee at an overseas group company accessed part of its cloud platform on 2023-04-28. Names and work email addresses of about 11,000 business contacts registered in its Microsoft 365 and ID management systems may have leaked.",
+    "ja": "エーザイは、2023年4月28日に海外グループ会社社員のアカウントを不正に使用した外部者がクラウド基盤上の一部情報にアクセスしたと公表した。Microsoft 365やID管理システムに登録された取引先関係者約1万1,000件の氏名と業務用メールアドレスが漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.eisai.co.jp/information/2023/pdf/20230519.pdf",
+  "sources": [
+    {
+      "url": "https://www.eisai.co.jp/information/2023/pdf/20230519.pdf",
+      "title": "不正アクセスによる個人情報流出の可能性に関するお詫びとご報告",
+      "publisher": "エーザイ株式会社",
+      "published_on": "2023-05-19"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/05/26/49419.html",
+      "title": "エーザイグループのクラウドへ不正アクセス、約 11,000 件の取引先関係者情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-05-26"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

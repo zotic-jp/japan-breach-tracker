@@ -1,0 +1,44 @@
+{
+  "id": "2024-gintoki-online-shop",
+  "organization": {
+    "name_ja": "株式会社銀時",
+    "name_en": "Gintoki Co., Ltd.",
+    "domain": "gintoki.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-11-25",
+  "discovered_on": "2024-05-28",
+  "affected": {
+    "count": 17171,
+    "unit": "people",
+    "approximate": false,
+    "note": "Members, buyers and recipients from 2012-02-21 to 2024-05-30 plus event reservation forms at the Harajuku store from 2017 to 2020. Card data of 1,850 customers (2,162 records) may also have leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Silver accessory maker Gintoki said its online shop was hit by unauthorized access exploiting a vulnerability and its payment application altered. Personal data of 17,171 customers and card data of 1,850 customers may have been stolen.",
+    "ja": "シルバーアクセサリーの銀時は、通販サイトが脆弱性を突く不正アクセスを受け、決済アプリケーションが改ざんされたと公表した。顧客17,171人の個人情報と、1,850人分のクレジットカード情報が窃取された可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/164643",
+      "title": "シルバーアクセ通販サイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-11-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

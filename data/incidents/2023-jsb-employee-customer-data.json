@@ -1,0 +1,41 @@
+{
+  "id": "2023-jsb-employee-customer-data",
+  "organization": {
+    "name_ja": "株式会社ジェイ・エス・ビー",
+    "name_en": "J.S.B. Co., Ltd.",
+    "domain": null
+  },
+  "industry": "other",
+  "disclosed_on": "2023-01-25",
+  "discovered_on": "2023-01-20",
+  "affected": {
+    "count": 29000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 29,000 customer records of tenants and other contractors of properties managed by the company. Sensitive data, credit card and bank account data were not included."
+  },
+  "data_types": [],
+  "cause": "insider",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "J.S.B., a student apartment operator, found that an employee had extracted customer data without authorization and passed it to outside parties, after customers received sales calls for water servers and other services using its brand. It confirmed that about 29,000 customer records had leaked.",
+    "ja": "学生マンション事業を手がけるジェイ・エス・ビーは、同社ブランドを騙った勧誘が相次いだことを受けた調査で、従業員が不正に顧客情報を抽出し外部に漏えいさせていたことが判明したと公表した。約29,000件の顧客情報の漏えいを確認した。"
+  },
+  "official_notice_url": "https://ssl4.eir-parts.net/doc/3480/tdnet/2229013/00.pdf",
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/3480/tdnet/2229013/00.pdf",
+      "title": "当社従業員によるご契約者様等の個人情報の漏洩に関する追加のご報告について",
+      "publisher": "株式会社ジェイ・エス・ビー",
+      "published_on": "2023-02-02"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/02/08/48887.html",
+      "title": "東証プライム従業員が顧客情報持ち出し第三者に漏えい、ウォーターサーバー勧誘等に悪用される",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-02-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2024-mitsubishi-electric-home-appliance",
+  "organization": {
+    "name_ja": "三菱電機ホーム機器株式会社",
+    "name_en": "Mitsubishi Electric Home Appliance Co., Ltd.",
+    "domain": "mhk.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2024-08-05",
+  "discovered_on": "2024-04-17",
+  "affected": {
+    "count": 2310000,
+    "unit": "people",
+    "approximate": true,
+    "note": "~2.31M customers in appliance service history (server accessed twice, 13s and 12s; found 2024-07-25). Separately 3,893 employees/former employees/job applicants were notified earlier."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Mitsubishi Electric Home Appliance, a Mitsubishi Electric subsidiary, found that a server holding appliance service histories had been accessed from outside twice, for 13 and 12 seconds. It said it could not rule out that data of about 2.31 million customers, including names, addresses, phone numbers and email addresses, was viewed, although it considered this extremely unlikely.",
+    "ja": "三菱電機の子会社、三菱電機ホーム機器は、家電製品の修理履歴などを保管するサーバに外部から13秒と12秒の2回アクセスされたことを確認した。閲覧された可能性は極めて低いとしつつも、氏名、住所、電話番号、メールアドレスなど約231万人分の顧客情報が閲覧された可能性を否定できないと公表した。"
+  },
+  "official_notice_url": "https://www.mhk.co.jp/pdf/info_oshirase_2408.pdf",
+  "sources": [
+    {
+      "url": "https://www.mhk.co.jp/pdf/info_oshirase_2408.pdf",
+      "title": "当社情報システムに対する不正アクセスによる個人情報流出の可能性に関するお知らせとお詫び",
+      "publisher": "三菱電機ホーム機器株式会社",
+      "published_on": "2024-08-05"
+    },
+    {
+      "url": "https://mitsubishielectric.co.jp/news/2024/0805.pdf",
+      "title": "当社子会社における不正アクセスによる個人情報流出の可能性について",
+      "publisher": "三菱電機株式会社",
+      "published_on": "2024-08-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/08/16/51479.html",
+      "title": "三菱電機ホーム機器の約 231 万名分の顧客情報が保管しているサーバに 13 秒・12 秒と 2 回アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-08-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

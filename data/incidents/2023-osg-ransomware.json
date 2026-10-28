@@ -1,0 +1,41 @@
+{
+  "id": "2023-osg-ransomware",
+  "organization": {
+    "name_ja": "オーエスジー株式会社",
+    "name_en": "OSG Corporation",
+    "domain": "osg.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2023-04-14",
+  "discovered_on": "2023-04-12",
+  "affected": {
+    "count": 27000,
+    "unit": "records",
+    "approximate": false,
+    "note": "Personal data of stakeholders stored on the affected server; the company did not break down the categories or data fields."
+  },
+  "data_types": [],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Cutting tool maker OSG reported that its core system server was encrypted by ransomware after an intrusion into its network in April 2023. A forensic investigation found that some data had been sent outside, and 27,000 personal data records may have leaked.",
+    "ja": "切削工具大手のオーエスジーは、2023年4月に社内ネットワークへの不正アクセスを受け、基幹システムのサーバーがランサムウェアで暗号化されたと公表した。フォレンジック調査で一部データの外部送信が確認され、個人データ27,000件が漏えいしたおそれがあるとしている。"
+  },
+  "official_notice_url": "https://www.osg.co.jp/news/2023/06/incident03.html",
+  "sources": [
+    {
+      "url": "https://www.osg.co.jp/news/2023/06/incident03.html",
+      "title": "当社サーバへの不正アクセスに関するお知らせとお詫び（第3報）",
+      "publisher": "オーエスジー株式会社",
+      "published_on": "2023-06-12"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/06/19/49540.html",
+      "title": "精密切削工具大手オーエスジーにランサムウェア攻撃、保有データの一部が外部送信されたと判断",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-06-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

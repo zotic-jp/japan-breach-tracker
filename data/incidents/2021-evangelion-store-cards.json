@@ -1,0 +1,46 @@
+{
+  "id": "2021-evangelion-store-cards",
+  "organization": {
+    "name_ja": "株式会社グラウンドワークス",
+    "name_en": "Groundworks Inc.",
+    "domain": "evastore.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-11-30",
+  "discovered_on": "2021-07-12",
+  "affected": {
+    "count": 17828,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who paid by card on EVANGELION STORE (online) between 2020-06-08 and 2021-06-30. Email addresses, login IDs and passwords entered on the site may also have been captured."
+  },
+  "data_types": [
+    "name",
+    "credit_card",
+    "email",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Groundworks, operator of the official online shop EVANGELION STORE, announced that attackers exploited a vulnerability and planted code that captured data entered on the site. Card data including security codes, plus login details, of 17,828 customers may have leaked.",
+    "ja": "公式通販サイト「EVANGELION STORE」を運営するグラウンドワークスは、サイトの脆弱性を突かれ、入力情報を取得する不正なコードを設置されていたと公表した。顧客17,828人分のセキュリティコードを含むカード情報やログイン情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/132025",
+      "title": "「エヴァンゲリオン」公式通販サイト、クレカやPWなど流出のおそれ",
+      "publisher": "Security NEXT",
+      "published_on": "2021-12-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/12/02/46742.html",
+      "title": "「EVANGELION STORE」に不正アクセス、17,828名分のカード情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-12-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2020-doshin-service-center-dev-platform",
+  "organization": {
+    "name_ja": "株式会社道新サービスセンター",
+    "name_en": "Doshin Service Center Co., Ltd.",
+    "domain": null
+  },
+  "industry": "media",
+  "disclosed_on": "2020-03-26",
+  "discovered_on": "2020-03-13",
+  "affected": {
+    "count": 15599,
+    "unit": "records",
+    "approximate": false,
+    "note": "28,515 business partner records (companies and individuals) were publicly viewable, of which 15,599 contained personal information. A contractor's engineer made the source code and data public on a software development platform on 2019-10-07; it was made private on 2020-02-10."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Doshin Service Center, a Hokkaido Shimbun group company, said a contractor's engineer accidentally made its system source code and business partner data publicly accessible on a software development platform, and that the data was leaked. Of 28,515 exposed partner records, 15,599 contained personal information such as names, addresses, phone numbers and email addresses.",
+    "ja": "北海道新聞グループの道新サービスセンターは、委託先のエンジニアがソフトウェア開発プラットフォーム上でシステムのソースコードと取引先情報を誤って外部から閲覧可能な状態にし、情報が流出したと公表した。閲覧可能だった取引先情報2万8,515件のうち、氏名、住所、電話番号、メールアドレスなどの個人情報を含むものは1万5,599件だった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/113486",
+      "title": "取引先情報が流出、開発プラットフォームの設定ミスで - 道新SC",
+      "publisher": "Security NEXT",
+      "published_on": "2020-03-26"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/03/30/43876.html",
+      "title": "GitHubの設定ミスが原因、取引先情報が外部から閲覧可能に（道新サービスセンター）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-03-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

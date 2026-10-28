@@ -1,0 +1,58 @@
+{
+  "id": "2024-kubota-credit-iseto",
+  "organization": {
+    "name_ja": "株式会社クボタクレジット",
+    "name_en": "Kubota Credit Co., Ltd.",
+    "domain": "kubota-credit.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2024-07-01",
+  "discovered_on": "2024-06-27",
+  "affected": {
+    "count": 61424,
+    "unit": "people",
+    "approximate": false,
+    "note": "61,424 customers including corporate and organizational accounts. Joint notice with 株式会社クボタ."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "bank_account",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "株式会社イセトー",
+  "status": "confirmed",
+  "summary": {
+    "en": "Kubota Credit said statement and invoice printing data for September 2022, covering 61,424 individual and corporate customers, leaked from its printing contractor ISETO after a ransomware attack. The data included names, addresses, billing details and partial bank account information.",
+    "ja": "クボタクレジットは、印刷を委託していたイセトーのランサムウェア被害により、2022年9月分の利用明細や請求書の印刷用データ61,424件（個人と法人を含む）が流出したと公表した。氏名、住所、利用請求明細、口座情報の一部などが含まれる。"
+  },
+  "official_notice_url": "https://www.kubota-credit.co.jp/news/item/20240909_information_01.pdf",
+  "sources": [
+    {
+      "url": "https://www.kubota-credit.co.jp/news/item/20240909_information_01.pdf",
+      "title": "「業務委託先への不正アクセスによる個人情報漏えい」に関する調査結果と再発防止策",
+      "publisher": "株式会社クボタクレジット",
+      "published_on": "2024-09-09"
+    },
+    {
+      "url": "https://www.kubota-credit.co.jp/news/item/20240701_information_leak.pdf",
+      "title": "業務委託先への不正アクセスによる個人情報漏えいについて",
+      "publisher": "株式会社クボタクレジット",
+      "published_on": "2024-07-01"
+    },
+    {
+      "url": "https://www.security-next.com/159115",
+      "title": "委託先ランサム被害で顧客情報流出、当初報告から状況変化 - クボタクレジット",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/07/04/51242.html",
+      "title": "クボタクレジットの委託先のイセトーにランサムウェア攻撃、61,424名の利用明細が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-07-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

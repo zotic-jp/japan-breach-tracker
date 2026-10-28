@@ -1,0 +1,59 @@
+{
+  "id": "2025-minebeamitsumi-file-server",
+  "organization": {
+    "name_ja": "ミネベアミツミ株式会社",
+    "name_en": "MinebeaMitsumi Inc.",
+    "domain": "minebeamitsumi.com"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2025-03-18",
+  "discovered_on": "2025-03-11",
+  "affected": {
+    "count": 38600,
+    "unit": "records",
+    "approximate": true,
+    "note": "Final report (2025-07-11): about 3,800 customer and business-partner contact records, about 30,000 current and former shareholder records (about 124,000 before deduplication) and about 4,800 employee records. The second report (2025-04-11) had given a provisional maximum of about 160,000. Corporate business-partner information was also affected."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "MinebeaMitsumi detected on 2025-03-11 that an attacker had accessed a file server at one of its sites after an unauthorized VPN connection. Its final report said about 38,600 personal records of customers, business partners, shareholders and employees may have been leaked.",
+    "ja": "ミネベアミツミは2025年3月11日、第三者が同社ネットワーク機器に不正に接続し、特定拠点のファイルサーバーにアクセスしたことを検知した。最終報で、顧客・取引先、株主、従業員に関する約3万8,600件の個人データが流出した可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.minebeamitsumi.com/news/info/2025/1210336_20348.html",
+  "sources": [
+    {
+      "url": "https://www.minebeamitsumi.com/news/info/2025/1210033_20348.html",
+      "title": "当社ファイルサーバーへの不正アクセス発生について",
+      "publisher": "ミネベアミツミ株式会社",
+      "published_on": "2025-03-18"
+    },
+    {
+      "url": "https://www.minebeamitsumi.com/news/info/2025/1210101_20348.html",
+      "title": "当社ファイルサーバーへの不正アクセス発生について（第二報）",
+      "publisher": "ミネベアミツミ株式会社",
+      "published_on": "2025-04-11"
+    },
+    {
+      "url": "https://www.minebeamitsumi.com/news/info/2025/1210336_20348.html",
+      "title": "当社ファイルサーバーへの不正アクセス発生について（最終報）",
+      "publisher": "ミネベアミツミ株式会社",
+      "published_on": "2025-07-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/04/25/52755.html",
+      "title": "ミネベアミツミへの不正アクセス、最大約 16 万件の個人情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-04-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

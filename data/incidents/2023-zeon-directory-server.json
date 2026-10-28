@@ -1,0 +1,46 @@
+{
+  "id": "2023-zeon-directory-server",
+  "organization": {
+    "name_ja": "日本ゼオン株式会社",
+    "name_en": "Zeon Corporation",
+    "domain": "zeon.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2023-08-23",
+  "discovered_on": "2023-08-16",
+  "affected": {
+    "count": 13434,
+    "unit": "records",
+    "approximate": false,
+    "note": "8,236 customer and business-partner records (names and email addresses registered in group addresses) and 5,198 account records of employees and contractor staff of Zeon and its group companies."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Zeon detected an external attack on server equipment used by it and its group companies on 2023-08-16. Traces of unauthorized access to its account management directory server were found, and 13,434 records of customers, business partners and staff may have leaked.",
+    "ja": "日本ゼオンは2023年8月16日、同社とグループ会社が利用するサーバー機器への外部からの攻撃を検知した。アカウント管理システム（ディレクトリサーバー）への不正アクセスの形跡が確認され、顧客・取引先や社員などの個人情報計13,434件が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.zeon.co.jp/news/assets/pdf/230823-2.pdf",
+  "sources": [
+    {
+      "url": "https://www.zeon.co.jp/news/assets/pdf/230823-2.pdf",
+      "title": "不正アクセス発生による個人情報流出可能性のお知らせとお詫び",
+      "publisher": "日本ゼオン株式会社",
+      "published_on": "2023-08-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/08/29/49877.html",
+      "title": "日本ゼオンのサーバ機器に不正アクセス、合計13,434件の個人情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-08-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

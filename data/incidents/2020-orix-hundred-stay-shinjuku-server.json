@@ -1,0 +1,48 @@
+{
+  "id": "2020-orix-hundred-stay-shinjuku-server",
+  "organization": {
+    "name_ja": "オリックス・ホテルマネジメント株式会社",
+    "name_en": "ORIX Hotel Management Corporation",
+    "domain": null
+  },
+  "industry": "travel",
+  "disclosed_on": "2020-12-04",
+  "discovered_on": "2020-12-02",
+  "affected": {
+    "count": 209000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 209,000 records of guests who booked or stayed at Hundred Stay Tokyo Shinjuku between 2010-07-14 and 2018-02-02; about 102,000 of them contain only a name. The old server was stored in the machine room after a 2018 data migration and was found missing during an asset inventory. A police report was filed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "ORIX Hotel Management said an old server holding guest data of the Hundred Stay Tokyo Shinjuku hotel could not be found during an asset inventory and may have been taken out. It held about 209,000 records including names, addresses, phone numbers, email addresses and birthdates.",
+    "ja": "オリックス・ホテルマネジメントは、運営する「ハンドレッドステイ東京新宿」の顧客情報を記録した旧サーバが、社有資産の棚卸しで所在不明と判明し、外部に持ち出された可能性があると公表した。氏名、住所、電話番号、メールアドレス、生年月日などを含む約20万9,000件が記録されていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/121409",
+      "title": "顧客情報約21万件含む旧サーバが所在不明 - 都内ホテル",
+      "publisher": "Security NEXT",
+      "published_on": "2020-12-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/12/07/44906.html",
+      "title": "「ハンドレッドステイ東京新宿」顧客情報を記録したサーバが所在不明、持ち出された可能性も",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-12-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

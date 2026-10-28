@@ -1,0 +1,40 @@
+{
+  "id": "2024-morinomiyako-shinkin-atm-disc",
+  "organization": {
+    "name_ja": "杜の都信用金庫",
+    "name_en": "Morinomiyako Shinkin Bank",
+    "domain": "morinomiyako-shinkin.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2024-03-08",
+  "discovered_on": "2023-12-15",
+  "affected": {
+    "count": 19679,
+    "unit": "records",
+    "approximate": false,
+    "note": "ATM transaction records at the Izumi-Chuo branch from 2020-01-11 to 2020-09-04, covering 5,503 customers. The CD-ROM was encrypted and was most likely discarded by mistake."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "bank_account",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Morinomiyako Shinkin Bank said an encrypted CD-ROM holding 19,679 ATM transaction records from its Izumi-Chuo branch, covering 5,503 customers, went missing and was probably thrown away with other documents. The data includes names, phone numbers, account details, amounts and camera images.",
+    "ja": "杜の都信用金庫は、泉中央支店のATM取引情報19,679件（取引先5,503件）を記録した暗号化済みCD-ROMを紛失したと公表した。書類に紛れて誤廃棄した可能性が高く、氏名、電話番号、口座情報、取引金額、防犯カメラ画像などが記録されていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/154393",
+      "title": "ATMの取引情報が記録された記録媒体を紛失 - 杜の都信金",
+      "publisher": "Security NEXT",
+      "published_on": "2024-03-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

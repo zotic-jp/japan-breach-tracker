@@ -1,0 +1,42 @@
+{
+  "id": "2026-h2o-retailing-h2o-id",
+  "organization": {
+    "name_ja": "エイチ・ツー・オー リテイリング株式会社",
+    "name_en": "H2O Retailing Corporation",
+    "domain": "h2o-retailing.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-19",
+  "discovered_on": "2026-10-16",
+  "affected": {
+    "count": 1260000,
+    "unit": "records",
+    "approximate": true,
+    "note": "H2O ID member records in the customer management system, nearly all H2O ID members, leaked via the Hankyu and Hanshin department store reservation site. Unauthorized access was also found on HANKYU HANSHIN E-STORES and Remo Order, where order history, partial card data and address books are held; whether those leaked was still under investigation. Login passwords were not confirmed to have leaked."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "H2O Retailing and its subsidiary Hankyu Hanshin Department Stores confirmed unauthorized access to their customer management system via the department store reservation site on 2026-10-16, and to the HANKYU HANSHIN E-STORES and Remo Order sites the next day, and shut the sites down. Personal data of about 1.26 million H2O ID records, including names, email addresses, addresses, phone numbers and birthdates, leaked.",
+    "ja": "エイチ・ツー・オー リテイリングと子会社の阪急阪神百貨店は、2026年10月16日に「阪急百貨店・阪神百貨店予約サイト」経由で顧客管理システムへの不正アクセスを、翌17日に「HANKYU HANSHIN E-STORES」と「Remo Order」への不正アクセスを確認し、各サイトを停止した。約126万件の「H2O ID」の氏名、メールアドレス、住所、電話番号、生年月日などが漏えいした。"
+  },
+  "official_notice_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+  "sources": [
+    {
+      "url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+      "title": "第三者による不正アクセス発生と個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "エイチ・ツー・オー リテイリング株式会社",
+      "published_on": "2026-10-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

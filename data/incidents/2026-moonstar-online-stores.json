@@ -1,0 +1,53 @@
+{
+  "id": "2026-moonstar-online-stores",
+  "organization": {
+    "name_ja": "株式会社ムーンスター",
+    "name_en": "MOONSTAR Company",
+    "domain": "moonstar.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-03-26",
+  "discovered_on": null,
+  "affected": {
+    "count": 593000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum figure from the third report (2026-10-15), covering customers of eight MOONSTAR online stores including its own sites and official shops on Rakuten Ichiba, Yahoo! Shopping, au PAY Market, Qoo10 and Amazon. The March 2026 notice reported suspected access without a confirmed leak. Card data and store login passwords were not on the server."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "MOONSTAR first announced suspected unauthorized access to some of its servers in March 2026. After a customer reported in September a spoofed email containing past order details, it said in October that personal data of up to 593,000 online store customers, likely taken in May 2026, was highly likely to have leaked.",
+    "ja": "ムーンスターは2026年3月に一部サーバーへの不正アクセスの疑いを公表していた。9月に過去の注文内容を含むなりすましメールを受け取った顧客からの問い合わせを受けて調査した結果、10月にオンラインストア利用者最大59万3千人分の個人情報が2026年5月に漏えいした可能性が高いと発表した。"
+  },
+  "official_notice_url": "https://www.moonstar.co.jp/information/2026/10/gg.html",
+  "sources": [
+    {
+      "url": "https://www.moonstar.co.jp/information/2026/10/gg.html",
+      "title": "【重要】弊社システムサーバーに対する不正アクセスの疑いに関するお知らせ【第3報】",
+      "publisher": "株式会社ムーンスター",
+      "published_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.moonstar.co.jp/information/2026/10/post-4.html",
+      "title": "【重要】弊社システムサーバーに対する不正アクセスの疑いに関するお知らせ【第2報】",
+      "publisher": "株式会社ムーンスター",
+      "published_on": "2026-10-02"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/23/56551.html",
+      "title": "ムーンスターのサーバに不正アクセス、オンラインストアを利用した顧客情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

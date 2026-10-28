@@ -1,0 +1,50 @@
+{
+  "id": "2022-yano-research-sqli",
+  "organization": {
+    "name_ja": "株式会社矢野経済研究所",
+    "name_en": "Yano Research Institute Ltd.",
+    "domain": "yano.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2022-06-24",
+  "discovered_on": "2022-06-13",
+  "affected": {
+    "count": 101988,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "Email addresses and encrypted login passwords of YRI WEB members and YDB members. The company holds no credit card data."
+  },
+  "data_types": [
+    "email",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Market research firm Yano Research Institute said its website servers were hit by an SQL injection attack on 2022-06-06. Up to 101,988 member accounts, consisting of email addresses and encrypted passwords, may have been leaked.",
+    "ja": "市場調査の矢野経済研究所は、2022年6月6日にウェブサイトのサーバがSQLインジェクションによる不正アクセスを受けたと公表した。会員のメールアドレスと暗号化されたパスワード最大10万1,988件が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.yano.co.jp/announce/781",
+  "sources": [
+    {
+      "url": "https://www.yano.co.jp/announce/781",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社矢野経済研究所",
+      "published_on": "2022-06-24"
+    },
+    {
+      "url": "https://www.security-next.com/137642",
+      "title": "矢野経済研究所に不正アクセス - SQLi攻撃でアカウント情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2022-06-28"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/06/30/47818.html",
+      "title": "矢野経済研究所にSQLインジェクション攻撃、最大101,988件の会員情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-06-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

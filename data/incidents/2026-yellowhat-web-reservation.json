@@ -1,0 +1,52 @@
+{
+  "id": "2026-yellowhat-web-reservation",
+  "organization": {
+    "name_ja": "株式会社イエローハット",
+    "name_en": "Yellow Hat Ltd.",
+    "domain": "yellowhat.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-08-28",
+  "discovered_on": "2026-08-18",
+  "affected": {
+    "count": 1801499,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum number of Yellow Hat members whose data may have leaked, as announced on 2026-08-28. Yellow Hat said passwords, credit card and vehicle data were not held in the system. This is separate from the April 2026 incident at subsidiary 2rinkan Yellow Hat."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Yellow Hat detected an attack by a malicious program on its online service reservation system on the morning of 2026-08-18 and cut its external connections. It announced that names, phone numbers, email addresses and member numbers of up to 1,801,499 members may have leaked.",
+    "ja": "イエローハットは、2026年8月18日朝に「イエローハットWEB作業予約システム」への不正プログラムによる攻撃を検知し、外部接続を遮断した。最大1,801,499名の会員の氏名、電話番号、メールアドレス、会員番号が漏えいした可能性があると発表した。"
+  },
+  "official_notice_url": "https://www.yellowhat.jp/information/yellowhat/202608.html",
+  "sources": [
+    {
+      "url": "https://www.yellowhat.jp/information/yellowhat/202608.html",
+      "title": "イエローハットにおける不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "publisher": "株式会社イエローハット",
+      "published_on": "2026-08-28"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2136818.html",
+      "title": "イエローハットの予約システムに不正アクセス、最大約180万件の個人情報漏えいの可能性",
+      "publisher": "INTERNET Watch",
+      "published_on": "2026-08-31"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/02/56108.html",
+      "title": "イエローハットWEB作業予約システムへの不正プログラムによる攻撃、最大1,801,499名の会員情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-09-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

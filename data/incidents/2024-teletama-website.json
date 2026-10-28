@@ -1,0 +1,59 @@
+{
+  "id": "2024-teletama-website",
+  "organization": {
+    "name_ja": "株式会社テレビ埼玉",
+    "name_en": "TV Saitama Co., Ltd.",
+    "domain": "teletama.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2024-11-13",
+  "discovered_on": "2024-11-11",
+  "affected": {
+    "count": 12000,
+    "unit": "records",
+    "approximate": true,
+    "note": "The first notice (2024-11-13) gave about 39,000 records; the second notice (2024-11-15) revised this to about 12,000 after removing duplicates."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "TV Saitama detected suspicious communication on its website server late on 2024-11-11 and found that a vulnerability in the site program had been exploited. Viewer data submitted through program gift and opinion forms, including names, addresses and phone numbers, may have leaked.",
+    "ja": "テレビ埼玉は、2024年11月11日夜にウェブサイトのサーバで不審な通信を検知し、サイトのプログラムの脆弱性を突く不正アクセスを受けたことが判明した。番組プレゼントや意見投稿フォームから寄せられた氏名、住所、電話番号などの視聴者情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.teletama.jp/newsrelease/pdf/24111502.pdf",
+  "sources": [
+    {
+      "url": "https://www.teletama.jp/newsrelease/pdf/24111501.pdf",
+      "title": "弊社ホームページに対する不正アクセスによるサイバー攻撃について",
+      "publisher": "株式会社テレビ埼玉",
+      "published_on": "2024-11-13"
+    },
+    {
+      "url": "https://www.teletama.jp/newsrelease/pdf/24111502.pdf",
+      "title": "弊社ホームページに対する不正アクセスによるサイバー攻撃について（第 2 報）",
+      "publisher": "株式会社テレビ埼玉",
+      "published_on": "2024-11-15"
+    },
+    {
+      "url": "https://www.security-next.com/164217",
+      "title": "不正アクセスで視聴者の個人情報が流出した可能性 - テレビ埼玉",
+      "publisher": "Security NEXT",
+      "published_on": "2024-11-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/11/25/51958.html",
+      "title": "テレビ埼玉のホームページに不正アクセス、約 1 万 2,000 件の情報漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-11-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

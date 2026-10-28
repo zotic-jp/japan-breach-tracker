@@ -1,0 +1,49 @@
+{
+  "id": "2026-estore-shopserve",
+  "organization": {
+    "name_ja": "株式会社Eストアー",
+    "name_en": "E-Store Corporation",
+    "domain": "estore.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-08-01",
+  "discovered_on": "2026-08-01",
+  "affected": {
+    "count": 23356000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Final report figure covering shoppers and members, store operators and affiliates of 7,858 stores using the Shopserve e-commerce platform; duplicates could not be fully removed. About 2,096,900 people had partial card data (cardholder name, first 6 and last 4 digits, expiry) leaked; full card numbers and security codes were not held."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "E-Store, a BASE subsidiary that runs the e-commerce platform Shopserve, said an attacker exploited an application vulnerability on its servers between 2026-05-21 and 2026-08-01 and sent database contents outside. Its final report put the number of affected people at about 23.36 million across 7,858 stores.",
+    "ja": "BASEの子会社でECサイト構築サービス「ショップサーブ」を運営するEストアーは、2026年5月21日から8月1日にかけてサーバー上のアプリケーションの脆弱性を悪用され、データベースの情報が外部に送信されたと発表した。最終報では、7,858店舗に関する約2,335万6,000人の情報が漏えいしたとしている。"
+  },
+  "official_notice_url": "https://estore.jp/press/20261016/",
+  "sources": [
+    {
+      "url": "https://estore.jp/press/20261016/",
+      "title": "不正アクセスによる個人情報漏えいに関するお知らせ（最終報）",
+      "publisher": "株式会社Eストアー",
+      "published_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/news/2149147.html",
+      "title": "BASE子会社の「Eストアー」、2336万人の情報漏えい",
+      "publisher": "Impress Watch",
+      "published_on": "2026-10-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

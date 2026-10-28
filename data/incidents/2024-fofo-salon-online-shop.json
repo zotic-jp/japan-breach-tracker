@@ -1,0 +1,52 @@
+{
+  "id": "2024-fofo-salon-online-shop",
+  "organization": {
+    "name_ja": "株式会社インテンス",
+    "name_en": "Intense Co., Ltd.",
+    "domain": "intense-z.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-05-20",
+  "discovered_on": "2023-09-13",
+  "affected": {
+    "count": 15198,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who bought on the site from 2020-12-24 to 2023-12-08; their data, including card numbers, was stored in plain text on the server."
+  },
+  "data_types": [
+    "name",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Intense, which runs the fofo online shop for hair salons, said attackers planted a web shell through a vulnerability and operated its server. Data of 15,198 customers, including login and card details stored in plain text, may have leaked.",
+    "ja": "美容室向け通販サイト「fofo」を運営するインテンスは、脆弱性を突かれてウェブシェルを設置され、サーバを第三者に操作されたと公表した。平文で保存されていたログイン情報やカード情報を含む顧客15,198人分のデータが流出した可能性がある。"
+  },
+  "official_notice_url": "https://intense-z.com/information/news/important-announcement-202404/",
+  "sources": [
+    {
+      "url": "https://intense-z.com/information/news/important-announcement-202404/",
+      "title": "【重要】弊社が運営するショップサイト「fofo」への不正アクセスによる 個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社インテンス",
+      "published_on": "2024-05-20"
+    },
+    {
+      "url": "https://www.security-next.com/157251",
+      "title": "美容室向け通販サイトに不正アクセス、個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/05/27/51056.html",
+      "title": "インテンス運営「fofo」に不正アクセス、15,198 件のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-05-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

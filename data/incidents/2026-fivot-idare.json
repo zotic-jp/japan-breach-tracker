@@ -1,0 +1,51 @@
+{
+  "id": "2026-fivot-idare",
+  "organization": {
+    "name_ja": "株式会社Fivot",
+    "name_en": "Fivot Inc.",
+    "domain": "idare.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2026-10-13",
+  "discovered_on": null,
+  "affected": {
+    "count": 129659,
+    "unit": "people",
+    "approximate": false,
+    "note": "All IDARE users registered by 2026-09-27, including those who had cancelled. Some users also had ID document numbers, partial card and bank account numbers, and income or employer data (for a lending service closed in 2021) leaked. Login passwords, ID images and full card numbers were not affected."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "birthdate",
+    "address",
+    "id_document",
+    "credit_card",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Fivot, operator of the prepaid cashless app IDARE, said a vulnerability in external software used for customer support was exploited and data in its database was taken several times between 2026-08-10 and 2026-09-27. Personal data of 129,659 users, including phone numbers, email addresses, balances and transaction histories, leaked.",
+    "ja": "キャッシュレスアプリ「IDARE」を運営するFivotは、カスタマーサポート業務用の外部ソフトウェアの脆弱性を悪用され、2026年8月10日から9月27日にかけて複数回データベースの情報を取得されたと発表した。電話番号、メールアドレス、残高、取引履歴などを含む129,659人分の個人情報が漏えいした。"
+  },
+  "official_notice_url": "https://idare.jp/news/1926/",
+  "sources": [
+    {
+      "url": "https://idare.jp/news/1926/",
+      "title": "「IDARE」における不正アクセスによる個人情報漏えいに関するお知らせとお詫び",
+      "publisher": "株式会社Fivot",
+      "published_on": "2026-10-13"
+    },
+    {
+      "url": "https://idare.jp/news/1984/",
+      "title": "個人情報漏えいに関する現況と再発防止のご報告（第二報）",
+      "publisher": "株式会社Fivot",
+      "published_on": "2026-10-21"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

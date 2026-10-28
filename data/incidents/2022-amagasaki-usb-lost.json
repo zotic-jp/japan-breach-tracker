@@ -1,0 +1,53 @@
+{
+  "id": "2022-amagasaki-usb-lost",
+  "organization": {
+    "name_ja": "兵庫県尼崎市",
+    "name_en": "Amagasaki City, Hyogo Prefecture",
+    "domain": "city.amagasaki.hyogo.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2022-06-23",
+  "discovered_on": "2022-06-21",
+  "affected": {
+    "count": 460517,
+    "unit": "people",
+    "approximate": false,
+    "note": "Basic resident register data for all 460,517 residents, plus 360,573 tax records, benefit data for 82,716 households, and bank account data for 69,261 child allowance and 16,765 welfare records. The USB drive was encrypted and password-protected."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "bank_account",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": "BIPROGY Inc. (subcontractor)",
+  "status": "possible",
+  "summary": {
+    "en": "An employee of a subcontractor of BIPROGY, which handled benefit payments for Amagasaki City, lost a bag containing a USB drive with data on all 460,517 city residents after drinking. The encrypted drive held resident register, tax and bank account data.",
+    "ja": "尼崎市から臨時特別給付金事務を受託したBIPROGYの協力会社の従業員が、飲食後に全市民46万517人分の個人情報を保存したUSBメモリをかばんごと紛失した。USBメモリは暗号化されており、住民基本台帳や税、口座の情報が含まれていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.biprogy.com/pdf/news/info_220623-3.pdf",
+      "title": "兵庫県尼崎市における「個人情報を含む USB メモリーの紛失」についてのお詫び",
+      "publisher": "BIPROGY株式会社",
+      "published_on": "2022-06-23"
+    },
+    {
+      "url": "https://www.security-next.com/137547",
+      "title": "全住民情報を委託先が紛失、飲食後路上で眠り込みカバンなくす - 尼崎市",
+      "publisher": "Security NEXT",
+      "published_on": "2022-06-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/06/30/47819.html",
+      "title": "尼崎市全市民の住民基本台帳を記録したUSBメモリ、再々委託先が紛失",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-06-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

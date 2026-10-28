@@ -1,0 +1,50 @@
+{
+  "id": "2020-rakuten-salesforce-misconfiguration",
+  "organization": {
+    "name_ja": "楽天株式会社（楽天カード、楽天Edy）",
+    "name_en": "Rakuten, Inc. (with Rakuten Card and Rakuten Edy)",
+    "domain": "rakuten.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2020-12-25",
+  "discovered_on": "2020-11-24",
+  "affected": {
+    "count": 1381735,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (1,381,735) because no overall total was given. Published figures that could be accessed, as updated on 2021-01-26: Rakuten Ichiba merchant and prospect data 1,381,735; Rakuten Card business loan applicants 16,895 (raised from 15,415); Rakuten Edy balance transfer applicants 89,141. Actual third-party access was confirmed for 208, 304 and 102 records respectively. Exposure ran from 2016-01-15 to 2020-11-26."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "bank_account",
+    "id_document",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Rakuten, Rakuten Card and Rakuten Edy said a security setting error in an external cloud-based sales management system left some data accessible from outside since January 2016, and access from overseas was confirmed. Up to about 1.49 million records, including merchant contacts, business loan applicant details and Edy service applicant data, could be accessed.",
+    "ja": "楽天、楽天カード、楽天Edyの3社は、社外のクラウド型営業管理システムのセキュリティ設定に不備があり、2016年1月以降、一部の情報が外部からアクセス可能な状態だったと公表し、海外からのアクセスも確認した。出店事業者の連絡先、ビジネスローン申込者の情報、Edyサービス申込者の情報など最大約149万件がアクセス可能だった。"
+  },
+  "official_notice_url": "https://corp.rakuten.co.jp/news/update/2020/1225_01.html",
+  "sources": [
+    {
+      "url": "https://www.security-next.com/122106",
+      "title": "クラウド設定ミスで顧客情報が流出 - 楽天グループ3社",
+      "publisher": "Security NEXT",
+      "published_on": "2020-12-28"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/12/28/44999.html",
+      "title": "楽天グループのクラウド型営業管理システムに設定不備、社外からアクセス可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-12-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

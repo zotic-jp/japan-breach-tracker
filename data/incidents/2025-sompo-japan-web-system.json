@@ -1,0 +1,55 @@
+{
+  "id": "2025-sompo-japan-web-system",
+  "organization": {
+    "name_ja": "損害保険ジャパン株式会社",
+    "name_en": "Sompo Japan Insurance Inc.",
+    "domain": "sompo-japan.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2025-04-25",
+  "discovered_on": "2025-04-21",
+  "affected": {
+    "count": 7260000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (7,260,000) because no overall total was given. Published figures in Sompo Japan's second report (2025-06-11), which may include duplicates: about 7.26 million customer records (3.37M with name, contact details and policy number; 1.87M with name and policy number; 1.19M with contact details and policy number; 0.83M other), about 1.78 million agency records, and about 8.44 million records containing only policy or claim numbers that cannot identify a person without Sompo's database. About 1,638 records included bank account data and 9,366 agency records included birthdates. My Number card and credit card data were not included. No actual leak or misuse had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Sompo Japan confirmed on 2025-04-21 that a third party had accessed an internal web system used mainly for managing performance indicators, with customer data reachable from 2025-04-17 to 2025-04-21. Its second report said about 17.48 million records of customer and agency data, including some 8.44 million number-only records, may have been viewed or leaked.",
+    "ja": "損害保険ジャパンは2025年4月21日、各種指標管理を主とする社内Webシステムへの第三者による不正アクセスを確認し、4月17日から21日まで顧客情報にアクセス可能な状態だったと推測した。第2報で、証券番号等のみのデータ約844万件を含め、顧客・代理店関連の計約1,748万件が閲覧または漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2025/20250611_1.pdf",
+  "sources": [
+    {
+      "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2025/20250425_1.pdf",
+      "title": "当社システムに対する不正アクセスの発生及び情報流出の可能性について",
+      "publisher": "損害保険ジャパン株式会社",
+      "published_on": "2025-04-25"
+    },
+    {
+      "url": "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2025/20250611_1.pdf",
+      "title": "当社システムに対する不正アクセスの発生及び情報漏えいの可能性について（第２報）",
+      "publisher": "損害保険ジャパン株式会社",
+      "published_on": "2025-06-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/06/23/53087.html",
+      "title": "損害保険ジャパンへの不正アクセス、顧客や代理店のデータが漏えいした可能性を否定できず",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-06-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

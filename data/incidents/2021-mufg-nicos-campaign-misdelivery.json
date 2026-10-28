@@ -1,0 +1,47 @@
+{
+  "id": "2021-mufg-nicos-campaign-misdelivery",
+  "organization": {
+    "name_ja": "三菱UFJニコス株式会社",
+    "name_en": "Mitsubishi UFJ NICOS Co., Ltd.",
+    "domain": null
+  },
+  "industry": "finance",
+  "disclosed_on": "2021-12-02",
+  "discovered_on": "2021-11-25",
+  "affected": {
+    "count": 25131,
+    "unit": "people",
+    "approximate": false,
+    "note": "Campaign participants whose data remained hidden in files sent to 23 client companies: 3,807 client cardholders (names, addresses, birthdates, card numbers, bank account details), 6,841 client cardholders (card numbers) and 14,483 NICOS cardholders (card numbers). Mitsubishi UFJ Bank and other card issuers announced the incident for their own customers."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "credit_card",
+    "bank_account"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Mitsubishi UFJ NICOS emailed campaign data to 23 client companies on 2021-11-24 and 2021-11-25 without noticing that hidden source data of other companies' customers remained in the files. Data of 25,131 campaign participants, mainly card numbers, was sent to unrelated companies.",
+    "ja": "三菱UFJニコスは、2021年11月24日から25日にかけて、国際ブランドのキャンペーンに関するデータを委託元23社にメール送付した際、ファイル内に非表示状態の他社顧客のデータが残っていたことに気付かなかった。キャンペーン参加者25,131人分の主にカード番号が無関係の会社に送られた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/132165",
+      "title": "委託元に無関係の顧客情報を誤送信、非表示状態でファイル内に - 三菱UFJニコス",
+      "publisher": "Security NEXT",
+      "published_on": "2021-12-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/12/06/46761.html",
+      "title": "三菱UFJ銀行 クレジットカード番号をメール誤送信、「非表示」状態に気付かず",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-12-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

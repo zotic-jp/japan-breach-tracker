@@ -1,0 +1,55 @@
+{
+  "id": "2024-kadokawa-ransomware",
+  "organization": {
+    "name_ja": "株式会社KADOKAWA",
+    "name_en": "KADOKAWA CORPORATION",
+    "domain": "kadokawa.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2024-06-10",
+  "discovered_on": "2024-06-08",
+  "affected": {
+    "count": 254241,
+    "unit": "people",
+    "approximate": false,
+    "note": "Confirmed leak of 254,241 people inside and outside the company (Dwango partners, N/S High School students, guardians, applicants, employees). Official notice not opened; Security NEXT 2024-08-05."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "bank_account",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "KADOKAWA's group data center was hit by a large ransomware attack on 2024-06-08 that took down services centered on Niconico. The company confirmed that personal data of 254,241 people leaked, including students, graduates and guardians of N High School and related schools, Dwango business partners and group employees.",
+    "ja": "KADOKAWAのグループデータセンターが2024年6月8日に大規模なランサムウェア攻撃を受け、「ニコニコ」を中心とするサービスが停止した。同社は、N高等学校などの在校生、卒業生、保護者や、ドワンゴの取引先、グループ従業員などを含む254,241人分の個人情報の流出を確認した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/158152",
+      "title": "ニコニコ動画にサイバー攻撃 - サービスを一時停止",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-10"
+    },
+    {
+      "url": "https://www.security-next.com/160534",
+      "title": "個人情報約25万件の外部流出を確認 - KADOKAWA",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/08/14/51468.html",
+      "title": "KADOKAWA グループへのランサムウェア攻撃、254,241人の個人情報漏えいを確認",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-08-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

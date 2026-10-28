@@ -1,0 +1,55 @@
+{
+  "id": "2026-bookoff-members",
+  "organization": {
+    "name_ja": "ブックオフグループホールディングス株式会社",
+    "name_en": "BOOKOFF GROUP HOLDINGS LIMITED",
+    "domain": "bookoff.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-09",
+  "discovered_on": "2026-10-06",
+  "affected": {
+    "count": 6383279,
+    "unit": "people",
+    "approximate": false,
+    "note": "Second report figure: 6,427,735 member records (by member number) were sent outside, corresponding to 6,383,279 people when records with the same email address are merged, including 212,371 former members. Covers app, online store and web members of the domestic BOOKOFF member system run by subsidiary BOOKOFF CORPORATION. Payment and bank data and ID document images were not affected."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "email",
+    "phone",
+    "address",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "BOOKOFF Group Holdings confirmed on 2026-10-06 unauthorized access to the member management system of its subsidiary BOOKOFF CORPORATION, from which member data was taken between 2026-10-04 and 10-06. Its second report said data of 6,383,279 people, including names, birthdates, contact details and password hashes, leaked.",
+    "ja": "ブックオフグループホールディングスは2026年10月6日、子会社ブックオフコーポレーションの会員管理システムへの不正アクセスを確認し、10月4日から6日にかけて会員情報が外部から取得されていた。第2報では、氏名、生年月日、連絡先、パスワードのハッシュ値などを含む6,383,279人分の情報が漏えいしたとした。"
+  },
+  "official_notice_url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2894129/00.pdf",
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/9278/tdnet/2894129/00.pdf",
+      "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせ(第2報)",
+      "publisher": "ブックオフグループホールディングス株式会社",
+      "published_on": "2026-10-13"
+    },
+    {
+      "url": "https://www.sbbit.jp/article/cont1/187383",
+      "title": "ブックオフの会員システムに不正アクセス、最大約643万件の個人情報流出 子会社管理の会員管理システムが不正アクセス",
+      "publisher": "ビジネス+IT",
+      "published_on": "2026-10-09"
+    },
+    {
+      "url": "https://news.denfaminicogamer.jp/news/261014r",
+      "title": "ブックオフの情報漏えい、外部に送信された会員データは「642万7735件」と報告",
+      "publisher": "電ファミニコゲーマー",
+      "published_on": "2026-10-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

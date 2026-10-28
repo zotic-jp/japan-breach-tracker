@@ -1,0 +1,57 @@
+{
+  "id": "2025-tokai-university-tokai-soft",
+  "organization": {
+    "name_ja": "学校法人東海大学",
+    "name_en": "Tokai University Educational System",
+    "domain": "u-tokai.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2025-11-14",
+  "discovered_on": "2025-11-07",
+  "affected": {
+    "count": 193118,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum cumulative count with duplicates (counted per user ID), as of 2026-02-18: 76,314 students, 45,810 parents, 5,482 prospective students, 49,816 officers and staff, 3,004 business partners and others with system access, 594 Kyushu Tokai University graduates, 5,283 affiliated school students, 6,597 affiliated school graduates, 186 health checkup examinees of the Hachioji hospital and 32 individual business partners. The data was on contractor servers because the contractor had taken it off-site contrary to the university's rules. No credit card data was included. Separate from the April 2025 ransomware attack on the university itself."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "health",
+    "bank_account",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "東海ソフト開発",
+  "status": "confirmed",
+  "summary": {
+    "en": "Tokai Soft Development, a contractor maintaining Tokai University's network systems, was hit by a ransomware attack detected in November 2025. The university later confirmed that personal data of up to 193,118 people (cumulative), including students, parents and staff, had leaked from the contractor's servers.",
+    "ja": "東海大学のネットワークシステム保守を受託する東海ソフト開発のサーバーが2025年11月にランサムウェア攻撃を受けた。東海大学は、委託先に保存されていた学生、保護者、教職員などの個人情報が最大で延べ193,118人分漏えいしたことを確認したと公表した。"
+  },
+  "official_notice_url": "https://www.u-tokai.ac.jp/uploads/2026/02/8f619ff70dd54597ac4189dff04c9dea.pdf",
+  "sources": [
+    {
+      "url": "https://www.u-tokai.ac.jp/uploads/2026/02/8f619ff70dd54597ac4189dff04c9dea.pdf",
+      "title": "【第２報】業務委託先サーバへの不正アクセスに関する調査状況と対応について",
+      "publisher": "学校法人東海大学",
+      "published_on": "2026-02-18"
+    },
+    {
+      "url": "https://www.u-tokai.ac.jp/news-notice/1358654/",
+      "title": "業務委託先サーバへの不正アクセスに関するお知らせと注意喚起",
+      "publisher": "学校法人東海大学",
+      "published_on": "2025-11-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/03/06/54778.html",
+      "title": "東海大学委託先 東海ソフト開発へのランサムウェア攻撃、漏えいの対象者数は最大で延べ 193,118 人に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-03-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

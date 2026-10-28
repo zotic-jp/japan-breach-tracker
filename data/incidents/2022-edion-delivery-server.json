@@ -1,0 +1,52 @@
+{
+  "id": "2022-edion-delivery-server",
+  "organization": {
+    "name_ja": "株式会社エディオン",
+    "name_en": "EDION Corporation",
+    "domain": "edion.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-04-11",
+  "discovered_on": "2022-04-08",
+  "affected": {
+    "count": 77656,
+    "unit": "records",
+    "approximate": false,
+    "note": "73,540 air conditioner delivery and installation records (name, address, phone), 3,563 delivery signature images and 553 photos were deleted from the server and may have leaked. No payment data was included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "Hampstead Co., Ltd. (EDION group company)",
+  "status": "possible",
+  "summary": {
+    "en": "Electronics retailer EDION said a server for a new delivery management system run by its group company Hampstead was attacked on 2022-04-08. 77,656 items of data, including 73,540 delivery records, were deleted and may also have leaked.",
+    "ja": "家電量販店のエディオンは、グループ会社Hampsteadが運用する新しい配送管理システムのサーバが2022年4月8日に不正アクセスを受けたと公表した。エアコン等の配送設置情報7万3,540件を含む7万7,656件のデータが削除され、流出した可能性もある。"
+  },
+  "official_notice_url": "https://www.edion.co.jp/system/files/news-release/pdf/ja/2022-04/%E3%81%8A%E5%AE%A2%E3%81%95%E3%81%BE%E6%83%85%E5%A0%B1%E3%81%AE%E6%B5%81%E5%87%BA%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3.pdf",
+  "sources": [
+    {
+      "url": "https://www.edion.co.jp/system/files/news-release/pdf/ja/2022-04/%E3%81%8A%E5%AE%A2%E3%81%95%E3%81%BE%E6%83%85%E5%A0%B1%E3%81%AE%E6%B5%81%E5%87%BA%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3.pdf",
+      "title": "お客さま情報の流出の可能性に関するお知らせとお詫び",
+      "publisher": "株式会社エディオン",
+      "published_on": "2022-04-11"
+    },
+    {
+      "url": "https://www.security-next.com/135664",
+      "title": "サーバ上の顧客情報が削除される、流出の可能性も - エディオン",
+      "publisher": "Security NEXT",
+      "published_on": "2022-04-12"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/04/13/47458.html",
+      "title": "エディオングループ会社に不正アクセス、エアコン等の配送設置情報が削除される",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-04-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

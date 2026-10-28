@@ -1,0 +1,41 @@
+{
+  "id": "2020-osaka-university-lodging-reservation",
+  "organization": {
+    "name_ja": "国立大学法人大阪大学",
+    "name_en": "Osaka University",
+    "domain": "osaka-u.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2020-12-09",
+  "discovered_on": "2020-12-01",
+  "affected": {
+    "count": 43213,
+    "unit": "people",
+    "approximate": false,
+    "note": "43,213 people (46,630 records) who used the on-campus lodging reservation system from April 2017 to 2020-12-01; the data consists of items entered when booking."
+  },
+  "data_types": [],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Osaka University said the server of its on-campus lodging reservation system was accessed from outside the university without authorization. Personal data entered by 43,213 users of the system since April 2017 may have leaked.",
+    "ja": "大阪大学は、学内宿泊施設予約システムのサーバが学外から不正アクセスを受けたと公表した。2017年4月以降にシステムを利用した4万3,213人分の予約時の入力情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/121549",
+      "title": "学内宿泊施設予約システムに不正アクセス、利用者情報が流出か - 阪大",
+      "publisher": "Security NEXT",
+      "published_on": "2020-12-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/12/11/44932.html",
+      "title": "大阪大学の学内施設予約システムに不正アクセス、43,213名の個人情報流出の可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-12-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

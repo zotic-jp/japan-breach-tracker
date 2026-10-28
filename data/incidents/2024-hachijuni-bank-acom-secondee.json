@@ -1,0 +1,47 @@
+{
+  "id": "2024-hachijuni-bank-acom-secondee",
+  "organization": {
+    "name_ja": "株式会社八十二銀行",
+    "name_en": "The Hachijuni Bank, Ltd.",
+    "domain": "82bank.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2024-10-16",
+  "discovered_on": null,
+  "affected": {
+    "count": 104523,
+    "unit": "people",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (104,523) because no overall total was given. 104,523 Hachijuni Bank depositors (name, phone etc.) + 1,828 Nagano Bank card-loan customers (name, address, birthdate, employer, balance). Joint notice with 株式会社長野銀行. Recipient Acom deleted data; bank says no external leakage."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "address",
+    "birthdate",
+    "other"
+  ],
+  "cause": "insider",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Hachijuni Bank said employees seconded to its business partner Acom sent customer data of 104,523 Hachijuni Bank depositors and 1,828 Nagano Bank card loan customers to Acom by email without customer consent, misunderstanding the partnership contract. The bank said Acom deleted the data and did not use it.",
+    "ja": "八十二銀行は、業務提携先のアコムへの出向者が提携契約の内容を誤解し、本人同意を得ないまま八十二銀行の預金顧客104,523件と長野銀行のカードローン顧客1,828件の個人情報をメールでアコムへ送信していたと公表した。データはアコムで利用されず、削除されたとしている。"
+  },
+  "official_notice_url": "https://www.82bank.co.jp/file.jsp?id=release/2024/pdf/news20241016a.pdf",
+  "sources": [
+    {
+      "url": "https://www.82bank.co.jp/file.jsp?id=release/2024/pdf/news20241016a.pdf",
+      "title": "業務提携契約先出向者による出向元への個人情報の漏えいについて",
+      "publisher": "株式会社八十二銀行",
+      "published_on": "2024-10-16"
+    },
+    {
+      "url": "https://www.security-next.com/163079",
+      "title": "八十二銀と長野銀の出向者が顧客情報を外部送信 - 契約内容を誤解",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

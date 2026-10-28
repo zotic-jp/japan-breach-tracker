@@ -1,0 +1,44 @@
+{
+  "id": "2025-iketei-online",
+  "organization": {
+    "name_ja": "株式会社イケテイ",
+    "name_en": "Iketei Co., Ltd.",
+    "domain": "iketei.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-05-21",
+  "discovered_on": "2025-02-26",
+  "affected": {
+    "count": 30712,
+    "unit": "records",
+    "approximate": false,
+    "note": "Credit card data (cardholder name, number, expiry, security code) of customers who paid by card on IKETEI ONLINE between 2020-02-24 and 2024-10-15, possibly with some fraudulent use. A database holding 90,513 other personal records (name, address, email, phone, order and member data) was accessible to the attacker, but log analysis found no outflow of that data."
+  },
+  "data_types": [
+    "name",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Bag maker Iketei was told by a card company on 2025-02-26 of a possible card data leak from its IKETEI ONLINE store, and an investigation found that attackers had exploited a vulnerability to tamper with the payment application. It said card data of 30,712 customers may have leaked.",
+    "ja": "鞄メーカーのイケテイは2025年2月26日、カード会社から「IKETEI ONLINE」利用者のカード情報漏えい懸念の連絡を受け、調査の結果、脆弱性を突いた不正アクセスで決済アプリケーションが改ざんされていたことが判明した。30,712件のクレジットカード情報が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://store.iketei.jp/privacy/index.html",
+  "sources": [
+    {
+      "url": "https://store.iketei.jp/privacy/index.html",
+      "title": "弊社が運営する「IKETEI ONLINE」への不正アクセスによる個人情報漏えいに関するお詫びと調査結果のご報告",
+      "publisher": "株式会社イケテイ",
+      "published_on": "2025-05-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/05/30/52954.html",
+      "title": "「IKETEI ONLINE」への不正アクセス 30,712 件のカード情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-05-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

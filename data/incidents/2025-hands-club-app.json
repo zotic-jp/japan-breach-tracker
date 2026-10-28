@@ -1,0 +1,49 @@
+{
+  "id": "2025-hands-club-app",
+  "organization": {
+    "name_ja": "株式会社ハンズ",
+    "name_en": "HANDS Inc.",
+    "domain": "hands.net"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-01-27",
+  "discovered_on": "2024-12-02",
+  "affected": {
+    "count": 121886,
+    "unit": "records",
+    "approximate": false,
+    "note": "Registered member data of the Hands Club app. Hands detected abnormal login counts on 2024-12-02 and confirmed on 2024-12-05 that unauthorized access had been repeated since 2024-11-27. Credit card data was not affected."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "password",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Hands said a third party exploited a software vulnerability in its Hands Club app system and accessed member data. It confirmed that 121,886 members' registered details, including names, addresses, phone numbers, birthdates, email addresses and login passwords, were leaked.",
+    "ja": "ハンズは「ハンズクラブアプリ」のシステムで使用するソフトウェアの脆弱性を突いた第三者の不正アクセスを受けた。氏名、住所、電話番号、生年月日、メールアドレス、ログインパスワードなどを含む会員の登録情報121,886件が漏えいしたと公表した。"
+  },
+  "official_notice_url": "https://info.hands.net/information/20250127_HCAppUnauthorizedAccess.pdf",
+  "sources": [
+    {
+      "url": "https://info.hands.net/information/20250127_HCAppUnauthorizedAccess.pdf",
+      "title": "「ハンズクラブアプリ」への不正アクセスによる個人情報漏洩に関するお詫びとお知らせ",
+      "publisher": "株式会社ハンズ",
+      "published_on": "2025-01-27"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/01/31/52251.html",
+      "title": "「ハンズクラブアプリ」に不正アクセス、12 万 1,886 件の会員情報漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-01-31"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

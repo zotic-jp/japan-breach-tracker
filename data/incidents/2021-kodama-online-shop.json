@@ -1,0 +1,44 @@
+{
+  "id": "2021-kodama-online-shop",
+  "organization": {
+    "name_ja": "株式会社コダマ",
+    "name_en": "Kodama Co., Ltd.",
+    "domain": null
+  },
+  "industry": "food",
+  "disclosed_on": "2021-03-18",
+  "discovered_on": "2020-07-27",
+  "affected": {
+    "count": 10219,
+    "unit": "people",
+    "approximate": false,
+    "note": "Credit card data entered on the Kodama Online Shop between 2019-06-24 and 2020-07-28."
+  },
+  "data_types": [
+    "name",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Kodama, which sells ham and processed meat through its online shop, announced that card data of 10,219 customers, including security codes, leaked after an attacker exploited a vulnerability in the site. The leak covered payments made between June 2019 and July 2020.",
+    "ja": "ハムなどを通信販売するコダマは、オンラインショップの脆弱性を突いた不正アクセスにより、顧客10,219人分のセキュリティコードを含むクレジットカード情報が流出したと公表した。対象は2019年6月から2020年7月までの決済である。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/03/22/45373.html",
+      "title": "加工肉販売ECサイトに不正アクセス、10,219名分のカード情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-03-22"
+    },
+    {
+      "url": "https://www.security-next.com/124347",
+      "title": "ハムなど扱う食品サイトに不正アクセス - クレカ情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2021-03-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

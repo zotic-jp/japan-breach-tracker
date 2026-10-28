@@ -1,0 +1,49 @@
+{
+  "id": "2024-tokyo-tamago-online-shop",
+  "organization": {
+    "name_ja": "株式会社東京玉子本舗",
+    "name_en": "Tokyo Tamago Honpo Co., Ltd.",
+    "domain": "tokyotamagoofficial.com"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-07-31",
+  "discovered_on": "2024-05-28",
+  "affected": {
+    "count": 73961,
+    "unit": "people",
+    "approximate": false,
+    "note": "73,961 site users (2019-04-22 to 2024-05-28); 65,387 card users (2021-03-18 to 2024-05-28) may have had card data stolen."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Confectioner Tokyo Tamago Honpo said its official online shop was hit by unauthorized access. Personal data of 73,961 customers who used the site since April 2019 may have leaked, including card data of 65,387 customers.",
+    "ja": "菓子メーカーの東京玉子本舗は、公式オンラインショップが不正アクセスを受けたと公表した。2019年4月以降にサイトを利用した73,961人の個人情報が流出した可能性があり、うち65,387人はクレジットカード情報も対象となる。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/160407",
+      "title": "菓子通販サイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/08/06/51432.html",
+      "title": "「東京玉子本舗公式オンラインショップ」への不正アクセスで 65,387 件のカード情報が漏えい、発覚から 2 ヶ月で公表",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-08-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

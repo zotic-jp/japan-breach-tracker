@@ -1,0 +1,54 @@
+{
+  "id": "2025-tohpe-unauthorized-access",
+  "organization": {
+    "name_ja": "株式会社トウペ（日本ゼオングループ）",
+    "name_en": "Tohpe Corporation (Zeon Group)",
+    "domain": "tohpe.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2025-03-14",
+  "discovered_on": "2025-03-06",
+  "affected": {
+    "count": 20161,
+    "unit": "records",
+    "approximate": false,
+    "note": "Confirmed outflow per the third report (2025-06-03): 19,583 customer records (1,277 business partner representatives, 18,019 people involved in buying, selling, delivering or using Tohpe products, and 287 building owners at delivery sites) and 578 employee and former employee account records. The data had been downloadable on a specific external site, which no longer offered it. The second report (2025-03-19) had given up to 38,498 records that might have leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Paint maker Tohpe, a Zeon group company, suffered a server outage on 2025-03-06 that Zeon's CSIRT traced to unauthorized access. The completed investigation confirmed that 20,161 personal records of customers and employees had been exfiltrated.",
+    "ja": "日本ゼオングループの塗料メーカー、トウペで2025年3月6日にサーバー障害が発生し、日本ゼオンのCSIRTの調査で不正アクセスの可能性が判明した。調査完了後、顧客や社員などの個人情報計20,161件の外部流出を確認したと公表した。"
+  },
+  "official_notice_url": "https://www.zeon.co.jp/news/assets/pdf/250603.pdf",
+  "sources": [
+    {
+      "url": "https://www.zeon.co.jp/news/assets/pdf/250314.pdf",
+      "title": "当社グループ企業における不正アクセスによるシステム障害発生のお知らせ",
+      "publisher": "日本ゼオン株式会社",
+      "published_on": "2025-03-14"
+    },
+    {
+      "url": "https://www.zeon.co.jp/news/assets/pdf/250603.pdf",
+      "title": "当社グループ企業における不正アクセスによる個人情報流出に関するお詫びと調査結果のお知らせ（第3報）",
+      "publisher": "日本ゼオン株式会社",
+      "published_on": "2025-06-03"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/06/16/53051.html",
+      "title": "日本ゼオングループ企業のトウペへの不正アクセス、合計 20,161 件の個人情報が流出した痕跡",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-06-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

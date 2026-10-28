@@ -1,0 +1,44 @@
+{
+  "id": "2023-hamamatsu-cable-tv-modem-server",
+  "organization": {
+    "name_ja": "浜松ケーブルテレビ株式会社",
+    "name_en": "Hamamatsu Cable Television Co., Ltd.",
+    "domain": "winde.jp"
+  },
+  "industry": "telecom",
+  "disclosed_on": "2023-02-16",
+  "discovered_on": "2022-11-29",
+  "affected": {
+    "count": 22671,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 22,671 internet service customers. The exposed data was customer IDs (internal management numbers) and addresses; names and payment details were stored on a separate server and were not affected, according to the company."
+  },
+  "data_types": [
+    "address",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Hamamatsu Cable Television found that a newly replaced modem control server for its coaxial internet service had a security configuration flaw that was exploited, and the server was used for DDoS attacks via XorDDoS malware. Customer IDs and addresses of up to 22,671 customers may have leaked.",
+    "ja": "浜松ケーブルテレビは、同軸インターネットサービスのモデム制御サーバーを更改した際のセキュリティ設定の不備を突かれて不正アクセスを受け、XorDDoSによるDDoS攻撃に悪用されたと公表した。最大22,671人分の顧客IDと住所が流出した可能性があるとしている。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/02/28/48974.html",
+      "title": "浜松ケーブルテレビのモデム制御サーバに不正アクセス、「XorDDoS」が不特定のサイトにDDos攻撃",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-02-28"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20230307-security",
+      "title": "先週のサイバー事件簿 - ラウンドワンのホームページで改ざん被害、外部サイトへ誘導",
+      "publisher": "マイナビニュース",
+      "published_on": "2023-03-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

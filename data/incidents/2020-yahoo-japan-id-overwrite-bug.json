@@ -1,0 +1,46 @@
+{
+  "id": "2020-yahoo-japan-id-overwrite-bug",
+  "organization": {
+    "name_ja": "ヤフー株式会社",
+    "name_en": "Yahoo Japan Corporation",
+    "domain": "yahoo.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2020-08-06",
+  "discovered_on": null,
+  "affected": {
+    "count": 387460,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "Between 2020-07-29 and 2020-08-04, edits to Yahoo! JAPAN ID registration data were written to unrelated users' IDs up to 528,155 times, overwriting up to 387,460 IDs with other people's details. This could expose those details to the account holders or cause misdelivery."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Yahoo Japan said a bug in its Yahoo! JAPAN ID registration system caused edits made by users to be applied to other, unrelated users' IDs for about a week. Up to 387,460 IDs were overwritten with other people's names, addresses and phone numbers, which could lead to information exposure or misdelivery.",
+    "ja": "ヤフーは、「Yahoo! JAPAN ID」の登録情報システムの不具合により、約1週間にわたり利用者が編集した登録内容が無関係な他の利用者のIDに反映されたと公表した。最大38万7,460件のIDが他人の氏名、住所、電話番号などで上書きされた可能性があり、情報流出や誤配送のおそれがある。"
+  },
+  "official_notice_url": "https://www2.jpx.co.jp/disc/46890/140120200806477329.pdf",
+  "sources": [
+    {
+      "url": "https://www.security-next.com/117349",
+      "title": "ヤフー、ID編集結果を他利用者に反映する不具合 - 情報流出や誤配送のおそれ",
+      "publisher": "Security NEXT",
+      "published_on": "2020-08-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/08/11/44424.html",
+      "title": "IDの登録情報システムに不具合、最大38万件が別ユーザーに上書きされる（ヤフー）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-08-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

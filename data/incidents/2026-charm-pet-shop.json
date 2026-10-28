@@ -1,0 +1,61 @@
+{
+  "id": "2026-charm-pet-shop",
+  "organization": {
+    "name_ja": "株式会社チャーム",
+    "name_en": "Charm Co., Ltd.",
+    "domain": "charm.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-08-13",
+  "discovered_on": "2026-08-12",
+  "affected": {
+    "count": 390000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Third report (revised 2026-09-02 after removing duplicates): about 370,000 records confirmed leaked and about 20,000 possibly leaked, about 390,000 in total; 239 customers also had unauthorized logins. The fourth report (2026-10-07) added about 25,000 records of withdrawn customers, mostly confirmed leaked. The first report on 2026-08-13 had cited about 230,000 records."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Pet supply retailer Charm detected unauthorized access to its online stores Charm Honten No. 1 and No. 2 on 2026-08-12 and shut them down. It later confirmed that about 370,000 customer records leaked and about 20,000 more possibly leaked, and that a further 25,000 records of withdrawn customers were also affected.",
+    "ja": "ペット用品通販のチャームは、2026年8月12日に「チャーム本店」1号店・2号店への不正アクセスを検知し、サイトを停止した。その後の調査で約37万件の顧客情報の漏えいと約2万件の漏えいのおそれを確認し、退会済み顧客の情報約2.5万件も対象になると公表した。"
+  },
+  "official_notice_url": "https://www.charm.co.jp/honten/info/notice/20260901.html",
+  "sources": [
+    {
+      "url": "https://charm.co.jp/honten/info/notice/20260813.html",
+      "title": "不正アクセスによるシステム障害発生に関するお知らせとお詫び",
+      "publisher": "株式会社チャーム",
+      "published_on": "2026-08-13"
+    },
+    {
+      "url": "https://www.charm.co.jp/honten/info/notice/20260901.html",
+      "title": "不正アクセスによるシステム障害発生に関するお知らせとお詫び（第3報）",
+      "publisher": "株式会社チャーム",
+      "published_on": "2026-09-02"
+    },
+    {
+      "url": "https://www.charm.co.jp/honten/info/notice/20261007.html",
+      "title": "不正アクセスによるシステム障害発生に関するお知らせとお詫び（第4報）",
+      "publisher": "株式会社チャーム",
+      "published_on": "2026-10-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/02/56103.html",
+      "title": "チャーム本店 1 号店及びチャーム本店 2 号店に不正アクセス、受注・出荷業務を停止",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-09-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

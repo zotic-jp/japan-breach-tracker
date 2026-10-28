@@ -1,0 +1,53 @@
+{
+  "id": "2024-japan-post-harima-yamasaki-lost-slips",
+  "organization": {
+    "name_ja": "日本郵便株式会社",
+    "name_en": "Japan Post Co., Ltd.",
+    "domain": "post.japanpost.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2024-10-30",
+  "discovered_on": "2024-09-28",
+  "affected": {
+    "count": 28433,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (28,433) because no overall total was given. Published figures at Harima-Yamasaki Post Office (Hyogo): 28,433 Yu-Pack, 11,080 registered mail, 2,919 Letter Pack Plus, 245 international mail and EMS, 36 restricted-delivery. Japan Post said it could not identify and contact affected customers individually."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "id_document",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Japan Post said 42,713 post office copies of delivery records for Yu-Pack parcels, registered mail and other items had gone missing at Harima-Yamasaki Post Office in Hyogo Prefecture. The documents contain sender and recipient names, addresses and phone numbers, and in some cases ID document numbers.",
+    "ja": "日本郵便は、兵庫県の播磨山崎郵便局で、ゆうパックや書留郵便物などを配達した際の郵便局控え42,713件が所在不明になったと公表した。控えには差出人や受取人の氏名、住所、電話番号のほか、一部に本人確認書類の番号などが記載されている。"
+  },
+  "official_notice_url": "https://www.post.japanpost.jp/notification/pressrelease/2024/09_kinki/1030_01_01.pdf",
+  "sources": [
+    {
+      "url": "https://www.post.japanpost.jp/newsrelease/pressrelease/194514203.html",
+      "title": "兵庫県 播磨山崎郵便局におけるお客さま情報の紛失",
+      "publisher": "日本郵便株式会社",
+      "published_on": "2024-10-30"
+    },
+    {
+      "url": "https://www.post.japanpost.jp/notification/pressrelease/2024/09_kinki/1030_01_01.pdf",
+      "title": "兵庫県 播磨山崎郵便局におけるお客さま情報の紛失",
+      "publisher": "日本郵便株式会社",
+      "published_on": "2024-10-30"
+    },
+    {
+      "url": "https://www.security-next.com/163737",
+      "title": "ゆうパックの郵便局控えなど約4万件を紛失 - 兵庫県の郵便局",
+      "publisher": "Security NEXT",
+      "published_on": "2024-11-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

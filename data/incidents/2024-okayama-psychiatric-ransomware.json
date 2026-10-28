@@ -1,0 +1,64 @@
+{
+  "id": "2024-okayama-psychiatric-ransomware",
+  "organization": {
+    "name_ja": "地方独立行政法人岡山県精神科医療センター",
+    "name_en": "Okayama Psychiatric Medical Center",
+    "domain": "okayama-pmc.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2024-05-20",
+  "discovered_on": "2024-05-19",
+  "affected": {
+    "count": 40000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to about 40,000 patients. Data in a shared folder of the hospital information system was taken; police confirmed the leak on 2024-06-07."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "health"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Okayama Psychiatric Medical Center and an affiliated clinic suffered a ransomware attack on 2024-05-19 that took down their electronic medical record system. Patient data of up to about 40,000 people, including names, addresses, birthdates and diagnoses, was leaked from a shared folder.",
+    "ja": "岡山県精神科医療センターと関連診療所は、2024年5月19日にランサムウェア攻撃を受け、電子カルテを含むシステムが停止した。共有フォルダ内のデータが流出し、氏名、住所、生年月日、病名など最大約4万人分の患者情報が含まれていた。"
+  },
+  "official_notice_url": "https://www.okayama-pmc.jp/home/consultation/er9dkox7/zx2nd5xq/",
+  "sources": [
+    {
+      "url": "https://www.okayama-pmc.jp/home/consultation/er9dkox7/2r8992xd/",
+      "title": "電子カルテのシステムの不具合について（第１報）",
+      "publisher": "地方独立行政法人岡山県精神科医療センター",
+      "published_on": "2024-05-20"
+    },
+    {
+      "url": "https://www.okayama-pmc.jp/home/consultation/er9dkox7/zx2nd5xq/",
+      "title": "患者情報等の流出について",
+      "publisher": "地方独立行政法人岡山県精神科医療センター",
+      "published_on": "2024-06-11"
+    },
+    {
+      "url": "https://www.security-next.com/157390",
+      "title": "ランサムウェア被害でシステム障害が発生 - 岡山県精神科医療センター",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-23"
+    },
+    {
+      "url": "https://www.security-next.com/158269",
+      "title": "ランサム被害による個人情報流出を確認 - 岡山県精神科医療センター",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/07/22/51344.html",
+      "title": "岡山県精神科医療センターへのランサムウェア攻撃、最大約 40,000 人分の患者情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-07-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

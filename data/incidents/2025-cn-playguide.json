@@ -1,0 +1,46 @@
+{
+  "id": "2025-cn-playguide",
+  "organization": {
+    "name_ja": "コミュニティ・ネットワーク株式会社",
+    "name_en": "Community Network Co., Ltd.",
+    "domain": "cnplayguide.com"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2025-09-10",
+  "discovered_on": "2025-09-05",
+  "affected": {
+    "count": 236323,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "236,323 email addresses only, plus 127 records with member number, login ID, name (kana), phone number and email address, from some sites using the company's ticketing system. Credit card data is held by the payment processor and was not affected."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Community Network, operator of the CN Playguide ticketing service, detected unauthorized access to its server on 2025-09-05. It said 236,323 email addresses, plus fuller personal data of 127 customers, from some sites using its ticketing system may have been viewed or leaked.",
+    "ja": "「CNプレイガイド」を運営するコミュニティ・ネットワークは、2025年9月5日に自社サーバーへの不正アクセスを検知した。同社のチケットシステムを利用する一部サイトのメールアドレス236,323件と、127件の個人情報が閲覧または流出した可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.cnplayguide.com/evt/infdtl.aspx?sqc=180",
+  "sources": [
+    {
+      "url": "https://www.cnplayguide.com/evt/infdtl.aspx?sqc=180",
+      "title": "不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ（2025年9月10日（水）掲載）",
+      "publisher": "コミュニティ・ネットワーク株式会社",
+      "published_on": "2025-09-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/09/16/53616.html",
+      "title": "CNプレイガイドに不正アクセス、236,323 件のメールアドレス流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-09-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

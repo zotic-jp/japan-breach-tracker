@@ -1,0 +1,54 @@
+{
+  "id": "2023-adastria-server",
+  "organization": {
+    "name_ja": "株式会社アダストリア",
+    "name_en": "Adastria Co., Ltd.",
+    "domain": "adastria.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-01-19",
+  "discovered_on": "2023-01-18",
+  "affected": {
+    "count": 1414751,
+    "unit": "people",
+    "approximate": false,
+    "note": "1,044,175 customers (second report, 2023-01-24) plus 370,576 customers, employees, job applicants and business partners identified in the third report of 2023-03-31. Customer data included name, address, phone number and email address. Payment and My Number data were not included. Adastria said no leak had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Apparel retailer Adastria confirmed unauthorized access to servers of some internal business systems on 2023-01-18. It said personal data of 1,044,175 customers of its DOT.ST online store and related services may have leaked, and later identified about 370,000 more records of customers, employees and applicants.",
+    "ja": "アダストリアは2023年1月18日に一部業務システムのサーバーへの不正アクセスを確認した。通販サイト「ドットエスティ」などの顧客1,044,175人分の個人情報が流出した可能性があると公表し、その後、顧客、従業員、応募者などの約37万件が新たに対象と判明した。"
+  },
+  "official_notice_url": "https://www.adastria.co.jp/news/notice/entry-15787/",
+  "sources": [
+    {
+      "url": "https://www.adastria.co.jp/news/notice/entry-15641/",
+      "title": "当社サーバーへの不正アクセス発生について（第二報） お客さまの個人情報流出の可能性に関するお知らせとお詫び",
+      "publisher": "株式会社アダストリア",
+      "published_on": "2023-01-24"
+    },
+    {
+      "url": "https://www.adastria.co.jp/news/notice/entry-15787/",
+      "title": "不正アクセスに関する調査結果のご報告（第三報）",
+      "publisher": "株式会社アダストリア",
+      "published_on": "2023-03-31"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/04/06/49175.html",
+      "title": "カジュアルファッション取り扱いアダストリアのサーバへ不正アクセス、新たに約37万件の流出が判明",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-04-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

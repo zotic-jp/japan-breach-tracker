@@ -1,0 +1,44 @@
+{
+  "id": "2026-sakura-internet-rental-server",
+  "organization": {
+    "name_ja": "さくらインターネット株式会社",
+    "name_en": "SAKURA internet Inc.",
+    "domain": "sakura.ad.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-08-17",
+  "discovered_on": "2026-08-09",
+  "affected": {
+    "count": 1360563,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "Maximum number of accounts whose contract and member data in the sales management system may have been viewed or obtained; the database was accessed between April 2023 and March 2026. This includes 951 Sakura Rental Server accounts whose environments were accessed. Hashed member ID passwords of 30 accounts may have been viewed, and some initial rental server and VPS passwords were stored in plain text. The company found no clear evidence of data being taken outside and said it does not hold card numbers."
+  },
+  "data_types": [
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "SAKURA internet detected an anomaly on a maintenance server for its Sakura Rental Server service on 2026-08-09 and found malware on some servers and unauthorized access to customer environments. Its final report said customer contract and member data of up to 1,360,563 accounts in its sales management system may have been viewed or obtained.",
+    "ja": "さくらインターネットは2026年8月9日に「さくらのレンタルサーバ」の保守用サーバーで異常を検知し、一部サーバーへの不正プログラムの設置や顧客環境への不正アクセスを確認した。最終報で、販売管理システムに保存された最大1,360,563アカウント分の契約・会員情報が閲覧・取得された可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/",
+  "sources": [
+    {
+      "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/08/17/1968225614/",
+      "title": "当社レンタルサーバーサービスの一部環境に対する不正なアクセスについて",
+      "publisher": "さくらインターネット株式会社",
+      "published_on": "2026-08-17"
+    },
+    {
+      "url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/",
+      "title": "当社システムへの不正アクセスに関する調査結果および再発防止策について（第三報）",
+      "publisher": "さくらインターネット株式会社",
+      "published_on": "2026-09-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

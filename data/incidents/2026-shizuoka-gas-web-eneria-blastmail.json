@@ -1,0 +1,37 @@
+{
+  "id": "2026-shizuoka-gas-web-eneria-blastmail",
+  "organization": {
+    "name_ja": "静岡ガス株式会社",
+    "name_en": "Shizuoka Gas Co., Ltd.",
+    "domain": "shizuokagas.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2026-10-26",
+  "discovered_on": "2026-10-26",
+  "affected": {
+    "count": 95412,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses of customers registered with the member site Web エネリア, whose newsletters were sent through Blastmail (Rakus Lite Cloud); see 2026-blastmail. Names, addresses, phone numbers and payment data were not included. Separately, on 2026-10-22, the company reported that 53 inquiry records may have leaked through the Studio cloud service."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ラクスライトクラウド (ブラストメール)",
+  "status": "confirmed",
+  "summary": {
+    "en": "Shizuoka Gas announced that Blastmail, the email delivery service it uses for its member site Web Eneria, had been accessed without authorization. Rakus Lite Cloud told the company on 2026-10-26 that 95,412 of its customers' email addresses had been taken.",
+    "ja": "静岡ガスは、会員サイト「Webエネリア」のメール配信に利用しているラクスライトクラウドの「ブラストメール」が不正アクセスを受けたと発表した。2026年10月26日、同社の顧客のメールアドレス95,412件が外部に持ち出されたとの報告を受けた。"
+  },
+  "official_notice_url": "https://www.shizuokagas.co.jp/news/documents/20261026_1.pdf",
+  "sources": [
+    {
+      "url": "https://www.shizuokagas.co.jp/news/documents/20261026_1.pdf",
+      "title": "メール配信サービスへの不正アクセスによる当社のお客さま情報の漏えいについて",
+      "publisher": "静岡ガス株式会社",
+      "published_on": "2026-10-26"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

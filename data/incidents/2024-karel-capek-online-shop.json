@@ -1,0 +1,50 @@
+{
+  "id": "2024-karel-capek-online-shop",
+  "organization": {
+    "name_ja": "カレルチャペック株式会社",
+    "name_en": "Karel Capek Co., Ltd.",
+    "domain": "karelcapek.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-06-05",
+  "discovered_on": "2024-05-22",
+  "affected": {
+    "count": 103289,
+    "unit": "people",
+    "approximate": false,
+    "note": "103,289 members registered 2020-04-26 to 2024-05-21; of whom 58,407 (cumulative) card users may have had card data stolen."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Tea shop Karel Capek said its official online shop was hit by unauthorized access and its payment application altered. Personal data of 103,289 members registered since April 2020, including login IDs and passwords, and card data of 58,407 customers may have leaked.",
+    "ja": "紅茶専門店のカレルチャペックは、公式通販サイトが不正アクセスを受け、決済アプリケーションが改ざんされたと公表した。2020年4月以降に会員登録した103,289人のログインID・パスワードなどの個人情報と、延べ58,407人分のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/163152",
+      "title": "紅茶専門店の通販サイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-31"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/11/07/51882.html",
+      "title": "「カレルチャペック紅茶店公式通販サイト」に不正アクセス、延べ 58,407 名のカード情報を漏えい懸念対象と結論付ける",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-11-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

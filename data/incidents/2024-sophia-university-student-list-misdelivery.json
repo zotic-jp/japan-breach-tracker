@@ -1,0 +1,51 @@
+{
+  "id": "2024-sophia-university-student-list-misdelivery",
+  "organization": {
+    "name_ja": "学校法人上智学院（上智大学）",
+    "name_en": "Sophia School Corporation (Sophia University)",
+    "domain": "sophia.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2024-06-26",
+  "discovered_on": "2024-06-07",
+  "affected": {
+    "count": 13949,
+    "unit": "people",
+    "approximate": false,
+    "note": "All enrolled students. The file was sent on 2024-05-16 to three partner universities abroad, which deleted it on request."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "other"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Sophia University's Center for Global Education emailed a list of study abroad participants to three overseas partner universities without deleting a master data sheet, exposing names, student numbers, birthdates and nationalities of all 13,949 enrolled students. The partner schools deleted the data.",
+    "ja": "上智大学のグローバル教育センターは、海外協定校3校に留学プログラム参加者リストをメール送信した際、マスターデータのシートを削除し忘れ、在籍する全学生13,949人の氏名、学生番号、生年月日、国籍などを誤送信した。送信先には削除を依頼し、削除された。"
+  },
+  "official_notice_url": "https://www.sophia.ac.jp/jpn/article/news/announcement/240626_personalinfo/",
+  "sources": [
+    {
+      "url": "https://www.sophia.ac.jp/jpn/article/news/announcement/240626_personalinfo/",
+      "title": "メールの誤送信による個人情報の流出について",
+      "publisher": "学校法人上智学院（上智大学）",
+      "published_on": "2024-06-26"
+    },
+    {
+      "url": "https://www.security-next.com/159300",
+      "title": "全学生の個人情報を海外協定校へ誤送信 - 上智大",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/07/10/51281.html",
+      "title": "上智大学でシートの削除漏れ、全正規生 13,949 名の個人情報を海外協定校に誤送信",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-07-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

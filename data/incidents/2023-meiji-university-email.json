@@ -1,0 +1,43 @@
+{
+  "id": "2023-meiji-university-email",
+  "organization": {
+    "name_ja": "明治大学",
+    "name_en": "Meiji University",
+    "domain": "meiji.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2023-02-09",
+  "discovered_on": "2022-10-19",
+  "affected": {
+    "count": 36692,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "MeijiMail addresses issued to students and other university members. The university said names, addresses, phone numbers, passwords and grades were not taken, but names could be inferred from 48 of the addresses."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Meiji University found that an education and research system server on its Ikuta campus had been attacked several times from July 2022. It reported that 36,692 university-issued email addresses of students and staff may have been stolen.",
+    "ja": "明治大学は、生田キャンパスの教育研究システムのサーバーが2022年7月以降複数回にわたり第三者の攻撃を受けていたと公表した。学生や教職員などに発行した36,692件のメールアドレスが窃取された可能性があるとしている。"
+  },
+  "official_notice_url": "https://www.meiji.ac.jp/koho/news/2022/mkmht0000002d8k4-att/a1675836678948.pdf",
+  "sources": [
+    {
+      "url": "https://www.meiji.ac.jp/koho/news/2022/mkmht0000002d8k4-att/a1675836678948.pdf",
+      "title": "本学サーバーへの不正アクセスによる被害および個人情報漏洩の可能性について",
+      "publisher": "明治大学",
+      "published_on": "2023-02-09"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/02/14/48911.html",
+      "title": "明治大学のサーバに不正アクセス、36,692件のメールアドレスが窃取された可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-02-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

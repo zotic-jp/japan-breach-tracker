@@ -1,0 +1,45 @@
+{
+  "id": "2025-cosmo-commit-shaken",
+  "organization": {
+    "name_ja": "コスモ石油マーケティング株式会社",
+    "name_en": "Cosmo Oil Marketing Co., Ltd.",
+    "domain": "cosmo-energy.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-06-16",
+  "discovered_on": "2025-05-30",
+  "affected": {
+    "count": 176000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Count is the largest published category (customer phone numbers, about 176,000). Files of customers who applied for the Commit Shaken vehicle inspection service from 2019-08-01 to 2025-05-30 also contained about 165,000 customer IDs, about 35,000 customer names and about 119,000 vehicle records, plus about 3,000 mechanic names; contents vary by customer. Access logs from 2023-01-27 showed no external access; earlier periods could not be checked. Files required the full hard-to-guess URL to open. No credit card data was included."
+  },
+  "data_types": [
+    "phone",
+    "name",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Cosmo Oil Marketing found on 2025-05-30 that some files in the cloud environment for its Commit Shaken vehicle inspection service had a wrong access setting and could be reached from outside. Customer phone numbers, names, IDs and vehicle data, including about 176,000 phone numbers, were exposed.",
+    "ja": "コスモ石油マーケティングは2025年5月30日、車検サービス「コミっと車検」で利用するクラウド環境の一部ファイルに閲覧制限の設定誤りがあり、外部からアクセス可能だったことが判明したと公表した。電話番号約17万6千件など、顧客の識別番号、氏名、車両情報が対象となった。"
+  },
+  "official_notice_url": "https://www.cosmo-energy.co.jp/ja/information/topics/2025/250616-01.html",
+  "sources": [
+    {
+      "url": "https://www.cosmo-energy.co.jp/ja/information/topics/2025/250616-01.html",
+      "title": "コミっと車検申込情報のアクセス権限での設定誤りについて",
+      "publisher": "コスモ石油マーケティング株式会社",
+      "published_on": "2025-06-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/06/24/53096.html",
+      "title": "顧客とスタッフ情報にアクセス可能な状態に ～ コスモ石油「コミっと車検」誤設定",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-06-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

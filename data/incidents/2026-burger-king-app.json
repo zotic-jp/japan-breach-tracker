@@ -1,0 +1,53 @@
+{
+  "id": "2026-burger-king-app",
+  "organization": {
+    "name_ja": "株式会社ビーケー・ジャパン",
+    "name_en": "BK Japan Co., Ltd.",
+    "domain": "burgerking.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2026-10-15",
+  "discovered_on": "2026-10-13",
+  "affected": {
+    "count": 11180000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Member records of the Burger King Japan official app. Card numbers are not held, and no leak of login passwords was confirmed."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "BK Japan, which runs Burger King in Japan, found on 2026-10-13 that the system managing its official app members had been accessed without authorization between 2026-10-02 and 10-07. About 11.18 million member records, including email addresses, names, phone numbers and birthdates, leaked.",
+    "ja": "バーガーキングを運営するビーケー・ジャパンは、公式アプリの会員情報を管理するシステムが2026年10月2日から7日にかけて不正アクセスを受けていたことを10月13日に把握した。メールアドレス、氏名、電話番号、生年月日などを含む約1,118万件の会員情報が漏えいした。"
+  },
+  "official_notice_url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
+  "sources": [
+    {
+      "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
+      "title": "不正アクセスによる公式アプリ会員情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社ビーケー・ジャパン",
+      "published_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/news/2148486.html",
+      "title": "バーガーキング、1118万件の会員情報流出 メールや電話番号など",
+      "publisher": "Impress Watch",
+      "published_on": "2026-10-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56498.html",
+      "title": "バーガーキング公式アプリに不正アクセス、約1,118万件の会員情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

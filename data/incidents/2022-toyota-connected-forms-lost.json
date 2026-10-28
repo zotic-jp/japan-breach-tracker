@@ -1,0 +1,54 @@
+{
+  "id": "2022-toyota-connected-forms-lost",
+  "organization": {
+    "name_ja": "トヨタ自動車株式会社・トヨタコネクティッド株式会社",
+    "name_en": "Toyota Motor Corporation and Toyota Connected Corporation",
+    "domain": "toyota.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2022-03-01",
+  "discovered_on": null,
+  "affected": {
+    "count": 140000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 120,000 T-Connect application forms (2014-05 to 2021-12) and about 20,000 G-Link forms (2014-07 to 2021-12) that dealers did not forward and that were lost or discarded."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Toyota and Toyota Connected said about 140,000 paper application forms for the T-Connect and G-Link connected car services could not be located. The forms, which dealers were supposed to forward, contained names, addresses, contact details, contract IDs and passwords.",
+    "ja": "トヨタ自動車とトヨタコネクティッドは、コネクティッドサービス「T-Connect」「G-Link」の利用申込書計約14万件の所在が確認できないと公表した。販売店から提出されないまま紛失や破棄された例があり、氏名や住所、契約ID、パスワードなどが記載されていた。"
+  },
+  "official_notice_url": "https://global.toyota/jp/newsroom/corporate/36959495.html",
+  "sources": [
+    {
+      "url": "https://global.toyota/jp/newsroom/corporate/36959495.html",
+      "title": "コネクティッドサービス申込書の紛失・破棄について",
+      "publisher": "トヨタ自動車株式会社",
+      "published_on": "2022-03-01"
+    },
+    {
+      "url": "https://www.security-next.com/134514",
+      "title": "トヨタのコネクテッドサービスで申込書約14万件が所在不明",
+      "publisher": "Security NEXT",
+      "published_on": "2022-03-02"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/03/04/47237.html",
+      "title": "トヨタのコネクティッドサービス利用申込書を紛失、運用ルールの不徹底が原因",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-03-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

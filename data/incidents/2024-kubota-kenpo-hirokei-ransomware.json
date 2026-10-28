@@ -1,0 +1,52 @@
+{
+  "id": "2024-kubota-kenpo-hirokei-ransomware",
+  "organization": {
+    "name_ja": "クボタ健康保険組合",
+    "name_en": "Kubota Health Insurance Society",
+    "domain": null
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2024-09-04",
+  "discovered_on": "2024-08-14",
+  "affected": {
+    "count": 16022,
+    "unit": "people",
+    "approximate": false,
+    "note": "Medical claim data from October 2013 (32,087 records) held by a second-tier contractor. No sign of the data circulating online had been found at the time of the notice."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "health",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "ヒロケイ",
+  "status": "possible",
+  "summary": {
+    "en": "Kubota Health Insurance Society said Hirokei, a subcontractor of its system vendor Kansai Information Center, was hit by ransomware and a server holding the society's data had been accessed from outside. Medical claim data of 16,022 insured people, including names, birthdates and treatment details, may have leaked.",
+    "ja": "クボタ健康保険組合は、システム委託先の関西情報センターの再委託先であるヒロケイがランサムウェア攻撃を受け、同組合のデータを保存したサーバに外部からのアクセス痕跡が見つかったと公表した。氏名、生年月日、受診内容などを含む被保険者16,022人分の診療データが流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.kenpo.gr.jp/kubota/contents/topics/2024/0904.html",
+  "sources": [
+    {
+      "url": "https://www.kenpo.gr.jp/kubota/contents/topics/2024/0904.html",
+      "title": "【お詫び】業務委託先への不正アクセスによる個人情報漏えいの恐れについて",
+      "publisher": "クボタ健康保険組合",
+      "published_on": "2024-09-04"
+    },
+    {
+      "url": "https://www.security-next.com/161533",
+      "title": "再委託先でランサム感染、被保険者情報が流出した可能性 - クボタ健保組合",
+      "publisher": "Security NEXT",
+      "published_on": "2024-09-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/09/11/51610.html",
+      "title": "クボタ健康保険組合の再委託先のヒロケイにランサムウェア攻撃、16,022 人の診療データ漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-09-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

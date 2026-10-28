@@ -1,0 +1,51 @@
+{
+  "id": "2025-tokai-university-ransomware",
+  "organization": {
+    "name_ja": "学校法人東海大学",
+    "name_en": "Tokai University Educational System",
+    "domain": "u-tokai.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2025-04-19",
+  "discovered_on": "2025-04-17",
+  "affected": {
+    "count": 43451,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "User IDs, hashed passwords and university-issued email addresses of 43,451 students and staff were encrypted; the figure is the maximum identified because some logs were lost. As of 2025-07-16 the university had found no evidence that the encrypted data was published externally, and said investigation of possible leakage would continue. The attacker entered the network on 2025-04-16 with stolen account credentials. Hospital electronic medical record systems were not affected."
+  },
+  "data_types": [
+    "password",
+    "email",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Tokai University was hit by a ransomware attack in April 2025 after an attacker entered its network with stolen staff or student credentials. Authentication data for up to 43,451 students and staff, including user IDs, hashed passwords and email addresses, was encrypted, and the university said it was still investigating whether data had leaked.",
+    "ja": "東海大学は2025年4月、窃取された学園関係者のアカウント情報を使った侵入によりランサムウェア被害を受けた。学生・教職員最大43,451件分のユーザーID、ハッシュ化されたパスワード、メールアドレスが暗号化され、情報流出の可能性については調査を継続するとしている。"
+  },
+  "official_notice_url": "https://www.u-tokai.ac.jp/news-notice/1352134/",
+  "sources": [
+    {
+      "url": "https://www.u-tokai.ac.jp/news-notice/1352134/",
+      "title": "【第2報（終報）】 不正アクセスによるシステム障害について",
+      "publisher": "学校法人東海大学",
+      "published_on": "2025-07-17"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/04/28/52765.html",
+      "title": "復旧には最短でも数週間かかると想定 ～ 東海大学にランサムウェア攻撃",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-04-28"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/07/23/53266.html",
+      "title": "学園関係者の認証情報が暗号化 ～ 東海大学へのランサムウェア攻撃",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-07-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

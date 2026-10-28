@@ -1,0 +1,39 @@
+{
+  "id": "2026-green-monster-fx-navi",
+  "organization": {
+    "name_ja": "グリーンモンスター株式会社",
+    "name_en": "Green Monster Inc.",
+    "domain": "greenmonster.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2026-10-23",
+  "discovered_on": "2026-10-17",
+  "affected": {
+    "count": 6190000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 6.19 million user data records of the FX demo trading app FX Navi may have been obtained between 2026-04-27 and 04-30; the company says this includes data that is not personal information. Items include 66,003 email addresses, about 140,000 gender, age group and occupation entries, 4,809,631 initial survey answers, login credentials and 5,120 app transfer codes. The app does not collect names, addresses, phone numbers or payment data."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Green Monster found unauthorized access to its FX demo trading app FX Navi on 2026-10-17, and its investigation showed that a different third party may have continuously pulled user data through the app's API in late April 2026. About 6.19 million user data records, including 66,003 email addresses and login credentials, may have been obtained.",
+    "ja": "グリーンモンスターは2026年10月17日にFXデモトレードアプリ「FXなび」への不正アクセスを確認し、調査の過程で、同年4月下旬に別の第三者がアプリのAPIを通じてユーザー情報等を継続的に取得していたおそれが判明した。メールアドレス6万6,003件やログイン用の認証情報などを含む約619万件のユーザー情報等が取得されたおそれがある。"
+  },
+  "official_notice_url": "https://www.release.tdnet.info/inbs/140120261023555394.pdf",
+  "sources": [
+    {
+      "url": "https://www.release.tdnet.info/inbs/140120261023555394.pdf",
+      "title": "当社アプリ「FXなび」におけるユーザー情報等漏えいのおそれに関するご報告（第一報）",
+      "publisher": "グリーンモンスター株式会社",
+      "published_on": "2026-10-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

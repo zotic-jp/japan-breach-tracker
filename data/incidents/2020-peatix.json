@@ -1,0 +1,52 @@
+{
+  "id": "2020-peatix",
+  "organization": {
+    "name_ja": "Peatix Japan株式会社",
+    "name_en": "Peatix Japan K.K.",
+    "domain": "peatix.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2020-11-17",
+  "discovered_on": "2020-11-09",
+  "affected": {
+    "count": 6770000,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "Up to 6.77 million registrants' names, email addresses, display names, encrypted passwords, account country, language and time zone. Attendance history, payment data and survey data were not leaked. The incident was noticed when data apparently from Peatix was added to a list on an external site handling stolen data."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Peatix, an event management and ticketing platform, said its database was accessed from overseas IP addresses on 2020-10-16 and 2020-10-17. Data of up to 6.77 million users, including names, email addresses and encrypted passwords, was stolen.",
+    "ja": "イベント管理・チケット販売サービスのPeatixは、2020年10月16日から17日にかけて海外IPアドレスからデータベースへの不正アクセスを受けたと公表した。氏名、メールアドレス、暗号化されたパスワードなど最大677万件の利用者情報が引き出された。"
+  },
+  "official_notice_url": "https://announcement.peatix.com/20201117_ja.pdf",
+  "sources": [
+    {
+      "url": "https://www.security-next.com/120758",
+      "title": "「Peatix」に不正アクセス - 最大677万件の個人情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2020-11-17"
+    },
+    {
+      "url": "https://www.security-next.com/121874",
+      "title": "Peatix情報流出、販売サイトへのリスト追加から発覚 - 侵害手法は未特定",
+      "publisher": "Security NEXT",
+      "published_on": "2020-12-18"
+    },
+    {
+      "url": "https://announcement.peatix.com/20201216_ja.pdf",
+      "title": "Peatix 2020年12月16日付お知らせ（PDF）",
+      "publisher": "Peatix Japan株式会社",
+      "published_on": "2020-12-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

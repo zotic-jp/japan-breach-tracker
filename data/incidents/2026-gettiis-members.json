@@ -1,0 +1,49 @@
+{
+  "id": "2026-gettiis-members",
+  "organization": {
+    "name_ja": "株式会社リンクステーション",
+    "name_en": "Link Station Co., Ltd.",
+    "domain": "gettiis.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2026-10-19",
+  "discovered_on": "2026-10-18",
+  "affected": {
+    "count": 317971,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Member IDs of the ticketing service GETTIIS. Per-item counts: hashed passwords 311,451, email addresses 311,426, names 309,759, phone numbers 309,668, encrypted partial card data (first and last 4 digits, holder name, expiry) 29,515. Full card numbers and security codes were not stored."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "password",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Link Station found that between about midnight and 7 a.m. on 2026-10-18 an attacker exploited a vulnerability in its organizer-facing ticketing system Gettii-Lite to obtain member data of its ticket purchase service GETTIIS. It confirmed that data tied to 317,971 member IDs leaked, including names, phone numbers, email addresses and hashed passwords.",
+    "ja": "リンクステーションは、2026年10月18日午前0時頃から7時頃にかけて、第三者が主催者向けサービス「Gettii-Lite」のプログラムの脆弱性を悪用し、チケット購入サービス「GETTIIS」の会員情報を取得していたことを確認した。会員ID317,971件分の氏名、電話番号、メールアドレス、ハッシュ化されたパスワードなどが漏えいした。"
+  },
+  "official_notice_url": "https://www.gettiis.jp/notice/detail/42",
+  "sources": [
+    {
+      "url": "https://www.gettiis.jp/notice/detail/40",
+      "title": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報）",
+      "publisher": "株式会社リンクステーション",
+      "published_on": "2026-10-19"
+    },
+    {
+      "url": "https://www.gettiis.jp/notice/detail/42",
+      "title": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報）",
+      "publisher": "株式会社リンクステーション",
+      "published_on": "2026-10-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

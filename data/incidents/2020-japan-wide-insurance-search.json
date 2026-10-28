@@ -1,0 +1,46 @@
+{
+  "id": "2020-japan-wide-insurance-search",
+  "organization": {
+    "name_ja": "日本ワイド少額短期保険株式会社",
+    "name_en": "Japan Wide Small Amount and Short Term Insurance Co., Ltd.",
+    "domain": "japanwide.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2020-08-19",
+  "discovered_on": "2020-08-03",
+  "affected": {
+    "count": 40951,
+    "unit": "people",
+    "approximate": false,
+    "note": "From 2016-06-11 a search function became enabled after a cloud platform update, letting the 810 policyholders who logged in since then view contract data of other policyholders who applied through the same agency. Total of policyholders whose data was viewable."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "phone",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Japan Wide Small Amount and Short Term Insurance said a search function enabled by a cloud platform update in June 2016 let policyholders view other policyholders' contract data in its policy viewing system. Data of 40,951 people, including names, birthdates and phone numbers, was viewable.",
+    "ja": "日本ワイド少額短期保険は、保険証券閲覧システムで2016年6月のクラウド基盤の更新により検索機能が有効になり、同じ代理店経由の他の契約者の情報を閲覧できる状態だったと公表した。氏名、生年月日、電話番号など4万951人分の情報が閲覧可能だった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/117736",
+      "title": "保険証券システムで他契約者情報が閲覧可能 - 日本ワイド少額短期保険",
+      "publisher": "Security NEXT",
+      "published_on": "2020-08-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/08/25/44475.html",
+      "title": "クラウドの更新で検索機能がオン、他の契約情報閲覧可能に（日本ワイド少額短期保険）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-08-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

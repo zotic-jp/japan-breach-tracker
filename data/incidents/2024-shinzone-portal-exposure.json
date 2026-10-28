@@ -1,0 +1,54 @@
+{
+  "id": "2024-shinzone-portal-exposure",
+  "organization": {
+    "name_ja": "株式会社シンゾーン",
+    "name_en": "Shinzone Co., Ltd.",
+    "domain": "shinzone.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-05-22",
+  "discovered_on": "2024-05-15",
+  "affected": {
+    "count": 42400,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to about 42,400 customers; names and photos of up to 75 employees were also viewable. Exposure lasted at most from 2023-08-02 to 2024-05-15. The company's final report of 2025-03-12 says an outside investigation found no evidence that personal data was actually leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Apparel maker Shinzone found that an internal portal site on a cloud service had been accessible from outside because of a configuration mistake. Personal data of up to about 42,400 customers, including names, addresses, phone numbers, birthdates and purchase histories, was exposed for up to nine months.",
+    "ja": "衣料品メーカーのシンゾーンは、クラウド上の社内向けポータルサイトが設定ミスにより外部からアクセス可能な状態だったと公表した。氏名、住所、電話番号、生年月日、購入履歴などを含む最大約42,400人分の顧客情報が、最長約9カ月間閲覧可能だった。"
+  },
+  "official_notice_url": "https://shinzone.com/blogs/news/20240522",
+  "sources": [
+    {
+      "url": "https://shinzone.com/blogs/news/20240522",
+      "title": "個人情報を含む情報漏洩のおそれに関するお詫びとお知らせ（確報）",
+      "publisher": "株式会社シンゾーン",
+      "published_on": "2025-03-12"
+    },
+    {
+      "url": "https://www.security-next.com/157644",
+      "title": "クラウドの誤設定で顧客情報がアクセス可能に - 衣料品メーカー",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-31"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/05/29/51067.html",
+      "title": "社内用ポータルサイトを誤って公開、最大 約 42,400 名の顧客の個人情報がアクセス可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-05-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

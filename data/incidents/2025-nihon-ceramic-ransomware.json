@@ -1,0 +1,56 @@
+{
+  "id": "2025-nihon-ceramic-ransomware",
+  "organization": {
+    "name_ja": "日本セラミック株式会社",
+    "name_en": "Nippon Ceramic Co., Ltd.",
+    "domain": "nicera.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2025-04-08",
+  "discovered_on": "2025-04-07",
+  "affected": {
+    "count": 38500,
+    "unit": "people",
+    "approximate": true,
+    "note": "Sum of two figures in the 2025-09-26 update: about 2,850 people whose data was confirmed leaked (business partners and employees) and about 35,650 people whose data may have leaked (business partners, current and former shareholders, current and former employees, job applicants). Employee data at risk includes My Number, passport and driver's license numbers. Business information on about 950 partner companies was also affected."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "my_number",
+    "id_document",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Nippon Ceramic detected a network failure on 2025-04-07 and found its servers had been hit by ransomware on 2025-04-05. It later confirmed that data on about 2,850 people had leaked and said data on about 35,650 more, including shareholders, employees and job applicants, may have leaked.",
+    "ja": "日本セラミックは2025年4月7日にネットワーク障害を検知し、4月5日にサーバーがランサムウェアの被害を受けていたことを確認した。その後、約2,850名分の情報流出を確認し、株主や従業員、採用応募者などを含む約35,650名分の情報が流出した可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.nicera.co.jp/wordpress/wp-content/uploads/2025/09/ohsirase2.pdf",
+  "sources": [
+    {
+      "url": "https://www.nicera.co.jp/wordpress/wp-content/uploads/2025/09/ohsirase2.pdf",
+      "title": "（開示事項の経過）当社サーバーに対する不正アクセスに関するお知らせ",
+      "publisher": "日本セラミック株式会社",
+      "published_on": "2025-09-26"
+    },
+    {
+      "url": "https://www.nicera.co.jp/ir-news/36545",
+      "title": "当社サーバーに対する不正アクセスに関するお知らせ",
+      "publisher": "日本セラミック株式会社",
+      "published_on": "2025-04-08"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/10/09/53773.html",
+      "title": "日本セラミックへのランサムウェア攻撃、新たに取引先・関係者に関する情報流出が判明",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-10-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

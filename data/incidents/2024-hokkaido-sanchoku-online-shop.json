@@ -1,0 +1,49 @@
+{
+  "id": "2024-hokkaido-sanchoku-online-shop",
+  "organization": {
+    "name_ja": "株式会社北海道産地直送センター",
+    "name_en": "Hokkaido Sanchi Chokuso Center Co., Ltd.",
+    "domain": "h-scc.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-06-26",
+  "discovered_on": "2024-04-19",
+  "affected": {
+    "count": 54583,
+    "unit": "people",
+    "approximate": false,
+    "note": "54,583 customers and delivery recipients (2019-04-12 to 2024-04-24); 18,443 card users (2021-03-30 to 2024-04-19)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Hokkaido Sanchi Chokuso Center said its online shop was hit by unauthorized access. Personal data of 54,583 customers and delivery recipients may have leaked, and card data of 18,443 customers may have been stolen and misused.",
+    "ja": "北海道産地直送センターは、通販サイトが不正アクセスを受けたと公表した。顧客や送付先など54,583人分の個人情報が流出した可能性があり、18,443人分のクレジットカード情報が窃取され不正利用された可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/158990",
+      "title": "北海道産地直送センターに不正アクセス - クレカ不正利用の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-28"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/07/10/51282.html",
+      "title": "北海道産地直送センターに不正アクセス、18,443 名のカード情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-07-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

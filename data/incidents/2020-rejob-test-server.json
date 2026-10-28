@@ -1,0 +1,48 @@
+{
+  "id": "2020-rejob-test-server",
+  "organization": {
+    "name_ja": "株式会社リジョブ",
+    "name_en": "Rejob Co., Ltd.",
+    "domain": null
+  },
+  "industry": "other",
+  "disclosed_on": "2020-04-19",
+  "discovered_on": "2020-04-17",
+  "affected": {
+    "count": 206991,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 206,991 job seekers who registered with the job site Rejob before 2015-12-05; the data was stored on a test server."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "phone",
+    "email",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Rejob, which runs the job site Rejob, said a test server was accessed without authorization and personal data stored on it was leaked. Up to 206,991 job seekers' names, addresses, birthdates, phone numbers, email addresses and passwords were affected.",
+    "ja": "求人サイト「リジョブ」を運営するリジョブは、テスト用サーバが不正アクセスを受け、保存されていた個人情報が外部に流出したと公表した。最大20万6,991件の求職者の氏名、住所、生年月日、電話番号、メールアドレス、パスワードが対象となった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/114285",
+      "title": "テストサーバに不正アクセス、求職者情報が流出 - リジョブ",
+      "publisher": "Security NEXT",
+      "published_on": "2020-04-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/04/22/44005.html",
+      "title": "求人サイト「リジョブ」ネットワークに不正アクセス、テストサーバのチェックで判明（リジョブ）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-04-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

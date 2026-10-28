@@ -1,0 +1,61 @@
+{
+  "id": "2025-sanrio-entertainment-ransomware",
+  "organization": {
+    "name_ja": "株式会社サンリオエンターテイメント",
+    "name_en": "Sanrio Entertainment Co., Ltd.",
+    "domain": "puroland.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2025-02-07",
+  "discovered_on": "2025-01-21",
+  "affected": {
+    "count": 2000000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to about 2 million records of personal and other confidential information. Affected groups include Sanrio Puroland and Harmonyland annual passport holders, former Puroland fan club members, freelance contractors and employees (My Number for some contract and payroll records). Credit card data was not included. On 2025-08-12 Sanrio reported that the investigation was complete and no leak related to the incident had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "my_number",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Sanrio Entertainment, which operates Sanrio Puroland, suffered a ransomware attack that caused network trouble from 2025-01-21. Parent company Sanrio announced that up to about 2 million records of personal and confidential information may have leaked; a later investigation found no confirmed leak.",
+    "ja": "サンリオピューロランドなどを運営するサンリオエンターテイメントがランサムウェアによる不正アクセスを受け、2025年1月21日からネットワーク障害が発生した。親会社のサンリオは個人情報や機密情報が最大約200万件外部へ漏えいした可能性があると公表し、その後の調査では漏えいは確認されなかった。"
+  },
+  "official_notice_url": "https://corporate.sanrio.co.jp/information/20250207/",
+  "sources": [
+    {
+      "url": "https://corporate.sanrio.co.jp/information/20250207/",
+      "title": "株式会社サンリオエンターテイメントへの不正アクセスに伴う情報漏洩の可能性に関するお知らせとお詫び",
+      "publisher": "株式会社サンリオ",
+      "published_on": "2025-02-07"
+    },
+    {
+      "url": "https://corporate.sanrio.co.jp/information/20250812/",
+      "title": "株式会社サンリオエンターテイメントへの不正アクセスならびに情報漏洩の可能性に関する調査結果のご報告",
+      "publisher": "株式会社サンリオ",
+      "published_on": "2025-08-12"
+    },
+    {
+      "url": "https://www.security-next.com/167046",
+      "title": "サンリオ関連会社でランサム被害 - 個人情報が流出した可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2025-02-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/02/10/52303.html",
+      "title": "サンリオエンターテイメントにランサムウェア攻撃、最大約 200 万件の個人情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-02-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

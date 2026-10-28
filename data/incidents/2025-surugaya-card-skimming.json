@@ -1,0 +1,53 @@
+{
+  "id": "2025-surugaya-card-skimming",
+  "organization": {
+    "name_ja": "株式会社駿河屋",
+    "name_en": "Suruga-ya Inc.",
+    "domain": "suruga-ya.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-08-08",
+  "discovered_on": "2025-08-04",
+  "affected": {
+    "count": 29932,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who paid by credit card on suruga-ya.jp between 2025-07-23 12:50 and 2025-08-08: 30,431 card records belonging to 29,932 customers. Card number, expiry date and security code plus name, address, phone number and email address may have leaked."
+  },
+  "data_types": [
+    "credit_card",
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Suruga-ya found on 2025-08-04 that the payment page JavaScript of its suruga-ya.jp shopping site had been tampered with via a vulnerability in a monitoring tool. A forensic investigation found that card and personal data of 29,932 customers (30,431 cards) may have leaked.",
+    "ja": "駿河屋は2025年8月4日、通販サイト「駿河屋.JP」で監視ツールの脆弱性を突かれ決済ページのJavaScriptが改ざんされていたことを検知した。フォレンジック調査の結果、29,932名分（クレジットカード30,431件）のカード情報と個人情報が漏洩した可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.suruga-ya.jp/feature/osirase/2025_12_04.html",
+  "sources": [
+    {
+      "url": "https://www.suruga-ya.jp/feature/osirase/2025_12_04.html",
+      "title": "第三者不正アクセスに関するフォレンジック調査完了および判明事項についてのお知らせ",
+      "publisher": "株式会社駿河屋",
+      "published_on": "2025-12-04"
+    },
+    {
+      "url": "https://www.suruga-ya.jp/feature/osirase/2025_08_08.html",
+      "title": "第三者不正アクセスによる個人情報漏えいとクレジットカード決済停止に関するお詫びとお知らせ",
+      "publisher": "株式会社駿河屋",
+      "published_on": "2025-08-08"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/12/18/54267.html",
+      "title": "駿河屋.JP への不正アクセス、30,431 件のカード情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-12-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2024-nagomi-online-shop",
+  "organization": {
+    "name_ja": "有限会社なごみ",
+    "name_en": "Nagomi Ltd.",
+    "domain": "ajiichiharuka-nagomi.com"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-04-22",
+  "discovered_on": "2023-06-01",
+  "affected": {
+    "count": 15274,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who entered data from 2021-01-27 to 2023-05-15. 16,407 card records may also have been stolen and misused."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Nagomi, a Fukuoka restaurant operator, said its Ajiichi Haruka Nagomi online shop was altered through a vulnerability so that order form input was sent outside. Personal data of 15,274 customers and 16,407 card records may have been stolen.",
+    "ja": "福岡市で飲食店を営むなごみは、「味市春香なごみオンラインショップ」が脆弱性を突かれ、注文フォームの入力内容を外部に送るよう改ざんされたと公表した。顧客15,274人の個人情報とクレジットカード情報16,407件が窃取された可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/156308",
+      "title": "福岡飲食店のECサイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-04-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/05/01/50940.html",
+      "title": "「味市春香なごみオンラインショップ」に不正アクセス、16,407件のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-05-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

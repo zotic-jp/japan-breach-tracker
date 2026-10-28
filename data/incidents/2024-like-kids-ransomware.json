@@ -1,0 +1,45 @@
+{
+  "id": "2024-like-kids-ransomware",
+  "organization": {
+    "name_ja": "ライクキッズ株式会社",
+    "name_en": "Like Kids Co., Ltd.",
+    "domain": "like-kd.co.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2024-09-30",
+  "discovered_on": "2024-09-30",
+  "affected": {
+    "count": 158410,
+    "unit": "records",
+    "approximate": false,
+    "note": "Total across children/guardians, employees, external instructors, doctors and facility landlords; no exfiltration evidence found, but viewing could not be ruled out."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "bank_account",
+    "my_number",
+    "health",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Like Kids, a Like Inc. subsidiary that runs licensed nurseries and after-school clubs, suffered a ransomware attack that caused a system failure on 2024-09-30 and encrypted several servers. It said 158,410 records about children, guardians, employees and others, including allergy information, bank accounts and My Number, may have been viewed, although no sign of exfiltration was found.",
+    "ja": "ライク子会社で認可保育園や学童クラブを運営するライクキッズは、2024年9月30日にシステム障害が発生し、複数サーバがランサムウェアで暗号化された。持ち出しの痕跡は見つからなかったが、園児や保護者、従業員などに関するアレルギー情報、口座情報、マイナンバーを含む158,410件の個人情報が閲覧された可能性があるとした。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/164982",
+      "title": "ライクキッズへのランサム攻撃 - 脆弱性を突いて侵入",
+      "publisher": "Security NEXT",
+      "published_on": "2024-12-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

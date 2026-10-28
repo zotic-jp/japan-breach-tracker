@@ -1,0 +1,60 @@
+{
+  "id": "2025-hoken-minaoshi-honpo-ransomware",
+  "organization": {
+    "name_ja": "株式会社保険見直し本舗グループ",
+    "name_en": "Hoken Minaoshi Honpo Group Co., Ltd.",
+    "domain": "mhompo.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2025-02-25",
+  "discovered_on": "2025-02-16",
+  "affected": {
+    "count": 5100000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 5.1 million records as of 2025-04-25 across the group's insurance agencies (for example about 1.7 million at Hoken Minaoshi Honpo and about 1.3 million at Newton Financial Consulting), covering insurance applicants and insured persons, consultation customers and data entrusted by partner companies. My Number and payment data were not included. The company said the count was still under investigation. On 2025-08-29 it reported that forensic investigation found no trace of a leak."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Insurance agency group Hoken Minaoshi Honpo confirmed a ransomware attack on 2025-02-16 that encrypted data servers and disrupted services. It said about 5.1 million customer records, including insurance contract details, were at risk of leakage, although a later forensic investigation found no evidence of exfiltration.",
+    "ja": "保険代理店グループの保険見直し本舗グループは2025年2月16日にランサムウェア被害を確認し、データサーバーの暗号化によりサービス提供に支障が生じた。保険契約情報などを含む約510万件の顧客情報に漏えい等のおそれがあると公表したが、その後のフォレンジック調査では漏えいの痕跡は確認されなかった。"
+  },
+  "official_notice_url": "https://mhompo.co.jp/news/20250430/pdf/20250430.pdf",
+  "sources": [
+    {
+      "url": "https://mhompo.co.jp/news/20250225/pdf/5bb59a05.pdf",
+      "title": "当社グループにおけるランサムウェア被害に関しまして",
+      "publisher": "株式会社保険見直し本舗グループ",
+      "published_on": "2025-02-25"
+    },
+    {
+      "url": "https://mhompo.co.jp/news/20250430/pdf/20250430.pdf",
+      "title": "当社グループにおけるランサムウェア被害に関しまして（第2報）",
+      "publisher": "株式会社保険見直し本舗グループ",
+      "published_on": "2025-04-30"
+    },
+    {
+      "url": "https://mhompo.co.jp/news/20250829/pdf/Release_20250829.pdf",
+      "title": "当社グループにおけるランサムウェア被害についての調査と再発防止策のご報告",
+      "publisher": "株式会社保険見直し本舗グループ",
+      "published_on": "2025-08-29"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/05/15/52846.html",
+      "title": "保険見直し本舗グループへのランサムウェア攻撃、約 510 万件の顧客情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-05-15"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

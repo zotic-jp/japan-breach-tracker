@@ -1,0 +1,53 @@
+{
+  "id": "2024-wittamer-online-shop",
+  "organization": {
+    "name_ja": "株式会社エーデルワイス",
+    "name_en": "Edelweiss Co., Ltd.",
+    "domain": "wittamer.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-08-28",
+  "discovered_on": "2024-05-21",
+  "affected": {
+    "count": 45355,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who paid by credit card on the Wittamer online shop between 2020-04-27 and 2024-05-21. Card name, number, expiry and security code, plus birthdate, email and password, were affected."
+  },
+  "data_types": [
+    "name",
+    "credit_card",
+    "birthdate",
+    "email",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Edelweiss, which runs the Wittamer Belgian chocolate online shop, said attackers exploited a vulnerability and altered the payment application so that order form input was sent outside. Card data and other personal data of 45,355 customers who paid by card between April 2020 and May 2024 may have leaked and been misused.",
+    "ja": "ベルギーチョコレートの通販サイト「ヴィタメール オンラインショップ」を運営するエーデルワイスは、脆弱性を突かれて決済アプリケーションが改ざんされ、注文フォームの入力内容が外部に送信されていたと公表した。2020年4月から2024年5月までにカード決済した顧客45,355人のカード情報などが流出し、不正利用された可能性がある。"
+  },
+  "official_notice_url": "https://www.wittamer.jp/attention/attention_24maintenance0828.html",
+  "sources": [
+    {
+      "url": "https://www.wittamer.jp/attention/attention_24maintenance0828.html",
+      "title": "弊社が運営する「オンラインショップ」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社エーデルワイス",
+      "published_on": "2024-08-28"
+    },
+    {
+      "url": "https://www.security-next.com/161244",
+      "title": "ベルギーチョコのECサイト、クレカ情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-29"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/09/05/51588.html",
+      "title": "洋菓子販売「ヴィタメール オンラインショップ」へ不正アクセス、45,355 名のカード情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-09-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

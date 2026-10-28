@@ -1,0 +1,44 @@
+{
+  "id": "2022-chugoku-electric-lost-docs",
+  "organization": {
+    "name_ja": "中国電力株式会社",
+    "name_en": "The Chugoku Electric Power Co., Inc.",
+    "domain": "energia.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2022-04-18",
+  "discovered_on": "2022-04-13",
+  "affected": {
+    "count": 13772,
+    "unit": "people",
+    "approximate": false,
+    "note": "Review documents for credit card payment changes from 2021-04 (Hiroshima) and 2021-04 to 2021-05 (Okayama). Card numbers, addresses and phone numbers were not included. The company believes they were discarded in the office by mistake."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Chugoku Electric Power lost documents used to review changes in customers' credit card payment details. The papers listed contract numbers, account holder names and card company names for 13,772 customers, but not card numbers.",
+    "ja": "中国電力は、電気料金のクレジットカード払いの変更審査に使う資料を紛失したと公表した。顧客1万3,772人分の契約番号、名義、カード会社名などが記載されていたが、カード番号は含まれていない。"
+  },
+  "official_notice_url": "https://www.energia.co.jp/assets/press/2022/p20220418-1a_1.pdf",
+  "sources": [
+    {
+      "url": "https://www.energia.co.jp/assets/press/2022/p20220418-1a_1.pdf",
+      "title": "電気料金のお支払いに関するお客さま個人情報の紛失について",
+      "publisher": "中国電力株式会社",
+      "published_on": "2022-04-18"
+    },
+    {
+      "url": "https://www.security-next.com/135902",
+      "title": "顧客情報含むクレカ審査資料を紛失 - 中国電力",
+      "publisher": "Security NEXT",
+      "published_on": "2022-04-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

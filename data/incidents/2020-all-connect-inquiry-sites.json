@@ -1,0 +1,46 @@
+{
+  "id": "2020-all-connect-inquiry-sites",
+  "organization": {
+    "name_ja": "株式会社ALL CONNECT",
+    "name_en": "ALL CONNECT Co., Ltd.",
+    "domain": null
+  },
+  "industry": "telecom",
+  "disclosed_on": "2020-11-04",
+  "discovered_on": "2020-03-03",
+  "affected": {
+    "count": 14955,
+    "unit": "records",
+    "approximate": false,
+    "note": "Inquiries made between 2012 and 2015 through lead-generation sites of ALL CONNECT (3,649), Link Life (9,866) and Peakline, now Full Commit (1,440). The cloud server provider alerted the company on 2020-02-27; downloads of files were confirmed on 2020-03-03 and the forensic report was received on 2020-07-31."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "ALL CONNECT, a smartphone sales and telecom services company, said a server used by its websites was accessed through a system vulnerability and files were downloaded. Names, addresses, phone numbers and email addresses in 14,955 inquiry records from 2012 to 2015 may have leaked.",
+    "ja": "スマートフォン販売や通信サービスを手がけるALL CONNECTは、同社ウェブサイトが使用するサーバが脆弱性を突いた不正アクセスを受け、ファイルがダウンロードされていたと公表した。2012年から2015年の問い合わせ情報1万4,955件の氏名、住所、電話番号、メールアドレスが流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/120490",
+      "title": "不正アクセスで問合顧客の情報が流出 - ALL CONNECT",
+      "publisher": "Security NEXT",
+      "published_on": "2020-11-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/11/26/44861.html",
+      "title": "ALL CONNECT、グループ会社含む3サイトから問い合わせ情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-11-26"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

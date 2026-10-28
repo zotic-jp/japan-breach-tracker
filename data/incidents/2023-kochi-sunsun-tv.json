@@ -1,0 +1,47 @@
+{
+  "id": "2023-kochi-sunsun-tv",
+  "organization": {
+    "name_ja": "高知さんさんテレビ株式会社",
+    "name_en": "Kochi Sun Sun Television Co., Ltd.",
+    "domain": "sunsuntv.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2023-11-24",
+  "discovered_on": "2023-11-09",
+  "affected": {
+    "count": 23280,
+    "unit": "people",
+    "approximate": false,
+    "note": "23,280 viewer present applicants, plus 142 people who submitted opinions or comments. The data was viewable from 2020-09-28 to 2023-09-21; remaining access logs from 2023-09-22 showed no outside access, and no misuse had been reported."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kochi Sun Sun Television found on 2023-11-09 that lists of viewer present applicants stored on its website could be viewed from outside by entering a specific URL. Names, addresses, phone numbers, email addresses and ages of 23,280 applicants were exposed.",
+    "ja": "高知さんさんテレビは2023年11月9日、視聴者プレゼントの応募者名簿などがホームページ上に保存され、特定のURLを入力すると外部から閲覧できる状態だったことに気付いた。応募者23,280人の氏名、住所、電話番号、メールアドレス、年齢が閲覧可能だった。"
+  },
+  "official_notice_url": "https://www.sunsuntv.co.jp/corporate/wp-content/uploads/sites/4/2023/12/20231206.pdf",
+  "sources": [
+    {
+      "url": "https://www.sunsuntv.co.jp/corporate/wp-content/uploads/sites/4/2023/12/20231206.pdf",
+      "title": "高知さんさんテレビからのお知らせ",
+      "publisher": "高知さんさんテレビ株式会社",
+      "published_on": "2023-12-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/12/25/50396.html",
+      "title": "高知さんさんテレビの視聴者プレゼント応募者23,280人の個人情報、外部から閲覧可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-12-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

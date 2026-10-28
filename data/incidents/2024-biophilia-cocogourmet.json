@@ -1,0 +1,43 @@
+{
+  "id": "2024-biophilia-cocogourmet",
+  "organization": {
+    "name_ja": "株式会社バイオフィリア",
+    "name_en": "Biophilia Inc.",
+    "domain": "biophilia.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-05-20",
+  "discovered_on": "2024-05-03",
+  "affected": {
+    "count": 198200,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "198,200 accounts (name/address/phone); 34,726 of them also birthdate, sex, email, password. Up to 28,237 uploaded images possibly leaked. Official notice not located; Security NEXT 2024-05-20."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Biophilia, which sells the pet foods CocoGourmet and MiaoGourmet online, said customer data was stolen and some data deleted by a third party. Names, addresses and phone numbers tied to 198,200 accounts leaked, and for 34,726 of them birthdates, email addresses and passwords as well.",
+    "ja": "ペットフード「ココグルメ」「ミャオグルメ」を販売するバイオフィリアは、第三者に顧客情報を窃取され、一部データを消去されたと公表した。198,200アカウントに関する氏名、住所、電話番号が流出し、うち34,726アカウントは生年月日、メールアドレス、パスワードなども対象となった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/157147",
+      "title": "ペットフード通販サイトの顧客情報が窃取被害 - 一部データの消去も",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2024-dokenpo-disc-misdelivery",
+  "organization": {
+    "name_ja": "全国土木建築国民健康保険組合",
+    "name_en": "National Civil Engineering and Construction National Health Insurance Association",
+    "domain": "dokenpo.or.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2024-03-29",
+  "discovered_on": "2024-03-01",
+  "affected": {
+    "count": 17477,
+    "unit": "people",
+    "approximate": false,
+    "note": "Insured members and dependents of one member company. The disc was password protected, was retrieved and the data deleted."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "other"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "The National Civil Engineering and Construction NHI Association sent an optical disc with insurance card data of 17,477 insured people of one member company to an unrelated business, after a staff member mixed up company codes. The recipient reported it on 2024-03-01 and the disc was retrieved.",
+    "ja": "全国土木建築国民健康保険組合は、職員が事業所記号を取り違え、加入事業所1社の被保険者17,477人分の被保険者証データを保存した光ディスクを無関係の事業者へ送付した。2024年3月1日に受領者からの連絡で判明し、回収した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/155214",
+      "title": "組合加入事業所の個人情報を他社へ誤提供 - 土健保",
+      "publisher": "Security NEXT",
+      "published_on": "2024-03-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

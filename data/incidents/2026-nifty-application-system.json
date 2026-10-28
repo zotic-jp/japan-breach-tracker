@@ -1,0 +1,47 @@
+{
+  "id": "2026-nifty-application-system",
+  "organization": {
+    "name_ja": "ニフティ株式会社",
+    "name_en": "NIFTY Corporation",
+    "domain": "nifty.com"
+  },
+  "industry": "telecom",
+  "disclosed_on": "2026-10-19",
+  "discovered_on": null,
+  "affected": {
+    "count": 18000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Maximum figure from the second report (2026-10-21), limited to @nifty Hikari line applications made since 2019 other than through the website. The first report (2026-10-19) gave a maximum of 542,513 applications across three services; @nifty MAX Hikari and @nifty au Hikari Plus were later found to be out of scope. Email addresses, passwords, bank and card data were not involved."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "NIFTY announced on 2026-10-19 that its internal management system for registering broadband line applications had been accessed without authorization. After narrowing the scope, it said up to 18,000 @nifty Hikari application records, including member IDs, names, birthdates, addresses and phone numbers, may have leaked.",
+    "ja": "ニフティは2026年10月19日、回線申込の顧客情報を登録する社内の申込・受付管理システムが不正アクセスを受けたと発表した。その後の調査で対象を絞り込み、「＠nifty光」の申込情報最大18,000件の会員ID、氏名、生年月日、住所、電話番号などが漏えいした可能性があるとした。"
+  },
+  "official_notice_url": "https://www.nifty.co.jp/newsrelease/nifty202610215453.htm",
+  "sources": [
+    {
+      "url": "https://www.nifty.co.jp/newsrelease/nifty202610215453.htm",
+      "title": "【第二報】当社回線申込・受付管理システムへの不正アクセスの発生について",
+      "publisher": "ニフティ株式会社",
+      "published_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+      "title": "【第一報】当社回線申込・受付管理システムへの不正アクセスの発生について",
+      "publisher": "ニフティ株式会社",
+      "published_on": "2026-10-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

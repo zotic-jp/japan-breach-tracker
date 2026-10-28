@@ -1,0 +1,48 @@
+{
+  "id": "2020-kitamura-net-shop-list-attack",
+  "organization": {
+    "name_ja": "株式会社キタムラ",
+    "name_en": "Kitamura Co., Ltd.",
+    "domain": "kitamura.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2020-06-15",
+  "discovered_on": "2020-05-28",
+  "affected": {
+    "count": 400000,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "About 400,000 accounts were logged into from multiple overseas IP addresses between 2020-04-04 and 2020-05-27; the company gave this figure to Security NEXT, while its own notice did not state a count. A few fraudulent orders using points were made."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kitamura, which runs the Camera no Kitamura chain, said its online shop was hit by logins using other people's credentials from overseas IP addresses between April and May 2020. About 400,000 accounts were logged into, and names, addresses, birthdates, phone numbers, email addresses and purchase histories may have been obtained.",
+    "ja": "「カメラのキタムラ」を展開するキタムラは、同社のネットショップで2020年4月から5月にかけて、海外IPアドレスから正規利用者になりすました不正ログインが行われたと公表した。約40万件のアカウントがログインされ、氏名、住所、生年月日、電話番号、メールアドレス、利用履歴などが取得された可能性がある。"
+  },
+  "official_notice_url": "https://www.kitamura.jp/topics/2020/20200615_01.html",
+  "sources": [
+    {
+      "url": "https://www.security-next.com/115761",
+      "title": "「カメラのキタムラ」で不正ログイン - 不正注文で一部被害も",
+      "publisher": "Security NEXT",
+      "published_on": "2020-06-17"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/06/17/44213.html",
+      "title": "「カメラのキタムラネットショップ」にパスワードリスト型攻撃、件数は明らかにせず（キタムラ）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-06-17"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

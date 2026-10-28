@@ -1,0 +1,38 @@
+{
+  "id": "2026-offerbox-misconfiguration",
+  "organization": {
+    "name_ja": "株式会社i-plug",
+    "name_en": "i-plug, Inc.",
+    "domain": "offerbox.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-05",
+  "discovered_on": null,
+  "affected": {
+    "count": 314009,
+    "unit": "people",
+    "approximate": true,
+    "note": "Theoretical maximum: all class of 2027 and 2028 students searchable on OfferBox while the misconfiguration existed (2026-05-12 to 2026-08-28). The data was only visible to client companies through browser developer tools, with names encoded as character codes; no leak to third parties other than client companies had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "email"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "i-plug said a configuration error in its job offer service OfferBox caused students' names and email addresses to be included in the communication data of a page for client companies, where they could be seen using browser developer tools. Up to 314,009 students who were searchable between 2026-05-12 and 2026-08-28 may have been affected.",
+    "ja": "i-plugは、新卒オファー型就活サービス「OfferBox」の設定不備により、利用企業向けページの通信データに学生の氏名とメールアドレスが含まれ、ブラウザの開発者ツールで閲覧できる状態だったと発表した。2026年5月12日から8月28日までに検索対象となっていた最大314,009人が対象となる可能性がある。"
+  },
+  "official_notice_url": "https://i-plug.co.jp/news/11334/",
+  "sources": [
+    {
+      "url": "https://i-plug.co.jp/news/11334/",
+      "title": "「OfferBox」システム設定不備に伴うお詫びとお知らせ",
+      "publisher": "株式会社i-plug",
+      "published_on": "2026-10-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

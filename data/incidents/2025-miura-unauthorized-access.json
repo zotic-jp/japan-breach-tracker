@@ -1,0 +1,46 @@
+{
+  "id": "2025-miura-unauthorized-access",
+  "organization": {
+    "name_ja": "三浦工業株式会社",
+    "name_en": "Miura Co., Ltd.",
+    "domain": "miuraz.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2025-08-15",
+  "discovered_on": "2025-08-14",
+  "affected": {
+    "count": 191609,
+    "unit": "records",
+    "approximate": true,
+    "note": "Maximum counts published on 2025-08-26: 4,577 export-control customer records (company name, address, phone), 161,383 transaction records (contract party and end-user names and addresses), 20,112 corporate delivery records and 5,537 individual customer delivery records (name, address, phone). Group employee names, employee numbers and work phone numbers were also involved, count under investigation. No credit card or bank account data. The intrusion came via an overseas group company."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Miura suffered a system failure on 2025-08-14 caused by unauthorized access to its network through an overseas group company. It said up to 191,609 records, mostly business customer and transaction data plus 5,537 individual delivery records, may have leaked.",
+    "ja": "三浦工業は、2025年8月14日に海外グループ会社を経由した不正アクセスによりシステム障害が発生したと公表した。法人顧客や取引に関する情報、個人顧客の配送先情報5,537件を含む最大191,609件が流出した可能性があるとしている。"
+  },
+  "official_notice_url": "https://www.miuraz.co.jp/news/newsrelease/2025/1854.php",
+  "sources": [
+    {
+      "url": "https://www.miuraz.co.jp/news/newsrelease/2025/1854.php",
+      "title": "当社ネットワークへの不正アクセスによるシステム障害について（続報）",
+      "publisher": "三浦工業株式会社",
+      "published_on": "2025-08-26"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/09/09/53585.html",
+      "title": "三浦工業に海外グループ会社を経由した不正アクセス、提供停止した一部サービスを 8 月 16 日復旧",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-09-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2026-temairazu",
+  "organization": {
+    "name_ja": "手間いらず株式会社",
+    "name_en": "Temairazu, Inc.",
+    "domain": "temairazu.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-09-28",
+  "discovered_on": "2026-09-21",
+  "affected": {
+    "count": 4450000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum number of guests whose booking data handled in the TEMAIRAZU reservation management system for accommodation facilities may have been viewed or obtained, per the 2026-10-09 disclosure. Phishing messages referencing real bookings were sent to guests via WhatsApp, email and SMS. The company does not hold card data."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Temairazu, which provides the TEMAIRAZU booking management system to hotels and inns, began investigating on 2026-09-21 after facilities reported guests receiving suspicious messages about their reservations, and confirmed unauthorized access to its system. Guest names, contact details and stay details of up to about 4.45 million people may have been viewed or obtained.",
+    "ja": "宿泊施設向け予約管理システム「TEMAIRAZU」を提供する手間いらずは、2026年9月21日に予約者へ不審なメッセージが届いているとの連絡を複数の施設から受けて調査を始め、システムへの不正アクセスを確認した。最大約445万人分の宿泊者の氏名、連絡先、宿泊内容などが閲覧または取得された可能性がある。"
+  },
+  "official_notice_url": "https://www.temairazu.co.jp/pdf/1212/ir-news",
+  "sources": [
+    {
+      "url": "https://www.temairazu.co.jp/pdf/1212/ir-news",
+      "title": "当社システムへの不正アクセスに関する調査状況および対応について",
+      "publisher": "手間いらず株式会社",
+      "published_on": "2026-10-09"
+    },
+    {
+      "url": "https://www.temairazu.co.jp/pdf/1206/news-update",
+      "title": "不審なメッセージおよび当社システムへの不正アクセスに関するお詫びとお知らせ",
+      "publisher": "手間いらず株式会社",
+      "published_on": "2026-09-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

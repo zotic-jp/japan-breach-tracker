@@ -1,0 +1,46 @@
+{
+  "id": "2022-digita-print",
+  "organization": {
+    "name_ja": "株式会社デジタ",
+    "name_en": "Digita Co., Ltd.",
+    "domain": "digitaprint.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2022-02-25",
+  "discovered_on": "2022-02-21",
+  "affected": {
+    "count": 36173,
+    "unit": "people",
+    "approximate": false,
+    "note": "The final report covered 36,173 customers who received a 500-yen apology card. The initial notice listed 21,042 records: 11,561 names, addresses and phone numbers from shipping emails sent 2016-12 to 2018-09, and 9,481 email addresses."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Online printing service Digita learned on 2022-02-21 that customer data may have been stolen in an external attack on its site, and its investigation confirmed the leak. Its final report put the number of affected customers at 36,173.",
+    "ja": "オンライン印刷サービス「印刷通販デジタ」を運営するデジタは、2022年2月21日に外部からの攻撃で顧客情報が窃取された可能性を把握し、その後の調査で流出が判明した。最終報告では対象の顧客を3万6,173人とした。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/134528",
+      "title": "印刷通販サイトで顧客の個人情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2022-03-08"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/06/02/47680.html",
+      "title": "「印刷通販デジタ」への不正アクセス、累計36,173名にお詫びのQUOカード500円分を送付",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-06-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

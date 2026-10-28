@@ -1,0 +1,46 @@
+{
+  "id": "2020-toyohashi-water-usb",
+  "organization": {
+    "name_ja": "豊橋市",
+    "name_en": "Toyohashi City",
+    "domain": null
+  },
+  "industry": "government",
+  "disclosed_on": "2020-07-09",
+  "discovered_on": null,
+  "affected": {
+    "count": 19828,
+    "unit": "records",
+    "approximate": true,
+    "note": "Backup of the water and sewerage bureau's accounting system: up to 19,828 records of creditors such as business partners, and up to 6,151 bank account records. The file was password protected and could only be restored by the system maintenance vendor; no leak was confirmed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "bank_account"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Toyohashi City in Aichi Prefecture lost a USB memory stick holding a backup of its water and sewerage bureau accounting system while it was being handed to or returned from an off-site storage contractor. It contained up to 19,828 records of names, addresses and phone numbers and up to 6,151 bank account records.",
+    "ja": "愛知県豊橋市は、上下水道局の公営企業会計システムのバックアップデータを保存したUSBメモリを、外部保管業者との受け渡しの過程で紛失したと公表した。氏名、住所、電話番号など最大1万9,828件と、口座情報最大6,151件が記録されていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/116814",
+      "title": "データの受け渡し過程でバックアップデータ紛失 - 豊橋市",
+      "publisher": "Security NEXT",
+      "published_on": "2020-07-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/07/14/44309.html",
+      "title": "大規模災害に備えバックアップデータを記録したUSBメモリを紛失（豊橋市）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-07-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

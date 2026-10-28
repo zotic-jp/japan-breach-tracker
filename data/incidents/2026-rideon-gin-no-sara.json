@@ -1,0 +1,49 @@
+{
+  "id": "2026-rideon-gin-no-sara",
+  "organization": {
+    "name_ja": "株式会社ライドオンエクスプレスホールディングス",
+    "name_en": "Ride On Express Holdings Co., Ltd.",
+    "domain": "ginsara.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2026-10-13",
+  "discovered_on": "2026-10-07",
+  "affected": {
+    "count": 6500000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Maximum number of records registered on the official sites and apps of Gin no Sara, Kamatora and Sushi Jyoto that may have leaked; the company says this is not a confirmed leak count. Family members' and delivery recipients' details entered by users may also be affected. Card data is not held. The company did not name the server operator."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "password",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Ride On Express Holdings said the operator of servers storing registration data for its Gin no Sara, Kamatora and Sushi Jyoto delivery sites and apps was hit by a ransomware attack on 2026-10-07. Up to about 6.5 million records, including names, addresses, phone numbers, birthdates and password hashes, may have leaked.",
+    "ja": "ライドオンエクスプレスホールディングスは、「銀のさら」「釜寅」「すし上等」の公式サイト・アプリの登録者情報を保管していたサーバーの運営会社が2026年10月7日にランサムウェア攻撃を受けたと発表した。氏名、住所、電話番号、生年月日、パスワードのハッシュ値などを含む最大約650万件が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
+  "sources": [
+    {
+      "url": "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
+      "title": "サイバー攻撃による個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "publisher": "株式会社ライドオンエクスプレスホールディングス",
+      "published_on": "2026-10-13"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2147767.html",
+      "title": "「銀のさら」「釜寅」「すし上等」のライドオンエクスプレス、サイバー攻撃で最大約650万件の個人情報漏えいの可能性 公式サイト・アプリを停止中",
+      "publisher": "INTERNET Watch",
+      "published_on": "2026-10-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

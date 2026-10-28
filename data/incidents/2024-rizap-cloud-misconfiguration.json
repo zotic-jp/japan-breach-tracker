@@ -1,0 +1,42 @@
+{
+  "id": "2024-rizap-cloud-misconfiguration",
+  "organization": {
+    "name_ja": "RIZAP株式会社",
+    "name_en": "RIZAP Inc.",
+    "domain": "rizapgroup.com"
+  },
+  "industry": "other",
+  "disclosed_on": "2024-10-31",
+  "discovered_on": "2024-10-16",
+  "affected": {
+    "count": 365461,
+    "unit": "people",
+    "approximate": false,
+    "note": "Disclosure date per Security NEXT (公表 2024-10-31); official notice not opened. Viewable 2022-01-24 to 2024-10-25 depending on file."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "RIZAP said data temporarily extracted from its member database and stored on a cloud service was viewable from outside because of a configuration error. Personal data of 365,461 RIZAP customers, including names, addresses, phone numbers and birthdates, may have leaked.",
+    "ja": "RIZAPは、会員データベースから一時的に抽出してクラウドサービス上に保存していたデータが、設定ミスにより外部から閲覧可能な状態だったと公表した。氏名、住所、電話番号、生年月日などを含むRIZAPの顧客365,461人分の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/165018",
+      "title": "DB抽出の個人情報が外部から閲覧可能に、設定ミスで - RIZAP",
+      "publisher": "Security NEXT",
+      "published_on": "2024-12-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

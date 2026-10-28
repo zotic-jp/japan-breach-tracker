@@ -1,0 +1,55 @@
+{
+  "id": "2025-shinchosha-ransomware",
+  "organization": {
+    "name_ja": "株式会社審調社",
+    "name_en": "Shinchosha Co., Ltd.",
+    "domain": "scs-21.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2025-07-11",
+  "discovered_on": "2025-06-27",
+  "affected": {
+    "count": 102700,
+    "unit": "records",
+    "approximate": true,
+    "note": "Confirmed leaked personal data from insurance and mutual-aid claim investigations entrusted to the company: about 89,000 records with case or policy numbers only, about 12,500 with numbers plus name and other details, and about 1,200 that also contained medical information. A further about 1,030 investigation records, about 450 contractor and applicant records and about 150 employee records may have leaked. Counts may include duplicates. Attackers entered through a vulnerable network device and disabled security software."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "health",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Insurance claims investigation firm Shinchosha was hit by a ransomware attack on 2025-06-27 that encrypted and stole files from its servers and PCs. Its final report said about 102,700 personal records from entrusted investigations had leaked, including about 1,200 with medical information.",
+    "ja": "保険事故調査を手がける審調社は2025年6月27日、ランサムウェア攻撃を受け、サーバーや端末のファイルが暗号化・窃取された。最終報で、委託調査に関する個人情報約10万2,700件の漏えいを確認し、うち約1,200件には医療情報が含まれていたと公表した。"
+  },
+  "official_notice_url": "https://scs-21.co.jp/20251205-1/",
+  "sources": [
+    {
+      "url": "https://scs-21.co.jp/20250711-2/",
+      "title": "不正アクセスに関するご報告とお詫び",
+      "publisher": "株式会社審調社",
+      "published_on": "2025-07-11"
+    },
+    {
+      "url": "https://scs-21.co.jp/20251205-1/",
+      "title": "不正アクセスに関する最終報告",
+      "publisher": "株式会社審調社",
+      "published_on": "2025-12-05"
+    },
+    {
+      "url": "https://www.security-next.com/178143",
+      "title": "ランサム被害による個人情報流出を確認 - 保険事故調査会社",
+      "publisher": "Security NEXT",
+      "published_on": "2025-12-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

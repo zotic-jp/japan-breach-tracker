@@ -1,0 +1,55 @@
+{
+  "id": "2021-mercari-codecov",
+  "organization": {
+    "name_ja": "株式会社メルカリ",
+    "name_en": "Mercari, Inc.",
+    "domain": "mercari.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-05-21",
+  "discovered_on": null,
+  "affected": {
+    "count": 27927,
+    "unit": "records",
+    "approximate": false,
+    "note": "27,889 records announced on 2021-05-21 (17,085 sales-proceeds transfer records with bank account details, Merpay merchant names, customer service records, partner and employee data) plus 38 more found in the investigation report of 2021-08-06."
+  },
+  "data_types": [
+    "name",
+    "bank_account",
+    "address",
+    "email",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "Codecov",
+  "status": "confirmed",
+  "summary": {
+    "en": "Mercari announced that attackers who tampered with the code coverage tool Codecov stole credentials from its development environment and took source code and some data. A total of 27,927 records, including bank account details for past sales-proceeds transfers and employee data, leaked.",
+    "ja": "メルカリは、コードカバレッジツール「Codecov」が改ざんされた影響で開発環境の認証情報が窃取され、ソースコードや一部の情報が外部に流出したと公表した。過去の売上金振込に関する口座情報や従業員情報など、計27,927件が流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/126436",
+      "title": "メルカリが不正アクセス被害 - 開発ツール「Codecov」侵害の影響で",
+      "publisher": "Security NEXT",
+      "published_on": "2021-05-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/05/25/45711.html",
+      "title": "「Codecov」への不正アクセスで「メルカリ」のソースコードと一部顧客情報等が外部流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-05-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/08/11/46104.html",
+      "title": "メルカリの「Codecov」利用に起因する不正アクセス詳細調査、新たに38件の外部流出確認",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-08-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

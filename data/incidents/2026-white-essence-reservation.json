@@ -1,0 +1,55 @@
+{
+  "id": "2026-white-essence-reservation",
+  "organization": {
+    "name_ja": "ホワイトエッセンス株式会社",
+    "name_en": "White Essence Co., Ltd.",
+    "domain": "whiteessence.com"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2026-08-12",
+  "discovered_on": "2026-08-05",
+  "affected": {
+    "count": 1050000,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "About 1.05 million accounts registered as of 2026-08-05, covering customers, staff of member clinics and head-office employees. Passwords were stored encrypted."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "White Essence identified unauthorized access to its reservation site and core system on 2026-08-05 and suspended them. In a follow-up on 2026-10-05 it said an attacker had exploited a vulnerability in the reservation site and taken personal data of about 1.05 million accounts.",
+    "ja": "ホワイトエッセンスは、2026年8月5日に予約サイトと基幹システムへの不正アクセスを確認しシステムを停止した。10月5日の続報で、予約サイトの脆弱性を悪用され、約105万アカウント分の個人情報が外部に持ち出されたと公表した。"
+  },
+  "official_notice_url": "https://www.whiteessence.com/news/news/20261005/",
+  "sources": [
+    {
+      "url": "https://www.whiteessence.com/news/news/20261005/",
+      "title": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+      "publisher": "ホワイトエッセンス株式会社",
+      "published_on": "2026-10-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56575.html",
+      "title": "ホワイトエッセンスへの不正アクセス、予約サイトのプログラムに存在した脆弱性を悪用",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-27"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/01/56093.html",
+      "title": "ホワイトエッセンスの予約サイトおよび基幹システムに不正アクセス、Webサイト・アプリ等からの予約等を一時停止",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-09-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

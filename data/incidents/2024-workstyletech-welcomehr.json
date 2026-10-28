@@ -1,0 +1,57 @@
+{
+  "id": "2024-workstyletech-welcomehr",
+  "organization": {
+    "name_ja": "株式会社ワークスタイルテック",
+    "name_en": "Workstyle Tech Inc.",
+    "domain": "workstyletech.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2024-03-29",
+  "discovered_on": "2024-03-22",
+  "affected": {
+    "count": 158929,
+    "unit": "people",
+    "approximate": false,
+    "note": "Initially 162,830 accessible / 154,650 downloaded; revised to 158,929 leaked. Includes 46,329 My Number, 8,073 card, 1,937 health checkup, 798 disability data. Kaonavi subsidiary. Official notice not located; Security NEXT 2024-03-29."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "my_number",
+    "id_document",
+    "credit_card",
+    "health",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Workstyle Tech, a Kaonavi subsidiary, said a server access permission error in its cloud HR service WelcomeHR left customers' employee data viewable from outside, and a third party downloaded files. After investigation it put the number of people whose data leaked at 158,929, including My Number for some.",
+    "ja": "カオナビ子会社のワークスタイルテックは、クラウド労務管理サービス「WelcomeHR」でサーバのアクセス権限の設定ミスにより顧客企業の従業員データが外部から閲覧可能となり、第三者にファイルをダウンロードされたと公表した。調査の結果、データが流出した対象者を158,929人とし、一部にはマイナンバーも含まれる。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/155400",
+      "title": "労務管理クラウドシステムでアクセス権の設定ミス - 個人情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2024-03-29"
+    },
+    {
+      "url": "https://www.security-next.com/157835",
+      "title": "労務管理サービスの個人情報流出 - 調査結果を公表",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-03"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/04/09/50844.html",
+      "title": "クラウド労務管理「WelcomeHR」の個人データが閲覧可能な状態に、154,650 人分のダウンロード確認",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-04-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

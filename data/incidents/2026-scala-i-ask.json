@@ -1,0 +1,51 @@
+{
+  "id": "2026-scala-i-ask",
+  "organization": {
+    "name_ja": "株式会社スカラコミュニケーションズ",
+    "name_en": "Scala Communications Inc.",
+    "domain": "scala-com.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-06",
+  "discovered_on": "2026-10-03",
+  "affected": {
+    "count": 713126,
+    "unit": "records",
+    "approximate": true,
+    "note": "Maximum number of inquiry records across up to five client companies, including repeat inquiries by the same person; the number of people was still being determined. Client companies that published their own notices include Daiwa Securities (about 110,000 customers), Citizen Watch (about 100,000 records) and Sompo Japan (up to about 60,000 inquiry records)."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "A third party logged into the admin site of Scala Communications' FAQ system i-ask between the night of 2026-10-02 and the morning of 2026-10-03 and installed an unauthorized program. Up to 713,126 inquiry records of client companies' customers, including names, email addresses and inquiry content, may have leaked.",
+    "ja": "スカラコミュニケーションズのFAQシステム「i-ask」の管理サイトに、2026年10月2日夜から3日朝にかけて第三者が不正ログインし、不正なプログラムを設置した。利用企業の顧客の氏名、メールアドレス、問い合わせ内容などを含む最大713,126件の問い合わせ情報が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://scala-com.jp/news/2026/10-1/",
+  "sources": [
+    {
+      "url": "https://scala-com.jp/news/2026/10-1/",
+      "title": "FAQシステム「i-ask」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社スカラコミュニケーションズ",
+      "published_on": "2026-10-06"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2146225.html",
+      "title": "スカラコミュニケーションズのFAQシステム「i-ask」で不正アクセス、大和証券やシチズンに影響",
+      "publisher": "INTERNET Watch",
+      "published_on": "2026-10-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56573.html",
+      "title": "スカラコミュニケーションズへの不正アクセス、大和証券の約11万名の顧客に係る個人情報も漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

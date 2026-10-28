@@ -1,0 +1,49 @@
+{
+  "id": "2025-starbucks-blue-yonder",
+  "organization": {
+    "name_ja": "スターバックス コーヒー ジャパン 株式会社",
+    "name_en": "Starbucks Coffee Japan, Ltd.",
+    "domain": "starbucks.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2025-09-19",
+  "discovered_on": null,
+  "affected": {
+    "count": 72200,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 31,500 employees in the initial 2025-09-19 announcement, plus about 40,700 more employees' IDs found leaked in a 2025-10-03 follow-up; ScanNetSecurity reports the combined total as about 72,200. The data was taken from a data transfer system used by Blue Yonder for its Work Force Management shift scheduling SaaS. Only employee information was reported as affected."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "Blue Yonder",
+  "status": "confirmed",
+  "summary": {
+    "en": "Starbucks Coffee Japan said employee personal data leaked after a cyberattack on Blue Yonder, provider of the Work Force Management shift scheduling tool it uses. About 31,500 employees were initially affected, and a follow-up found employee IDs of about 40,700 more, for a total of about 72,200.",
+    "ja": "スターバックス コーヒー ジャパンは、同社が利用するシフト作成ツール「Work Force Management」を提供するBlue Yonder社へのサイバー攻撃により、従業員の個人情報が漏えいしたと公表した。当初の約31,500名に加え、続報で約40,700名分の従業員IDの漏えいが判明し、合計は約72,200名となった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/10/01/53714.html",
+      "title": "約 31,500 名の従業員情報漏えい スターバックスが利用するBlue Yonder社のシフト作成ツールに外部から不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-10-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/10/15/53803.html",
+      "title": "新たに約 40,700 名分の従業員 ID 漏えいが判明 ～ スターバックスが利用するBlue Yonder社のシフト作成ツールへ不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-10-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/11/27/54118.html",
+      "title": "今日もどこかで情報漏えい 第42回「2025年10月の情報漏えい」永遠に不滅のダブルチェック神話",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-11-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

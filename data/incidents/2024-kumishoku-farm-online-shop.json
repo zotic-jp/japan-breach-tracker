@@ -1,0 +1,44 @@
+{
+  "id": "2024-kumishoku-farm-online-shop",
+  "organization": {
+    "name_ja": "鹿児島くみあい食品株式会社",
+    "name_en": "Kagoshima Kumiai Shokuhin Co., Ltd.",
+    "domain": "kg-shoku.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-02-19",
+  "discovered_on": "2023-09-29",
+  "affected": {
+    "count": 22234,
+    "unit": "records",
+    "approximate": false,
+    "note": "Member and delivery address records registered by 2023-10-17. Separately, 2,114 card records of 2,061 customers may have leaked and been misused."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "email",
+    "phone",
+    "password",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kagoshima Kumiai Shokuhin said its Kumishoku Farm online shop was hit by unauthorized access exploiting a vulnerability, and its payment application was altered. 22,234 records of member and delivery data, including login credentials, may have leaked, along with card data of 2,061 customers.",
+    "ja": "鹿児島くみあい食品は、通販サイト「クミショクファーム」が脆弱性を突く不正アクセスを受け、決済アプリケーションが改ざんされたと公表した。ログイン情報を含む会員・届け先情報22,234件と、顧客2,061人のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/153918",
+      "title": "鹿児島農産品の通販サイトで個人情報流出の可能性 - クレカや認証情報も",
+      "publisher": "Security NEXT",
+      "published_on": "2024-02-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

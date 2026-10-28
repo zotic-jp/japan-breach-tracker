@@ -1,0 +1,54 @@
+{
+  "id": "2025-miyagi-gakuin-ransomware",
+  "organization": {
+    "name_ja": "学校法人宮城学院",
+    "name_en": "Miyagi Gakuin",
+    "domain": "mgu.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2025-05-16",
+  "discovered_on": "2025-05-12",
+  "affected": {
+    "count": 30000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 30,000 current and former students, pupils, kindergarten children and staff enrolled or employed from fiscal 1995 to 2025 may be affected; the figure may include duplicates. Leakage was confirmed for 9 graduates. No publication of the data had been found as of 2025-09-24."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "address",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Miyagi Gakuin, which runs Miyagi Gakuin Women's University and affiliated schools, found on 2025-05-12 that multiple servers had been hit by a ransomware attack after account credentials were stolen. In September 2025 it reported confirmed leakage for 9 people and possible leakage for about 30,000 students and staff.",
+    "ja": "宮城学院女子大学などを運営する学校法人宮城学院は、2025年5月12日に教務システムサーバの停止を確認し、窃取されたアカウント情報を使ったランサムウェア攻撃で複数のサーバが被害を受けたことが判明した。2025年9月、9名分の外部漏洩を確認し、1995年度以降の学生・教職員等約3万名分に漏洩の恐れがあると公表した。"
+  },
+  "official_notice_url": "https://news.mgu.ac.jp/co/newsco/2385.html",
+  "sources": [
+    {
+      "url": "https://news.mgu.ac.jp/co/newsco/2385.html",
+      "title": "ランサムウェア感染による情報漏洩に関するお知らせ",
+      "publisher": "学校法人宮城学院",
+      "published_on": "2025-09-24"
+    },
+    {
+      "url": "https://news.mgu.ac.jp/news/9629.html",
+      "title": "「ランサムウェア感染によるネットワーク遮断措置について」(学長 長谷部弘)",
+      "publisher": "宮城学院女子大学",
+      "published_on": "2025-05-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/10/07/53757.html",
+      "title": "約 30,000 名の個人情報が漏えいした可能性 宮城学院へのランサムウェア攻撃",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-10-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

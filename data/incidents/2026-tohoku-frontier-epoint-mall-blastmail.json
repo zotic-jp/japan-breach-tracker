@@ -1,0 +1,38 @@
+{
+  "id": "2026-tohoku-frontier-epoint-mall-blastmail",
+  "organization": {
+    "name_ja": "東北電力フロンティア株式会社",
+    "name_en": "Tohoku Electric Power Frontier Co., Inc.",
+    "domain": "tohoku-frontier.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2026-10-22",
+  "discovered_on": "2026-10-21",
+  "affected": {
+    "count": 100000,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Up to about 100,000 members of the e-point mall (eポイントモール); the actual number is under investigation and the company said it had not yet confirmed whether its members' data was among the leaked lists. Data was held in Blastmail (Rakus Lite Cloud) used by its contractor ADDIX; see 2026-blastmail. Only email addresses and internal member IDs were in the service."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ラクスライトクラウド (ブラストメール)",
+  "status": "possible",
+  "summary": {
+    "en": "Tohoku Electric Power Frontier said the email delivery service Blastmail, used by the contractor that runs newsletters for its e-point mall, had been accessed without authorization. Email addresses and internal member IDs of up to about 100,000 e-point mall members may have leaked.",
+    "ja": "東北電力フロンティアは、「eポイントモール」のメールマガジン配信を担う委託先が利用するメール配信サービス「ブラストメール」が不正アクセスを受けたと発表した。eポイントモール会員最大約10万件のメールアドレスと内部管理IDが漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.tohoku-frontier.co.jp/news/1960/",
+  "sources": [
+    {
+      "url": "https://www.tohoku-frontier.co.jp/news/1960/",
+      "title": "当社が利用する外部サービス（メール配信サービス）への不正アクセスに伴う個人情報漏洩の可能性について",
+      "publisher": "東北電力フロンティア株式会社",
+      "published_on": "2026-10-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

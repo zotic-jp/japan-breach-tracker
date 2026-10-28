@@ -1,0 +1,51 @@
+{
+  "id": "2024-nidec-instruments-ransomware",
+  "organization": {
+    "name_ja": "ニデックインスツルメンツ株式会社",
+    "name_en": "Nidec Instruments Corporation",
+    "domain": "nidec.com"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2024-06-17",
+  "discovered_on": "2024-05-26",
+  "affected": {
+    "count": 318151,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (318,151) because no overall total was given. Published figures: 318,151 business partners/contacts + 71,089 music-box customers/event attendees + 13,290 employees/families (Security NEXT headline ~40万). Official notice not located."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "my_number",
+    "bank_account",
+    "id_document",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Nidec Instruments, a Nidec subsidiary, was hit by ransomware on several servers. It said cumulative totals of 318,151 records of business partners and related people, 71,089 of music box buyers and event participants, and 13,290 of employees and their families, including My Number and passport numbers, may have leaked.",
+    "ja": "ニデック子会社のニデックインスツルメンツは、複数サーバがランサムウェア被害を受けたと公表した。取引先や関係者に関する延べ318,151件、オルゴール購入者やイベント参加者に関する延べ71,089件、マイナンバーや旅券番号を含む従業員や家族に関する延べ13,290件の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/158457",
+      "title": "ニデック子会社にサイバー攻撃 - 複数サーバでランサム被害",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-17"
+    },
+    {
+      "url": "https://www.security-next.com/160198",
+      "title": "約40万件の個人情報が流出した可能性 - ニデック子会社",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-26"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

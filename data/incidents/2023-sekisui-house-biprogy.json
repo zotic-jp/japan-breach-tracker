@@ -1,0 +1,45 @@
+{
+  "id": "2023-sekisui-house-biprogy",
+  "organization": {
+    "name_ja": "積水ハウス株式会社",
+    "name_en": "Sekisui House, Ltd.",
+    "domain": "sekisuihouse.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2023-11-28",
+  "discovered_on": "2023-11-06",
+  "affected": {
+    "count": 34587,
+    "unit": "records",
+    "approximate": false,
+    "note": "Confirmed leaked: 2 customer records (name, building-site address and drawings) and 12 names of Sekisui House staff. Possibly leaked: 11,707 customer names with building-site addresses, 15,682 customer names only and 7,184 staff names, covering data obtained from 2001 to 2023."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": "BIPROGY株式会社 (BIPROGY Inc.)",
+  "status": "confirmed",
+  "summary": {
+    "en": "Sekisui House said a security misconfiguration by BIPROGY, which was developing a design system for it, exposed a cloud development server holding customer data, and suspicious access was detected on 2023-11-06. A small number of records were confirmed leaked and about 34,600 records of customers and staff may have leaked.",
+    "ja": "積水ハウスは、設計業務システムの開発を委託していたBIPROGYのセキュリティ設定不備により、顧客情報を含むシステム開発用クラウドサーバーから情報が漏えいしたと公表した。2023年11月6日に不審なアクセスを検知し、一部の情報の漏えいが確認され、顧客と従業員に関する約3万4,600件が漏えいしたおそれがあるとしている。"
+  },
+  "official_notice_url": "https://www.sekisuihouse.co.jp/company/topics/library/2023/20231128/20231128.pdf",
+  "sources": [
+    {
+      "url": "https://www.sekisuihouse.co.jp/company/topics/library/2023/20231128/20231128.pdf",
+      "title": "システム開発用クラウドサーバーのセキュリティ設定不備によるお客様情報等の外部漏えいについて",
+      "publisher": "積水ハウス株式会社",
+      "published_on": "2023-11-28"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/12/06/50325.html",
+      "title": "積水ハウスのシステム開発用クラウドサーバから顧客情報漏えい、委託先のBIPROGYのセキュリティ設定不備",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-12-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

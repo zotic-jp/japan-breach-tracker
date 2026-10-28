@@ -1,0 +1,42 @@
+{
+  "id": "2024-welcia-support-scam",
+  "organization": {
+    "name_ja": "ウエルシア薬局株式会社",
+    "name_en": "Welcia Yakkyoku Co., Ltd.",
+    "domain": "welcia-yakkyoku.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-11-08",
+  "discovered_on": "2024-10-24",
+  "affected": {
+    "count": 39805,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 39,805 customers of the Welcia.com online store, including former members. Data of 931 group employees may also have been exposed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "An employee involved in Welcia's online store was lured to a tech support scam site on 2024-10-24 and installed remote access software, giving a third party access to the PC. Personal data of up to 39,805 customers, including names, addresses, birthdates, site IDs and passwords, may have leaked.",
+    "ja": "ウエルシア薬局の通販サイト関連の従業員が2024年10月24日にサポート詐欺サイトに誘導され、遠隔操作ソフトをインストールしたことで第三者に端末へアクセスされた。氏名、住所、生年月日、サイトのID・パスワードなどを含む最大39,805人分の顧客情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/163985",
+      "title": "サポート詐欺被害で個人情報流出の可能性 - ウエルシア薬局",
+      "publisher": "Security NEXT",
+      "published_on": "2024-11-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

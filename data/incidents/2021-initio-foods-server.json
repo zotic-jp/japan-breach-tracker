@@ -1,0 +1,47 @@
+{
+  "id": "2021-initio-foods-server",
+  "organization": {
+    "name_ja": "イニシオフーズ株式会社",
+    "name_en": "Initio Foods Co., Ltd.",
+    "domain": "initio.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2021-03-24",
+  "discovered_on": "2021-03-02",
+  "affected": {
+    "count": 65000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 43,000 osechi customers, about 3,000 business card contacts, about 1,000 dispatched staff, 1,940 current employees and 15,815 former employees. Initio Foods is a Nisshin Seifun Group company."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Initio Foods, a prepared-food maker in the Nisshin Seifun Group, found a server failure on 2021-03-02 caused by unauthorized access that likely exploited a network device vulnerability. About 65,000 records of customers, business contacts and current and former employees may have leaked.",
+    "ja": "日清製粉グループで惣菜などを製造するイニシオフーズは、2021年3月2日にサーバー障害を検知し、ネットワーク機器の脆弱性を突いたとみられる不正アクセスを確認した。顧客、取引先、従業員、退職者などの情報約6万5千件が流出した可能性があると公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/04/01/45443.html",
+      "title": "日清製粉グループ会社に不正アクセス、顧客や取引先、社員等 個人情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-04-01"
+    },
+    {
+      "url": "https://www.security-next.com/124716",
+      "title": "不正アクセスで個人情報約6.5万件が流出か - 日清製粉関連会社",
+      "publisher": "Security NEXT",
+      "published_on": "2021-03-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

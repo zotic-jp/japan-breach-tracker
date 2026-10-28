@@ -1,0 +1,48 @@
+{
+  "id": "2026-takaratomy-duel-masters-app",
+  "organization": {
+    "name_ja": "株式会社タカラトミー",
+    "name_en": "TOMY Company, Ltd.",
+    "domain": "takaratomy.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2026-07-28",
+  "discovered_on": null,
+  "affected": {
+    "count": 155000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum number of users registered on the Duel Masters Support App between its release on 2025-08-01 and the fix on 2026-07-13. The company said it had not confirmed any actual viewing or misuse by third parties."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "TOMY Company said a flaw in the design and implementation of user authentication in its Duel Masters Support App had allowed third parties to view users' personal data under certain conditions from the app's release in August 2025 until a fix on 2026-07-13. Up to about 155,000 users were affected, though no actual viewing was confirmed.",
+    "ja": "タカラトミーは、「デュエル・マスターズ サポートアプリ」のユーザー認証機能の設計・実装に不備があり、2025年8月のリリースから2026年7月13日の修正まで、特定の条件下で第三者が個人情報を閲覧できる状態だったと発表した。対象は最大約15万5千人で、実際の閲覧は確認されていないという。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/188195",
+      "title": "アプリのユーザー認証に脆弱性、設計や実装時に問題 - タカラトミー",
+      "publisher": "Security NEXT",
+      "published_on": "2026-08-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/08/18/55947.html",
+      "title": "ユーザー認証機能の設計・実装に脆弱性 ～「デュエル・マスターズ サポートアプリ」で個人情報を閲覧される可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-08-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2024-daikin-supplier-data-download",
+  "organization": {
+    "name_ja": "ダイキン工業株式会社",
+    "name_en": "Daikin Industries, Ltd.",
+    "domain": "daikin.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2024-02-27",
+  "discovered_on": "2023-12-24",
+  "affected": {
+    "count": 22000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Supplier contact data of Daikin and affiliates. The company said it found no trace of the data being passed to third parties."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "bank_account"
+  ],
+  "cause": "insider",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Daikin Industries said an employee of a fourth-tier subcontractor working on its system development downloaded supplier information containing about 22,000 records of personal data, such as contact names, addresses, phone numbers and bank transfer details, for private purposes. Daikin detected the download on 2023-12-24 and found no sign of onward leakage.",
+    "ja": "ダイキン工業は、同社システムの開発を担う再々委託先の従業員が、私的な目的で仕入先担当者の氏名、住所、電話番号、振込先情報など約2万2,000件の個人情報を含む仕入先情報をダウンロードしていたと公表した。2023年12月24日に検知し、第三者への漏えいの痕跡はないとしている。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/154164",
+      "title": "再々委託先の従業員が業務情報を不正ダウンロード - ダイキン",
+      "publisher": "Security NEXT",
+      "published_on": "2024-02-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

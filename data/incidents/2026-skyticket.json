@@ -1,0 +1,57 @@
+{
+  "id": "2026-skyticket",
+  "organization": {
+    "name_ja": "株式会社アドベンチャー",
+    "name_en": "Adventure, Inc.",
+    "domain": "skyticket.jp"
+  },
+  "industry": "travel",
+  "disclosed_on": "2026-10-09",
+  "discovered_on": "2026-10-05",
+  "affected": {
+    "count": 14640000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Records taken in the server intrusion of 2026-10-02 to 10-04, of which about 4.13 million included hashed member passwords. Two separate incidents were announced at the same time: a business management system breach (17,780 records including duplicates, with refund bank account details) and bus booking completion pages viewable without login (about 12,000 bookings). A follow-up said card data of up to 6,140 people left in old payment logs also leaked."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "email",
+    "phone",
+    "address",
+    "password",
+    "bank_account",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Adventure, operator of the travel booking site skyticket, announced three separate unauthorized access incidents, the largest being an intrusion via a management function between 2026-10-02 and 10-04. About 14.64 million customer records, including names, birthdates, contact details and some hashed passwords, leaked in that intrusion.",
+    "ja": "旅行予約サイト「skyticket」を運営するアドベンチャーは、経路の異なる3件の不正アクセスを公表した。最大のものは2026年10月2日から4日にかけて管理機能を不正に操作された事案で、氏名、生年月日、連絡先、一部のハッシュ化されたパスワードなど約1,464万件の顧客情報が流出した。"
+  },
+  "official_notice_url": "https://skyticket.jp/news/maintenance/67603/",
+  "sources": [
+    {
+      "url": "https://skyticket.jp/news/maintenance/67603/",
+      "title": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ",
+      "publisher": "株式会社アドベンチャー",
+      "published_on": "2026-10-09"
+    },
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/13/news037.html",
+      "title": "skyticketで1464万件の個人情報流出か 413万件にはパスワードも、異なる3経路で不正アクセス",
+      "publisher": "@IT",
+      "published_on": "2026-10-13"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2149135.html",
+      "title": "skyticket、カード情報最大約6000件の流出が明らかに。データの保有はないがログに記録が残っていた",
+      "publisher": "INTERNET Watch",
+      "published_on": "2026-10-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

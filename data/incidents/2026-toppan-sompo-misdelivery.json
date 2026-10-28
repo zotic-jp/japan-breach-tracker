@@ -1,0 +1,44 @@
+{
+  "id": "2026-toppan-sompo-misdelivery",
+  "organization": {
+    "name_ja": "TOPPAN株式会社",
+    "name_en": "TOPPAN Inc.",
+    "domain": "toppan.com"
+  },
+  "industry": "other",
+  "disclosed_on": "2026-09-29",
+  "discovered_on": "2026-09-01",
+  "affected": {
+    "count": 177426,
+    "unit": "people",
+    "approximate": false,
+    "note": "Policyholders of Sompo Japan whose data was sent to another non-life insurer; Security NEXT notes some records may overlap."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "TOPPAN, which runs an insurance premium deduction certificate service for non-life insurers, mistakenly included a file of Sompo Japan policyholder data in a transmission to another insurer on 2026-09-01. The file covered 177,426 policyholders and contained katakana names and certificate numbers.",
+    "ja": "損害保険会社向けに保険料控除証明書発行サービスを受託するTOPPANは、2026年9月1日、損害保険ジャパンの契約者情報を含むファイルを誤って別の保険会社向けの送付データに混入させた。対象は契約者177,426名分で、カナ氏名や証券番号などが含まれていた。"
+  },
+  "official_notice_url": "https://www.holdings.toppan.com/ja/info/toppan_info20260929.pdf",
+  "sources": [
+    {
+      "url": "https://www.security-next.com/190839",
+      "title": "委託業務で個人情報を誤送付、操作ミスで - TOPPAN",
+      "publisher": "Security NEXT",
+      "published_on": "2026-10-09"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56480.html",
+      "title": "TOPPAN 受託の「保険料控除証明書 発行サービス 」運用業務で 177,426 名分のデータ誤送付",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

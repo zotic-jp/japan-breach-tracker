@@ -1,0 +1,38 @@
+{
+  "id": "2024-iwamizawa-cemetery-usb",
+  "organization": {
+    "name_ja": "岩見沢市",
+    "name_en": "Iwamizawa City (Hokkaido)",
+    "domain": "city.iwamizawa.hokkaido.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2024-04-02",
+  "discovered_on": "2024-03-11",
+  "affected": {
+    "count": 13866,
+    "unit": "records",
+    "approximate": false,
+    "note": "Cemetery user lists for Midorigaoka Cemetery and 13 other municipal cemeteries. The USB memory was password protected."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Iwamizawa City in Hokkaido lost a password-protected USB memory stick containing 13,866 records of users of Midorigaoka Cemetery and 13 other municipal cemeteries, which had been provided to the designated manager. The loss was found on 2024-03-11.",
+    "ja": "北海道岩見沢市は、指定管理者に提供していた緑が丘霊園など市内墓地14カ所の使用者名簿13,866件を保存したパスワード付きUSBメモリが所在不明になったと公表した。2024年3月11日に判明した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/155315",
+      "title": "霊園使用者の個人情報含むUSBメモリを紛失 - 岩見沢市",
+      "publisher": "Security NEXT",
+      "published_on": "2024-04-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

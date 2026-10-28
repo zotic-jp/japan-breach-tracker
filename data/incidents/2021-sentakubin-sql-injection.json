@@ -1,0 +1,50 @@
+{
+  "id": "2021-sentakubin-sql-injection",
+  "organization": {
+    "name_ja": "株式会社ヨシハラシステムズ",
+    "name_en": "Yoshihara Systems Co., Ltd.",
+    "domain": "sentakubin.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2021-04-05",
+  "discovered_on": "2020-10-30",
+  "affected": {
+    "count": 58813,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 58,813 customers of the Sentakubin delivery cleaning service: 44,891 card records from the new system and 13,922 customer records from the old system kept in a publicly reachable area during migration."
+  },
+  "data_types": [
+    "name",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Yoshihara Systems, operator of the delivery dry-cleaning service Sentakubin, announced that an SQL injection attack on its system may have leaked credit card data of up to 58,813 customers. Card companies had flagged possible leakage in October 2020.",
+    "ja": "宅配クリーニング「せんたく便」を運営するヨシハラシステムズは、SQLインジェクション攻撃による不正アクセスで、最大58,813人分のクレジットカード情報が流出した可能性があると公表した。2020年10月にカード会社から流出の懸念について連絡を受けていた。"
+  },
+  "official_notice_url": "https://www.sentakubin.co.jp/news/20210405.html",
+  "sources": [
+    {
+      "url": "https://www.sentakubin.co.jp/news/20210405.html",
+      "title": "弊社が運営する「せんたく便」への不正アクセスによる個人情報流出に関するお詫びとお知らせ",
+      "publisher": "株式会社ヨシハラシステムズ",
+      "published_on": "2021-04-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/04/07/45478.html",
+      "title": "「せんたく便」にSQLインジェクション脆弱性突く不正アクセス、カード情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-04-07"
+    },
+    {
+      "url": "https://www.security-next.com/124933",
+      "title": "宅配クリーニングに不正アクセス - 意図しない外部公開も",
+      "publisher": "Security NEXT",
+      "published_on": "2021-04-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

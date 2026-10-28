@@ -1,0 +1,49 @@
+{
+  "id": "2026-fancl-attenir-ec",
+  "organization": {
+    "name_ja": "株式会社ファンケル",
+    "name_en": "FANCL Corporation",
+    "domain": "fancl.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-16",
+  "discovered_on": "2026-10-15",
+  "affected": {
+    "count": 785496,
+    "unit": "people",
+    "approximate": false,
+    "note": "Combined total of 368,184 FANCL members (393,785 records) and 417,312 Attenir members (441,162 records), 834,947 records in all. Payment data such as credit cards and main login passwords were not included; some hashed secondary passwords were."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "FANCL and its group company Attenir found in an internal investigation on 2026-10-15 that their e-commerce sites had been accessed without authorization between 2026-10-03 and 2026-10-10. Member data of 785,496 people, including names, addresses, phone numbers, email addresses and birthdates, leaked.",
+    "ja": "ファンケルとアテニアは、2026年10月15日の内部調査で、10月3日から10月10日にかけて両社のECサイトが不正アクセスを受けていたことを把握した。氏名、住所、電話番号、メールアドレス、生年月日などを含む計785,496名分の会員情報が外部に漏えいした。"
+  },
+  "official_notice_url": "https://www.fancl.jp/news/pdf/husei.pdf",
+  "sources": [
+    {
+      "url": "https://www.fancl.jp/news/pdf/husei.pdf",
+      "title": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社ファンケル",
+      "published_on": "2026-10-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56538.html",
+      "title": "ファンケルとアテニアのECサイトに不正アクセス、会員情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

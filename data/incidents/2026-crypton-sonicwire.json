@@ -1,0 +1,42 @@
+{
+  "id": "2026-crypton-sonicwire",
+  "organization": {
+    "name_ja": "クリプトン・フューチャー・メディア株式会社",
+    "name_en": "Crypton Future Media, INC.",
+    "domain": "sonicwire.com"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2026-10-19",
+  "discovered_on": "2026-10-17",
+  "affected": {
+    "count": 362819,
+    "unit": "records",
+    "approximate": false,
+    "note": "Sum of the categories in the 2026-10-22 update: 362,137 SONICWIRE members, 671 invoice, receipt and quote records entered up to 2021-11-19, and 11 newsletter-only subscribers. The 2026-10-19 notice gave a preliminary maximum of about 420,000. D2R store data was also affected but no count was given. No card data is stored and license serial numbers were not taken."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "password",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Crypton Future Media detected possible unauthorized access to the servers of its SONICWIRE and D2R services on the evening of 2026-10-17 and shut them down. In an update on 2026-10-22 it confirmed that data had been viewed and taken, including names, email addresses and salted password hashes of 362,137 SONICWIRE members.",
+    "ja": "クリプトン・フューチャー・メディアは2026年10月17日夜、「SONICWIRE」と「D2R」のサーバーへの不正アクセスの可能性を検知し、サーバーを停止した。10月22日の更新で、SONICWIRE会員362,137件の氏名、メールアドレス、ソルト付きハッシュ化パスワードなどが閲覧・取得されたことを確認したと発表した。"
+  },
+  "official_notice_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+  "sources": [
+    {
+      "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+      "title": "不正アクセスによるお客様情報漏えいのお詫びとお知らせ",
+      "publisher": "クリプトン・フューチャー・メディア株式会社",
+      "published_on": "2026-10-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

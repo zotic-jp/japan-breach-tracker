@@ -1,0 +1,52 @@
+{
+  "id": "2020-kitchhike",
+  "organization": {
+    "name_ja": "株式会社キッチハイク",
+    "name_en": "KitchHike Inc.",
+    "domain": "kitchhike.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2020-07-24",
+  "discovered_on": "2020-07-16",
+  "affected": {
+    "count": 116863,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "Up to 116,863 users registered by 2020-07-21; the maximum includes users who had already left the service and whose data had been deleted. The attacker accessed an external server storing backup data of user information. Card data was handled by an external payment service."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "KitchHike, operator of a food and dining app, said it was accessed without authorization after an outside security expert warned it in July 2020. Profile data of up to 116,863 users, including names, phone numbers, email addresses and hashed passwords, may have leaked from an external server holding backup data.",
+    "ja": "食のコミュニティアプリ「キッチハイク」を運営するキッチハイクは、外部のセキュリティ専門家からの指摘を受けて調査し、不正アクセスを受けていたと公表した。バックアップデータを保存していた外部サーバから、氏名、電話番号、メールアドレス、ハッシュ化されたパスワードなど最大11万6,863件のユーザー情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/117621",
+      "title": "最大11.7万件の登録者情報が流出か - グルメアプリ",
+      "publisher": "Security NEXT",
+      "published_on": "2020-08-19"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/07/30/44374.html",
+      "title": "不正アクセスでユーザー情報が流出、対策としてサーバリプレイスを実施（キッチハイク）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-07-30"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/09/03/44517.html",
+      "title": "食べ歩きアプリ会員情報の流出、バックアップデータを保存する外部サーバへの不正アクセスが判明（キッチハイク）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-09-03"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

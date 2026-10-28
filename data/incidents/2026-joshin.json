@@ -1,0 +1,50 @@
+{
+  "id": "2026-joshin",
+  "organization": {
+    "name_ja": "株式会社Ｊｏｓｈｉｎ",
+    "name_en": "Joshin Denki Co., Ltd.",
+    "domain": "joshin.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-17",
+  "discovered_on": "2026-10-16",
+  "affected": {
+    "count": 6000000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Maximum figure from the second report (2026-10-26) for the member information database server; the company says these are records that may have leaked, not a confirmed count. Separately, up to about 230,000 records of the Joshin subscription service (including initial login passwords and handwritten signature data) and up to about 800 records of a renovation photo upload system (including a few license, My Number card and bank account images) may have leaked. Card data is not held."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "password",
+    "id_document",
+    "my_number",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Electronics retailer Joshin detected an anomaly on its network on 2026-10-16 and found traces of unauthorized access, which forced it to suspend some services. Its second report said names, addresses, phone numbers and member numbers of up to about 6 million records in its member database may have leaked.",
+    "ja": "家電量販店のJoshinは2026年10月16日に社内ネットワークの異常を検知し、不正アクセスの形跡を確認したため一部サービスを停止した。第2報では、会員情報データベースの氏名、住所、電話番号、会員番号の最大約600万件が漏洩した可能性があるとした。"
+  },
+  "official_notice_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf",
+  "sources": [
+    {
+      "url": "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf",
+      "title": "不正アクセスによるシステム障害発生のお詫びとお知らせ（第2報）",
+      "publisher": "株式会社Ｊｏｓｈｉｎ",
+      "published_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.joshin.co.jp/ja/ir/news/auto_20261019552813/pdfFile.pdf",
+      "title": "不正アクセスによるシステム障害発生のお詫びとお知らせ",
+      "publisher": "株式会社Ｊｏｓｈｉｎ",
+      "published_on": "2026-10-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

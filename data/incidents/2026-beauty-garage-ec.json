@@ -1,0 +1,47 @@
+{
+  "id": "2026-beauty-garage-ec",
+  "organization": {
+    "name_ja": "株式会社ビューティガレージ",
+    "name_en": "Beauty Garage Inc.",
+    "domain": "beautygarage.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-15",
+  "discovered_on": "2026-10-13",
+  "affected": {
+    "count": 775725,
+    "unit": "records",
+    "approximate": false,
+    "note": "Customer records stored in the Beauty Garage and Eyelash Garage EC systems as of 2026-10-10 23:55. Addresses, purchase histories and payment data were not confirmed leaked. This is separate from the possible credit card data leak the company announced on 2026-02-06."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Beauty Garage detected on 2026-10-13 that the server of its EC sites had been broken into between 2026-10-10 and 2026-10-12. 775,725 customer records, including company and salon names, customer names, phone numbers, email addresses and hashed passwords, leaked.",
+    "ja": "ビューティガレージは2026年10月13日、同社ECサイトのサーバーに10月10日から12日にかけて不正侵入されていたことを検知した。会社名、サロン名、氏名、電話番号、メールアドレス、パスワードのハッシュ値などを含む顧客情報775,725件が外部に流出した。"
+  },
+  "official_notice_url": "https://www.beautygarage.co.jp/wp/wp-content/uploads/20261015_%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+  "sources": [
+    {
+      "url": "https://www.beautygarage.co.jp/wp/wp-content/uploads/20261015_%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B.pdf",
+      "title": "不正アクセスによるお客様情報漏洩に関するお詫びとお知らせ",
+      "publisher": "株式会社ビューティガレージ",
+      "published_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.beautygarage.co.jp/wp/wp-content/uploads/news_unauthorizedaccess20261020.pdf",
+      "title": "不正アクセスによるお客様情報漏洩に関するお詫びとお知らせ（第2報）",
+      "publisher": "株式会社ビューティガレージ",
+      "published_on": "2026-10-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "2025-medics-therapia-awajicho",
+  "organization": {
+    "name_ja": "株式会社メディックス（セラピア淡路町店）",
+    "name_en": "Medics Co., Ltd. (Therapia Awajicho)",
+    "domain": null
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2025-10-17",
+  "discovered_on": "2025-10-07",
+  "affected": {
+    "count": 15210,
+    "unit": "people",
+    "approximate": false,
+    "note": "Personal data customers entered on first-visit questionnaires at the Therapia Awajicho store. The company published its notice as an image file."
+  },
+  "data_types": [],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Medics, which operates the Therapia Awajicho bodywork and massage store, reported that a store PC was accessed without authorization from the evening of 2025-10-07 until the network was cut off the next morning. Personal data of 15,210 customers from first-visit questionnaires may have leaked.",
+    "ja": "整体・マッサージ店「セラピア淡路町店」を運営するメディックスは、2025年10月7日夜から翌朝にネットワークを遮断するまでの間、店舗のパソコンが不正アクセスを受けたと公表した。初診アンケートに記入された15,210名分の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/10/29/53913.html",
+      "title": "15,210 名分の初診アンケート記入の個人情報が漏えいした可能性 ～ 整体・マッサージ店の PC に不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-10-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

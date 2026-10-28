@@ -1,0 +1,49 @@
+{
+  "id": "2026-newspicks-admin-tool",
+  "organization": {
+    "name_ja": "株式会社ユーザベース",
+    "name_en": "Uzabase, Inc.",
+    "domain": "newspicks.com"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-10-08",
+  "discovered_on": null,
+  "affected": {
+    "count": 362000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Largest of the per-item maximum counts in the second report: partial card data (holder name, last 3 or 4 digits) 362,000; email addresses 323,000; job title category 273,000; employer 65,000; names 59,000; delivery addresses 31,000; employer phone numbers 29,000; birthdates 28,000. No deduplicated total was published. Full card numbers and passwords were not leaked."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Uzabase announced on 2026-10-08 that personal data of NewsPicks customers may have leaked after an attacker exploited a vulnerability in an administration tool used for NewsPicks operations. Its second report listed up to 323,000 email addresses and up to 362,000 records of partial credit card data among the affected items.",
+    "ja": "ユーザベースは2026年10月8日、NewsPicksの業務で利用する管理ツールの脆弱性を突かれ、NewsPicks利用者の個人情報が漏洩した可能性があると発表した。第二報では、メールアドレス最大32.3万件、クレジットカード情報の一部最大36.2万件などが対象とされた。"
+  },
+  "official_notice_url": "https://corp.newspicks.com/info/20261009",
+  "sources": [
+    {
+      "url": "https://corp.newspicks.com/info/20261009",
+      "title": "【第二報】NewsPicksのお客様の個人情報漏洩の可能性に関するお詫びとお知らせ",
+      "publisher": "株式会社ユーザベース",
+      "published_on": "2026-10-09"
+    },
+    {
+      "url": "https://corp.newspicks.com/info/20261008",
+      "title": "【重要】NewsPicksのお客様の個人情報漏洩の可能性に関するお詫びとお知らせ",
+      "publisher": "株式会社ユーザベース",
+      "published_on": "2026-10-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

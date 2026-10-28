@@ -1,0 +1,40 @@
+{
+  "id": "2024-sanofi-hcp-database",
+  "organization": {
+    "name_ja": "サノフィ株式会社",
+    "name_en": "Sanofi K.K.",
+    "domain": "sanofi.co.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2024-08-29",
+  "discovered_on": null,
+  "affected": {
+    "count": 733820,
+    "unit": "people",
+    "approximate": false,
+    "note": "733,820 Japanese healthcare professionals; plus 1,390 employees/contractors possibly affected. Official notice not located; Security NEXT article 2024-08-29."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Sanofi said a database was accessed without authorization using account credentials that a contractor had stored on a personal device against company policy. Data of 733,820 healthcare professionals in Japan, including names, birthdates and email addresses, was in the accessed data.",
+    "ja": "サノフィは、委託先がセキュリティポリシーに反して個人の端末に保存していたデータベースのアカウント情報を悪用され、不正アクセスを受けたと公表した。アクセスされたデータには、国内の医療従事者733,820人の氏名、生年月日、メールアドレスなどが含まれていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/161240",
+      "title": "委託先よりDBアカウント漏洩、医療従事者情報が流出 - サノフィ",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

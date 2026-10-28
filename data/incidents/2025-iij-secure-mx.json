@@ -1,0 +1,51 @@
+{
+  "id": "2025-iij-secure-mx",
+  "organization": {
+    "name_ja": "株式会社インターネットイニシアティブ（IIJ）",
+    "name_en": "Internet Initiative Japan Inc. (IIJ)",
+    "domain": "iij.ad.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2025-04-15",
+  "discovered_on": "2025-04-10",
+  "affected": {
+    "count": 311288,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Accounts of the corporate email security service IIJ Secure MX. The first notice (2025-04-15) said up to 4,072,650 email accounts across 6,493 contracts (all customers) might be affected. The 2025-04-22 investigation confirmed leakage for 586 contracts: account IDs/passwords for 132 contracts (311,288 of the email accounts), email bodies/headers for 6 contracts, and credentials for linked third-party cloud services for 488 contracts. The attacker exploited a then-unknown vulnerability in the third-party Active! mail software."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "IIJ found on 2025-04-10 that equipment for its corporate email security service IIJ Secure MX had been accessed without authorization since 2024-08-03 via a zero-day flaw in Active! mail. Its follow-up report confirmed that 311,288 email account credentials, plus email contents and cloud service credentials for some contracts, had leaked.",
+    "ja": "IIJは2025年4月10日、法人向けメールセキュリティサービス「IIJセキュアMXサービス」の設備が、Active! mailの未知の脆弱性を突かれて2024年8月3日以降不正アクセスを受けていたことを確認した。続報で、311,288件のメールアカウント・パスワードと、一部契約のメール本文や連携クラウドサービスの認証情報の漏えいを確認したと公表した。"
+  },
+  "official_notice_url": "https://www.iij.ad.jp/news/pressrelease/2025/0422-2.html",
+  "sources": [
+    {
+      "url": "https://www.iij.ad.jp/news/pressrelease/2025/0415.html",
+      "title": "IIJセキュアMXサービスにおけるお客様情報の漏えいについて",
+      "publisher": "株式会社インターネットイニシアティブ",
+      "published_on": "2025-04-15"
+    },
+    {
+      "url": "https://www.iij.ad.jp/news/pressrelease/2025/0422-2.html",
+      "title": "IIJセキュアMXサービスにおけるお客様情報の漏えいについてのお詫びとご報告",
+      "publisher": "株式会社インターネットイニシアティブ",
+      "published_on": "2025-04-22"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/04/24/52741.html",
+      "title": "「IIJセキュアMXサービス」への不正アクセス、「Active! mail」に存在するスタックベースのバッファオーバーフローの脆弱性を悪用",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-04-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

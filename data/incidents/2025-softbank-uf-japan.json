@@ -1,0 +1,47 @@
+{
+  "id": "2025-softbank-uf-japan",
+  "organization": {
+    "name_ja": "ソフトバンク株式会社（委託先：株式会社UFジャパン）",
+    "name_en": "SoftBank Corp. (contractor UF Japan)",
+    "domain": "softbank.jp"
+  },
+  "industry": "telecom",
+  "disclosed_on": "2025-06-11",
+  "discovered_on": null,
+  "affected": {
+    "count": 137156,
+    "unit": "records",
+    "approximate": false,
+    "note": "Records of individual SoftBank and Y!mobile customers as currently identified: 135,022 possibly taken out on a USB drive in 2024-12 by a former employee of a UF Japan subcontractor (seen on security camera; the person said they did not remember), and 2,134 uploaded by a subcontractor employee to a cloud service viewable by three people not involved in the work. A further 161,132 internal customer management numbers that cannot identify people outside SoftBank's systems were also involved. No credit card, bank account or My Number data was included. The investigation was still ongoing."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "phone",
+    "other"
+  ],
+  "cause": "insider",
+  "via_vendor": "株式会社UFジャパン",
+  "status": "possible",
+  "summary": {
+    "en": "SoftBank said its contractor UF Japan had mishandled customer data, including a former employee of a UF Japan subcontractor who appeared to copy customer information to a USB drive in 2024-12. Data of 137,156 mobile customers, including names, addresses and contract details, may have been taken out.",
+    "ja": "ソフトバンクは、業務委託先のUFジャパンで顧客情報が不適切に扱われ、協力会社の元従業員が2024年12月にUSBメモリーで顧客情報を持ち出した可能性があると公表した。携帯電話サービスの顧客137,156件の氏名、住所、契約内容などが流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.softbank.jp/corp/news/press/sbkk/2025/20250611_01/",
+  "sources": [
+    {
+      "url": "https://www.softbank.jp/corp/news/press/sbkk/2025/20250611_01/",
+      "title": "業務委託先企業による個人情報漏えいの可能性について",
+      "publisher": "ソフトバンク株式会社",
+      "published_on": "2025-06-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/06/20/53082.html",
+      "title": "監視カメラ映像があっても「記憶にない」と主張 ～ UFジャパン協力会社 元従業員 ソフトバンク顧客の個人情報持ち出し",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-06-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

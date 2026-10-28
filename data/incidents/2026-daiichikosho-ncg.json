@@ -1,0 +1,47 @@
+{
+  "id": "2026-daiichikosho-ncg",
+  "organization": {
+    "name_ja": "株式会社第一興商",
+    "name_en": "Daiichikosho Co., Ltd.",
+    "domain": "dkkaraoke.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2026-10-08",
+  "discovered_on": "2026-10-02",
+  "affected": {
+    "count": 8724000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 8,631,000 customer records (after removing about 515,000 duplicates) of people who registered or booked at Big Echo, DK Dining and other group stores, plus about 93,000 employee records. As of the 2026-10-26 update, no actual leak or misuse had been confirmed. Passwords were not included."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "email",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "日本コロムビアグループ株式会社",
+  "status": "possible",
+  "summary": {
+    "en": "Daiichikosho, operator of the Big Echo karaoke chain, was told by its contractor Nippon Columbia Group that an employee PC holding Daiichikosho customer data had been infected with malware on 2026-10-01 to 10-02. Names, birthdates, email addresses and phone numbers in about 8.72 million records may have leaked.",
+    "ja": "カラオケ「ビッグエコー」を運営する第一興商は、個人情報の取扱いを委託している日本コロムビアグループから、同社従業員のPCが2026年10月1日から2日にかけてマルウェアに感染したとの報告を受けた。端末に保管されていた約872万4,000件の氏名、生年月日、メールアドレス、電話番号などが漏えいしたおそれがある。"
+  },
+  "official_notice_url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+  "sources": [
+    {
+      "url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+      "title": "委託先における個人情報漏えいのおそれについて",
+      "publisher": "株式会社第一興商",
+      "published_on": "2026-10-08"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2147032.html",
+      "title": "第一興商、委託先への不正アクセスで「ビッグエコー」などの利用者情報約872万件が漏えいのおそれ",
+      "publisher": "INTERNET Watch",
+      "published_on": "2026-10-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

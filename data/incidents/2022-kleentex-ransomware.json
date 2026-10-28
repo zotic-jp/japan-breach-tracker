@@ -1,0 +1,52 @@
+{
+  "id": "2022-kleentex-ransomware",
+  "organization": {
+    "name_ja": "クリーンテックス・ジャパン株式会社",
+    "name_en": "Kleen-Tex Japan Inc.",
+    "domain": "kleen-tex.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2022-07-15",
+  "discovered_on": "2022-07-08",
+  "affected": {
+    "count": 40600,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 40,600 order records (orderer and recipient names, addresses, phone numbers, items) from its own online store and Rakuten, Amazon and Yahoo! Shopping between 2016-05-11 and 2022-07-07. Email addresses, IDs and card data were not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Doormat maker Kleen-Tex Japan found on 2022-07-08 that data on multiple internal servers had been encrypted in a cyberattack. Up to 40,600 customer order records from its own store and online malls may have been leaked.",
+    "ja": "玄関マットの製造販売を手がけるクリーンテックス・ジャパンは、2022年7月8日に社内の複数サーバでデータが暗号化されていることを確認した。自社オンラインストアや楽天、Amazonなどで注文した顧客情報最大4万600件が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.kleen-tex.jp/20220715_1/",
+  "sources": [
+    {
+      "url": "https://www.kleen-tex.jp/20220715_1/",
+      "title": "社内サーバーへの不正アクセスによる個人情報流出の可能性のお知らせとお詫び(第一報)",
+      "publisher": "クリーンテックス・ジャパン株式会社",
+      "published_on": "2022-07-15"
+    },
+    {
+      "url": "https://www.security-next.com/138262",
+      "title": "複数サーバでデータが暗号化、顧客情報流出の可能性も - 玄関マット製造会社",
+      "publisher": "Security NEXT",
+      "published_on": "2022-07-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/07/22/47942.html",
+      "title": "玄関マット販売クリーンテックス・ジャパンに不正アクセス、自社サイトに加え楽天やAmazon、Yahoo!ショッピング注文分の配送先情報が流出の可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-07-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

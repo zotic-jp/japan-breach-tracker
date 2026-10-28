@@ -1,0 +1,45 @@
+{
+  "id": "2022-dairiki-app",
+  "organization": {
+    "name_ja": "ダイリキ株式会社",
+    "name_en": "Dairiki Co., Ltd.",
+    "domain": "dairiki.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-09-26",
+  "discovered_on": "2022-09-16",
+  "affected": {
+    "count": 83644,
+    "unit": "records",
+    "approximate": false,
+    "note": "App members registered by 2022-09-02. The data was found published on a website."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Meat retail chain Dairiki said its web server was attacked on 2022-09-12, and police told it on 2022-09-16 that the data had been posted online. 83,644 records of official app members, including email addresses, device-change passwords and purchase data, were leaked.",
+    "ja": "食肉小売チェーンのダイリキは、2022年9月12日にウェブサーバがサイバー攻撃を受け、9月16日に警察からの情報提供で情報がウェブ上に公開されていることが判明したと公表した。公式アプリ会員のメールアドレスや機種変更パスワード、購買情報など8万3,644件が流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/140288",
+      "title": "サイバー攻撃で公式アプリ会員のメアドなど流出 - 食肉小売チェーン",
+      "publisher": "Security NEXT",
+      "published_on": "2022-10-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/10/06/48291.html",
+      "title": "不正アクセスでダイリキ公式アプリの会員情報が漏えい、不審メールに注意を呼びかけ",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-10-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

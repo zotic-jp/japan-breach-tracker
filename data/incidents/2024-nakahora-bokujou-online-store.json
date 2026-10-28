@@ -1,0 +1,55 @@
+{
+  "id": "2024-nakahora-bokujou-online-store",
+  "organization": {
+    "name_ja": "株式会社企業農業研究所",
+    "name_en": "Kigyo Nogyo Kenkyusho Co., Ltd. (Nakahora Bokujou)",
+    "domain": "nakahora-bokujou.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-02-28",
+  "discovered_on": "2023-09-08",
+  "affected": {
+    "count": 14933,
+    "unit": "records",
+    "approximate": false,
+    "note": "Customers of the old site from 2017-06-01 to 2023-07-11; 5,069 of the records also included card data."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kigyo Nogyo Kenkyusho, which runs the online store of Nakahora Bokujou dairy farm in Iwate, said the store's old system was hit through a vulnerability and its payment application altered. 14,933 customer records may have leaked, 5,069 of them with card data.",
+    "ja": "岩手県の「なかほら牧場」のオンラインストアを運営する企業農業研究所は、移行前の旧システムが脆弱性を突かれ、決済アプリケーションが改ざんされたと公表した。顧客情報14,933件が流出したおそれがあり、うち5,069件はクレジットカード情報も含まれる。"
+  },
+  "official_notice_url": "https://nakahora-bokujou.jp/blogs/news/20240228-1",
+  "sources": [
+    {
+      "url": "https://nakahora-bokujou.jp/blogs/news/20240228-1",
+      "title": "【重要】「なかほら牧場オンラインストア」への不正アクセスによるクレジットカード情報の窃取に関するお詫びとお知らせ",
+      "publisher": "株式会社企業農業研究所",
+      "published_on": "2024-02-28"
+    },
+    {
+      "url": "https://www.security-next.com/154265",
+      "title": "なかほら牧場の通販サイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-02-29"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/03/07/50686.html",
+      "title": "「なかほら牧場オンラインストア」旧サイトに不正アクセス、5,069 件のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-03-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

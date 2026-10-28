@@ -1,0 +1,46 @@
+{
+  "id": "2025-ecohai-tracking-form",
+  "organization": {
+    "name_ja": "株式会社エコ配",
+    "name_en": "Ecohai Co., Ltd.",
+    "domain": "ecohai.co.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2025-08-12",
+  "discovered_on": null,
+  "affected": {
+    "count": 149063,
+    "unit": "records",
+    "approximate": false,
+    "note": "Recipient data was viewable from 2025-02-12 to 2025-07-23: entering an arbitrary inquiry number in the parcel tracking or redelivery function led to an inquiry form showing that number's recipient details. Email addresses were included for some recipients only. The function was stopped and the flaw fixed."
+  },
+  "data_types": [
+    "address",
+    "name",
+    "phone",
+    "email"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Parcel delivery company Ecohai found that a flaw in its parcel tracking and redelivery inquiry function let anyone view recipient details by entering arbitrary inquiry numbers between February and July 2025. It said 149,063 records, including recipients' names, addresses and phone numbers, may have been exposed.",
+    "ja": "宅配事業者のエコ配は、貨物追跡・再配達依頼機能のシステム不備により、2025年2月から7月まで任意のお問い合わせ番号の入力で受取人の情報が閲覧できる状態だったと公表した。氏名、住所、電話番号などを含む149,063件が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.ecohai.co.jp/hp_news/2025/250812.pdf",
+  "sources": [
+    {
+      "url": "https://www.ecohai.co.jp/hp_news/2025/250812.pdf",
+      "title": "【重要なお知らせ】個人情報漏洩に関するお詫びとご報告",
+      "publisher": "株式会社エコ配",
+      "published_on": "2025-08-12"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/08/26/53505.html",
+      "title": "エコ配、システム不備により 任意の問い合わせ番号入力で受取人の一部情報が閲覧可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-08-26"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2025-haruyama-ransomware",
+  "organization": {
+    "name_ja": "株式会社はるやまホールディングス",
+    "name_en": "Haruyama Holdings Inc.",
+    "domain": "haruyama.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-06-30",
+  "discovered_on": "2025-06-26",
+  "affected": {
+    "count": 18053,
+    "unit": "records",
+    "approximate": false,
+    "note": "Customers, business partners and employees of the group. The investigation found no trace of data exfiltration, but the company said it could not rule out that the data was viewed. Credit card data is not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Haruyama Holdings detected unauthorized access to its group servers on 2025-06-26, and business data and software on multiple servers were encrypted by ransomware. Its final report said 18,053 records of customers, partners and employees may have leaked, although no exfiltration was found.",
+    "ja": "はるやまホールディングスは2025年6月26日にグループのサーバーへの不正アクセスを検知し、複数のサーバーで業務データ等がランサムウェアにより暗号化された。最終報で、外部流出の痕跡はないものの、顧客、取引先、従業員の個人情報18,053件が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.haruyama.co.jp/news/pdf/202510_46393_1.pdf",
+  "sources": [
+    {
+      "url": "https://www.haruyama.co.jp/news/pdf/202510_46393_1.pdf",
+      "title": "当社グループにおける不正アクセスによるシステム障害に関するお知らせ（最終報）",
+      "publisher": "株式会社はるやまホールディングス",
+      "published_on": "2025-10-24"
+    },
+    {
+      "url": "https://www.haruyama.co.jp/news/pdf/202506_26065_1.pdf",
+      "title": "当社グループにおける不正アクセスによるシステム障害に関するお知らせ(第１報)",
+      "publisher": "株式会社はるやまホールディングス",
+      "published_on": "2025-06-30"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/11/11/53999.html",
+      "title": "不正アクセスの入口となったネットワーク機器の廃止ほか ～ はるやまホールディングス 不正アクセス最終報",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-11-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2020-futtsu-city-usb",
+  "organization": {
+    "name_ja": "富津市",
+    "name_en": "Futtsu City",
+    "domain": null
+  },
+  "industry": "government",
+  "disclosed_on": "2020-01-17",
+  "discovered_on": null,
+  "affected": {
+    "count": 10795,
+    "unit": "people",
+    "approximate": false,
+    "note": "Data on residents needing evacuation support (elderly people living alone, people with disabilities and others), compiled for typhoon No. 15 relief work. The city said the memory was most likely lost inside the city office and no leak was confirmed."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Futtsu City in Chiba Prefecture lost a USB memory stick that may have held a list of 10,795 residents needing evacuation support, prepared for relief work after typhoon No. 15. The data included names, birthdates, addresses, phone numbers and care categories.",
+    "ja": "千葉県富津市は、台風15号の被災者支援のために作成した避難行動要支援者名簿の基礎データを保存した可能性があるUSBメモリを紛失したと公表した。氏名、生年月日、住所、電話番号、要介護度などの区分を含む1万795人分の情報が保存されていた可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/111576",
+      "title": "避難行動要支援者の情報含むUSBメモリを紛失か - 富津市",
+      "publisher": "Security NEXT",
+      "published_on": "2020-01-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/01/23/43571.html",
+      "title": "台風第15号の被災者支援用データが保存されたUSBメモリを紛失（富津市）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-01-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

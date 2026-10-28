@@ -1,0 +1,44 @@
+{
+  "id": "2021-tsuyuki-futon-online-shop",
+  "organization": {
+    "name_ja": "株式会社つゆき",
+    "name_en": "Tsuyuki Co., Ltd.",
+    "domain": "futon-tsuyuki.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-03-23",
+  "discovered_on": null,
+  "affected": {
+    "count": 19197,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 19,197 card records entered between 2019-12-03 and 2020-12-07. Only 1,784 were completed payments; the company said most of the rest appear to have been machine-generated numbers used to test card validity."
+  },
+  "data_types": [
+    "name",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Bedding retailer Tsuyuki announced that up to 19,197 credit card records entered on its online shop may have leaked after a third party exploited a vulnerability in the site. Most of the records were believed to be card-validity tests rather than real orders.",
+    "ja": "寝具販売のつゆきは、オンラインショップの脆弱性を突いた第三者の不正アクセスにより、サイトで入力されたクレジットカード情報最大19,197件が流出した可能性があると公表した。大半はカードの有効性確認に使われたものとみられるという。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/124526",
+      "title": "寝具通販サイトでクレカ情報約1.9万件が流出か - 9割超は決済不成立のクレカ情報",
+      "publisher": "Security NEXT",
+      "published_on": "2021-03-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/03/25/45398.html",
+      "title": "ふとん販売ECサイトに不正アクセス、カードの有効性チェックも",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-03-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

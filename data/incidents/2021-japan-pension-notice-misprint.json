@@ -1,0 +1,49 @@
+{
+  "id": "2021-japan-pension-notice-misprint",
+  "organization": {
+    "name_ja": "日本年金機構",
+    "name_en": "Japan Pension Service",
+    "domain": "nenkin.go.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2021-10-06",
+  "discovered_on": null,
+  "affected": {
+    "count": 975065,
+    "unit": "records",
+    "approximate": false,
+    "note": "Misprinted pension payment notices for the October 2021 regular payment: 804,033 in Aichi, 166,026 in Fukuoka, 3,041 in Wakayama, 1,964 in Mie and 1 in Nara. According to Security NEXT, the notices carried another person's basic pension number, receiving bank, payment amount and deductions; the service said these items alone cannot identify a person."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "The Japan Pension Service disclosed that a printing error by a contractor caused October 2021 pension payment notices to carry another person's information. A total of 975,065 notices in Aichi, Fukuoka and three other prefectures were affected, and corrected notices were re-sent.",
+    "ja": "日本年金機構は、委託先の印刷の誤りにより、2021年10月定期支払分の年金振込通知書に別人の情報が印字されて送付されたと公表した。愛知県、福岡県など5県で計975,065件が対象となり、正しい通知書を再送付した。"
+  },
+  "official_notice_url": "https://www.nenkin.go.jp/oshirase/taisetu/2021/202110/1013.html",
+  "sources": [
+    {
+      "url": "https://www.nenkin.go.jp/oshirase/taisetu/2021/202110/1013.html",
+      "title": "年金振込通知書（令和3年10月定期支払）の再送付について",
+      "publisher": "日本年金機構",
+      "published_on": "2021-10-13"
+    },
+    {
+      "url": "https://www.security-next.com/130488",
+      "title": "受給者約97万人分の年金振込通知書に別人の情報 - 日本年金機構",
+      "publisher": "Security NEXT",
+      "published_on": "2021-10-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/10/18/46471.html",
+      "title": "年金振込通知書の誤送付は97万5,065件、和歌山県と奈良県も新たに発覚",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-10-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

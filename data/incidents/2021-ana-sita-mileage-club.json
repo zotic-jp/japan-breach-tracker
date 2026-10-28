@@ -1,0 +1,50 @@
+{
+  "id": "2021-ana-sita-mileage-club",
+  "organization": {
+    "name_ja": "全日本空輸株式会社",
+    "name_en": "All Nippon Airways Co., Ltd.",
+    "domain": "ana.co.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2021-03-06",
+  "discovered_on": null,
+  "affected": {
+    "count": 1000000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 1 million ANA Mileage Club members, about 3% of all members. Only romanized names, membership numbers and Star Alliance status were involved. ANA does not use SITA itself; the data came from a SITA system used by another Star Alliance airline."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "SITA",
+  "status": "confirmed",
+  "summary": {
+    "en": "All Nippon Airways announced that data of about 1 million ANA Mileage Club members leaked after unauthorized access to a system of SITA used by another Star Alliance member airline. Romanized names, membership numbers and status tiers were involved.",
+    "ja": "全日本空輸は、スターアライアンス加盟の他社が利用するSITA社のシステムへの不正アクセスにより、ANAマイレージクラブ会員約100万人分の情報が漏えいしたと公表した。対象はローマ字氏名、会員番号、ステータスである。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/03/10/45309.html",
+      "title": "スイスSITA社への不正アクセスを受け、ANAマイレージクラブ会員情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-03-10"
+    },
+    {
+      "url": "https://www.aviationwire.jp/archives/222020",
+      "title": "ANAも100万人分漏えい SITA社サイバー攻撃",
+      "publisher": "Aviation Wire",
+      "published_on": "2021-03-06"
+    },
+    {
+      "url": "https://www.security-next.com/123910",
+      "title": "航空会社向け顧客管理システムに不正アクセス - JALやANAにも影響",
+      "publisher": "Security NEXT",
+      "published_on": "2021-03-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

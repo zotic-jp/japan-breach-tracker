@@ -1,0 +1,39 @@
+{
+  "id": "2024-tokyu-livable-former-employee",
+  "organization": {
+    "name_ja": "東急リバブル株式会社",
+    "name_en": "Tokyu Livable, Inc.",
+    "domain": "livable.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2024-08-16",
+  "discovered_on": null,
+  "affected": {
+    "count": 25406,
+    "unit": "people",
+    "approximate": false,
+    "note": "Owner information of some condominiums in Minato-ku, Tokyo, compiled from real estate registries. Part of it was used for direct mail."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "other"
+  ],
+  "cause": "insider",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Real estate broker Tokyu Livable said a former employee who moved to a competitor took an internal list of 25,406 condominium owners in Minato-ku, Tokyo, in breach of a confidentiality pledge and used part of it to send direct mail.",
+    "ja": "東急リバブルは、同業他社へ転職した元従業員が秘密保持の誓約に反して、東京都港区の一部マンション所有者25,406人分の氏名、住所などをまとめた社内資料を持ち出し、一部をダイレクトメールに利用していたと公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/160705",
+      "title": "元従業員が顧客情報を持出、DM送付に利用 - 東急リバブル",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

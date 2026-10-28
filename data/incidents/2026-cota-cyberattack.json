@@ -1,0 +1,42 @@
+{
+  "id": "2026-cota-cyberattack",
+  "organization": {
+    "name_ja": "コタ株式会社",
+    "name_en": "COTA Co., Ltd.",
+    "domain": "cota.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2026-03-30",
+  "discovered_on": "2026-03-27",
+  "affected": {
+    "count": 109147,
+    "unit": "records",
+    "approximate": false,
+    "note": "Total as of 2026-08-20 across eight categories, mainly 55,408 shareholder records, 35,274 direct-delivery customer records and 16,133 business partner contact records, plus employees, job applicants, IR event applicants, award participants and product monitors. Card data was not included. COTA said no leak had been confirmed but viewing could not be ruled out."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Hair care maker COTA found malfunctioning office PCs on 2026-03-27, confirmed unauthorized access by a third party and announced a system failure caused by a cyberattack on 2026-03-30. On 2026-08-20 it said that 109,147 records of shareholders, customers, business partners, employees and others could not be ruled out as leaked.",
+    "ja": "ヘアケア製品メーカーのコタは、2026年3月27日に一部の社内PCの動作不良を確認して第三者による不正アクセスを把握し、3月30日にサイバー攻撃によるシステム障害を公表した。8月20日には、株主、顧客、取引先、従業員などの情報計109,147件について漏えいの可能性が否定できないと発表した。"
+  },
+  "official_notice_url": "https://media.cota.co.jp/media/c461e507-b70e-4543-81b6-38210d442a3b.pdf",
+  "sources": [
+    {
+      "url": "https://media.cota.co.jp/media/c461e507-b70e-4543-81b6-38210d442a3b.pdf",
+      "title": "お客さまの個人情報に関するお知らせとお詫び",
+      "publisher": "コタ株式会社",
+      "published_on": "2026-08-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2023-wowow-on-demand",
+  "organization": {
+    "name_ja": "株式会社WOWOW",
+    "name_en": "WOWOW Inc.",
+    "domain": "wowow.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2023-06-30",
+  "discovered_on": "2023-06-22",
+  "affected": {
+    "count": 44144,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 44,144 customers per the follow-up of 2023-07-05, revised from up to 80,879 in the first notice of 2023-06-30; the exposure window was also extended to 2023-06-09 to 2023-07-02. Names, addresses and phone numbers were not included; only the last three digits of card numbers were shown."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "unknown",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "WOWOW said a processing error in user authentication for its WOWOW On Demand streaming service let logged-in users see part of other customers' account information, such as contract, payment and viewing history, and even change their card registration. It reported the leak as affecting up to 44,144 customers.",
+    "ja": "WOWOWは、動画配信サービス「WOWOWオンデマンド」のユーザー認証の処理エラーにより、ログインした利用者が他の顧客の契約情報、決済履歴、視聴履歴などの一部を閲覧し、カード登録の変更などもできる状態になっていたと公表した。対象は最大44,144名としている。"
+  },
+  "official_notice_url": "https://corporate.wowow.co.jp/news/tdnet/5361.html",
+  "sources": [
+    {
+      "url": "https://corporate.wowow.co.jp/news/tdnet/5348.html",
+      "title": "お客さまの個人情報漏えいに関するお知らせとお詫び",
+      "publisher": "株式会社WOWOW",
+      "published_on": "2023-06-30"
+    },
+    {
+      "url": "https://corporate.wowow.co.jp/news/tdnet/5361.html",
+      "title": "お客さまの個人情報漏えいに関するお知らせとお詫び（続報）",
+      "publisher": "株式会社WOWOW",
+      "published_on": "2023-07-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/07/07/49644.html",
+      "title": "「WOWOWオンデマンド」で別の顧客の個人情報が閲覧可能に、最大80,879名が対象",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-07-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

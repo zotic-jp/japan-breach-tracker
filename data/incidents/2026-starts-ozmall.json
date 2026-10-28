@@ -1,0 +1,45 @@
+{
+  "id": "2026-starts-ozmall",
+  "organization": {
+    "name_ja": "スターツ出版株式会社",
+    "name_en": "Starts Publishing Corporation",
+    "domain": "ozmall.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-09-27",
+  "discovered_on": "2026-09-26",
+  "affected": {
+    "count": 442779,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum figure from the second report (2026-10-01), covering OZmall members and some former members; the first report gave a different maximum. Names and prefecture-level addresses were involved only for some people. Card data is handled by an external payment system."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "address"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Starts Publishing detected a large volume of unauthorized access from overseas to its OZmall website on 2026-09-26. Email addresses of up to 442,779 members and former members, and for some of them names and prefectures, may have leaked.",
+    "ja": "スターツ出版は2026年9月26日、運営するウェブサイト「オズモール」への海外からの大量の不正アクセスを検知した。退会者を含む最大442,779名分のメールアドレスと、一部の方の氏名や都道府県までの住所が流出した可能性がある。"
+  },
+  "official_notice_url": "https://starts-pub.jp/info20261001",
+  "sources": [
+    {
+      "url": "https://starts-pub.jp/info20261001",
+      "title": "当社への不正アクセスによる個人情報流出の可能性に関するお知らせ（第２報）",
+      "publisher": "スターツ出版株式会社",
+      "published_on": "2026-10-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56525.html",
+      "title": "スターツ出版「オズモール」に不正アクセス、退会者含む会員 最大442,779名分のメールアドレス等が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-21"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

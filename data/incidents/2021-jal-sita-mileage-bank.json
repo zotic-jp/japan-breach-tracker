@@ -1,0 +1,44 @@
+{
+  "id": "2021-jal-sita-mileage-bank",
+  "organization": {
+    "name_ja": "日本航空株式会社",
+    "name_en": "Japan Airlines Co., Ltd.",
+    "domain": "jal.co.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2021-03-05",
+  "discovered_on": null,
+  "affected": {
+    "count": 919685,
+    "unit": "people",
+    "approximate": false,
+    "note": "JAL Mileage Bank members. Only romanized names, membership numbers and oneworld status were involved; JAL said kanji names, birthdates, contact details, passwords and card numbers were not included. The data sat on a system of SITA used for sharing frequent flyer status within oneworld."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "SITA",
+  "status": "confirmed",
+  "summary": {
+    "en": "Japan Airlines announced that member data of its JAL Mileage Bank program was leaked after SITA, a Swiss provider of airline passenger processing systems, suffered a sophisticated cyberattack. Romanized names, membership numbers and oneworld status of 919,685 members were involved.",
+    "ja": "日本航空は、航空会社向け旅客システムを提供するスイスのSITA社が高度な標的型攻撃を受けたことにより、JALマイレージバンク会員の情報が漏えいしたと公表した。対象は919,685人分のローマ字氏名、会員番号、ワンワールドのステータスである。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/03/08/45296.html",
+      "title": "JALマイレージバンク会員情報が漏えい、スイス SITA 社に高度に洗練された標的型攻撃",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-03-08"
+    },
+    {
+      "url": "https://www.aviationwire.jp/archives/221998/print/",
+      "title": "ワンワールド、旧システム会員情報が一部漏えい JALも対象、悪用形跡なし",
+      "publisher": "Aviation Wire",
+      "published_on": "2021-03-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

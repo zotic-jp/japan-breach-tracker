@@ -1,0 +1,43 @@
+{
+  "id": "2021-sanrio-puroland-sql-injection",
+  "organization": {
+    "name_ja": "株式会社サンリオエンターテイメント",
+    "name_en": "Sanrio Entertainment Co., Ltd.",
+    "domain": "puroland.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2021-06-05",
+  "discovered_on": null,
+  "affected": {
+    "count": 46421,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Up to 46,421 email addresses of Puroland fan club members and provisional registrants. Names, addresses, birthdates and card data were not included."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Sanrio Entertainment, operator of the theme park Sanrio Puroland, said its corporate website was hit by an SQL injection attack between 2021-05-30 and 2021-05-31. Up to 46,421 email addresses of fan club members and provisional registrants may have leaked.",
+    "ja": "サンリオピューロランドを運営するサンリオエンターテイメントは、同社サイトが2021年5月30日から31日にかけてSQLインジェクション攻撃を受けたと公表した。ファンクラブ会員や仮登録者のメールアドレス最大46,421件が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/06/08/45784.html",
+      "title": "サンリオWebサイトにSQLインジェクション攻撃、会員メールアドレスが流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-06-08"
+    },
+    {
+      "url": "https://www.security-next.com/126929",
+      "title": "「サンリオピューロランド」の運営会社サイトに不正アクセス",
+      "publisher": "Security NEXT",
+      "published_on": "2021-06-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

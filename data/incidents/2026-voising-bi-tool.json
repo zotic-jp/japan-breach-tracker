@@ -1,0 +1,54 @@
+{
+  "id": "2026-voising-bi-tool",
+  "organization": {
+    "name_ja": "株式会社VOISING",
+    "name_en": "VOISING Inc.",
+    "domain": "voising-official.com"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2026-08-18",
+  "discovered_on": "2026-08-16",
+  "affected": {
+    "count": 170000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Final figure from the 4th report (2026-09-30). Customers of the company's account service, fan community service and online store. The 3rd report said some of the data had been detected as published externally. Card numbers and login passwords were not held in the tool."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "VOISING, a management company for 2.5D idol groups, said a vulnerability in the business intelligence tool it used was exploited and customer data stored in the tool was downloaded on 2026-08-16. Its final report put the leak at about 170,000 records, including names, addresses, phone numbers, email addresses, birthdates and purchase histories.",
+    "ja": "2.5次元アイドルの事務所を運営するVOISINGは、利用していたBIツールの脆弱性を悪用され、2026年8月16日にツール内の顧客情報がダウンロードされたと発表した。最終報告では、氏名、住所、電話番号、メールアドレス、生年月日、購買履歴などを含む約17万件が漏えいしたとしている。"
+  },
+  "official_notice_url": "https://voising-official.com/news/1015",
+  "sources": [
+    {
+      "url": "https://voising-official.com/news/931",
+      "title": "当社が利用するBIツールへの不正アクセスおよび個人情報漏えいに関するお詫びとお知らせ並びに不審な連絡等への注意のお願い",
+      "publisher": "株式会社VOISING",
+      "published_on": "2026-08-18"
+    },
+    {
+      "url": "https://voising-official.com/news/1015",
+      "title": "【第四報】当社が利用するBIツールへの不正アクセスおよび個人情報漏えいに関する調査結果と再発防止策について",
+      "publisher": "株式会社VOISING",
+      "published_on": "2026-09-30"
+    },
+    {
+      "url": "https://www.security-next.com/189031",
+      "title": "BIツールから個人情報流出の可能性 - 2.5次元アイドル事務所",
+      "publisher": "Security NEXT",
+      "published_on": "2026-09-03"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

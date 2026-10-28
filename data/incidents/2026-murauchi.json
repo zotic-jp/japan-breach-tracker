@@ -1,0 +1,48 @@
+{
+  "id": "2026-murauchi",
+  "organization": {
+    "name_ja": "株式会社ムラウチドットコム",
+    "name_en": "Murauchi.com Co., Ltd.",
+    "domain": "murauchi.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-07-24",
+  "discovered_on": "2026-07-15",
+  "affected": {
+    "count": 7716811,
+    "unit": "records",
+    "approximate": false,
+    "note": "Figure from the second report of 2026-09-15 after the forensic investigation was completed. Email addresses, birthdates and gender were included only for some customers. Card data, login IDs, passwords and delivery address entries were not affected."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Online retailer Murauchi.com found traces of unauthorized access while handling a system failure in mid-July 2026 and announced the incident on 2026-07-24. After a forensic investigation it reported on 2026-09-15 that 7,716,811 customer records, including names, addresses and phone numbers, had been taken outside.",
+    "ja": "通販サイトのムラウチドットコムは、2026年7月中旬に社内システムの障害対応中に不正アクセスの痕跡を確認し、7月24日に公表した。フォレンジック調査の結果、氏名、住所、電話番号などを含む7,716,811件の顧客情報が外部に持ち出されたと9月15日に発表した。"
+  },
+  "official_notice_url": "https://murauchi.com/static-pages/privacy/pressrelease.html",
+  "sources": [
+    {
+      "url": "https://murauchi.com/static-pages/privacy/pressrelease.html",
+      "title": "弊社における不正アクセスによるお客様情報漏えいに関するお詫びとご報告",
+      "publisher": "株式会社ムラウチドットコム",
+      "published_on": "2026-09-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
+      "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

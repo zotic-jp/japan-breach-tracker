@@ -1,0 +1,45 @@
+{
+  "id": "2023-netone-katsushika-student-data",
+  "organization": {
+    "name_ja": "ネットワンシステムズ株式会社",
+    "name_en": "Net One Systems Co., Ltd.",
+    "domain": "netone.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2023-07-24",
+  "discovered_on": "2023-07-20",
+  "affected": {
+    "count": 23508,
+    "unit": "records",
+    "approximate": false,
+    "note": "23,508 records of Katsushika City elementary and junior high school students, held for the city's school system. The data was embedded in a program that the vendor applied to up to 36 other boards of education and universities; only two administrators at one university were confirmed to have viewed it."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unknown",
+  "via_vendor": "チエル株式会社",
+  "status": "confirmed",
+  "summary": {
+    "en": "Net One Systems said a file with Katsushika City students' personal data was left inside a corrected program for the ExtraConsole ID Manager system during maintenance by its vendor Chiel in January 2021. Chiel then applied the program to up to 36 other education boards and universities by 2023-04, leaking 23,508 records.",
+    "ja": "ネットワンシステムズは、2021年1月にメーカーサポートのチエルがID連携システム「ExtraConsole ID Manager」の保守を行った際、葛飾区の児童生徒の個人情報を含むファイルが修正プログラム内に残ったと公表した。チエルは2023年4月までに同プログラムを最大36の教育委員会・大学に適用し、23,508件の情報が漏えいした。"
+  },
+  "official_notice_url": "https://www.netone.co.jp/news/information/20230724_news.html",
+  "sources": [
+    {
+      "url": "https://www.netone.co.jp/news/information/20230724_news.html",
+      "title": "個人情報の漏洩に関するお詫びとお知らせ",
+      "publisher": "ネットワンシステムズ株式会社",
+      "published_on": "2023-07-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/08/01/49752.html",
+      "title": "チエル「ExtraConsole ID Manager」システムプログラムに個人情報混入、36の教育委員会・大学に展開",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-08-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2020-mizuho-research-backup-tape",
+  "organization": {
+    "name_ja": "みずほ総合研究所株式会社",
+    "name_en": "Mizuho Research Institute Ltd.",
+    "domain": null
+  },
+  "industry": "finance",
+  "disclosed_on": "2020-07-21",
+  "discovered_on": null,
+  "affected": {
+    "count": 2507000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 669,000 customer records and about 1,838,000 service usage records from the customer management system backup (transactions up to 2018-12-07), including data for MIZUHO Membership One run jointly with Mizuho Bank and data entrusted by Mizuho Bank. The company believes the tape was most likely discarded by mistake and found no sign of removal."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "bank_account",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Mizuho Research Institute and Mizuho Bank said a backup LTO tape holding customer data had gone missing. It contained about 669,000 customer records and about 1.84 million service usage records, and the company said it had most likely been discarded by mistake.",
+    "ja": "みずほ総合研究所とみずほ銀行は、顧客情報を記録したバックアップ用の磁気テープ（LTO）が所在不明になったと公表した。顧客情報約66万9,000件とサービス利用実績約183万8,000件が記録されており、同社は誤廃棄の可能性が高いとしている。"
+  },
+  "official_notice_url": "https://www.mizuhobank.co.jp/release/pdf/20200721release_jp.pdf",
+  "sources": [
+    {
+      "url": "https://www.mizuhobank.co.jp/release/pdf/20200721release_jp.pdf",
+      "title": "2020年7月21日付リリース（PDF）",
+      "publisher": "株式会社みずほ銀行 / みずほ総合研究所株式会社",
+      "published_on": "2020-07-21"
+    },
+    {
+      "url": "https://www.security-next.com/116862",
+      "title": "顧客情報約250万件含む磁気テープを紛失 - みずほ総研",
+      "publisher": "Security NEXT",
+      "published_on": "2020-07-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

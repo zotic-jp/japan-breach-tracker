@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 46 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #005bac;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.10, SVG Export Plug-In . SVG Version: 1.2.0 Build 236)  -->
+  <g>
+    <g id="_レイヤー_1" data-name="レイヤー_1">
+      <rect class="cls-1" width="46" height="46"/>
+      <polygon class="cls-2" points="30.61 8.83 23.05 22.39 22.86 22.39 21.17 8.83 10.4 8.83 4.38 37.17 11.8 37.17 15.66 19.04 15.89 19.04 18.63 37.17 20.93 37.17 31.44 19.04 31.68 19.04 27.83 37.17 35.6 37.17 41.62 8.83 30.61 8.83"/>
+    </g>
+  </g>
+</svg>

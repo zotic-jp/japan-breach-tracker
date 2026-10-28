@@ -1,0 +1,47 @@
+{
+  "id": "2024-toyota-city-iseto",
+  "organization": {
+    "name_ja": "豊田市",
+    "name_en": "Toyota City",
+    "domain": "city.toyota.aichi.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2024-07-05",
+  "discovered_on": "2024-07-02",
+  "affected": {
+    "count": 419254,
+    "unit": "people",
+    "approximate": true,
+    "note": "1,035,603 notice records, estimated cumulative 419,254 people (推計でのべ). Possible later revision not checked. Official notice not located; Security NEXT 2024-07-05."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "bank_account",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "株式会社イセトー",
+  "status": "confirmed",
+  "summary": {
+    "en": "Toyota City in Aichi said data for tax and other notices it had commissioned printing contractor ISETO to produce leaked after a ransomware attack on ISETO, because system modification data was not erased after the work. 1,035,603 notice records, estimated at a cumulative 419,254 people, with names, addresses, tax amounts, birthdates and bank details, were leaked.",
+    "ja": "愛知県豊田市は、納税通知書などの印刷を委託していたイセトーのランサムウェア被害により、業務終了後に消去されるべきシステム改修用データが流出したと公表した。氏名、住所、税額、生年月日、口座情報などを含む通知書データ1,035,603件、推計で延べ419,254人分が流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/159327",
+      "title": "約42万件の個人情報が委託先から流出、ランサム被害で - 豊田市",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/07/11/51288.html",
+      "title": "イセトーへのランサムウェア攻撃で豊田市の推定 42 万人分の個人情報が漏えい、被害発生時は契約に基づき対応",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-07-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

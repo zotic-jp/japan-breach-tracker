@@ -1,0 +1,48 @@
+{
+  "id": "2025-fordays-member-site",
+  "organization": {
+    "name_ja": "フォーデイズ株式会社",
+    "name_en": "Fordays Co., Ltd.",
+    "domain": "fordays.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-05-20",
+  "discovered_on": null,
+  "affected": {
+    "count": 1347445,
+    "unit": "records",
+    "approximate": false,
+    "note": "Members whose member ID starts with 0 to 5. About 5.6 million abnormal requests from a specific IP address hit the member information lookup function between 2025-04-18 and 2025-05-03. Bank account holder name, bank and branch names were included, but account numbers, login passwords and credit card data were not. No actual leak or secondary damage had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Health food and cosmetics seller Fordays found that its member site's member information lookup function received about 5.6 million abnormal requests from one IP address between 2025-04-18 and 2025-05-03. It said personal data in 1,347,445 member records may have leaked.",
+    "ja": "健康食品・化粧品を販売するフォーデイズは、2025年4月18日から5月3日にかけて会員サイトの会員情報照会機能に特定IPアドレスから約560万回の異常なアクセスがあったことを公表した。会員1,347,445件の個人情報が漏えいした可能性があるとしている。"
+  },
+  "official_notice_url": "https://fordays.jp/news/release_20250520.pdf",
+  "sources": [
+    {
+      "url": "https://fordays.jp/news/release_20250520.pdf",
+      "title": "不正アクセス発生による個人情報漏洩の可能性のお知らせとお詫び",
+      "publisher": "フォーデイズ株式会社",
+      "published_on": "2025-05-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/05/30/52953.html",
+      "title": "フォーデイズ 会員サイトに約 560 万回もの異常な数のアクセス、会員 1,347,445 件の個人情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-05-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

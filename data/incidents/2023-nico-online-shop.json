@@ -1,0 +1,49 @@
+{
+  "id": "2023-nico-online-shop",
+  "organization": {
+    "name_ja": "株式会社FAN SMILE",
+    "name_en": "FAN SMILE Co., Ltd.",
+    "domain": "nico-online.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-10-12",
+  "discovered_on": null,
+  "affected": {
+    "count": 14487,
+    "unit": "people",
+    "approximate": false,
+    "note": "Personal data of 14,487 customers who bought from the NICO ONLINE SHOP before its renewal on 2022-12-22; card data (including security codes) of 13,084 of them. Some cards may have been used fraudulently."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "FAN SMILE, which runs the NICO ONLINE SHOP selling calendars and photos, said attackers tampered with the site's payment application. Personal data of 14,487 customers and credit card data of 13,084 customers leaked.",
+    "ja": "カレンダーや生写真などを扱う「NICO ONLINE SHOP」を運営するFAN SMILEは、第三者の不正アクセスによりサイトの決済アプリケーションが改ざんされたと公表した。顧客14,487名の個人情報と13,084名のクレジットカード情報が漏えいした。"
+  },
+  "official_notice_url": "https://nico-online.com/news/54",
+  "sources": [
+    {
+      "url": "https://nico-online.com/news/54",
+      "title": "当サイトへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社FAN SMILE",
+      "published_on": "2023-10-12"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/10/20/50124.html",
+      "title": "カレンダーや生写真取り扱い「NICO ONLINE SHOP」へ不正アクセス 13,084件のカード情報漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-10-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

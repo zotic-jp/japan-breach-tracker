@@ -1,0 +1,49 @@
+{
+  "id": "2026-epark-relax-peakmanager",
+  "organization": {
+    "name_ja": "株式会社EPARKリラク&エステ",
+    "name_en": "EPARK Relax & Este Co., Ltd.",
+    "domain": "epark-relax.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-07-31",
+  "discovered_on": "2026-07-27",
+  "affected": {
+    "count": 22180000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Second report figure after deduplication, down from about 33 million records in the first report; the company says it cannot convert this into a number of people. Records are customers of salons using the PeakManager reservation and customer management platform. Free-text notes entered by stores included health information in some cases, and five notes may contain expired card numbers."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "health",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "EPARK Relax & Este found on 2026-07-27 that part of the database of its salon reservation and customer management platform PeakManager had been accessed without authorization and customer data deleted. Its second report said the data had been transferred outside, covering about 22.18 million customer records.",
+    "ja": "EPARKリラク&エステは2026年7月27日、サロン向け予約・顧客管理プラットフォーム「PeakManager」のデータベースの一部が不正アクセスを受け、顧客情報が削除されていることを確認した。第二報では、データベース内の情報が外部に転送されたことが確認され、対象は約2,218万レコードとした。"
+  },
+  "official_notice_url": "https://www.epark-relax.co.jp/news/231",
+  "sources": [
+    {
+      "url": "https://www.epark-relax.co.jp/news/231",
+      "title": "不正アクセスと個人情報漏えいに関するお知らせ（第二報）",
+      "publisher": "株式会社EPARKリラク&エステ",
+      "published_on": "2026-09-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56433.html",
+      "title": "EPARKリラク&エステの予約管理・顧客管理プラットフォーム「PeakManager」に不正アクセス、データベース内の情報の転送を確認",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

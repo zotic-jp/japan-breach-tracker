@@ -1,0 +1,56 @@
+{
+  "id": "2022-snkrdunk",
+  "organization": {
+    "name_ja": "株式会社SODA",
+    "name_en": "SODA Inc.",
+    "domain": "snkrdunk.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-06-15",
+  "discovered_on": "2022-06-07",
+  "affected": {
+    "count": 2753400,
+    "unit": "records",
+    "approximate": false,
+    "note": "Member records. For about 60% of customers, the leaked fields may be limited to birthdate, email address and hashed password. Bank account details were included for 10 records."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "SODA, operator of the sneaker marketplace app SNKRDUNK, found on 2022-06-07 that its database had been accessed without authorization. 2,753,400 member records, including names, addresses, birthdates, email addresses and hashed passwords, may have been leaked.",
+    "ja": "スニーカーフリマアプリ「SNKRDUNK」を運営するSODAは、2022年6月7日にデータベースへの不正アクセスが発覚したと公表した。氏名、住所、生年月日、メールアドレス、ハッシュ化パスワードなどを含む会員情報275万3,400件が流出した可能性がある。"
+  },
+  "official_notice_url": "https://snkrdunk.com/information/130/",
+  "sources": [
+    {
+      "url": "https://snkrdunk.com/information/130/",
+      "title": "不正アクセスによるお客さま情報漏えいに関するお詫びとご報告",
+      "publisher": "株式会社SODA",
+      "published_on": "2022-06-15"
+    },
+    {
+      "url": "https://www.security-next.com/137333",
+      "title": "スニーカーフリマアプリで個人情報275万件が流出か",
+      "publisher": "Security NEXT",
+      "published_on": "2022-06-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/06/17/47759.html",
+      "title": "フリマアプリ「SNKRDUNK」に不正アクセス、275万件の顧客情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-06-17"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

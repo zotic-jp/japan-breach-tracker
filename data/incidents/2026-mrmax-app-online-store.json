@@ -1,0 +1,46 @@
+{
+  "id": "2026-mrmax-app-online-store",
+  "organization": {
+    "name_ja": "株式会社ミスターマックス",
+    "name_en": "Mr Max Corporation",
+    "domain": "mrmax.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-06",
+  "discovered_on": "2026-10-03",
+  "affected": {
+    "count": 1735154,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum number of MrMax app and online store members registered as of 2026-10-03. The items involved vary by member. The company said passwords, credit card data, addresses, birthdates and purchase history were not leaked."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Discount retailer Mr Max noticed suspicious access to the servers of its MrMax app and online store on the evening of 2026-10-03 and suspended both services. It announced that a third party had misused a function of the service software to get in, and that member IDs, names, email addresses and phone numbers of up to 1,735,154 members had leaked.",
+    "ja": "ミスターマックスは2026年10月3日夕方、「MrMaxアプリ」とオンラインストアのサーバーへの不審なアクセスを確認し、両サービスを停止した。第三者がサービスを構成するソフトウェアの機能を不正に利用して侵入し、最大1,735,154名の会員ID、氏名、メールアドレス、電話番号が外部に流出したと発表した。"
+  },
+  "official_notice_url": "https://www.mrmax.co.jp/info/incident_20261006/",
+  "sources": [
+    {
+      "url": "https://www.mrmax.co.jp/info/incident_20261006/",
+      "title": "不正アクセスによる情報流出に関するお詫びとお知らせ",
+      "publisher": "株式会社ミスターマックス",
+      "published_on": "2026-10-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/27/56580.html",
+      "title": "ミスターマックスに不正アクセス、アプリ・オンラインストア会員 最大 1,735,154人の個人情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

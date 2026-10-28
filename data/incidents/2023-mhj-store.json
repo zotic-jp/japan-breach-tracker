@@ -1,0 +1,49 @@
+{
+  "id": "2023-mhj-store",
+  "organization": {
+    "name_ja": "株式会社マウンハーフジャパン",
+    "name_en": "Mounhalf Japan Co., Ltd.",
+    "domain": "mhjcom.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2023-10-11",
+  "discovered_on": "2023-07-27",
+  "affected": {
+    "count": 25326,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 25,326 customers' personal data and 23,309 customers' credit card data (including security codes) from orders placed between March 2021 and 2023-07-18. Some cards may have been used fraudulently."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Mounhalf Japan, a corporate training provider, said attackers exploited a vulnerability in its MHJ Store site and tampered with the payment application. Card data of 23,309 customers and personal data of up to 25,326 customers leaked.",
+    "ja": "社会人教育事業を行うマウンハーフジャパンは、「MHJストア」のシステムの脆弱性を突いた不正アクセスにより決済アプリケーションが改ざんされたと公表した。顧客23,309名のクレジットカード情報と最大25,326名の個人情報が漏えいした。"
+  },
+  "official_notice_url": "https://www.mhjcom.jp/n-news/22819.html",
+  "sources": [
+    {
+      "url": "https://www.mhjcom.jp/n-news/22819.html",
+      "title": "「MHJストア」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社マウンハーフジャパン",
+      "published_on": "2023-10-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/10/20/50123.html",
+      "title": "社会人教育「MHJストア」に不正アクセス、23,309名のカード情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-10-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

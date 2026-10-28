@@ -1,0 +1,54 @@
+{
+  "id": "2026-seicomart-app",
+  "organization": {
+    "name_ja": "株式会社セイコーマート",
+    "name_en": "Seicomart Co., Ltd.",
+    "domain": "secoma.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-09-29",
+  "discovered_on": "2026-09-28",
+  "affected": {
+    "count": 574647,
+    "unit": "people",
+    "approximate": false,
+    "note": "Seicomart Club members who had registered with the Seicomart app, per the fourth report (2026-10-05); the first report said about 570,000 accounts. Members who left the club by 2026-09-24 are not included. Passwords and purchase histories were not leaked, and the company holds no card data."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Seicomart found on 2026-09-28 that a third party had accessed its member server through the server of the Seicomart app, after one membership was cancelled without authorization. Names, birthdates, addresses, phone numbers and email addresses of 574,647 app-registered members may have been viewed.",
+    "ja": "セイコーマートは、クラブカードの不正な退会処理をきっかけに、2026年9月28日にセイコーマートアプリのサーバーを経由して第三者が会員情報サーバーに不正アクセスしたことを把握した。アプリ登録歴のある会員574,647人分の氏名、生年月日、住所、電話番号、メールアドレスなどが閲覧された可能性がある。"
+  },
+  "official_notice_url": "https://www.secoma.co.jp/images/top/202610051430.pdf",
+  "sources": [
+    {
+      "url": "https://www.secoma.co.jp/images/top/202610051430.pdf",
+      "title": "「セイコーマートアプリ」への不正アクセスによる個人情報の閲覧に関するお詫びとお知らせ（第四報）",
+      "publisher": "株式会社セイコーマート",
+      "published_on": "2026-10-05"
+    },
+    {
+      "url": "https://www.secoma.co.jp/images/top/202609290017.pdf",
+      "title": "「セイコーマートアプリ」への不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ",
+      "publisher": "株式会社セイコーマート",
+      "published_on": "2026-09-29"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56373.html",
+      "title": "「セイコーマートアプリ」に不正アクセス、約57万アカウントの会員情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

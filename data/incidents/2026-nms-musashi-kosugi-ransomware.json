@@ -1,0 +1,53 @@
+{
+  "id": "2026-nms-musashi-kosugi-ransomware",
+  "organization": {
+    "name_ja": "日本医科大学武蔵小杉病院",
+    "name_en": "Nippon Medical School Musashi Kosugi Hospital",
+    "domain": "nms.ac.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2026-02-13",
+  "discovered_on": "2026-02-09",
+  "affected": {
+    "count": 130000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Outpatients and inpatients, per the 5th report (2026-02-27); the first report had cited about 10,000. About 1,700 staff and clinical-training medical students since 2021 were also affected. Medical records, card data and My Number card data were not confirmed leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Nippon Medical School Musashi Kosugi Hospital said servers of its nurse call system were hit by ransomware on 2026-02-09 through a VPN device used for medical equipment maintenance, and that patient data was stolen. It later put the leak at about 130,000 patients' names, addresses, phone numbers, birthdates and patient IDs.",
+    "ja": "日本医科大学武蔵小杉病院は、2026年2月9日に医療機器保守用VPN装置を経由してナースコールシステムのサーバーがランサムウェア攻撃を受け、患者の個人情報が窃取されたと発表した。その後、漏えい対象は約13万人分の氏名、住所、電話番号、生年月日、患者IDなどとした。"
+  },
+  "official_notice_url": "https://www.nms.ac.jp/kosugi-h/news/_28850.html",
+  "sources": [
+    {
+      "url": "https://www.nms.ac.jp/kosugi-h/news/_28830.html",
+      "title": "当院へのサイバー攻撃による個人情報漏洩に関するご報告とお詫び（第1報）",
+      "publisher": "日本医科大学武蔵小杉病院",
+      "published_on": "2026-02-13"
+    },
+    {
+      "url": "https://www.nms.ac.jp/kosugi-h/news/_28850.html",
+      "title": "当院へのサイバー攻撃による個人情報漏洩に関するご報告とお詫び（第5報）",
+      "publisher": "日本医科大学武蔵小杉病院",
+      "published_on": "2026-02-27"
+    },
+    {
+      "url": "https://www.security-next.com/181031",
+      "title": "ランサム被害で患者情報流出、診療には影響なし - 日本医科大学武蔵小杉病院",
+      "publisher": "Security NEXT",
+      "published_on": "2026-02-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

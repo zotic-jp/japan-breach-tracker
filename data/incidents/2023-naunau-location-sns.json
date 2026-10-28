@@ -1,0 +1,50 @@
+{
+  "id": "2023-naunau-location-sns",
+  "organization": {
+    "name_ja": "Suishow株式会社（モバイルファクトリー子会社）",
+    "name_en": "Suishow Inc. (Mobile Factory subsidiary)",
+    "domain": null
+  },
+  "industry": "it_services",
+  "disclosed_on": "2023-10-23",
+  "discovered_on": null,
+  "affected": {
+    "count": 3040000,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "Estimated counts from the third-party investigation (2023-12-07): current location of about 3.04 million users (2022-09-29 to 2023-05-08), chat content and images of about 1.67 million, and birthdates of about 2.83 million were accessible. NHK had reported at least 2 million. The investigation found no evidence that data was actually taken."
+  },
+  "data_types": [
+    "birthdate",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "After NHK reported that location data and chats of at least 2 million NauNau users could be viewed from outside, operator Suishow commissioned a third-party investigation. It found that a cloud security misconfiguration had made the current location of an estimated 3.04 million users, as well as chats and birthdates, accessible, though no outflow was confirmed.",
+    "ja": "位置情報共有アプリ「NauNau」で少なくとも200万人の位置情報やチャットが外部から閲覧可能だったとNHKが報じたことを受け、運営するSuishowは第三者機関に調査を依頼した。クラウドのセキュリティ設定の不備により推定304万ユーザーの現在地のほか、チャットや生年月日にアクセスできる状態だったが、流出の事実は確認されなかった。"
+  },
+  "official_notice_url": "https://www.mobilefactory.jp/wp-content/uploads/2023/12/c97ba9d2edf12d1a16fef3806bea77f2-1.pdf",
+  "sources": [
+    {
+      "url": "https://www.mobilefactory.jp/wp-content/uploads/2023/12/c97ba9d2edf12d1a16fef3806bea77f2-1.pdf",
+      "title": "当社運営の「NauNau」をご利用いただいているお客様への重要なお知らせとお詫びについて",
+      "publisher": "Suishow株式会社",
+      "published_on": "2023-12-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/12/25/50397.html",
+      "title": "位置情報 SNS「NauNau」で個人情報が閲覧可能な状態に、GMOイエラエが調査",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-12-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/12/20/50378.html",
+      "title": "今日もどこかで情報漏えい 第19回「2023年11月の情報漏えい」完全黙殺から情報公開へ “何かあったのか?”",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-12-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

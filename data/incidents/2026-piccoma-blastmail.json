@@ -1,0 +1,37 @@
+{
+  "id": "2026-piccoma-blastmail",
+  "organization": {
+    "name_ja": "株式会社カカオピッコマ",
+    "name_en": "Kakao piccoma Corp.",
+    "domain": "piccoma.com"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2026-10-24",
+  "discovered_on": "2026-10-24",
+  "affected": {
+    "count": 1002404,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Recipient email addresses of one newsletter send stored in the Blastmail email delivery service; part of the wider Blastmail breach (see 2026-blastmail). Passwords were not involved and Piccoma's own systems were not accessed."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ラクスライトクラウド (ブラストメール)",
+  "status": "confirmed",
+  "summary": {
+    "en": "Kakao piccoma, operator of piccoma, confirmed on 2026-10-24, based on a report from Rakus Lite Cloud, that 1,002,404 newsletter recipient email addresses leaked through the unauthorized access to the Blastmail delivery system. It said its own app, web services and systems were not affected.",
+    "ja": "ピッコマを運営するカカオピッコマは2026年10月24日、ラクスライトクラウドからの報告を受け、メール配信システム「ブラストメール」への不正アクセスにより、メールマガジン配信先のメールアドレス1,002,404件が流出したことを確認したと発表した。ピッコマのアプリやWebサービス、自社システムへの影響はないとしている。"
+  },
+  "official_notice_url": "https://www.kakaopiccoma.com/info/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%a9%e3%82%af%e3%82%b9%e3%83%a9%e3%82%a4%e3%83%88%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%81%ae%e3%83%a1%e3%83%bc%e3%83%ab%e9%85%8d%e4%bf%a1%e3%82%b7%e3%82%b9.html",
+  "sources": [
+    {
+      "url": "https://www.kakaopiccoma.com/info/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%a9%e3%82%af%e3%82%b9%e3%83%a9%e3%82%a4%e3%83%88%e3%82%af%e3%83%a9%e3%82%a6%e3%83%89%e3%81%ae%e3%83%a1%e3%83%bc%e3%83%ab%e9%85%8d%e4%bf%a1%e3%82%b7%e3%82%b9.html",
+      "title": "株式会社ラクスライトクラウドのメール配信システム「ブラストメール」への不正アクセスによるお客様のメールアドレス流出に関するお知らせとお詫び（第1報）",
+      "publisher": "株式会社カカオピッコマ",
+      "published_on": "2026-10-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

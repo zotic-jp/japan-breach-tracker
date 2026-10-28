@@ -1,0 +1,50 @@
+{
+  "id": "2020-classi",
+  "organization": {
+    "name_ja": "Classi株式会社",
+    "name_en": "Classi Corp.",
+    "domain": "classi.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2020-04-13",
+  "discovered_on": "2020-04-05",
+  "affected": {
+    "count": 1220000,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "About 1.22 million user IDs and encrypted password strings covering all users (teachers, students and parents), plus 2,031 teacher self-introductions. On 2020-07-30 Classi confirmed the data had been leaked externally. All passwords were reset."
+  },
+  "data_types": [
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Classi, a cloud platform for schools jointly owned by Benesse and SoftBank, was accessed without authorization on 2020-04-05. User IDs and encrypted passwords of about 1.22 million users were taken, and the company later confirmed the data had leaked outside.",
+    "ja": "ベネッセとソフトバンクの合弁会社が運営する学校向けクラウドサービス「Classi」は、2020年4月5日に不正アクセスを受けた。約122万人分の利用者IDと暗号化されたパスワードが取得され、同社はその後、外部への漏えいを確認したと公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/114030",
+      "title": "教育クラウドサービス「Classi」に不正アクセス - 全利用者のIDなど流出",
+      "publisher": "Security NEXT",
+      "published_on": "2020-04-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/04/14/43969.html",
+      "title": "教育プラットフォーム「Classi」に不正アクセス、約１２２万件のアカウント情報閲覧の可能性（Classi）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-04-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/08/03/44385.html",
+      "title": "「Classi」への不正アクセス、データの外部への漏えいを確認（Classi）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-08-03"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

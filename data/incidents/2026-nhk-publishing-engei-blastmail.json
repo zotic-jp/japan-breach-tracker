@@ -1,0 +1,44 @@
+{
+  "id": "2026-nhk-publishing-engei-blastmail",
+  "organization": {
+    "name_ja": "株式会社NHK出版",
+    "name_en": "NHK Publishing, Inc.",
+    "domain": "shuminoengei.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-10-23",
+  "discovered_on": "2026-10-23",
+  "affected": {
+    "count": 126525,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Members of the gardening site Minna no Shumi no Engei who were set to receive its mail magazine as of 2026-10-21, with nickname, gender and prefecture. The first report cited about 127,000. One of many customer-side impacts of the Blastmail breach (see 2026-blastmail)."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ラクスライトクラウド (ブラストメール)",
+  "status": "confirmed",
+  "summary": {
+    "en": "NHK Publishing said member data of its gardening site Minna no Shumi no Engei leaked in the unauthorized access to Blastmail, the email delivery service it used for its mail magazine. It put the leak at 126,525 email addresses, with nicknames, gender and prefecture of residence.",
+    "ja": "NHK出版は、「みんなの趣味の園芸」のメールマガジン配信に利用していた「ブラストメール」への不正アクセスにより、会員情報が漏えいしたと発表した。漏えい件数は126,525件で、メールアドレス、ニックネーム、性別、居住都道府県が含まれる。"
+  },
+  "official_notice_url": "https://www.shuminoengei.jp/information/202610/",
+  "sources": [
+    {
+      "url": "https://news.nhk-book.co.jp/archives/35481",
+      "title": "「みんなの趣味の園芸」メール配信サービスに関するお知らせとおわび（第1報）",
+      "publisher": "株式会社NHK出版",
+      "published_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.shuminoengei.jp/information/202610/",
+      "title": "メール配信サービスにおける情報流出のお知らせとおわび",
+      "publisher": "株式会社NHK出版",
+      "published_on": "2026-10-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

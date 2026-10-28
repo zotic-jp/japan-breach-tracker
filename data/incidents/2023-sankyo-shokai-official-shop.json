@@ -1,0 +1,56 @@
+{
+  "id": "2023-sankyo-shokai-official-shop",
+  "organization": {
+    "name_ja": "株式会社三京商会",
+    "name_en": "Sankyo Shokai Co., Ltd.",
+    "domain": "the-sankyo.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-02-20",
+  "discovered_on": "2022-08-26",
+  "affected": {
+    "count": 58124,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 58,124 people per Jiji Press: card data of 8,794 purchasers (2020-07-28 to 2021-12-20) leaked, plus possible leak of member data of up to 46,614 people and phone-order data of 2,716 people. Mynavi reported different figures (9,106 card records and 49,330 personal records)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Sankyo Shokai reported that its fashion e-commerce site was breached through a vulnerability and its payment application was tampered with. Card data of 8,794 customers leaked, and personal data of up to about 58,000 people in total may have been exposed.",
+    "ja": "三京商会は、ファッション通販サイト「三京商会 公式ショップ」が脆弱性を突かれ、決済アプリケーションを改ざんされたと公表した。8,794人分のカード情報が漏えいし、合計で最大約5万8,000人分の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.sbbit.jp/article/refers/107835",
+      "title": "個人情報、５．８万件超流出＝カード不正利用の恐れも―三京商会",
+      "publisher": "時事通信 (ビジネス+IT)",
+      "published_on": "2023-02-21"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20230301-security/",
+      "title": "先週のサイバー事件簿 - 三京商会の公式ショップで約5万件の個人情報流出",
+      "publisher": "マイナビニュース",
+      "published_on": "2023-03-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/03/24/49101.html",
+      "title": "「三京商会 公式ショップ」への不正アクセスで8,794名のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-03-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

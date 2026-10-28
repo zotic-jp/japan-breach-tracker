@@ -1,0 +1,47 @@
+{
+  "id": "2021-shirasaki-inquiry-system",
+  "organization": {
+    "name_ja": "株式会社白崎コーポレーション",
+    "name_en": "Shirasaki Corporation",
+    "domain": null
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2021-08-30",
+  "discovered_on": "2021-08-17",
+  "affected": {
+    "count": 100000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 100,000 records in the inquiry management system of its Green Up greening materials business, as of 2021-08-31."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Shirasaki Corporation, which sells weed-control and greening materials, found unauthorized access to the inquiry management system of its Green Up business on 2021-08-17. Up to 100,000 records including names, addresses, phone numbers, email addresses and purchase histories may have leaked.",
+    "ja": "防草・緑化資材を扱う白崎コーポレーションは、グリーンアップ事業の問い合わせ管理システムへの不正アクセスを2021年8月17日に確認した。氏名、住所、電話番号、メールアドレス、購入履歴など最大10万件が流出した可能性があると公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/09/02/46231.html",
+      "title": "お問合せ管理システムへの不正アクセスで個人情報が流出、白崎コーポレーションを騙る不審メールも確認",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-09-02"
+    },
+    {
+      "url": "https://www.security-next.com/129531",
+      "title": "問い合わせ管理システムに不正アクセス、個人情報最大10万件が流出か - 白崎コーポレーション",
+      "publisher": "Security NEXT",
+      "published_on": "2021-09-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

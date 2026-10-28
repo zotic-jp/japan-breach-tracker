@@ -1,0 +1,43 @@
+{
+  "id": "2026-so-net-member-database",
+  "organization": {
+    "name_ja": "ソニーネットワークコミュニケーションズ株式会社",
+    "name_en": "Sony Network Communications Inc.",
+    "domain": "so-net.ne.jp"
+  },
+  "industry": "telecom",
+  "disclosed_on": "2026-10-27",
+  "discovered_on": "2026-10-23",
+  "affected": {
+    "count": 2585481,
+    "unit": "people",
+    "approximate": false,
+    "note": "Sum of 2,141,986 So-net members and 443,495 plala (S course) members, current and those who left in March 2026 or later, whose details were held in the So-net member database. Passwords of about 54,000 So-net mail addresses (free mail, A-Box, VAIO mail, PostPet) were also leaked and reset, and bank account details of 16 cases leaked. Member login passwords and credit card data were not leaked."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "birthdate",
+    "password",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Sony Network Communications confirmed on 2026-10-23 that a third party had accessed the So-net member database on 2026-10-19, and stopped the affected server. It announced that names, phone numbers, email addresses, birthdates and other details of 2,141,986 So-net members and 443,495 plala (S course) members had leaked, along with passwords for some So-net mail accounts.",
+    "ja": "ソニーネットワークコミュニケーションズは、2026年10月19日にSo-net会員データベースへ第三者による不正アクセスがあったことを10月23日に確認し、該当サーバーを停止した。So-net会員2,141,986名とぷらら（Sコース）会員443,495名の氏名、電話番号、メールアドレス、生年月日などのほか、一部のSo-netメールアカウントのパスワードが漏洩したと発表した。"
+  },
+  "official_notice_url": "https://www.so-net.ne.jp/info/2026/20261027_0001.html",
+  "sources": [
+    {
+      "url": "https://www.so-net.ne.jp/info/2026/20261027_0001.html",
+      "title": "So-net会員データベースへの不正アクセスに伴う情報漏洩に関するお詫びとお知らせ",
+      "publisher": "ソニーネットワークコミュニケーションズ株式会社",
+      "published_on": "2026-10-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

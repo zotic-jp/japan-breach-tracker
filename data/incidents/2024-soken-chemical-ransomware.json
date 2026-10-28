@@ -1,0 +1,48 @@
+{
+  "id": "2024-soken-chemical-ransomware",
+  "organization": {
+    "name_ja": "綜研化学株式会社",
+    "name_en": "Soken Chemical & Engineering Co., Ltd.",
+    "domain": "soken-ce.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2024-01-12",
+  "discovered_on": "2024-01-09",
+  "affected": {
+    "count": 19408,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 16,241 people for Soken Chemical and about 3,167 for subsidiaries (business partners, related parties and employees), as of 2024-06-07. Business information on about 7,460 companies may also have leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Chemical maker Soken Chemical found on 2024-01-09 that some of its servers had been encrypted by ransomware. A later investigation found that personal data of about 19,408 business partners, related parties and employees of the company and its subsidiaries may have leaked.",
+    "ja": "化学メーカーの綜研化学は、2024年1月9日に一部サーバがランサムウェアで暗号化されたことを確認した。その後の調査で、同社と子会社の取引先、関係先、従業員など約19,408人分の個人情報が流出した可能性があると公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/152512",
+      "title": "サーバがランサム被害、情報流出など影響を調査 - 綜研化学",
+      "publisher": "Security NEXT",
+      "published_on": "2024-01-12"
+    },
+    {
+      "url": "https://www.security-next.com/158564",
+      "title": "1月のランサム被害に関するあらたな情報流出を確認 - 綜研化学",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2024-wantedly-access-settings",
+  "organization": {
+    "name_ja": "ウォンテッドリー株式会社",
+    "name_en": "Wantedly, Inc.",
+    "domain": "wantedly.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2024-07-30",
+  "discovered_on": "2024-04-10",
+  "affected": {
+    "count": 200578,
+    "unit": "people",
+    "approximate": false,
+    "note": "First found on 2024-04-10 during system maintenance; the third report of 2024-07-30 (after 10 more defects were found) gave 200,578 users whose data in unpublished or deleted recruitment posts and company pages could be viewed by anyone with the URL. Earlier notices gave smaller figures; their dates were not confirmed, so disclosed_on is the third report date."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Wantedly found that because of setting errors, unpublished and deleted recruitment posts and company pages on its business social network could be viewed by people without permission who entered their URLs. After finding more defects, it said data of 200,578 users, such as names and profile details shown on those pages, was viewable.",
+    "ja": "ウォンテッドリーは、設定ミスによりビジネスSNS「Wantedly」の未公開・削除済みの募集記事や会社ページが、URLを入力すれば権限のない第三者にも閲覧できる状態だったと公表した。追加の不具合も判明し、掲載されていた氏名やプロフィールなどユーザー200,578人分の情報が閲覧可能だったとした。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/160610",
+      "title": "「Wantedly」で設定不備 - 非公開ページや個人情報が閲覧可能に",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-09"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/08/13/51465.html",
+      "title": "システム設定ミスが原因 ～「Wantedly」で200,578 名の個人情報が閲覧可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-08-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

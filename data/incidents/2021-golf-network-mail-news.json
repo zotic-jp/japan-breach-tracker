@@ -1,0 +1,43 @@
+{
+  "id": "2021-golf-network-mail-news",
+  "organization": {
+    "name_ja": "ジュピターゴルフネットワーク株式会社",
+    "name_en": "Jupiter Golf Network Co., Ltd.",
+    "domain": "golfnetwork.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2021-07-08",
+  "discovered_on": "2021-07-06",
+  "affected": {
+    "count": 40000,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Email addresses registered for the Golf Network Mail News newsletter. The attacker downloaded the address data twice and sent phishing emails impersonating a credit card company."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Jupiter Golf Network, the J:COM group company behind the Golf Network TV channel, said its newsletter delivery system was logged into without authorization on 2021-07-06. About 40,000 subscriber email addresses were downloaded and phishing emails were sent to subscribers.",
+    "ja": "J:COMグループでゴルフ専門チャンネルを運営するジュピターゴルフネットワークは、2021年7月6日にメール配信システムへ不正ログインされたと公表した。メールニュース登録者のメールアドレス約4万件がダウンロードされ、フィッシングメールが送信された。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/07/12/45956.html",
+      "title": "「ゴルフネットワークメールニュース」のメール配信システムに不正ログイン、メールアドレス4万件流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-07-12"
+    },
+    {
+      "url": "https://www.security-next.com/127979",
+      "title": "不正アクセスでメアド流出、偽メール送信も - ゴルフ専門チャンネル",
+      "publisher": "Security NEXT",
+      "published_on": "2021-07-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

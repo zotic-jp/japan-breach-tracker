@@ -1,0 +1,52 @@
+{
+  "id": "2020-nintendo-network-id",
+  "organization": {
+    "name_ja": "任天堂株式会社",
+    "name_en": "Nintendo Co., Ltd.",
+    "domain": "nintendo.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2020-04-24",
+  "discovered_on": null,
+  "affected": {
+    "count": 300000,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "Worldwide figure. About 160,000 Nintendo Network IDs were reported on 2020-04-24 and about 140,000 more on 2020-06-09; linked Nintendo Accounts without two-step verification were also affected. Fewer than 1% of the affected NNIDs saw fraudulent purchases."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Nintendo reported that Nintendo Network IDs were logged into without authorization using credentials obtained elsewhere, starting in early April 2020. About 300,000 accounts worldwide were affected, and nicknames, birthdates, countries and email addresses, plus details of linked Nintendo Accounts, may have been viewed.",
+    "ja": "任天堂は、他社などから不正に入手されたとみられるIDとパスワードを使った「ニンテンドーネットワークID」への不正ログインが2020年4月上旬から発生したと公表した。全世界で約30万アカウントが対象となり、ニックネーム、生年月日、国・地域、メールアドレスや、連携する「ニンテンドーアカウント」の登録情報が閲覧された可能性がある。"
+  },
+  "official_notice_url": "https://support.nintendo.com/jp/information/2020/0424.html",
+  "sources": [
+    {
+      "url": "https://support.nintendo.com/jp/information/2020/0424.html",
+      "title": "「ニンテンドーネットワークID」に対する不正ログイン発生のご報告と「ニンテンドーアカウント」を安全にご利用いただくためのお願い",
+      "publisher": "任天堂株式会社",
+      "published_on": "2020-04-24"
+    },
+    {
+      "url": "https://www.security-next.com/115601",
+      "title": "任天堂で不正ログイン、30万件に影響 - 不正取引は1％未満",
+      "publisher": "Security NEXT",
+      "published_on": "2020-06-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/06/11/44194.html",
+      "title": "続報：ニンテンドーネットワークID 不正ログイン、新たに１４万件判明（任天堂）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-06-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

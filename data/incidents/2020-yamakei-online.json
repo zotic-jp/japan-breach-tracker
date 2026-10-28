@@ -1,0 +1,46 @@
+{
+  "id": "2020-yamakei-online",
+  "organization": {
+    "name_ja": "株式会社山と溪谷社",
+    "name_en": "Yama-Kei Publishers Co., Ltd.",
+    "domain": "yamakei-online.com"
+  },
+  "industry": "media",
+  "disclosed_on": "2020-04-18",
+  "discovered_on": "2020-04-14",
+  "affected": {
+    "count": 29431,
+    "unit": "people",
+    "approximate": false,
+    "note": "Members registered before the 2013-04-09 system replacement. The data was found being traded on the dark web after a third-party tip on 2020-04-13. Passwords were stored in plaintext in the old system."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "birthdate",
+    "phone"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Yama-Kei Publishers said member data of its mountaineering site Yamakei Online, registered before an April 2013 system replacement, had leaked and was being traded on the dark web. The data of 29,431 members included email addresses, plaintext passwords, birthdates and phone numbers.",
+    "ja": "山と溪谷社は、登山情報サイト「ヤマケイオンライン」の2013年4月のシステム刷新以前に登録された会員情報が流出し、ダークウェブで取引されていたと公表した。会員2万9,431人分のメールアドレス、平文のパスワード、生年月日、電話番号が含まれていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/114331",
+      "title": "会員情報約3万件が流出、ダークウェブで流通 - 山と溪谷社",
+      "publisher": "Security NEXT",
+      "published_on": "2020-04-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/04/27/44032.html",
+      "title": "「ヤマケイオンライン」システムリプレイス以前の会員データがダークウェブ上で取引（山と溪谷社）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-04-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2024-slow-village-online-shop",
+  "organization": {
+    "name_ja": "株式会社スローヴィレッジ",
+    "name_en": "Slow Village Co., Ltd.",
+    "domain": "slow-village.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-10-24",
+  "discovered_on": "2024-06-19",
+  "affected": {
+    "count": 32345,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers from 2021-02-04 to 2024-05-28: 27,851 with contact details and 4,494 also with card data. Separately, 23,466 randomly generated card numbers were entered on the payment page."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Slow Village said attackers exploited a vulnerability in its health food online shop and altered the payment application. Personal data of 32,345 customers may have leaked, including card details of 4,494 of them.",
+    "ja": "健康食品などの通販サイトを運営するスローヴィレッジは、脆弱性を突く不正アクセスで決済アプリが改ざんされたと公表した。顧客32,345人の個人情報が流出した可能性があり、うち4,494人はクレジットカード情報も対象となる。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/163446",
+      "title": "健康食品雑貨の通販サイトで個人情報流出の可能性 - クレカ情報の不正入力も",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/11/01/51853.html",
+      "title": "「スローヴィレッジオンラインショップ」に不正アクセス、4,494 人のカード情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-11-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

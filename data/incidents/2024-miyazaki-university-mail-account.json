@@ -1,0 +1,53 @@
+{
+  "id": "2024-miyazaki-university-mail-account",
+  "organization": {
+    "name_ja": "国立大学法人宮崎大学",
+    "name_en": "University of Miyazaki",
+    "domain": "miyazaki-u.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2024-10-22",
+  "discovered_on": "2024-10-16",
+  "affected": {
+    "count": 16904,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (16,904) because no overall total was given. 16,904 pieces of personal data of outside people and 2,370 of university members, in 23,325 emails of the compromised account."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The University of Miyazaki found on 2024-10-16 that a university email account with a weak password had been taken over and used to send spam. 23,325 past emails in the account, containing 19,274 pieces of personal data such as names, addresses and phone numbers, may have leaked.",
+    "ja": "宮崎大学は、2024年10月16日に脆弱なパスワードの学内メールアカウントが乗っ取られ、迷惑メール送信に悪用されていたことを確認した。同アカウントで過去に送受信したメール23,325件が流出した可能性があり、氏名、住所、電話番号など19,274件の個人情報が含まれていた。"
+  },
+  "official_notice_url": "https://www.miyazaki-u.ac.jp/newsrelease/notice-info/-1213.html",
+  "sources": [
+    {
+      "url": "https://www.miyazaki-u.ac.jp/newsrelease/notice-info/post-1258.html",
+      "title": "メールアカウントの不正利用事案について",
+      "publisher": "国立大学法人宮崎大学",
+      "published_on": "2024-10-22"
+    },
+    {
+      "url": "https://www.miyazaki-u.ac.jp/newsrelease/notice-info/-1213.html",
+      "title": "メールアカウントの不正利用事案について",
+      "publisher": "国立大学法人宮崎大学",
+      "published_on": "2024-12-13"
+    },
+    {
+      "url": "https://www.security-next.com/165302",
+      "title": "メルアカがスパムの踏み台に、個人情報流出の可能性も - 宮崎大",
+      "publisher": "Security NEXT",
+      "published_on": "2024-12-17"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2020-iodata-narsus",
+  "organization": {
+    "name_ja": "株式会社アイ・オー・データ機器",
+    "name_en": "I-O DATA DEVICE, INC.",
+    "domain": "iodata.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2020-05-08",
+  "discovered_on": "2020-05-07",
+  "affected": {
+    "count": 61942,
+    "unit": "records",
+    "approximate": false,
+    "note": "All registrants of the NarSuS NAS monitoring service. Registrant data had not been fully deleted when the test server was built. No trace of exfiltration was found, but the company reported all 61,942 registrants as leaked because the servers had been accessed. Data stored on customers' NAS devices was not affected."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "I-O DATA said a test server and a related server for its cloud NAS monitoring service NarSuS were accessed without authorization because of insufficient security settings. It concluded that information of all 61,942 registrants, including names, addresses, phone numbers, email addresses and product serial numbers, had leaked.",
+    "ja": "アイ・オー・データ機器は、クラウド型NAS監視サービス「NarSuS」のテスト用サーバと関連サーバが、セキュリティ設定の不足により不正アクセスを受けたと公表した。氏名、住所、電話番号、メールアドレス、製品シリアル番号などを含む全登録者6万1,942件の情報が流出したと結論づけた。"
+  },
+  "official_notice_url": "https://www.iodata.jp/support/information/2020/0513_narsus/",
+  "sources": [
+    {
+      "url": "https://www.iodata.jp/support/information/2020/0513_narsus/",
+      "title": "【重要】不正アクセスによる個人情報流出についてのお知らせ（第三報）",
+      "publisher": "株式会社アイ・オー・データ機器",
+      "published_on": "2020-05-13"
+    },
+    {
+      "url": "https://www.security-next.com/115476",
+      "title": "アイ・オーNAS管理サービスへの不正アクセス、複数サーバに痕跡",
+      "publisher": "Security NEXT",
+      "published_on": "2020-06-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/06/08/44181.html",
+      "title": "NAS監視サービス関連サーバへの不正アクセス、最終報告（アイ・オー・データ機器）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-06-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

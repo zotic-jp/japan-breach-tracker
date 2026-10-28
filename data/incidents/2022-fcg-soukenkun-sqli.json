@@ -1,0 +1,43 @@
+{
+  "id": "2022-fcg-soukenkun-sqli",
+  "organization": {
+    "name_ja": "株式会社エフシージー総合研究所",
+    "name_en": "FCG Research Institute, Inc.",
+    "domain": "fcg-r.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2022-05-24",
+  "discovered_on": "2022-05-18",
+  "affected": {
+    "count": 35000,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Up to 35,000 email addresses of contacts at organizations using the Soukenkun specification check tool."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "FCG Research Institute, part of the Fuji Media Holdings group, detected a flood of SQL injection attacks on its web server on 2022-05-18. Up to 35,000 email addresses of users of its Soukenkun inspection tool may have been leaked.",
+    "ja": "フジ・メディア・ホールディングス傘下のエフシージー総合研究所は、2022年5月18日にウェブサーバへの大量のSQLインジェクション攻撃を検知した。検査ツール「そうけんくん」利用者のメールアドレス最大3万5,000件が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/136810",
+      "title": "サーバに大量のSQLi攻撃、メアド流出か - エフシージー総研",
+      "publisher": "Security NEXT",
+      "published_on": "2022-05-26"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/06/30/47816.html",
+      "title": "フジ・メディア・ホールディングス傘下のエフシージー総合研究所にSQLインジェクション攻撃、35,000件のメールアドレスが漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-06-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2022-jtb-kankocho-cloud",
+  "organization": {
+    "name_ja": "株式会社JTB",
+    "name_en": "JTB Corp.",
+    "domain": "jtb.co.jp"
+  },
+  "industry": "travel",
+  "disclosed_on": "2022-10-25",
+  "discovered_on": null,
+  "affected": {
+    "count": 11483,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 11,483 people's data in 1,698 application documents from businesses applying to a Japan Tourism Agency subsidy program. Accessible to other selected businesses between 2022-05-24 and 2022-09-29; 18 businesses downloaded files and deleted them on request."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "JTB, which ran a Japan Tourism Agency subsidy program, failed to set file-level access rights on a cloud sharing tool, so applicants could see other applicants' documents. Personal data of up to 11,483 people was leaked, and some businesses downloaded the files.",
+    "ja": "観光庁の補助事業者として事業を運営していたJTBは、情報共有用のクラウドサービスで個別のアクセス権限を設定しておらず、他社の申請書類を閲覧できる状態だった。最大1万1,483人分の個人情報が漏えいし、一部の事業者がファイルをダウンロードしていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.mlit.go.jp/kankocho/news08_000360.html",
+      "title": "株式会社JTBが管理・運用する情報共有ツールにおけるアクセス権限の誤設定による個人情報等の漏洩について",
+      "publisher": "観光庁",
+      "published_on": "2022-10-25"
+    },
+    {
+      "url": "https://www.security-next.com/140869",
+      "title": "「看板商品創出事業」で情報流出、アクセス権限の設定漏れで - 観光庁",
+      "publisher": "Security NEXT",
+      "published_on": "2022-10-26"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/11/01/48421.html",
+      "title": "JTBが観光庁補助事業者として実施した業務でクラウド誤設定、申請書類が閲覧可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-11-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

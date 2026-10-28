@@ -1,0 +1,43 @@
+{
+  "id": "2022-nichinoken-sqli",
+  "organization": {
+    "name_ja": "株式会社日能研",
+    "name_en": "Nichinoken Inc.",
+    "domain": "nichinoken.co.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2022-01-29",
+  "discovered_on": "2022-01-11",
+  "affected": {
+    "count": 280106,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Up to 280,106 email addresses. The company said names, addresses, account data, grades and school preferences were not leaked."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Cram school operator Nichinoken found on 2022-01-11 that its web server had been hit by SQL injection attacks in early December 2021. Up to 280,106 email addresses may have been leaked.",
+    "ja": "学習塾大手の日能研は、2021年12月上旬にウェブサーバがSQLインジェクション攻撃を受けていたことを2022年1月11日に認識した。最大28万106件のメールアドレスが流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/133759",
+      "title": "日能研のウェブサーバに不正アクセス - SQLi攻撃でメルアド流出か",
+      "publisher": "Security NEXT",
+      "published_on": "2022-01-31"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/02/01/47051.html",
+      "title": "日能研WebサイトにSQLインジェクション攻撃、28万件のメールアドレス流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-02-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2024-yodogawa-park-booking-test-server",
+  "organization": {
+    "name_ja": "国土交通省 近畿地方整備局 淀川河川事務所",
+    "name_en": "Ministry of Land, Infrastructure, Transport and Tourism (Yodogawa River Office)",
+    "domain": null
+  },
+  "industry": "government",
+  "disclosed_on": "2024-03-08",
+  "discovered_on": "2024-03-01",
+  "affected": {
+    "count": 34000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 34,000 records of users of the Yodoiko! booking site for Yodogawa River Park were on the test server. Email addresses and bank accounts were encrypted."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "bank_account",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Unauthorized outbound communication was found on a test server for Yodoiko!, the facility booking site of Yodogawa River Park, after user data had been loaded onto it during a system upgrade by a contractor. About 34,000 records including names, addresses, phone numbers, login IDs and passwords may have leaked.",
+    "ja": "淀川河川公園の施設予約サイト「よどいこ！」で、委託先の改修作業中に利用者情報を実装したテストサーバから不正な外部通信が確認された。氏名、住所、電話番号、ログインID、パスワードなど約3万4,000件の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/154646",
+      "title": "淀川河川公園施設予約サイトのテストサーバで不正通信 - 個人情報流出か",
+      "publisher": "Security NEXT",
+      "published_on": "2024-03-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

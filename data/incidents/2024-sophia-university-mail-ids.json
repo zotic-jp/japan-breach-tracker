@@ -1,0 +1,44 @@
+{
+  "id": "2024-sophia-university-mail-ids",
+  "organization": {
+    "name_ja": "学校法人上智学院（上智大学）",
+    "name_en": "Sophia School Corporation (Sophia University)",
+    "domain": "sophia.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2024-07-16",
+  "discovered_on": "2024-06-19",
+  "affected": {
+    "count": 36275,
+    "unit": "people",
+    "approximate": false,
+    "note": "Includes 15,160 current students plus graduates since March 2016 and former staff since January 2016. IDs were visible only to logged-in users in the same group."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Sophia University found that a configuration gap in its cloud email system let logged-in users see account IDs, which contain names and student numbers, of others in the same student or alumni group. 36,275 current students, graduates and former staff were affected; the issue was reported by a student on 2024-06-19 and fixed in July.",
+    "ja": "上智大学は、学内向けメールシステムの設定漏れにより、ログインした利用者が同じ学生・卒業生グループ内の他者の氏名と学生番号を含むアカウントIDを閲覧できる状態だったと公表した。在学生、卒業生、退職者あわせて36,275人が対象で、2024年6月19日の学生からの指摘で判明し7月に対処した。"
+  },
+  "official_notice_url": "https://www.sophia.ac.jp/jpn/article/news/announcement/240716ict/",
+  "sources": [
+    {
+      "url": "https://www.sophia.ac.jp/jpn/article/news/announcement/240716ict/",
+      "title": "ソフィアメールシステム上で学生間・卒業生間の個人情報が閲覧可能になっていた事案について",
+      "publisher": "学校法人上智学院（上智大学）",
+      "published_on": "2024-07-16"
+    },
+    {
+      "url": "https://www.security-next.com/159765",
+      "title": "メールシステムで設定ミス、当初ベンダーも原因特定できず - 上智大",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

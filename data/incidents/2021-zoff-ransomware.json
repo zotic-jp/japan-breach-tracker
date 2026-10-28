@@ -1,0 +1,48 @@
+{
+  "id": "2021-zoff-ransomware",
+  "organization": {
+    "name_ja": "株式会社インターメスティック",
+    "name_en": "Intermestic Inc.",
+    "domain": "zoff.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-05-15",
+  "discovered_on": "2021-05-10",
+  "affected": {
+    "count": 92426,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (92,426) because no overall total was given. Published figures in the final report of 2021-07-30: 92,426 Zoff newsletter subscribers, 757 Zoff EC customers and 3,728 GLASSAGE customers. Employee and some business partner data was also affected without counts. Credit card data was not included."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Intermestic, operator of the eyewear chains Zoff and GLASSAGE, confirmed unauthorized access to its servers on 2021-05-10 and received an extortion message. Its final report said customer data such as names, email addresses and birthdates of about 97,000 people, plus employee and partner data, had leaked.",
+    "ja": "眼鏡チェーン「Zoff」「GLASSAGE」を運営するインターメスティックは、2021年5月10日にサーバーへの不正アクセスを確認し、脅迫メッセージも受け取った。最終報告では、約9万7千人分の顧客の氏名、メールアドレス、生年月日などのほか、従業員や取引先の情報が外部に流出したとした。"
+  },
+  "official_notice_url": "https://www.zoff.co.jp/shop/t/t1818/",
+  "sources": [
+    {
+      "url": "https://www.zoff.co.jp/shop/t/t1818/",
+      "title": "不正アクセスに関する調査結果のご報告",
+      "publisher": "株式会社インターメスティック",
+      "published_on": "2021-07-30"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/05/18/45678.html",
+      "title": "サーバへのランサムウェア攻撃、メガネブランド「Zoff」「GLASSAGE」の顧客情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-05-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

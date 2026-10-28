@@ -1,0 +1,44 @@
+{
+  "id": "2021-cosmos-online-store",
+  "organization": {
+    "name_ja": "株式会社コスモス薬品",
+    "name_en": "Cosmos Pharmaceutical Corporation",
+    "domain": "cosmospc.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-07-12",
+  "discovered_on": "2021-05-12",
+  "affected": {
+    "count": 25484,
+    "unit": "records",
+    "approximate": false,
+    "note": "Credit card data entered on the Cosmos Online Store between 2020-02-07 and 2021-04-22, when the old system was in use."
+  },
+  "data_types": [
+    "name",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Drugstore chain Cosmos Pharmaceutical announced that malicious files had been planted on the old system of its Cosmos Online Store through a vulnerability. Card data of 25,484 customers, including security codes, entered between February 2020 and April 2021 leaked.",
+    "ja": "ドラッグストアのコスモス薬品は、「コスモスオンラインストア」の旧システムの脆弱性を突かれ不正なファイルを設置されていたと公表した。2020年2月から2021年4月に入力された顧客25,484件分のセキュリティコードを含むカード情報が流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/07/14/45974.html",
+      "title": "「コスモスオンラインストア」に不正アクセス、25,484件のカード情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-07-14"
+    },
+    {
+      "url": "https://www.security-next.com/128071",
+      "title": "通販サイトでクレカ情報流出、システム刷新後に被害判明 - コスモス薬品",
+      "publisher": "Security NEXT",
+      "published_on": "2021-07-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

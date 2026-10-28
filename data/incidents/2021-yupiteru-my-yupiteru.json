@@ -1,0 +1,49 @@
+{
+  "id": "2021-yupiteru-my-yupiteru",
+  "organization": {
+    "name_ja": "株式会社ユピテル",
+    "name_en": "Yupiteru Corporation",
+    "domain": "yupiteru.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2021-06-07",
+  "discovered_on": "2021-05-25",
+  "affected": {
+    "count": 405576,
+    "unit": "records",
+    "approximate": false,
+    "note": "Members of My Yupiteru registered before October 2017. The database file linked in the extortion email held 528,563 records; 405,576 remained after removing duplicates and non-personal entries."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Car accessory maker Yupiteru received an extortion email in May 2021 claiming its server had been hacked in late 2017. It confirmed that member data of 405,576 My Yupiteru users, including names, addresses, phone numbers, email addresses and hashed passwords, had been taken in the 2017 intrusion.",
+    "ja": "カー用品メーカーのユピテルは、2021年5月に2017年末にサーバーをハッキングしたとする脅迫メールを受け取った。2017年の不正アクセスにより「My Yupiteru」会員405,576件の氏名、住所、電話番号、メールアドレス、ハッシュ化されたパスワードなどが持ち出されていたことを確認した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/126953",
+      "title": "2017年に不正アクセス、日本語脅迫メール届き情報流出が発覚 - ユピテル",
+      "publisher": "Security NEXT",
+      "published_on": "2021-06-08"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/06/10/45799.html",
+      "title": "2017年10月の不正アクセス、2021年5月になって脅迫メールが届き情報流出が判明",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-06-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

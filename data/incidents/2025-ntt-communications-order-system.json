@@ -1,0 +1,47 @@
+{
+  "id": "2025-ntt-communications-order-system",
+  "organization": {
+    "name_ja": "NTTコミュニケーションズ株式会社",
+    "name_en": "NTT Communications Corporation",
+    "domain": "ntt.com"
+  },
+  "industry": "telecom",
+  "disclosed_on": "2025-03-05",
+  "discovered_on": "2025-02-05",
+  "affected": {
+    "count": 17891,
+    "unit": "records",
+    "approximate": false,
+    "note": "The count is the number of corporate customers (17,891 companies), not individuals. Exposed fields include contract numbers, customer (contract) names, names of customer contact persons, phone numbers, email addresses, addresses and service usage information. Services for individual consumers were not affected. The company has since been renamed NTT DOCOMO BUSINESS."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "address",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "NTT Communications detected unauthorized access to its internal order information distribution system on 2025-02-05. It said information on 17,891 corporate customers, including contact persons' names, phone numbers and email addresses, may have been leaked.",
+    "ja": "NTTコミュニケーションズは2025年2月5日、社内のオーダ情報流通システムへの不正アクセスを検知した。法人顧客17,891社について、担当者名、電話番号、メールアドレスなどを含む情報が流出した可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.ntt.com/about-us/press-releases/news/article/2025/0305_2.html",
+  "sources": [
+    {
+      "url": "https://www.ntt.com/about-us/press-releases/news/article/2025/0305_2.html",
+      "title": "当社への不正アクセスによる情報流出の可能性について",
+      "publisher": "NTTコミュニケーションズ株式会社",
+      "published_on": "2025-03-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/03/11/52470.html",
+      "title": "NTTコミュニケーションズに不正アクセス、17,891 社の顧客情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-03-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

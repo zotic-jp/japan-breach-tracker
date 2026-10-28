@@ -1,0 +1,54 @@
+{
+  "id": "2022-morinaga-direct-store",
+  "organization": {
+    "name_ja": "森永製菓株式会社",
+    "name_en": "Morinaga & Co., Ltd.",
+    "domain": "morinaga.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2022-03-17",
+  "discovered_on": "2022-03-13",
+  "affected": {
+    "count": 1648922,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers and delivery recipients of the Morinaga Direct Store (formerly Tenshi no Kenko) mail-order business who ordered between 2018-05-01 and 2022-03-13. Email addresses were included for 3,887 people. The company found no trace of exfiltration but could not rule it out."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Confectionery maker Morinaga found on 2022-03-13 that multiple servers had been compromised by a third party, likely through a network device vulnerability. Personal data of 1,648,922 customers of its mail-order store may have been leaked.",
+    "ja": "森永製菓は、2022年3月13日深夜に複数のサーバが第三者による不正アクセスを受けたことを確認した。ネットワーク機器の脆弱性を突かれた可能性が高く、通販事業「森永ダイレクトストア」の顧客164万8,922人の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.morinaga.co.jp/public/newsrelease/web/fix/file6232c0a0ef79f.pdf",
+  "sources": [
+    {
+      "url": "https://www.morinaga.co.jp/public/newsrelease/web/fix/file6232c0a0ef79f.pdf",
+      "title": "当社サーバへの不正アクセスの発生についてのお知らせ",
+      "publisher": "森永製菓株式会社",
+      "published_on": "2022-03-17"
+    },
+    {
+      "url": "https://www.security-next.com/135060",
+      "title": "複数サーバにサイバー攻撃、顧客情報流出の可能性 - 森永製菓",
+      "publisher": "Security NEXT",
+      "published_on": "2022-03-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/03/23/47340.html",
+      "title": "「森永ダイレクトストア」に不正アクセス、個人情報流出の可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-03-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

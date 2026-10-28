@@ -1,0 +1,39 @@
+{
+  "id": "2024-njpw-fanclub-usb",
+  "organization": {
+    "name_ja": "新日本プロレスリング株式会社",
+    "name_en": "New Japan Pro-Wrestling Co., Ltd.",
+    "domain": "njpw.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2024-05-01",
+  "discovered_on": "2024-04-22",
+  "affected": {
+    "count": 32775,
+    "unit": "people",
+    "approximate": false,
+    "note": "Fan club members including former members. The USB memory was encrypted and no misuse had been reported."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "New Japan Pro-Wrestling lost an encrypted USB memory stick holding data of 32,775 fan club members, including names, membership numbers and birthdates, while preparing a members-only photo session at Korakuen Hall on 2024-04-22.",
+    "ja": "新日本プロレスリングは、2024年4月22日に後楽園ホールでファンクラブ会員限定撮影会の準備中、会員32,775人分の氏名、会員番号、生年月日などを保存した暗号化済みUSBメモリを紛失したと公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/156574",
+      "title": "FC会員情報含むUSBメモリを撮影会場で紛失 - 新日本プロレス",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

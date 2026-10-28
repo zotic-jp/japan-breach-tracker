@@ -1,0 +1,51 @@
+{
+  "id": "2022-vector-park-card-skimming",
+  "organization": {
+    "name_ja": "株式会社ベクトル",
+    "name_en": "Vector Co., Ltd.",
+    "domain": "vector-park.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-08-18",
+  "discovered_on": "2021-12-07",
+  "affected": {
+    "count": 18136,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who paid by card on Vector Park between 2020-04-27 and 2021-12-22. Login IDs and passwords may also have been stolen."
+  },
+  "data_types": [
+    "credit_card",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Vector, operator of the used brand clothing site Vector Park, learned from police in December 2021 that data was being sent out from its site. Card details, login IDs and passwords of 18,136 customers may have been stolen and misused.",
+    "ja": "ブランド古着通販サイト「ベクトルパーク」を運営するベクトルは、2021年12月に警察から情報が外部へ送信されている可能性を指摘された。顧客1万8,136人のクレジットカード情報やログインID、パスワードが流出し、不正利用された可能性がある。"
+  },
+  "official_notice_url": "https://vector-park.jp/contents/images/attention/park_credit_20220818.pdf",
+  "sources": [
+    {
+      "url": "https://vector-park.jp/contents/images/attention/park_credit_20220818.pdf",
+      "title": "弊社が運営する「ベクトルパーク」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社ベクトル",
+      "published_on": "2022-08-18"
+    },
+    {
+      "url": "https://www.security-next.com/139037",
+      "title": "古着通販サイトに不正アクセス - 警察からの連絡契機に改ざん発見",
+      "publisher": "Security NEXT",
+      "published_on": "2022-08-19"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/08/22/48069.html",
+      "title": "ブランド古着通販サイト「ベクトルパーク」への不正アクセスでカード情報が漏えい、警察からの連絡で発覚",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-08-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

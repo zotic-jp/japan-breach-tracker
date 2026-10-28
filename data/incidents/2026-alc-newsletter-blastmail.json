@@ -1,0 +1,38 @@
+{
+  "id": "2026-alc-newsletter-blastmail",
+  "organization": {
+    "name_ja": "株式会社アルク",
+    "name_en": "ALC PRESS INC.",
+    "domain": "alc.co.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2026-10-23",
+  "discovered_on": "2026-10-22",
+  "affected": {
+    "count": 310000,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Subscribers of the ALC News+ mail magazine whose addresses (and, for some, an internal management number) were stored in Blastmail, as of 2026-10-23. Names, addresses, passwords and card data were not stored there. This is one of many customer-side impacts of the Blastmail breach (see 2026-blastmail)."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ラクスライトクラウド (ブラストメール)",
+  "status": "confirmed",
+  "summary": {
+    "en": "Language education publisher ALC said the email delivery service Blastmail, which it used for its mail magazine, was breached by a third party. It confirmed on 2026-10-22 that about 310,000 email addresses registered for its ALC News+ mail magazine were among the leaked data.",
+    "ja": "語学教育出版のアルクは、メールマガジン配信に利用していた外部サービス「ブラストメール」が第三者による不正アクセスを受けたと発表した。2026年10月22日、メールマガジン「ALC News+」に登録された約31万件のメールアドレスが漏えい対象に含まれていることを確認した。"
+  },
+  "official_notice_url": "https://www.alc.co.jp/2026/10/23/1996",
+  "sources": [
+    {
+      "url": "https://www.alc.co.jp/2026/10/23/1996",
+      "title": "メール配信サービスへの不正アクセスによるメールアドレス漏えいに関するお詫びとお知らせ（第1報）",
+      "publisher": "株式会社アルク",
+      "published_on": "2026-10-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

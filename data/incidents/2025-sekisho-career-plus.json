@@ -1,0 +1,48 @@
+{
+  "id": "2025-sekisho-career-plus",
+  "organization": {
+    "name_ja": "株式会社セキショウキャリアプラス",
+    "name_en": "Sekisho Career Plus Co., Ltd.",
+    "domain": "sekisho-career.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2025-10-10",
+  "discovered_on": "2025-09-10",
+  "affected": {
+    "count": 15811,
+    "unit": "people",
+    "approximate": true,
+    "note": "Sum of published maximum cumulative figures: up to 15,535 local nationals registered for job-support events held in Vietnam and India, 24 registrants for a 2021 side-job event in Ibaraki (name, address, phone, birthdate, email, encrypted password) and up to 252 exhibiting company staff (name, email, encrypted password). The breached server was operated by group company Sekisho Vietnam in Hanoi."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Sekisho Career Plus, an Ibaraki staffing company, said a server operated by its Vietnamese group company was breached, leaking internal data including personal information. Up to about 15,800 people (cumulative), mostly registrants for job-support events in Vietnam and India, were affected.",
+    "ja": "茨城県の人材サービス会社セキショウキャリアプラスは、ベトナムのグループ会社が運用するサーバーが第三者に侵害され、個人情報を含む社内データが漏えいしたと公表した。ベトナムやインドの就職支援イベント参加登録者を中心に、最大で延べ約1万5,800人分が対象となった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/175668",
+      "title": "グループ会社サーバから個人情報が流出 - 茨城県の人材サービス会社",
+      "publisher": "Security NEXT",
+      "published_on": "2025-10-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/10/22/53856.html",
+      "title": "セキショウグループに不正アクセス、ベトナムとインドで開催した就職支援イベント参加者の個人情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-10-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

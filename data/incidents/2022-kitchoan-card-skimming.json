@@ -1,0 +1,43 @@
+{
+  "id": "2022-kitchoan-card-skimming",
+  "organization": {
+    "name_ja": "株式会社宗家源吉兆庵",
+    "name_en": "Soke Minamoto Kitchoan Co., Ltd.",
+    "domain": "kitchoan.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2022-05-24",
+  "discovered_on": "2022-03-07",
+  "affected": {
+    "count": 14127,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who paid by card on the online shop between 2021-02-04 and 2022-01-31. Some cards may have been used fraudulently."
+  },
+  "data_types": [
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Japanese confectioner Soke Minamoto Kitchoan said attackers tampered with the payment application of its online shop. Credit card details of 14,127 customers may have been stolen and misused.",
+    "ja": "和菓子の宗家源吉兆庵は、オンラインショップの決済アプリケーションが改ざんされたと公表した。顧客1万4,127人のクレジットカード情報が流出し、不正利用された可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/136760",
+      "title": "和菓子通販サイトでクレカ情報流出 - 悪用された可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2022-05-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/05/25/47641.html",
+      "title": "和菓子販売「宗家源吉兆庵オンラインショップ」に不正アクセス、14,127名のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-05-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

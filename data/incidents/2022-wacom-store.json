@@ -1,0 +1,55 @@
+{
+  "id": "2022-wacom-store",
+  "organization": {
+    "name_ja": "株式会社ワコム",
+    "name_en": "Wacom Co., Ltd.",
+    "domain": "wacom.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-11-21",
+  "discovered_on": "2022-08-19",
+  "affected": {
+    "count": 147545,
+    "unit": "people",
+    "approximate": false,
+    "note": "Personal data of up to 147,545 past Wacom Store customers was accessed between 2021-02-22 and 2022-04-19. Separately, up to 1,938 credit card records entered between 2022-02-19 and 2022-04-19 may have been stolen."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Wacom said attackers exploited a vulnerability in the old system of its Wacom Store, used until April 2022, and tampered with its payment application. Personal data of up to 147,545 customers and up to 1,938 credit card records may have been leaked.",
+    "ja": "ワコムは、2022年4月まで使用していた「ワコムストア」の旧システムの脆弱性を突かれ、決済アプリケーションが改ざんされたと公表した。顧客最大14万7,545人の個人情報と、最大1,938件のクレジットカード情報が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.wacom.com/ja-jp/about-wacom/news-and-events/2022/1484",
+  "sources": [
+    {
+      "url": "https://www.wacom.com/ja-jp/about-wacom/news-and-events/2022/1484",
+      "title": "弊社が運営する「ワコムストア」への不正アクセスによる 個人情報漏洩に関するお詫びとお知らせ",
+      "publisher": "株式会社ワコム",
+      "published_on": "2022-11-21"
+    },
+    {
+      "url": "https://www.security-next.com/141608",
+      "title": "ワコムのネットショップで個人情報流出の可能性 - クレカ情報の窃取も",
+      "publisher": "Security NEXT",
+      "published_on": "2022-11-22"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/11/24/48534.html",
+      "title": "「ワコムストア」への不正アクセスでカード情報が漏えい、4月まで使用していた旧システムの脆弱性を突かれる",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-11-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

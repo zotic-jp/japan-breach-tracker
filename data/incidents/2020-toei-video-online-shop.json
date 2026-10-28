@@ -1,0 +1,43 @@
+{
+  "id": "2020-toei-video-online-shop",
+  "organization": {
+    "name_ja": "東映ビデオ株式会社",
+    "name_en": "Toei Video Co., Ltd.",
+    "domain": "toei-video.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2020-09-30",
+  "discovered_on": "2020-05-11",
+  "affected": {
+    "count": 10021,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 10,021 people (10,395 cards) who paid by card between 2019-05-27 and 2020-05-11. The forensic investigation found signs of unauthorized access but no tampering or malicious program; the company noted its view differs from the card company's but notified customers as a precaution."
+  },
+  "data_types": [
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Toei Video, a Toei subsidiary, said a card company had flagged a possible leak of card data from its Toei Video Online Shop. Card details of up to 10,021 customers who paid between May 2019 and May 2020 may have leaked, although the company's forensic investigation found no tampering.",
+    "ja": "東映の子会社である東映ビデオは、クレジットカード会社から「東映ビデオオンラインショップ」のカード情報漏えいの可能性を指摘されたと公表した。2019年5月から2020年5月に決済した最大1万21人分のカード情報が流出した可能性があるが、同社の調査では改ざんは見つからなかった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/119101",
+      "title": "東映ビデオの通販サイトで情報流出か - クレカ会社と見解に相違",
+      "publisher": "Security NEXT",
+      "published_on": "2020-10-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/10/02/44631.html",
+      "title": "ECサイトに不正アクセス形跡、フォレンジック調査でも改ざんや不正プログラム発見できず（東映ビデオ）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-10-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

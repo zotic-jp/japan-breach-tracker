@@ -1,0 +1,45 @@
+{
+  "id": "2020-ryuki-design-ectool",
+  "organization": {
+    "name_ja": "株式会社Ryuki Design",
+    "name_en": "Ryuki Design Inc.",
+    "domain": null
+  },
+  "industry": "it_services",
+  "disclosed_on": "2020-03-27",
+  "discovered_on": "2020-02-28",
+  "affected": {
+    "count": 934948,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 934,948 order records in emails stored for some shops using EC TOOL (a third-party tool for Rakuten Ichiba and Yahoo! Shopping merchants) between 2015-08-30 and 2020-02-27. The company's investigation found no evidence that order data was accessed or transferred out. No card data or email addresses were included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Ryuki Design, which provides the shop management tool EC TOOL to merchants on Rakuten Ichiba and Yahoo! Shopping, said a shared database server was accessed without authorization and partly altered. The server held up to 934,948 order records with orderer and recipient names and addresses, products and amounts.",
+    "ja": "楽天市場やYahoo!ショッピングの出店者向けに店舗管理ツール「EC TOOL」を提供するRyuki Designは、共通データベースサーバが不正アクセスを受け一部が改ざんされたと公表した。サーバには注文者や送付先の氏名、住所、注文商品、金額などを含む最大93万4,948件の注文情報が保存されていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/113709",
+      "title": "オンラインモールのサードパーティ製管理ツールに不正アクセス",
+      "publisher": "Security NEXT",
+      "published_on": "2020-04-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/04/06/43921.html",
+      "title": "楽天市場・ヤフーショッピング特化の自動更新ツールへ不正アクセス、一部改ざん被害も（Ryuki Design）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-04-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

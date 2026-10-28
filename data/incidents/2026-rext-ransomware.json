@@ -1,0 +1,49 @@
+{
+  "id": "2026-rext-ransomware",
+  "organization": {
+    "name_ja": "REXT Holdings株式会社",
+    "name_en": "REXT Holdings Co., Ltd.",
+    "domain": "rext.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-08-10",
+  "discovered_on": "2026-08-09",
+  "affected": {
+    "count": 1044906,
+    "unit": "records",
+    "approximate": false,
+    "note": "Records on servers encrypted in the attack, treated as possibly leaked because access could not be ruled out: REXT member registrations, WonderGOO and Shinseido reservations, WonderREX buy-back customers, APORITO customers and business partners, and employees. Separately, 310 files (about 54 MB) including some member registration data, applicant entry sheets and HR documents were confirmed published on the attacker's leak site. No card data was included."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "bank_account",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "REXT Holdings and its subsidiary REXT, which run stores such as WonderGOO, WonderREX and Shinseido, had many servers and PCs encrypted in a ransomware attack on 2026-08-09, disrupting store operations. The investigation found 310 files published on the attacker's leak site and treated 1,044,906 records of customer and other data as possibly leaked.",
+    "ja": "WonderGOO、WonderREX、新星堂などを展開するREXT Holdingsと子会社REXTは、2026年8月9日にランサムウェア攻撃を受けて多くのサーバーやパソコンが暗号化され、店舗営業に影響が出た。調査で攻撃者のリークサイトに310件のファイルが公開されたことが確認され、顧客情報など1,044,906件が漏えいのおそれのある情報とされた。"
+  },
+  "official_notice_url": "https://www.rext.jp/ir/attachment/?/%E5%BD%93%E7%A4%BE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E5%8F%8A%E3%81%B3%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E7%AC%AC5%E5%A0%B1%EF%BC%89.pdf=&field=0&id=88&inline=1",
+  "sources": [
+    {
+      "url": "https://www.rext.jp/ir/attachment/?/%E5%BD%93%E7%A4%BE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E8%AA%BF%E6%9F%BB%E7%B5%90%E6%9E%9C%E5%8F%8A%E3%81%B3%E4%BB%8A%E5%BE%8C%E3%81%AE%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E7%AC%AC5%E5%A0%B1%EF%BC%89.pdf=&field=0&id=88&inline=1",
+      "title": "当社ネットワークへの不正アクセスによる情報漏えいに関する調査結果及び今後の対応について（第５報）",
+      "publisher": "REXT Holdings株式会社",
+      "published_on": "2026-10-09"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56315.html",
+      "title": "REXTにランサムウェア攻撃、流出した可能性のある情報の一部がインターネット上に掲載",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-09-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

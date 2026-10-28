@@ -1,0 +1,49 @@
+{
+  "id": "2026-medica-shuppan-ransomware",
+  "organization": {
+    "name_ja": "株式会社メディカ出版",
+    "name_en": "Medica Shuppan Co., Ltd.",
+    "domain": "medica.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-03-17",
+  "discovered_on": "2026-03-13",
+  "affected": {
+    "count": 641000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Total from the final report (2026-05-13), which may include duplicates and replaces the figure in the third report. Covers customers including Medica ID registrants, staff of hospitals and schools, society secretariats, authors and lecturers, recruitment service registrants, business partner contacts, employees and job applicants. The first report (2026-03-17) said some data was confirmed leaked; the final report said removal could not be ruled out and treated the data as possibly leaked."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Medica Shuppan, a publisher of education materials for doctors and nurses, detected a system failure on 2026-03-13 caused by a ransomware attack, in which a third party entered its network with valid account credentials. Its final report said personal data of about 641,000 people, including customers, medical and school staff and business contacts, may have leaked.",
+    "ja": "医師・看護師向けの出版教育事業を手がけるメディカ出版は、2026年3月13日にシステム障害を検知し、正規のアカウント情報で社内ネットワークに侵入されたランサムウェア攻撃が原因と判明した。最終報告では、顧客、医療機関や教育機関の職員、取引先担当者などの約64.1万人分の個人情報に漏えいのおそれがあるとした。"
+  },
+  "official_notice_url": "https://www.medica.co.jp/news/information/3544/",
+  "sources": [
+    {
+      "url": "https://www.medica.co.jp/news/information/3544/",
+      "title": "不正アクセス（ランサムウェア）事案に関する調査結果および再発防止策のご報告",
+      "publisher": "株式会社メディカ出版",
+      "published_on": "2026-05-13"
+    },
+    {
+      "url": "https://www.medica.co.jp/_sys/wp-content/uploads/2026/03/260317_News-Release.pdf",
+      "title": "不正アクセス（ランサムウェア）被害によるシステム障害および情報漏えいに関するお詫びとご報告",
+      "publisher": "株式会社メディカ出版",
+      "published_on": "2026-03-17"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/03/27/54924.html",
+      "title": "メディカ出版にランサムウェア攻撃、商品の受注・発送業務、問い合わせ窓口等の対応が停止",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-03-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

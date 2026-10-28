@@ -1,0 +1,49 @@
+{
+  "id": "2022-bglen-card-skimming",
+  "organization": {
+    "name_ja": "ビバリーグレンラボラトリーズ株式会社",
+    "name_en": "Beverly Glen Laboratories, Inc.",
+    "domain": "bglen.net"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-01-25",
+  "discovered_on": "2021-06-10",
+  "affected": {
+    "count": 46702,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who newly entered a credit card on the b.glen website between 2020-12-05 and 2021-06-24. Some cards may have been used fraudulently."
+  },
+  "data_types": [
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Skincare maker Beverly Glen Laboratories said attackers exploited a vulnerability in its b.glen online store and planted a program that sent entered card data to outsiders. Credit card details of 46,702 customers may have been stolen.",
+    "ja": "スキンケア製品のビバリーグレンラボラトリーズは、通販サイト「ビーグレンHP」の脆弱性を突かれ、入力されたカード情報を外部へ送信する不正プログラムが設置されていたと公表した。顧客4万6,702人のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.bglen.net/notice/security",
+  "sources": [
+    {
+      "url": "https://www.bglen.net/notice/security",
+      "title": "弊社が運営する「ビーグレンHP」への不正アクセスによる個人情報流出に関するお詫びとお知らせ",
+      "publisher": "ビバリーグレンラボラトリーズ株式会社",
+      "published_on": "2022-01-25"
+    },
+    {
+      "url": "https://www.security-next.com/133627",
+      "title": "不正アクセスでクレカ情報流出の可能性 - 化粧品メーカー",
+      "publisher": "Security NEXT",
+      "published_on": "2022-02-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/01/27/47029.html",
+      "title": "スキンケア製品取り扱い「ビーグレンHP」に不正アクセス、46,702名分のカード情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-01-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

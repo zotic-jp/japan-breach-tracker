@@ -1,0 +1,50 @@
+{
+  "id": "2022-metaps-payment",
+  "organization": {
+    "name_ja": "株式会社メタップスペイメント",
+    "name_en": "Metaps Payment Inc.",
+    "domain": "metaps-payment.com"
+  },
+  "industry": "finance",
+  "disclosed_on": "2022-01-25",
+  "discovered_on": null,
+  "affected": {
+    "count": 460395,
+    "unit": "records",
+    "approximate": false,
+    "note": "460,395 credit card records (number, expiry, security code) from the token-based card payment service used by merchant e-commerce sites. Data from other services, such as the Kaihi Pay and Event Pay collection services, was also taken."
+  },
+  "data_types": [
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Payment processor Metaps Payment found that attackers had broken into its payment data center between August 2021 and January 2022 using unauthorized logins and SQL injection. Its investigation found that 460,395 credit card records and other data had been stolen. The service is used by thousands of merchant sites.",
+    "ja": "決済代行のメタップスペイメントは、2021年8月から2022年1月にかけて決済データセンターが不正ログインやSQLインジェクションによる攻撃を受けたと公表した。調査の結果、クレジットカード情報46万395件などが窃取されたことが判明した。同サービスは数千のサイトが導入している。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/01/26/47018.html",
+      "title": "メタップスペイメントの「トークン方式」データベースに不正アクセス、「イベントペイ」「会費ペイ」サービス停止",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-01-26"
+    },
+    {
+      "url": "https://www.security-next.com/134466",
+      "title": "メタップスP、クレカ情報など最大約46万件が流出か - 不正ログインやSQLi攻撃で",
+      "publisher": "Security NEXT",
+      "published_on": "2022-03-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/03/01/47211.html",
+      "title": "メタップスペイメントへの不正アクセス、半年間にわたる複合的な攻撃で460,395件のカード情報他が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-03-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2021-logovista-sql-injection",
+  "organization": {
+    "name_ja": "ロゴヴィスタ株式会社",
+    "name_en": "LogoVista Corporation",
+    "domain": "logovista.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2021-09-24",
+  "discovered_on": "2021-09-24",
+  "affected": {
+    "count": 128000,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Email addresses from user registration, support inquiries and purchases. Names, postal addresses and card data were not included. Phishing emails were later sent to the addresses."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Translation software vendor LogoVista found after a customer reported spam that its website had been hit by SQL injection between 2021-09-18 and 2021-09-22. About 128,000 registered user email addresses may have leaked.",
+    "ja": "翻訳ソフト販売のロゴヴィスタは、利用者からの迷惑メールの報告を受けて調査し、同社サイトが2021年9月18日から22日にかけてSQLインジェクション攻撃を受けていたことを確認した。登録ユーザーのメールアドレス約12万8千件が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.logovista.co.jp/lverp/information/information/emergency.html",
+  "sources": [
+    {
+      "url": "https://www.logovista.co.jp/lverp/information/information/emergency.html",
+      "title": "当社ホームページへの不正アクセスについて",
+      "publisher": "ロゴヴィスタ株式会社",
+      "published_on": "2021-09-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/09/29/46361.html",
+      "title": "翻訳ソフト販売ロゴヴィスタにSQLインジェクション攻撃、約12万8,000件の会員アドレスが流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-09-29"
+    },
+    {
+      "url": "https://www.security-next.com/130168",
+      "title": "SQLi攻撃で顧客のメールアドレスが流出 - ロゴヴィスタ",
+      "publisher": "Security NEXT",
+      "published_on": "2021-09-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

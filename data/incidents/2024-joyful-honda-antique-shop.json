@@ -1,0 +1,50 @@
+{
+  "id": "2024-joyful-honda-antique-shop",
+  "organization": {
+    "name_ja": "株式会社ジョイフル本田",
+    "name_en": "Joyful Honda Co., Ltd.",
+    "domain": "joyfulhonda.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-05-16",
+  "discovered_on": "2024-01-18",
+  "affected": {
+    "count": 20132,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers registered from 2012-10-27 to 2024-01-22. 3,958 card records used from 2021-03-17 to 2024-01-18 and login credentials may also have been stolen."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "credit_card",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Home center operator Joyful Honda said its antique goods online shop THE GLOBE OLD FRIEND was altered through a vulnerability. Personal data of 20,132 registered customers, 3,958 card records and login IDs and passwords may have leaked.",
+    "ja": "ホームセンターを運営するジョイフル本田は、アンティーク雑貨の通販サイト「THE GLOBE・OLD FRIENDオンラインショップ」が脆弱性を突かれて改ざんされたと公表した。登録顧客20,132人の個人情報、クレジットカード情報3,958件、ログインIDとパスワードが流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/157142",
+      "title": "アンティーク雑貨通販サイトに不正アクセス - ジョイフル本田",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-17"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/05/21/51030.html",
+      "title": "ジョイフル本田「THE GLOBE・OLD FRIEND オンラインショップ」に不正アクセス、3,958 件のカード情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-05-21"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

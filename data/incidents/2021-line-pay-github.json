@@ -1,0 +1,43 @@
+{
+  "id": "2021-line-pay-github",
+  "organization": {
+    "name_ja": "LINE Pay株式会社",
+    "name_en": "LINE Pay Corporation",
+    "domain": "line.me"
+  },
+  "industry": "finance",
+  "disclosed_on": "2021-12-06",
+  "discovered_on": "2021-11-24",
+  "affected": {
+    "count": 133484,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "51,543 accounts of LINE Pay users in Japan; 133,484 including users of LINE Pay services run by overseas group companies. The data was viewable on GitHub from 2021-09-12 to 2021-11-24 and was accessed 11 times by outsiders. Names, addresses, phone numbers, email addresses, card numbers and bank account numbers were not included."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "LINE Pay disclosed that an employee of a group company it outsourced to unintentionally uploaded an investigation program and payment-related data to GitHub on 2021-09-12. Campaign participation data such as internal user identifiers, payment amounts and dates for 133,484 accounts, 51,543 of them in Japan, was viewable until 2021-11-24.",
+    "ja": "LINE Payは、委託先グループ会社の従業員が2021年9月12日に調査用プログラムと決済関連データを意図せずGitHubにアップロードしていたと公表した。ユーザー識別子や決済金額、日時などのキャンペーン参加情報133,484アカウント分（うち国内51,543アカウント）が11月24日まで閲覧可能な状態だった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.lycorp.co.jp/ja/ir/news/auto_20211207447939/pdfFile.pdf",
+      "title": "LINE Pay において一部ユーザーに関する情報が閲覧可能な状態となっていた件についてのお知らせ",
+      "publisher": "Zホールディングス株式会社",
+      "published_on": "2021-12-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/12/08/46772.html",
+      "title": "LINE Payユーザー51,543アカウントの識別子がGitHubで閲覧可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-12-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

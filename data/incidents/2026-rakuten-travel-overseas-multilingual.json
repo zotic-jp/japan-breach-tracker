@@ -1,0 +1,53 @@
+{
+  "id": "2026-rakuten-travel-overseas-multilingual",
+  "organization": {
+    "name_ja": "楽天グループ株式会社",
+    "name_en": "Rakuten Group, Inc.",
+    "domain": "travel.rakuten.co.jp"
+  },
+  "industry": "travel",
+  "disclosed_on": "2026-10-26",
+  "discovered_on": "2026-09-10",
+  "affected": {
+    "count": 2600000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (2,600,000) because no overall total was given. Published figures: up to about 2.6 million customers who logged in to affected pages of the overseas hotel booking site (run by subsidiary Rakuten Travel Xchange) and up to about 860,000 who logged in to the multilingual booking site. Also affected were up to about 40,000 booking customers (about 36,000 with partial card data) and up to about 40,000 accommodation staff accounts. The two populations may overlap. Rakuten said passwords, ID documents, addresses, full card numbers and security codes were not included."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Rakuten Group announced that third parties had accessed parts of Rakuten Travel's overseas hotel booking site, detected on 2026-09-10, and its multilingual booking site, detected on 2026-10-20, without authorization. Data of up to about 2.6 million and 860,000 logged-in customers respectively, such as names, email addresses and phone numbers, were affected, along with partial card details for up to about 36,000 bookings.",
+    "ja": "楽天グループは、楽天トラベルの海外ホテル予約サイトの一部ページ（2026年9月10日に異常を検知）と多言語予約サイト（10月20日に検知）で第三者による不正アクセスがあったと発表した。ログインした顧客の氏名、メールアドレス、電話番号などがそれぞれ最大約260万件、約86万件対象となり、予約者最大約3万6千件ではカード情報の一部も含まれていた。"
+  },
+  "official_notice_url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+  "sources": [
+    {
+      "url": "https://travel.rakuten.co.jp/info/announce/20261026.html",
+      "title": "海外ホテル予約サイトの一部ページならびに多言語予約サイトに関するお詫びとお知らせ【楽天トラベル】",
+      "publisher": "楽天グループ株式会社",
+      "published_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/news/2151286.html",
+      "title": "楽天トラベルに不正アクセス 海外予約で260万件など",
+      "publisher": "Impress Watch",
+      "published_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.travelvoice.jp/20261026-160742",
+      "title": "楽天トラベルで不正アクセス、海外ホテル予約で最大260万件、多言語サイトで最大86万件、宿泊施設の従業員情報も最大約4万件",
+      "publisher": "トラベルボイス",
+      "published_on": "2026-10-26"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

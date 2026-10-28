@@ -1,0 +1,43 @@
+{
+  "id": "2020-niigata-pref-bid-drawings",
+  "organization": {
+    "name_ja": "新潟県",
+    "name_en": "Niigata Prefecture",
+    "domain": "pref.niigata.lg.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2020-07-22",
+  "discovered_on": "2020-07-21",
+  "affected": {
+    "count": 16561,
+    "unit": "people",
+    "approximate": false,
+    "note": "Cumulative count (延べ) of names in published construction drawings: 8,763 landowners and building owners and 7,798 supplier staff, across 1,436 contracts. Total from the prefecture-wide survey published on 2020-09-11."
+  },
+  "data_types": [
+    "name"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Niigata Prefecture found that construction plan drawings published on its bidding information service included names of landowners, building owners and supplier staff. A prefecture-wide survey found a cumulative 16,561 names across 1,436 contracts, and the data was removed.",
+    "ja": "新潟県は、入札情報サービスで公開していた工事平面図などに土地・建物の所有者や納入業者担当者の氏名が掲載されていたと公表した。全庁調査で、1,436件の契約で延べ1万6,561人分の氏名の掲載が判明し、データを削除した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/118394",
+      "title": "入札情報の公開データに個人情報、のべ1.6万人分 - 新潟県",
+      "publisher": "Security NEXT",
+      "published_on": "2020-09-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/09/17/44567.html",
+      "title": "まさに「おつかれさま」9万件のPDFの次は工事図面の全庁調査実施（新潟県）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-09-17"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

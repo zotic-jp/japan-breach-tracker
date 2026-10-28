@@ -1,0 +1,66 @@
+{
+  "id": "2024-jf-gyogyoichi-online-shop",
+  "organization": {
+    "name_ja": "全国漁業協同組合連合会",
+    "name_en": "National Federation of Fisheries Co-operative Associations (JF Zengyoren)",
+    "domain": "zengyoren.or.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-05-17",
+  "discovered_on": "2024-05-14",
+  "affected": {
+    "count": 21728,
+    "unit": "records",
+    "approximate": false,
+    "note": "Registered members of the JF Osakana Marche Gyogyoichi site. Separately, 11,844 card records entered from 2021-04-22 to 2024-05-14 may have been stolen."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "JF Zengyoren said its online shop JF Osakana Marche Gyogyoichi was attacked through a cross-site scripting vulnerability that let attackers plant files and alter the payment application. 21,728 records of member data and 11,844 card records may have leaked.",
+    "ja": "全国漁業協同組合連合会は、通販サイト「JFおさかなマルシェ ギョギョいち」がクロスサイトスクリプティングの脆弱性を突かれ、不正ファイル設置と決済アプリケーション改ざんの被害を受けたと公表した。会員の個人情報21,728件とクレジットカード情報11,844件が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.zengyoren.or.jp/news/press_20240819/",
+  "sources": [
+    {
+      "url": "https://www.zengyoren.or.jp/news/press_20240517/",
+      "title": "弊会通販サイト「JFおさかなマルシェ ギョギョいち」への不正アクセスによる個人情報漏えいの恐れに関するお詫びとお知らせ",
+      "publisher": "全国漁業協同組合連合会",
+      "published_on": "2024-05-17"
+    },
+    {
+      "url": "https://www.zengyoren.or.jp/news/press_20240819/",
+      "title": "全国漁業協同組合連合会 通販サイト「JFおさかなマルシェ ギョギョいち」への不正アクセスによる個人情報漏えいの恐れに関する調査結果のご報告",
+      "publisher": "全国漁業協同組合連合会",
+      "published_on": "2024-08-19"
+    },
+    {
+      "url": "https://www.security-next.com/157200",
+      "title": "通販サイトに不正アクセス、個人情報流出の可能性 - JF全漁連",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-30"
+    },
+    {
+      "url": "https://www.security-next.com/160929",
+      "title": "通信販売サイトの不正アクセスで調査結果 - JF全漁連",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/08/29/51551.html",
+      "title": "「JFおさかなマルシェ ギョギョいち」への不正アクセス、11,844 件のカード情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-08-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

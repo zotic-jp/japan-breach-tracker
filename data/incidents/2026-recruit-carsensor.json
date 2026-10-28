@@ -1,0 +1,48 @@
+{
+  "id": "2026-recruit-carsensor",
+  "organization": {
+    "name_ja": "株式会社リクルート",
+    "name_en": "Recruit Co., Ltd.",
+    "domain": "carsensor.net"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-21",
+  "discovered_on": "2026-10-17",
+  "affected": {
+    "count": 3709551,
+    "unit": "records",
+    "approximate": true,
+    "note": "Maximum figure. Breakdown: 3,210,421 Carsensor.net users who sent inquiries to dealers, 5,289 review posters, 483,168 dealers registered with C-MATCH, and 10,673 employees, contractors and agency staff. Recruit said payment card data and login passwords were not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Recruit detected suspicious external access to systems of its used-car site Carsensor.net on 2026-10-17 and suspended related services including the dealer service C-MATCH. It announced that up to 3,709,551 records, mostly names and addresses of users who had contacted dealers, may have leaked.",
+    "ja": "リクルートは2026年10月17日に中古車情報サイト「カーセンサーnet」のシステムへの不審な外部アクセスを検知し、販売店向けサービス「C-MATCH」などを停止した。販売店に問い合わせた利用者の氏名や住所を中心に、最大3,709,551件の個人情報が漏えいした可能性があると発表した。"
+  },
+  "official_notice_url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html",
+  "sources": [
+    {
+      "url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html",
+      "title": "『カーセンサーnet』、『C-MATCH』への不正アクセスに伴う個人情報漏えいに関する お詫びとお知らせ",
+      "publisher": "株式会社リクルート",
+      "published_on": "2026-10-21"
+    },
+    {
+      "url": "https://car.watch.impress.co.jp/docs/news/2150016.html",
+      "title": "リクルート、「カーセンサーnet」などに不正アクセス 最大370万9551件の個人情報が漏えいした可能性",
+      "publisher": "Car Watch",
+      "published_on": "2026-10-21"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2025-aichi-zenken-moshi",
+  "organization": {
+    "name_ja": "学悠出版株式会社",
+    "name_en": "Gakuyu Shuppan Co., Ltd.",
+    "domain": "zenkenmoshi.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2025-06-30",
+  "discovered_on": null,
+  "affected": {
+    "count": 322000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Sum of the published approximate figures, which include duplicates: about 8,000 cram-school records and about 282,000, 16,000 and 16,000 mock-exam examinee records. Some examinee fields, including names in the largest set, were encrypted, and one set cannot identify individuals without the company's separate database. Unauthorized access was recognized in late April 2025. No misuse had been reported."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Gakuyu Shuppan, which runs the Aichi Zenken Moshi mock-exam website, found in late April 2025 that its server had been breached through SQL injection. It said about 322,000 records of cram schools and examinees, including names, addresses, phone numbers and email addresses, may have leaked.",
+    "ja": "「愛知全県模試」を運営する学悠出版は、2025年4月下旬にSQLインジェクションによるサーバーへの不正アクセスを確認した。塾および模試受験者に関する氏名、住所、電話番号、メールアドレスなど、重複を含め約32万件の情報が流出した可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.zenkenmoshi.jp/",
+  "sources": [
+    {
+      "url": "https://www.zenkenmoshi.jp/",
+      "title": "不正アクセスによる情報流出の可能性に関するお詫びとお知らせ",
+      "publisher": "学悠出版株式会社",
+      "published_on": "2025-06-30"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/07/10/53197.html",
+      "title": "SQLインジェクション 約 32 万件の個人情報流出の可能性 ～ 愛知全県模試",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-07-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

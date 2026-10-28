@@ -1,0 +1,45 @@
+{
+  "id": "2021-riken-learning-management-system",
+  "organization": {
+    "name_ja": "国立研究開発法人理化学研究所",
+    "name_en": "RIKEN",
+    "domain": "riken.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2021-11-05",
+  "discovered_on": "2021-09-24",
+  "affected": {
+    "count": 14000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Records in the learning management system database for researchers, students and dispatched staff. The attacker exploited a known vulnerability in the vendor's software that RIKEN had asked the vendor to fix."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "RIKEN said its learning management system, hosted by a vendor, was accessed without authorization through a known software vulnerability, and files were altered. About 14,000 records including IDs, names and email addresses of users were considered highly likely to have leaked.",
+    "ja": "理化学研究所は、委託先のサーバーで運用していた学習管理システムが既知の脆弱性を突かれて不正アクセスを受け、ファイルが改ざんされたと公表した。利用者のID、氏名、メールアドレスなど約1万4千件が流出した可能性が高いとした。"
+  },
+  "official_notice_url": "https://www.riken.jp/pr/news/2021/20211105_1/",
+  "sources": [
+    {
+      "url": "https://www.riken.jp/pr/news/2021/20211105_1/",
+      "title": "学習管理システムからの情報流出の可能性について",
+      "publisher": "国立研究開発法人理化学研究所",
+      "published_on": "2021-11-05"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2111/05/news157.html",
+      "title": "理研が不正アクセス被害、1万4000件の個人情報が流出か 指摘済みの脆弱性を悪用される",
+      "publisher": "ITmedia NEWS",
+      "published_on": "2021-11-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

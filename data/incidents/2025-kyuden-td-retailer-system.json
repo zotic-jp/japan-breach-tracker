@@ -1,0 +1,44 @@
+{
+  "id": "2025-kyuden-td-retailer-system",
+  "organization": {
+    "name_ja": "九州電力送配電株式会社",
+    "name_en": "Kyushu Electric Power Transmission and Distribution Co., Inc.",
+    "domain": "kyuden.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2025-04-25",
+  "discovered_on": null,
+  "affected": {
+    "count": 35019,
+    "unit": "records",
+    "approximate": false,
+    "note": "Customers whose application data in the past about three years was viewable by retail electricity suppliers without a contract with them: 34,761 with customer name only and 258 with name, contact details and grid service type. The flaw was fixed on 2025-04-15 and no misuse such as sales activity had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kyushu Electric Power Transmission and Distribution said a program design error in its system for retail electricity suppliers let suppliers view application data of customers they had no contract with. Data of 35,019 customers was viewable.",
+    "ja": "九州電力送配電は、小売電気事業者向けシステムの申込照会画面のプログラム設計誤りにより、契約関係のない小売電気事業者から一部顧客の情報を閲覧できる状態だったと公表した。閲覧可能だった顧客は35,019件。"
+  },
+  "official_notice_url": "https://www.kyuden.co.jp/td/news/notice/250425b-1.html",
+  "sources": [
+    {
+      "url": "https://www.kyuden.co.jp/td/news/notice/250425b-1.html",
+      "title": "お客さま情報の漏えいに関するお知らせとお詫びについて",
+      "publisher": "九州電力送配電株式会社",
+      "published_on": "2025-04-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/05/14/52837.html",
+      "title": "九州電力送配電が小売電気事業者向けに提供しているシステムから顧客情報が閲覧可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-05-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

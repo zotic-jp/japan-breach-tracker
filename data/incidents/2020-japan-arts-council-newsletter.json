@@ -1,0 +1,43 @@
+{
+  "id": "2020-japan-arts-council-newsletter",
+  "organization": {
+    "name_ja": "独立行政法人日本芸術文化振興会",
+    "name_en": "Japan Arts Council",
+    "domain": "ntj.jac.go.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2020-08-07",
+  "discovered_on": "2020-08-04",
+  "affected": {
+    "count": 54445,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses registered for the National Theatre email newsletter."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "The Japan Arts Council, which runs the National Theatre of Japan, said its website was accessed without authorization on 2020-08-02 and 2020-08-03. 54,445 email addresses registered for the National Theatre newsletter were leaked.",
+    "ja": "国立劇場などを運営する日本芸術文化振興会は、同会のウェブサイトが2020年8月2日から3日にかけて不正アクセスを受けたと公表した。「国立劇場メールマガジン」の登録メールアドレス5万4,445件が流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/117414",
+      "title": "不正アクセスで「国立劇場メルマガ」の登録メアドが流出",
+      "publisher": "Security NEXT",
+      "published_on": "2020-08-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/08/12/44426.html",
+      "title": "Webサイトへ不正アクセス、国立劇場メルマガ５万件のアドレス流出（日本芸術文化振興会）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-08-12"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

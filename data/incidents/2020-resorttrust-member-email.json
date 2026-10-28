@@ -1,0 +1,44 @@
+{
+  "id": "2020-resorttrust-member-email",
+  "organization": {
+    "name_ja": "リゾートトラスト株式会社",
+    "name_en": "Resorttrust, Inc.",
+    "domain": "resorttrust.co.jp"
+  },
+  "industry": "travel",
+  "disclosed_on": "2020-01-27",
+  "discovered_on": "2020-01-22",
+  "affected": {
+    "count": 27763,
+    "unit": "records",
+    "approximate": false,
+    "note": "Facility usage records of hotel membership holders for February 2019, sent as an email attachment to one wrong address."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Resorttrust, which operates membership resort hotels, said an employee emailed a file of hotel member usage records to a wrong address because of a typing mistake. The file contained 27,763 records including representative names, member names, member numbers, dates, facilities and amounts.",
+    "ja": "会員制リゾートホテルを運営するリゾートトラストは、従業員がメールアドレスの入力を誤り、ホテル会員の施設利用実績を含むファイルを誤った宛先に送信したと公表した。ファイルには利用代表者名、会員名、会員番号、利用日、利用施設、利用金額など2万7,763件が含まれていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/111888",
+      "title": "ホテル会員の個人情報をメールで誤送信 - リゾートトラスト",
+      "publisher": "Security NEXT",
+      "published_on": "2020-01-29"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/01/29/43596.html",
+      "title": "アドレス入力間違い、ホテル会員権の施設利用実績27,763件流出（リゾートトラスト）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-01-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

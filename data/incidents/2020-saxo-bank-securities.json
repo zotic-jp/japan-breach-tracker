@@ -1,0 +1,56 @@
+{
+  "id": "2020-saxo-bank-securities",
+  "organization": {
+    "name_ja": "サクソバンク証券株式会社",
+    "name_en": "Saxo Bank Securities Ltd.",
+    "domain": null
+  },
+  "industry": "finance",
+  "disclosed_on": "2020-07-16",
+  "discovered_on": "2020-07-14",
+  "affected": {
+    "count": 38026,
+    "unit": "people",
+    "approximate": false,
+    "note": "38,026 customers whose details were in leaked files; ID document images of 750 of them (including 378 Individual Number cards) were also leaked. Trading login passwords and trading account data were held by the parent company and not affected. The Kanto Local Finance Bureau issued a business improvement order on 2020-09-18."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "id_document",
+    "my_number",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Saxo Bank Securities said a server holding a deposit and withdrawal tool developed by an outside vendor was accessed without authorization on 2020-07-14. Its investigation confirmed that data of 38,026 customers was leaked, including ID document images of 750 customers.",
+    "ja": "サクソバンク証券は、外部ベンダーが開発した入出金ツールを格納するサーバが2020年7月14日に不正アクセスを受けたと公表した。調査の結果、顧客3万8,026人分の情報の流出を確認し、うち750人分は運転免許証やマイナンバーカードなどの本人確認書類の画像も含まれていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/116744",
+      "title": "入出金サーバに不正アクセス、顧客情報流出か - サクソバンク証券",
+      "publisher": "Security NEXT",
+      "published_on": "2020-07-17"
+    },
+    {
+      "url": "https://www.security-next.com/118731",
+      "title": "顧客情報流出でサクソバンク証券に業務改善命令",
+      "publisher": "Security NEXT",
+      "published_on": "2020-09-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/09/24/44589.html",
+      "title": "入出金ツールへの不正アクセスで38,026名の個人情報が流出、本人確認書類等の画像データも（サクソバンク証券）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-09-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

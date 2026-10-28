@@ -1,0 +1,55 @@
+{
+  "id": "2025-utsunomiya-central-clinic-ransomware",
+  "organization": {
+    "name_ja": "医療法人DIC 宇都宮セントラルクリニック",
+    "name_en": "Utsunomiya Central Clinic (Medical Corporation DIC)",
+    "domain": "ucc.or.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2025-02-18",
+  "discovered_on": "2025-02-10",
+  "affected": {
+    "count": 300000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to about 300,000 people whose data was stored on the affected server: patients and health checkup clients (including medical and checkup information) and clinic staff. Bank account, credit card and My Number data were not included. As of 2025-03-31 no misuse had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "health",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Utsunomiya Central Clinic in Tochigi found that its server had been hit by ransomware after a system failure on 2025-02-10, forcing it to restrict consultations and health checkups. It said personal data of up to about 300,000 patients, checkup clients and staff, including medical and checkup information, may have leaked.",
+    "ja": "栃木県の宇都宮セントラルクリニックは2025年2月10日のシステム障害を受けて調査し、サーバーがランサムウェア攻撃を受けたことを確認し、診察や健診業務を制限した。診療や健康診断に関する情報を含む患者・受診者および職員の個人情報最大約30万名分が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://ucc.or.jp/2025/02/17259",
+  "sources": [
+    {
+      "url": "https://ucc.or.jp/2025/02/17259",
+      "title": "不正アクセスに伴う情報漏えいの可能性および当面の業務制限について",
+      "publisher": "医療法人DIC 宇都宮セントラルクリニック",
+      "published_on": "2025-02-18"
+    },
+    {
+      "url": "https://ucc.or.jp/2025/03/17359",
+      "title": "当院サーバーへの不正アクセス事案にかかる経過報告",
+      "publisher": "医療法人DIC 宇都宮セントラルクリニック",
+      "published_on": "2025-03-31"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/02/28/52415.html",
+      "title": "宇都宮セントラルクリニックにランサムウェア攻撃、診察と健診業務を制限",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-02-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

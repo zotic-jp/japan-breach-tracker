@@ -1,0 +1,51 @@
+{
+  "id": "2022-tsuruga-shinkin-cdrom",
+  "organization": {
+    "name_ja": "敦賀信用金庫",
+    "name_en": "Tsuruga Shinkin Bank",
+    "domain": null
+  },
+  "industry": "finance",
+  "disclosed_on": "2022-04-01",
+  "discovered_on": null,
+  "affected": {
+    "count": 25000,
+    "unit": "records",
+    "approximate": false,
+    "note": "ATM transaction records from one store ATM between 2021-08-25 and 2021-10-26, stored encrypted on a CD-ROM."
+  },
+  "data_types": [
+    "name",
+    "bank_account",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Tsuruga Shinkin Bank lost a CD-ROM holding 25,000 ATM transaction records, including names, account numbers, balances and security camera images. The data on the disc was encrypted.",
+    "ja": "敦賀信用金庫は、ATMの取引情報2万5,000件を記録したCD-ROM1枚を紛失したと公表した。氏名、口座番号、取引金額、残高、防犯カメラ画像などが含まれるが、データは暗号化されていた。"
+  },
+  "official_notice_url": "https://www.shinkin.co.jp/tsuruga/upload/news-pdf/d23872133df88bea1a329e881dbc1d03.pdf",
+  "sources": [
+    {
+      "url": "https://www.shinkin.co.jp/tsuruga/upload/news-pdf/d23872133df88bea1a329e881dbc1d03.pdf",
+      "title": "お客さま情報の紛失について",
+      "publisher": "敦賀信用金庫",
+      "published_on": "2022-04-01"
+    },
+    {
+      "url": "https://www.security-next.com/135411",
+      "title": "ATM取引情報の記録メディアを紛失 - 敦賀信金",
+      "publisher": "Security NEXT",
+      "published_on": "2022-04-04"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/04/19/47486.html",
+      "title": "ATMの取引情報を記録したCD-ROM1枚を紛失、データは暗号化",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-04-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

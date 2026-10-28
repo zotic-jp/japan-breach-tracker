@@ -1,0 +1,43 @@
+{
+  "id": "2020-ldh-exile-tribe-station",
+  "organization": {
+    "name_ja": "株式会社LDH JAPAN",
+    "name_en": "LDH JAPAN Inc.",
+    "domain": "ldh.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2020-12-08",
+  "discovered_on": "2020-10-15",
+  "affected": {
+    "count": 44663,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who newly registered or changed card details on EXILE TRIBE STATION ONLINE SHOP between 2020-08-18 and 2020-10-15. As of 2020-11-27, at least 209 cards may have been used fraudulently. A server holding other personal data was also accessed, but the number of records leaked could not be determined."
+  },
+  "data_types": [
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "LDH JAPAN said its official merchandise store EXILE TRIBE STATION ONLINE SHOP was accessed without authorization and its payment program was altered. Card details, including security codes, of 44,663 customers may have been stolen, and some cards may have been misused.",
+    "ja": "LDH JAPANは、公式通販サイト「EXILE TRIBE STATION ONLINE SHOP」が不正アクセスを受け、決済処理プログラムが改ざんされたと公表した。セキュリティコードを含む4万4,663人分のクレジットカード情報が流出した可能性があり、一部で不正利用の可能性も報告された。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/121476",
+      "title": "「EXILE TRIBE」の公式通販サイトでクレカ情報流出 - 一部不正利用も",
+      "publisher": "Security NEXT",
+      "published_on": "2020-12-08"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/12/10/44925.html",
+      "title": "「EXILE TRIBE STATION ONLINE SHOP」に不正アクセス、44,663名分のセキュリティコード含むカード情報流出可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-12-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

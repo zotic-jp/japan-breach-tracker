@@ -1,0 +1,44 @@
+{
+  "id": "2023-royal-canin-vhd",
+  "organization": {
+    "name_ja": "ロイヤルカナン ジャポン合同会社",
+    "name_en": "Royal Canin Japon G.K.",
+    "domain": null
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-06-13",
+  "discovered_on": "2023-05-25",
+  "affected": {
+    "count": 77709,
+    "unit": "people",
+    "approximate": false,
+    "note": "77,709 pet owners' purchase history data and 77,117 pet owners' point balance data were downloadable by other registered animal hospitals; the two groups likely overlap. Birthdates, addresses, phone numbers, email addresses, passwords and card data were not included. The company identified 3 and 15 hospitals respectively that may have downloaded the data."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Royal Canin Japon reported that a wrong access-rights setting applied by its maintenance contractor on 2023-05-24 let animal hospitals registered on its Vets Home Delivery (VHD) diet-food site download data on pet owners linked to other hospitals. Purchase histories of 77,709 owners and point data of 77,117 owners leaked to some hospitals.",
+    "ja": "ロイヤルカナン ジャポンは、療法食購入サイト「ロイヤルカナン ベッツホームデリバリー（VHD）」で、2023年5月24日に委託先が誤ったアクセス権限を設定したため、登録動物病院が他院に紐づくペットオーナーのデータをダウンロードできる状態になったと公表した。77,709名の購入履歴と77,117名の保有ポイントに関するデータが一部の動物病院に漏えいした。"
+  },
+  "official_notice_url": "https://royalcanin.jp/wp-content/uploads/2023/06/VHD-PI-leakage_20230613.pdf",
+  "sources": [
+    {
+      "url": "https://royalcanin.jp/wp-content/uploads/2023/06/VHD-PI-leakage_20230613.pdf",
+      "title": "個人情報漏えいに関するご報告とお詫び",
+      "publisher": "ロイヤルカナン ジャポン合同会社",
+      "published_on": "2023-06-13"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/06/28/49585.html",
+      "title": "「ロイヤルカナン ベッツホームデリバリー（VHD）」で他の登録動物病院に紐づいたペットオーナーの個人情報がダウンロード可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-06-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

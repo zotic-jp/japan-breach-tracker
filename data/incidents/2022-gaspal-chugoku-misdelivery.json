@@ -1,0 +1,45 @@
+{
+  "id": "2022-gaspal-chugoku-misdelivery",
+  "organization": {
+    "name_ja": "株式会社ガスパル中国",
+    "name_en": "Gaspal Chugoku Co., Ltd.",
+    "domain": "gas-pal.com"
+  },
+  "industry": "other",
+  "disclosed_on": "2022-04-08",
+  "discovered_on": null,
+  "affected": {
+    "count": 12418,
+    "unit": "people",
+    "approximate": false,
+    "note": "A file unrelated to the outsourced work was attached by mistake on 2022-04-01. The contractor deleted the data."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "LP gas supplier Gaspal Chugoku mistakenly emailed a file containing the names, addresses and phone numbers of 12,418 customers to a contractor that handles its emergency response. The contractor confirmed it deleted the file.",
+    "ja": "LPガス事業のガスパル中国は、緊急時対応の委託先へのメールで、業務と関係のない顧客1万2,418人分の氏名、住所、電話番号を含むファイルを誤って送信した。委託先でデータが削除されたことを確認したという。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/135729",
+      "title": "無関係の顧客情報をメールで委託先に誤送信 - ガスパル中国",
+      "publisher": "Security NEXT",
+      "published_on": "2022-04-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/04/28/47534.html",
+      "title": "誤って別データを添付しメール送信、他の業務と並行していたことが原因",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-04-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

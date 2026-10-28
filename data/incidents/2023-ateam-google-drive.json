@@ -1,0 +1,45 @@
+{
+  "id": "2023-ateam-google-drive",
+  "organization": {
+    "name_ja": "株式会社エイチーム（エイチームホールディングス）",
+    "name_en": "Ateam Inc. (Ateam Holdings)",
+    "domain": "a-tm.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2023-12-21",
+  "discovered_on": "2023-11-21",
+  "affected": {
+    "count": 935779,
+    "unit": "people",
+    "approximate": false,
+    "note": "Unique count across 1,369 files of service customers, business partner contacts, job candidates and current and former employees. Items varied by file and included names, email addresses, device IDs and customer numbers. Files were viewable by link from as early as March 2017 until 2023-11-22. No misuse had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Ateam said Google Drive files containing personal data had been shared so that anyone on the internet with the link could view them, in some cases since 2017. Personal data of 935,779 customers, partners, candidates and employees may have leaked.",
+    "ja": "エイチームは、個人情報を含むGoogleドライブのファイルが、リンクを知っていればインターネット上の誰でも閲覧できる共有設定になっており、一部は2017年からその状態だったと公表した。顧客、取引先、応募者、従業員など935,779人分の個人情報が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.a-tm.co.jp/news/44238/",
+  "sources": [
+    {
+      "url": "https://www.a-tm.co.jp/news/44238/",
+      "title": "個人情報漏えいの可能性に関するご報告とお詫び",
+      "publisher": "株式会社エイチームホールディングス",
+      "published_on": "2023-12-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/12/27/50409.html",
+      "title": "Googleドライブの閲覧範囲の設定誤り、935,779人の個人情報が閲覧可能な状態に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-12-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

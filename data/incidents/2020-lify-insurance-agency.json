@@ -1,0 +1,55 @@
+{
+  "id": "2020-lify-insurance-agency",
+  "organization": {
+    "name_ja": "株式会社ライフィ",
+    "name_en": "Lify Inc.",
+    "domain": "lify.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2020-10-29",
+  "discovered_on": "2020-10-13",
+  "affected": {
+    "count": 88564,
+    "unit": "records",
+    "approximate": true,
+    "note": "The investigation could not identify which records were taken, so the company concluded that all 88,564 customer records in the attacked file leaked. 348 records include medical history in contact logs. Mitsui Sumitomo Insurance, which entrusted agency work to Lify, also made an announcement."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "health",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Insurance agency Lify said the database of its customer management system was accessed without authorization through a vulnerability in its insurance comparison website. It concluded that up to 88,564 customer records, including names, addresses, phone numbers, birthdates and some medical history, had leaked.",
+    "ja": "保険代理店のライフィは、保険比較サイトの脆弱性を突かれ、顧客管理システムのデータベースが不正アクセスを受けたと公表した。流出した情報を特定できなかったため、氏名、住所、電話番号、生年月日、一部の病歴などを含む最大8万8,564件の顧客情報が流出したと判断した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/121557",
+      "title": "不正アクセスで顧客情報約8.8万件が被害か - 保険代理店",
+      "publisher": "Security NEXT",
+      "published_on": "2020-12-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/11/06/44782.html",
+      "title": "保険代理店業務受託会社の顧客管理システムへ不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-11-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/12/09/44919.html",
+      "title": "調査結果：保険代理店業務受託会社 顧客管理システムへの不正アクセス、最大88,564件の個人情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-12-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

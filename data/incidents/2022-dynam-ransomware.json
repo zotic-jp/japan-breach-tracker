@@ -1,0 +1,67 @@
+{
+  "id": "2022-dynam-ransomware",
+  "organization": {
+    "name_ja": "株式会社ダイナムジャパンホールディングス",
+    "name_en": "Dynam Japan Holdings Co., Ltd.",
+    "domain": "dyjh.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2022-09-14",
+  "discovered_on": null,
+  "affected": {
+    "count": 334690,
+    "unit": "records",
+    "approximate": false,
+    "note": "3,685 records confirmed leaked and found on the dark web, plus 331,005 records across seven group companies (including Dynam 129,628, Yume Corporation 96,523 and Nihon Humap 76,193) whose leakage could not be ruled out. The two groups do not overlap."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "bank_account",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Pachinko hall operator Dynam Japan Holdings was hit by a ransomware attack that encrypted data on some servers in September 2022. It confirmed that 3,685 records had been leaked and said leakage of another 331,005 records of customers, landowners, business partners and employees could not be ruled out.",
+    "ja": "パチンコホール事業のダイナムジャパンホールディングスは、2022年9月に一部サーバがランサムウェア攻撃を受けデータを暗号化された。個人情報3,685件の流出を確認したほか、顧客や地権者、取引先、従業員などに関する33万1,005件も流出の可能性を否定できないとした。"
+  },
+  "official_notice_url": "https://www.dyjh.co.jp/news/pdf/221101_dyjh.pdf",
+  "sources": [
+    {
+      "url": "https://www.dyjh.co.jp/news/20220914_dyjh.pdf",
+      "title": "弊社サーバーへの不正アクセスについて",
+      "publisher": "株式会社ダイナムジャパンホールディングス",
+      "published_on": "2022-09-14"
+    },
+    {
+      "url": "https://www.dyjh.co.jp/news/20220930_dyjh.pdf",
+      "title": "当社サーバーへの不正アクセスについて(第 2 報)",
+      "publisher": "株式会社ダイナムジャパンホールディングス",
+      "published_on": "2022-09-30"
+    },
+    {
+      "url": "https://www.dyjh.co.jp/news/pdf/221101_dyjh.pdf",
+      "title": "当社サーバーへの不正アクセスについて(第 3 報)",
+      "publisher": "株式会社ダイナムジャパンホールディングス",
+      "published_on": "2022-11-01"
+    },
+    {
+      "url": "https://www.security-next.com/141261",
+      "title": "ランサム暗号化を一部逃れるも流出可能性は否定できず - ダイナムJHD",
+      "publisher": "Security NEXT",
+      "published_on": "2022-11-09"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/11/11/48479.html",
+      "title": "ダイナムジャパンホールディングスのサーバにランサムウェア攻撃、情報流出の可能性を否定できず",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-11-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

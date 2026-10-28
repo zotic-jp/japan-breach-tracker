@@ -1,0 +1,47 @@
+{
+  "id": "2025-fukuyoshi-shopping-site",
+  "organization": {
+    "name_ja": "株式会社フクヨシ",
+    "name_en": "Fukuyoshi Co., Ltd.",
+    "domain": "e-fukuyoshi.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-10-20",
+  "discovered_on": "2024-07-16",
+  "affected": {
+    "count": 12630,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who used credit cards on the work-clothes shopping site between 2021-03-31 and 2024-08-09. Card number, expiry date and security code, plus cardholder name, email address, password and phone number may have leaked, and some cards may have been used fraudulently. The site was closed on 2024-08-20 after a police tip-off on 2024-07-16."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "password",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Fukuyoshi said attackers exploited a vulnerability in its work-clothes shopping site and tampered with the payment application. It closed the site in August 2024 after a police tip-off and disclosed in October 2025 that credit card and other data of 12,630 customers may have leaked.",
+    "ja": "フクヨシは、運営する作業服通販サイトのシステムの脆弱性を突かれて決済アプリケーションが改ざんされたと公表した。警察からの連絡を受けて2024年8月にサイトを閉鎖しており、2025年10月に顧客12,630名のクレジットカード情報などが漏えいした可能性があると発表した。"
+  },
+  "official_notice_url": "https://www.e-fukuyoshi.com/blogs/news/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+  "sources": [
+    {
+      "url": "https://www.e-fukuyoshi.com/blogs/news/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B",
+      "title": "個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社フクヨシ",
+      "published_on": "2025-10-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/10/30/53926.html",
+      "title": "作業服通販サイトに不正アクセス、12,630 件のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-10-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

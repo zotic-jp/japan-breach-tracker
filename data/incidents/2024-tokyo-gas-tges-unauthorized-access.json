@@ -1,0 +1,61 @@
+{
+  "id": "2024-tokyo-gas-tges-unauthorized-access",
+  "organization": {
+    "name_ja": "東京ガス株式会社（東京ガスエンジニアリングソリューションズ株式会社）",
+    "name_en": "Tokyo Gas Co., Ltd. (Tokyo Gas Engineering Solutions Corporation)",
+    "domain": "tokyo-gas.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2024-07-17",
+  "discovered_on": "2024-07-09",
+  "affected": {
+    "count": 4160000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Breach of subsidiary Tokyo Gas Engineering Solutions (TGES) network. ~4.16M consumers' data received from outsourcing clients; plus ~3,000 TGES employees (incl. ~1,000 bank account numbers, 8 card records); corporate-client contacts count under investigation (85 bank accounts, 5 My Number)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "email",
+    "bank_account",
+    "credit_card",
+    "my_number",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The network of Tokyo Gas Engineering Solutions (TGES), a Tokyo Gas subsidiary, was breached, and on 2024-07-09 the companies found that customer data on TGES servers and Tokyo Gas corporate business servers may have leaked. About 4.16 million consumer records that TGES had received from client companies, mainly names, addresses and contact details, were affected, along with data of about 3,000 TGES employees.",
+    "ja": "東京ガスの子会社、東京ガスエンジニアリングソリューションズ（TGES）のネットワークが侵害され、TGESのサーバや東京ガスの法人事業分野のサーバから顧客情報などが流出した可能性があることが2024年7月9日に判明した。TGESが業務委託元から受け取った一般消費者約416万人分の氏名、住所、連絡先などのほか、TGES従業員約3,000人分の情報も対象となる。"
+  },
+  "official_notice_url": "https://www.tokyo-gas.co.jp/news/press/20240717-03.html",
+  "sources": [
+    {
+      "url": "https://www.tokyo-gas.co.jp/news/press/20240717-03.html",
+      "title": "不正アクセスによるお客さま等に関する情報流出の可能性についてお詫びとお知らせ",
+      "publisher": "東京ガス株式会社",
+      "published_on": "2024-07-17"
+    },
+    {
+      "url": "https://www.security-next.com/159799",
+      "title": "東京ガスや子会社で個人情報流出の可能性 - 約416万人分",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-17"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/1609112.html",
+      "title": "東京ガス、子会社への不正アクセスにより約416万人分以上の個人情報が流出のおそれ",
+      "publisher": "INTERNET Watch",
+      "published_on": "2024-07-17"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/07/25/51367.html",
+      "title": "東京ガスエンジニアリングソリューションズのネットワークに不正アクセス、約 416 万人分の個人情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-07-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2025-tokiha-ransomware",
+  "organization": {
+    "name_ja": "株式会社トキハ・株式会社トキハインダストリー",
+    "name_en": "Tokiha Co., Ltd. / Tokiha Industry Co., Ltd.",
+    "domain": "tokiwa-dept.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-03-31",
+  "discovered_on": "2025-03-30",
+  "affected": {
+    "count": 449160,
+    "unit": "records",
+    "approximate": false,
+    "note": "Sum of the categories published on 2025-07-23: 421,355 customer card and membership records (including 127,263 Tokiha Card and Tokiha Customer Card records with credit card number, holder name and expiry date; security codes are not held), 3,892 Tokiha Industry product reservation customers, 218 credit-account customers, 4,559 business partners, 3,869 dispatched workers, 8,545 group employees and 6,722 employee family members. The companies said viewing of the data could not be ruled out and no misuse had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "bank_account",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Tokiha and its group company Tokiha Industry had multiple servers encrypted by ransomware in a system failure that began on 2025-03-30. The companies said 449,160 records of customers, business partners and employees, including 127,263 credit card records, may have been viewed by the attackers.",
+    "ja": "トキハとグループ会社トキハインダストリーは、2025年3月30日に発生したシステム障害の調査で複数サーバーがランサムウェアにより暗号化されたことを確認した。127,263件のクレジットカード情報を含む顧客、取引先、従業員の情報計449,160件が閲覧された可能性を否定できないと公表した。"
+  },
+  "official_notice_url": "https://www.tokiwa-industry.co.jp/data/big_slides/68806d76e2cbf.pdf",
+  "sources": [
+    {
+      "url": "https://www.tokiwa-industry.co.jp/data/big_slides/68806d76e2cbf.pdf",
+      "title": "当社システムに対するサイバー攻撃被害に伴う個人情報及びお取引先様に関する情報についてのお知らせ",
+      "publisher": "株式会社トキハ・株式会社トキハインダストリー",
+      "published_on": "2025-07-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/04/15/52681.html",
+      "title": "店舗でのクレジット決済等休止 ～ トキハインダストリーにランサムウェア攻撃",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-04-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/08/06/53384.html",
+      "title": "127,263 件のカード情報が閲覧された可能性否定できず ～ トキハグループへのランサムウェア攻撃",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-08-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "2024-saitama-kenkou-xray-ransomware",
+  "organization": {
+    "name_ja": "公益財団法人埼玉県健康づくり事業団",
+    "name_en": "Saitama Health Promotion Foundation",
+    "domain": "saitama-kenkou.or.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2024-01-31",
+  "discovered_on": "2024-01-29",
+  "affected": {
+    "count": 940000,
+    "unit": "people",
+    "approximate": true,
+    "note": "~940,000 people's X-ray/ultrasound images and attached data stored in the system; no trace of exfiltration found but theft cannot be ruled out. Addresses/phones not included."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "health",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The Saitama Health Promotion Foundation, which performs health screenings for municipalities and companies in Saitama, found on 2024-01-29 that its X-ray image reading system had been hit by ransomware after an intrusion via VPN. The system held X-ray and ultrasound images with names, birthdates, exam results and other data of about 940,000 people, which may have leaked.",
+    "ja": "県内の自治体や企業から検診業務を受託している埼玉県健康づくり事業団は、2024年1月29日にX線画像読影システムがVPN経由で侵入されランサムウェア被害に遭ったことを確認した。システムには約94万人分のX線画像や超音波画像と、氏名、生年月日、所見などが保存されており、流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.saitama-kenkou.or.jp/pdf/news_20240328.pdf",
+  "sources": [
+    {
+      "url": "https://www.saitama-kenkou.or.jp/pdf/news_20240328.pdf",
+      "title": "Ｘ線画像読影システムへの不正アクセス攻撃について（第２報）",
+      "publisher": "公益財団法人埼玉県健康づくり事業団",
+      "published_on": "2024-03-28"
+    },
+    {
+      "url": "https://www.saitama-kenkou.or.jp/pdf/news_20240131.pdf",
+      "title": "X 線画像読影システムへの不正アクセスについて",
+      "publisher": "公益財団法人埼玉県健康づくり事業団",
+      "published_on": "2024-01-31"
+    },
+    {
+      "url": "https://www.security-next.com/153332",
+      "title": "埼玉県健康づくり事業団のX線読影システムがランサム被害 - 紙で対応",
+      "publisher": "Security NEXT",
+      "published_on": "2024-02-07"
+    },
+    {
+      "url": "https://www.security-next.com/156780",
+      "title": "X線読影システムのランサム被害、VPN経由で侵入 - 埼玉県健康づくり事業団",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

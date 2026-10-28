@@ -1,0 +1,52 @@
+{
+  "id": "2024-kidzania-website",
+  "organization": {
+    "name_ja": "KCJ GROUP株式会社",
+    "name_en": "KCJ GROUP Inc.",
+    "domain": "kidzania.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2024-10-22",
+  "discovered_on": "2024-10-16",
+  "affected": {
+    "count": 24644,
+    "unit": "records",
+    "approximate": false,
+    "note": "Customers who registered when booking a visit to KidZania Tokyo on or before 2024-10-17."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "KCJ GROUP, operator of the KidZania theme parks, detected an attack on its website on 2024-10-16. An investigation found that 24,644 records of KidZania Tokyo booking customers, including names, addresses, phone numbers and email addresses, were leaked through a program vulnerability.",
+    "ja": "職業体験型テーマパーク「キッザニア」を運営するKCJ GROUPは、2024年10月16日にウェブサイトへの攻撃を検知した。調査の結果、プログラムの脆弱性を突かれ、キッザニア東京の予約時に登録された氏名、住所、電話番号、メールアドレスなど24,644件が流出したことが判明した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/163323",
+      "title": "キッザニアにサイバー攻撃、来場予約者情報が流出した可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-25"
+    },
+    {
+      "url": "https://www.security-next.com/165116",
+      "title": "キッザニアへのサイバー攻撃、個人情報約2.4万件が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2024-12-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/12/19/52061.html",
+      "title": "キッザニア Webサイトに不正アクセス、24,644 件の個人情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-12-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

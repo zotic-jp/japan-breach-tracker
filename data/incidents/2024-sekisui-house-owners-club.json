@@ -1,0 +1,39 @@
+{
+  "id": "2024-sekisui-house-owners-club",
+  "organization": {
+    "name_ja": "積水ハウス株式会社",
+    "name_en": "Sekisui House, Ltd.",
+    "domain": "sekisuihouse.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2024-05-24",
+  "discovered_on": "2024-05-21",
+  "affected": {
+    "count": 183590,
+    "unit": "people",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (183,590) because no overall total was given. Confirmed: 108,331 customers + 183,590 group employees/partner staff (Security NEXT headline says ~28万). Possibly also 464,053 customers and 72,194 staff. Official notice not located; disclosure date not verified (Security NEXT article 2024-05-24; site stopped 2024-05-23)."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Sekisui House said attackers exploited a security setting flaw in an old photo gallery page of its homeowner site Net Owners Club and stole data from its database after its hosting contractor reported a traffic spike on 2024-05-21. Login IDs, passwords and email addresses of 108,331 customers and email addresses and system passwords of 183,590 group employees and partner staff leaked, and more people may have been affected.",
+    "ja": "積水ハウスは、住宅オーナー向け会員サイト「積水ハウス Netオーナーズクラブ」で過去に使用したフォトギャラリーのページの設定不備を突かれ、データベースから情報を窃取されたと公表した。2024年5月21日に委託先からアクセス急増の報告を受けて判明し、顧客108,331人のログインID、パスワード、メールアドレスと、グループ従業員や協力会社スタッフ183,590人のメールアドレスなどが流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/157495",
+      "title": "積水ハウスの会員サイトで個人情報流出 - 過去使用ページから",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

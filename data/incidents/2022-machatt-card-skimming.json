@@ -1,0 +1,49 @@
+{
+  "id": "2022-machatt-card-skimming",
+  "organization": {
+    "name_ja": "株式会社machatt",
+    "name_en": "machatt Inc.",
+    "domain": "machatt.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-05-18",
+  "discovered_on": "2022-02-22",
+  "affected": {
+    "count": 16093,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who paid by card on the MACHATT ONLINE STORE between 2021-08-10 and 2022-02-22. Some cards may have been used fraudulently."
+  },
+  "data_types": [
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Fashion brand MACHATT said attackers tampered with the payment application of its online store. Credit card details of 16,093 customers may have been stolen and misused.",
+    "ja": "ファッションブランド「MACHATT」を展開するmachattは、通販サイトの決済アプリケーションが改ざんされたと公表した。顧客1万6,093人のクレジットカード情報が流出し、不正利用された可能性がある。"
+  },
+  "official_notice_url": "https://machatt.jp/support/information/20220518.html",
+  "sources": [
+    {
+      "url": "https://machatt.jp/support/information/20220518.html",
+      "title": "弊社が運営する「MACHATT ONLINE STORE」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社machatt",
+      "published_on": "2022-05-18"
+    },
+    {
+      "url": "https://www.security-next.com/136642",
+      "title": "ファッションブランド「MACHATT」の通販サイトに不正アクセス",
+      "publisher": "Security NEXT",
+      "published_on": "2022-05-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/05/20/47616.html",
+      "title": "「MACHATT ONLINE STORE」に不正アクセス、16,093名のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-05-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

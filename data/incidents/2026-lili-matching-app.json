@@ -1,0 +1,47 @@
+{
+  "id": "2026-lili-matching-app",
+  "organization": {
+    "name_ja": "株式会社キャリー",
+    "name_en": "Carry Co., Ltd.",
+    "domain": "lili-jo.com"
+  },
+  "industry": "other",
+  "disclosed_on": "2026-10-14",
+  "discovered_on": "2026-10-06",
+  "affected": {
+    "count": 98256,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum of about 98,256 members (about 71,456 current and 26,800 former), as of the 2026-10-22 second report. Also affected: up to about 10,223 people who did not finish registration and up to 1,364 inquiry form records. ID document images of up to 7,261 members, plus thumbnails for up to 32,916 more, may have leaked. The operator believes passwords were likely exposed in plain text."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "birthdate",
+    "id_document",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The operator of the matching service Lili found a suspicious program on its server on 2026-10-06 and learned that a third party had been inside the server from 2026-07-11, with a second intrusion on 2026-10-11. Email addresses, passwords, profile data, messages and ID document images of up to about 98,256 members may have leaked.",
+    "ja": "マッチングサービス「Lili」の運営事務局は、2026年10月6日にサーバー上の不審なプログラムに気付き、7月11日から第三者が侵入していたこと、10月11日にも再侵入されたことを確認した。会員最大約98,256名のメールアドレス、パスワード、プロフィール情報、メッセージ、本人確認書類の画像などが流出した可能性がある。"
+  },
+  "official_notice_url": "https://lili-jo.com/notice/20261014.html",
+  "sources": [
+    {
+      "url": "https://lili-jo.com/notice/20261014.html",
+      "title": "【重要】不正アクセスによる個人情報の漏えいの可能性について",
+      "publisher": "Lili運営事務局",
+      "published_on": "2026-10-14"
+    },
+    {
+      "url": "https://lili-jo.com/notice/20261022.html",
+      "title": "【重要】不正アクセスによる個人情報の漏えいの可能性について（第2報：本人確認書類の画像に関する訂正）",
+      "publisher": "Lili運営事務局",
+      "published_on": "2026-10-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

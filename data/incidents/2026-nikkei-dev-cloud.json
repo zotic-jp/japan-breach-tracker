@@ -1,0 +1,54 @@
+{
+  "id": "2026-nikkei-dev-cloud",
+  "organization": {
+    "name_ja": "株式会社日本経済新聞社",
+    "name_en": "Nikkei Inc.",
+    "domain": "nikkei.com"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-10-16",
+  "discovered_on": null,
+  "affected": {
+    "count": 1830000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 150,000 records contained at least one of name, email address, address, phone number or birthdate (about 120,000 with an email address); the remaining about 1.68 million contained only identifiers that cannot identify a person on their own. Nikkei said no credit card data was included. Nikkei National Geographic said some of its service users may also be included."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Nikkei announced that credentials for a cloud service it uses for system development had been stolen and used to access the service on the morning of 2026-10-07. About 1.83 million records leaked, of which about 150,000 contained personal data such as names, email addresses, addresses, phone numbers or birthdates.",
+    "ja": "日本経済新聞社は、システム開発に利用するクラウドサービスの認証情報が盗まれ、2026年10月7日早朝から朝にかけて不正アクセスを受けたと発表した。約183万件の情報が漏洩し、そのうち約15万件に氏名、メールアドレス、住所、電話番号、生年月日のいずれかが含まれていた。"
+  },
+  "official_notice_url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html",
+  "sources": [
+    {
+      "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html",
+      "title": "不正アクセスによる個人情報漏洩について",
+      "publisher": "株式会社日本経済新聞社",
+      "published_on": "2026-10-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56513.html",
+      "title": "日本経済新聞社がシステム開発に利用するクラウドサービスに不正アクセス、約183万件の個人情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56530.html",
+      "title": "日本経済新聞社への不正アクセス、日経ナショナル ジオグラフィックサービス利用者の情報も漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-21"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

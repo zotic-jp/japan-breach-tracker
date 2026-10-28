@@ -1,0 +1,61 @@
+{
+  "id": "2026-2rinkan-yellowhat-members",
+  "organization": {
+    "name_ja": "株式会社2りんかんイエローハット",
+    "name_en": "2rinkan Yellow Hat Co., Ltd.",
+    "domain": "2rinkan.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-04-23",
+  "discovered_on": "2026-04-20",
+  "affected": {
+    "count": 3179454,
+    "unit": "people",
+    "approximate": false,
+    "note": "Final figure from the June 2026 final report. The second report of 2026-05-01 had given a maximum of 3,455,754 people. Affected were point, mobile and app members of the motorcycle goods chain, a subsidiary of Yellow Hat. Credit card data was stored separately and not affected."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "2rinkan Yellow Hat, a Yellow Hat subsidiary that runs motorcycle goods stores, detected unauthorized access to a members-only server on 2026-04-20 and suspended some app services. Its final report in June stated that member data of 3,179,454 people, including names, addresses, phone numbers and birthdates, had leaked.",
+    "ja": "イエローハットの子会社でバイク用品店を運営する2りんかんイエローハットは、2026年4月20日に会員専用サーバーへの不正アクセスを検知し、アプリの一部サービスを停止した。6月の最終報で、氏名、住所、電話番号、生年月日などを含む3,179,454名分の会員情報が漏えいしたと公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/07/01/55609.html",
+      "title": "2りんかんイエローハットに不正アクセス、310万名分の個人情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-07-01"
+    },
+    {
+      "url": "https://ascii.jp/elem/000/004/400/4400097/",
+      "title": "イエローハット系「2りんかん」に不正アクセス 個人情報345万人分流出か",
+      "publisher": "ASCII.jp",
+      "published_on": "2026-05-07"
+    },
+    {
+      "url": "https://www.oanda.jp/lab-education/market_news/kn_2026050101002785/",
+      "title": "顧客情報3百万件超が漏えいか",
+      "publisher": "共同通信",
+      "published_on": "2026-05-01"
+    },
+    {
+      "url": "https://www.tsr-net.co.jp/data/detail/1203305_1527.html",
+      "title": "上場企業「個人情報漏えい」、過去最悪ペース ～ 100万件以上、2026年はすでに10件の異常事態 ～",
+      "publisher": "東京商工リサーチ",
+      "published_on": "2026-10-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

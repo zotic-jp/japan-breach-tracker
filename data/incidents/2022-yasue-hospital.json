@@ -1,0 +1,53 @@
+{
+  "id": "2022-yasue-hospital",
+  "organization": {
+    "name_ja": "医療法人社団幸紀会 安江病院",
+    "name_en": "Yasue Hospital (Koukikai Medical Corporation)",
+    "domain": "koukikai.gr.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2022-07-04",
+  "discovered_on": "2022-05-27",
+  "affected": {
+    "count": 112706,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 111,991 records of patients and COVID-19 vaccine recipients (including medical history and treatment data) and 715 staff records."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "health"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Yasue Hospital in Gifu City suffered a cyberattack on 2022-05-27 that halted its electronic medical record and other systems, which were restored from backups the next day. A forensic investigation found that up to 111,991 patient and vaccine recipient records and 715 staff records may have been leaked.",
+    "ja": "岐阜市の安江病院は、2022年5月27日にサイバー攻撃を受け、電子カルテなどのシステムが停止し、翌日バックアップから復旧した。調査の結果、患者や新型コロナワクチン被接種者の情報最大11万1,991件と職員情報715件が流出した可能性があると判明した。"
+  },
+  "official_notice_url": "http://www.koukikai.gr.jp/wp-content/uploads/2022/07/42995092c93cf84701e532ad245bbd0e.pdf",
+  "sources": [
+    {
+      "url": "http://www.koukikai.gr.jp/wp-content/uploads/2022/07/42995092c93cf84701e532ad245bbd0e.pdf",
+      "title": "不正アクセスによる個人情報等流出の可能性に関するお知らせとお詫び",
+      "publisher": "医療法人社団幸紀会 安江病院",
+      "published_on": "2022-07-04"
+    },
+    {
+      "url": "https://www.security-next.com/137846",
+      "title": "サイバー攻撃で複数システムが停止、バックアップで復旧- 岐阜の病院",
+      "publisher": "Security NEXT",
+      "published_on": "2022-07-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/07/06/47850.html",
+      "title": "安江病院、不正アクセスにより最大11万件以上の個人情報流出の可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-07-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "2024-hakubundo-online-shop",
+  "organization": {
+    "name_ja": "株式会社東西哲学書院",
+    "name_en": "Tozai Tetsugaku Shoin Co., Ltd.",
+    "domain": "hakubundo.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-11-05",
+  "discovered_on": "2024-05-29",
+  "affected": {
+    "count": 50338,
+    "unit": "people",
+    "approximate": false,
+    "note": "50,338 people (2018-05-01 to 2024-05-29); 15,986 card users / 18,394 card records (2021-04-07 to 2024-05-29). Users were warned about suspicious card charges on 2024-06-03 before the full announcement."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Tozai Tetsugaku Shoin said its Buddhist goods online shop Hakubun Eikodo was hit by unauthorized access. Personal data of 50,338 customers since May 2018 may have leaked, including 18,394 card records of 15,986 customers.",
+    "ja": "東西哲学書院は、仏教関連グッズの通販サイト「博文栄光堂オンラインショップ」が不正アクセスを受けたと公表した。2018年5月以降に情報を入力した50,338人の個人情報が流出したおそれがあり、うち15,986人のクレジットカード情報18,394件も対象となる。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/163805",
+      "title": "仏教関連グッズの通販サイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-11-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/11/12/51900.html",
+      "title": "「博文栄光堂オンラインショップ」に不正アクセス、15,986 名のカード情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-11-12"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

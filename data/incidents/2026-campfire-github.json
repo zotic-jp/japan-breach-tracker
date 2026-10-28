@@ -1,0 +1,47 @@
+{
+  "id": "2026-campfire-github",
+  "organization": {
+    "name_ja": "株式会社CAMPFIRE",
+    "name_en": "CAMPFIRE, Inc.",
+    "domain": "camp-fire.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-04-03",
+  "discovered_on": "2026-04-03",
+  "affected": {
+    "count": 225846,
+    "unit": "people",
+    "approximate": false,
+    "note": "Unique users after removing duplicates: 108,784 project and community owners, 118,010 supporters who paid by PayPal or Kondo Barai or received bank refunds, 1,282 partners and 10,521 users with bank account data edited in 2020. 58,176 of the records across groups include bank account data. Forensics found no evidence that data files were transferred out, but viewing could not be ruled out. Separately, names and email addresses of 413 developer staff were viewable."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "bank_account"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Crowdfunding platform CAMPFIRE detected suspicious activity in its GitHub repositories on 2026-04-03, after an employee's GitHub credentials were unintentionally exposed, and the attacker went on to reach part of an internal cloud environment. Personal data of 225,846 users, including names, addresses, phone numbers, email addresses and some bank account details, may have leaked.",
+    "ja": "クラウドファンディングのCAMPFIREは2026年4月3日、従業員のGitHub認証情報が意図せず露出したことを発端とするリポジトリへの不審なアクセスを検知し、その後攻撃者が社内クラウド環境の一部にも侵入していたことが判明した。氏名、住所、電話番号、メールアドレス、一部の口座情報を含む225,846人分の個人情報が漏えいしたおそれがある。"
+  },
+  "official_notice_url": "https://campfire.co.jp/press/2026/06/02/campfire",
+  "sources": [
+    {
+      "url": "https://campfire.co.jp/press/2026/06/02/campfire",
+      "title": "不正アクセス事案にかかる調査結果について",
+      "publisher": "株式会社CAMPFIRE",
+      "published_on": "2026-06-02"
+    },
+    {
+      "url": "https://www.security-next.com/183857",
+      "title": "システム管理用GitHubアカに不正アクセス、内部処理の痕跡も - CAMPFIRE",
+      "publisher": "Security NEXT",
+      "published_on": "2026-04-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

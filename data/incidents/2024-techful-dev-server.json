@@ -1,0 +1,40 @@
+{
+  "id": "2024-techful-dev-server",
+  "organization": {
+    "name_ja": "株式会社444",
+    "name_en": "444 Inc. (Mynavi group)",
+    "domain": "techful.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2024-12-26",
+  "discovered_on": "2024-12-12",
+  "affected": {
+    "count": 45576,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "User accounts registered on or before 2023-08-13. Data of 475 contracted schools and 264 contracted companies (including contact email addresses) may also have leaked. Passwords were hashed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "password",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "444, a Mynavi subsidiary that runs the programming skills assessment service TechFUL, found that a development server holding a copy of production data had been broken into, its database destroyed and a ransom note left. Data of 45,576 user accounts, including names, addresses, hashed passwords and career details, may have leaked because of weak access controls on the server.",
+    "ja": "マイナビ子会社でプログラミングスキル測定サービス「TechFUL」を運営する444は、本番データを流用していた開発用サーバが侵入を受け、データベースが破壊され身代金要求の文面が残されていたことを確認した。アクセス制御の不備が原因で、氏名、住所、ハッシュ化済みパスワード、経歴などを含む45,576アカウント分の情報が流出したおそれがあるとした。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/165751",
+      "title": "開発サーバから情報流出か、DB破壊され脅迫文 - マイナビ子会社",
+      "publisher": "Security NEXT",
+      "published_on": "2024-12-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

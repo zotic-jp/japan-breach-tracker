@@ -1,0 +1,46 @@
+{
+  "id": "2024-tokio-marine-tokyo-sonpo-kantei-ransomware",
+  "organization": {
+    "name_ja": "東京海上日動火災保険株式会社",
+    "name_en": "Tokio Marine & Nichido Fire Insurance Co., Ltd.",
+    "domain": "tokiomarine-nichido.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2024-10-07",
+  "discovered_on": null,
+  "affected": {
+    "count": 72000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 72,000 property-damage claim assessment items (fire, auto, liability insurance) as of 2024-10-07. Other insurers (Sompo Japan, Mitsui Sumitomo) also affected via same vendor."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "東京損保鑑定株式会社",
+  "status": "possible",
+  "summary": {
+    "en": "Tokio Marine & Nichido said Tokyo Sonpo Kantei, a loss adjusting firm it uses for fire, auto and liability claims, was hit by ransomware in late August 2024. About 72,000 claim-related records, including names, addresses and phone numbers of policyholders and other parties, may have leaked.",
+    "ja": "東京海上日動火災保険は、火災保険や自動車保険などの損害査定を委託している東京損保鑑定が2024年8月下旬にランサムウェア攻撃を受けたと公表した。契約者や事故の相手方の氏名、住所、電話番号などを含む約7万2,000件の情報が漏えいしたおそれがある。"
+  },
+  "official_notice_url": "https://www.tokiomarine-nichido.co.jp/company/release/pdf/241007_01.pdf",
+  "sources": [
+    {
+      "url": "https://www.tokiomarine-nichido.co.jp/company/release/pdf/241007_01.pdf",
+      "title": "当社業務委託先におけるランサムウェア被害に伴う情報漏えいのおそれについて",
+      "publisher": "東京海上日動火災保険株式会社",
+      "published_on": "2024-10-07"
+    },
+    {
+      "url": "https://www.security-next.com/162695",
+      "title": "事故調査会社がランサム被害 - 委託元の損保などに影響",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

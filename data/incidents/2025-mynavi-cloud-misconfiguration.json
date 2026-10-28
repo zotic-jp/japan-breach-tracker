@@ -1,0 +1,45 @@
+{
+  "id": "2025-mynavi-cloud-misconfiguration",
+  "organization": {
+    "name_ja": "株式会社マイナビ",
+    "name_en": "Mynavi Corporation",
+    "domain": "mynavi.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2025-10-03",
+  "discovered_on": "2025-09-02",
+  "affected": {
+    "count": 14762,
+    "unit": "records",
+    "approximate": false,
+    "note": "Employee records (names, employee numbers, positions, departments, work locations, company email addresses) in a system managing company-issued PCs and mobile phones were reachable by third parties from 2022-11-26 to 2025-09-02 due to an access permission misconfiguration. Mynavi said no trace of unauthorized access had been found."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Mynavi found on 2025-09-02 that a cloud environment it uses to manage company-issued devices had an access permission misconfiguration that left it accessible to third parties from November 2022. It said 14,762 employee records may have been exposed.",
+    "ja": "マイナビは2025年9月2日、社員に貸与する端末を管理するクラウド環境のアクセス権限に誤設定があり、2022年11月から第三者がアクセス可能な状態だったことを把握した。14,762件の社員情報が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.mynavi.jp/topics/post_50495.html",
+  "sources": [
+    {
+      "url": "https://www.mynavi.jp/topics/post_50495.html",
+      "title": "クラウド環境の誤設定に伴う個人情報の漏洩可能性について",
+      "publisher": "株式会社マイナビ",
+      "published_on": "2025-10-03"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/10/15/53804.html",
+      "title": "マイナビでクラウド環境誤設定、14,762 件の社員情報にアクセス可能な状態に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-10-15"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

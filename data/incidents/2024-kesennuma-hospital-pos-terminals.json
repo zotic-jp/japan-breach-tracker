@@ -1,0 +1,39 @@
+{
+  "id": "2024-kesennuma-hospital-pos-terminals",
+  "organization": {
+    "name_ja": "気仙沼市立病院（気仙沼市）",
+    "name_en": "Kesennuma City Hospital",
+    "domain": "kesennuma-hospital.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2024-08-08",
+  "discovered_on": null,
+  "affected": {
+    "count": 48651,
+    "unit": "people",
+    "approximate": false,
+    "note": "48,651 unique patients (105,316 records total across 3 POS terminals); the terminal sold on a flea-market app held 37,063 records, 3,427 easily viewable."
+  },
+  "data_types": [
+    "name",
+    "health",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kesennuma City Hospital said three old POS register terminals from its payment counter were passed on without their data being erased, and one was sold on a flea market app. The terminals held 105,316 records covering 48,651 patients, including names in katakana, patient IDs, departments and billed amounts.",
+    "ja": "気仙沼市立病院は、会計窓口で使用していたPOSレジ端末3台が内部データを消去しないまま外部に流通し、うち1台がフリマアプリで販売されていたと公表した。端末には延べ105,316件、患者48,651人分のカタカナ氏名、患者ID、診療科、請求金額などが記録されていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/160657",
+      "title": "患者情報含む市民病院の旧端末がフリマアプリに流通 - 気仙沼市",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

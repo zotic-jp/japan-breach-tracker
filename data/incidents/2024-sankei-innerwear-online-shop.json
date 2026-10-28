@@ -1,0 +1,50 @@
+{
+  "id": "2024-sankei-innerwear-online-shop",
+  "organization": {
+    "name_ja": "株式会社三恵",
+    "name_en": "Sankei Co., Ltd.",
+    "domain": "sankei-innerwear.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-12-09",
+  "discovered_on": "2024-06-26",
+  "affected": {
+    "count": 292707,
+    "unit": "people",
+    "approximate": false,
+    "note": "292,707 customers; of these, 71,943 who paid by card 2019-12-27 to 2024-05-15 may have had full card data stolen. Official notice not located; Security NEXT 2024-12-10. Org name prefix (株式会社) not verified."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Lingerie maker Sankei said the old system of its official online shop, used until 2024-05-15, was hit through a vulnerability and its payment application altered. Personal data of 292,707 customers may have leaked, and card data of 71,943 customers may have been stolen.",
+    "ja": "下着メーカーの三恵は、2024年5月15日まで使用していた公式通販サイトの旧システムが脆弱性を突かれ、決済アプリケーションが改ざんされたと公表した。顧客292,707人の個人情報が流出したおそれがあり、71,943人分のクレジットカード情報が窃取された可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/165108",
+      "title": "女性向け下着通販サイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-12-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/12/23/52075.html",
+      "title": "三恵通販サイトに不正アクセス、71,943 名のカード情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-12-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

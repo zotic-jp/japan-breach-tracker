@@ -1,0 +1,44 @@
+{
+  "id": "2021-yayoi-sso-api",
+  "organization": {
+    "name_ja": "弥生株式会社",
+    "name_en": "Yayoi Co., Ltd.",
+    "domain": "yayoi-kk.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2021-06-22",
+  "discovered_on": null,
+  "affected": {
+    "count": 585341,
+    "unit": "accounts",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (585,341) because no overall total was given. Published figures announced by Yayoi: 17,137 customers who linked external applications using their Yayoi ID and password between 2021-05-10 and 2021-06-16 (IDs, plaintext passwords and access tokens), and 585,341 users of Yayoi cloud apps whose encrypted credentials were temporarily held at login between 2021-05-18 and 2021-06-16. Yayoi did not say whether the groups overlap. Yayoi IDs are email addresses."
+  },
+  "data_types": [
+    "email",
+    "password"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Accounting software maker Yayoi found unauthorized access to the single sign-on API of its authentication linkage service, where a malicious script had been planted. Yayoi IDs and passwords of 17,137 users who linked external apps, and credentials of 585,341 cloud app users, may have been exposed.",
+    "ja": "会計ソフトの弥生は、認証連携サービスのシングルサインオンAPIに不正アクセスがあり、不正なスクリプトが仕込まれていたことを確認した。外部アプリ連携を行った17,137件の弥生IDとパスワード、およびクラウドアプリ利用者585,341件の認証情報が参照された可能性があると公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/07/06/45927.html",
+      "title": "弥生の認証連携サービスに不正アクセス、ログイン情報が攻撃者から参照可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-07-06"
+    },
+    {
+      "url": "https://www.security-next.com/127466",
+      "title": "認証連携APIに不正アクセス、DCの不審アカウントきっかけに判明 - 弥生",
+      "publisher": "Security NEXT",
+      "published_on": "2021-06-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

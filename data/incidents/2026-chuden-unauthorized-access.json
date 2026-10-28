@@ -1,0 +1,46 @@
+{
+  "id": "2026-chuden-unauthorized-access",
+  "organization": {
+    "name_ja": "中部電力株式会社",
+    "name_en": "Chubu Electric Power Co., Inc.",
+    "domain": "chuden.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2026-08-04",
+  "discovered_on": "2026-07-29",
+  "affected": {
+    "count": 74100,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 2,400 people at related organizations, local governments and business partners whose details were in employee emails, plus about 71,700 group employees and contractor staff in the group contact directory. Chubu Electric said no electricity or gas customer data was found to have leaked. Separately, on 2026-10-26, 324 newsletter subscribers were affected through Blastmail."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Chubu Electric Power learned of the incident from an outside party on 2026-07-29. Credentials for some of its systems had been misused, and about 2,400 employee emails and the group contact directory may have been viewed. Names, organizations, email addresses and phone numbers of about 74,100 people may have leaked.",
+    "ja": "中部電力は2026年7月29日に第三者機関から情報提供を受けて調査し、一部システムの資格情報が不正利用され、役職員の電子メール約2,400件とグループの連絡先情報が不正閲覧された可能性があることを確認した。関係者や役職員など約7万4,100人の氏名、所属、メールアドレス、電話番号が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.chuden.co.jp/publicity/press/1218169_3273.html",
+  "sources": [
+    {
+      "url": "https://www.chuden.co.jp/publicity/press/1218169_3273.html",
+      "title": "不正アクセスによる情報漏えいの可能性について",
+      "publisher": "中部電力株式会社",
+      "published_on": "2026-08-04"
+    },
+    {
+      "url": "https://www.security-next.com/188338",
+      "title": "不正アクセスで関係者情報が流出か、電力供給への影響なし - 中部電力",
+      "publisher": "Security NEXT",
+      "published_on": "2026-08-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

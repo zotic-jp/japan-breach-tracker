@@ -1,0 +1,61 @@
+{
+  "id": "2024-shimogamo-saryo-online-shop",
+  "organization": {
+    "name_ja": "株式会社下鴨茶寮",
+    "name_en": "Shimogamo Saryo Co., Ltd.",
+    "domain": "shimogamosaryo.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-07-18",
+  "discovered_on": "2024-07-16",
+  "affected": {
+    "count": 19235,
+    "unit": "people",
+    "approximate": false,
+    "note": "Members registered until 2024-05-13 on the old system. Card data of 16,682 customers who paid by card from 2021-06-12 to 2024-05-13 may also have leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kyoto restaurant Shimogamo Saryo said the old system of its online shop, used until 2024-05-13, had a vulnerability that let attackers alter the payment application. Personal data of 19,235 members and card data of 16,682 customers may have leaked.",
+    "ja": "京都の料亭、下鴨茶寮は、2024年5月13日まで稼働していたオンラインショップの旧システムの脆弱性を突かれ、決済アプリケーションが改ざんされたと公表した。会員19,235人の個人情報と、16,682人分のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.shimogamosaryo.co.jp/news/owabi20241031",
+  "sources": [
+    {
+      "url": "https://www.shimogamosaryo.co.jp/news/owabi20240718",
+      "title": "不正アクセスによるシステム侵害の可能性についてのお知らせとお詫び",
+      "publisher": "株式会社下鴨茶寮",
+      "published_on": "2024-07-18"
+    },
+    {
+      "url": "https://www.shimogamosaryo.co.jp/news/owabi20241031",
+      "title": "不正アクセスによる個人情報漏洩に関するお詫びと調査結果のご報告",
+      "publisher": "株式会社下鴨茶寮",
+      "published_on": "2024-10-31"
+    },
+    {
+      "url": "https://www.security-next.com/163735",
+      "title": "旧システムに不正アクセス、個人情報流出の可能性 - 京都の料亭",
+      "publisher": "Security NEXT",
+      "published_on": "2024-11-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/11/11/51893.html",
+      "title": "「下鴨茶寮オンラインショップ」への不正アクセスで 16,682 名のカード情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-11-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

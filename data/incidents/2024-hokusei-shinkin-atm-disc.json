@@ -1,0 +1,39 @@
+{
+  "id": "2024-hokusei-shinkin-atm-disc",
+  "organization": {
+    "name_ja": "北星信用金庫",
+    "name_en": "Hokusei Shinkin Bank",
+    "domain": "hokusei-shinkin.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2024-05-23",
+  "discovered_on": null,
+  "affected": {
+    "count": 20675,
+    "unit": "records",
+    "approximate": false,
+    "note": "ATM transaction records of the Kembuchi branch from December 2022 to June 2023 on one optical disc. The bank said it was discarded by mistake and denied external leakage."
+  },
+  "data_types": [
+    "name",
+    "bank_account",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Hokusei Shinkin Bank said its Kembuchi branch mistakenly discarded an optical disc recording 20,675 ATM transactions, including customer names, account numbers, amounts and security camera footage.",
+    "ja": "北星信用金庫は、剣淵支店で2022年12月から2023年6月のATM取引情報20,675件を記録した光ディスク1枚を誤って廃棄したと公表した。顧客の氏名、口座番号、取引金額、防犯カメラ映像などが含まれる。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/157320",
+      "title": "ATMの取引情報を記録した光ディスクを誤廃棄 - 北星信金",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

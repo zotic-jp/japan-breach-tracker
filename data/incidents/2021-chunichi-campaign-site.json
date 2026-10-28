@@ -1,0 +1,47 @@
+{
+  "id": "2021-chunichi-campaign-site",
+  "organization": {
+    "name_ja": "株式会社中日新聞社",
+    "name_en": "The Chunichi Shimbun Co., Ltd.",
+    "domain": "chunichi.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2021-06-24",
+  "discovered_on": null,
+  "affected": {
+    "count": 143000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Applicants to seven campaigns of Chunichi Shimbun, Tokyo Shimbun and Hokuriku Chunichi Shimbun, some dating back to 2009. The data on the contractor's server was deleted by the intruder and may also have been copied out."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ランドマークス",
+  "status": "possible",
+  "summary": {
+    "en": "Chunichi Shimbun said the server of Landmarks, the contractor running its campaign application site, was accessed without authorization on 2021-06-23. Personal data of about 143,000 campaign applicants, including names, addresses, phone numbers and email addresses, was deleted and may have leaked.",
+    "ja": "中日新聞社は、キャンペーン応募サイトを運営する委託先ランドマークスのサーバーが2021年6月23日に不正アクセスを受けたと公表した。応募者約14万3千人分の氏名、住所、電話番号、メールアドレスなどが削除され、外部に流出した可能性もある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/06/28/45877.html",
+      "title": "中日新聞の業務委託企業へ不正アクセス、キャンペーン応募情報が流出の可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-06-28"
+    },
+    {
+      "url": "https://www.security-next.com/127509",
+      "title": "サイトの個人情報が不正削除、外部流出の可能性も - 中日新聞関連3紙",
+      "publisher": "Security NEXT",
+      "published_on": "2021-06-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

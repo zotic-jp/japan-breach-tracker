@@ -1,0 +1,37 @@
+{
+  "id": "2026-dip-baitoru",
+  "organization": {
+    "name_ja": "ディップ株式会社",
+    "name_en": "dip Corporation",
+    "domain": "baitoru.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-09",
+  "discovered_on": "2026-10-06",
+  "affected": {
+    "count": 3885771,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Maximum number of member email addresses of the job sites Baitoru and Baitoru NEXT that may have leaked. Only email addresses were affected; names, phone numbers, passwords and card data were not included."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "dip, operator of the part-time job sites Baitoru and Baitoru NEXT, confirmed unauthorized access from overseas to part of its website on 2026-10-06 that exploited a flaw in a site function. Member email addresses leaked, with up to 3,885,771 addresses affected.",
+    "ja": "求人サイト「バイトル」「バイトルNEXT」を運営するディップは、2026年10月6日にWebサイトの一部機能の仕様の不備を突いた海外からの不正アクセスを確認した。会員のメールアドレスが漏えいし、対象は最大3,885,771件とされる。"
+  },
+  "official_notice_url": "https://www.dip-net.co.jp/news/2192",
+  "sources": [
+    {
+      "url": "https://www.dip-net.co.jp/news/2192",
+      "title": "「バイトル」「バイトルNEXT」不正アクセスによる一部メールアドレス漏えいに関するお知らせとお詫び",
+      "publisher": "ディップ株式会社",
+      "published_on": "2026-10-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

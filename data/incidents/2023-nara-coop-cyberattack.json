@@ -1,0 +1,55 @@
+{
+  "id": "2023-nara-coop-cyberattack",
+  "organization": {
+    "name_ja": "生活協同組合ならコープ",
+    "name_en": "Nara Co-op",
+    "domain": "naracoop.or.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-01-23",
+  "discovered_on": "2022-10-09",
+  "affected": {
+    "count": 489085,
+    "unit": "people",
+    "approximate": false,
+    "note": "Members who joined by 2022-10-08, including those who have since withdrawn. Data included member number, name, address, phone number, date of birth, gender, email address, bank account for withdrawals and purchase history. Credit card data was not included. No leak had been confirmed, but the co-op could not rule one out."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Nara Co-op suffered a cyberattack on its core system servers in October 2022 that encrypted most internal data, including member information. In January 2023 it said that personal data of 489,085 members, including bank account details, may have leaked.",
+    "ja": "ならコープは2022年10月に基幹システムのサーバーなどがサイバー攻撃を受け、組合員情報を含む社内データの大部分が暗号化された。2023年1月、口座情報を含む組合員489,085人分の個人情報が漏えいした可能性を否定できないと公表した。"
+  },
+  "official_notice_url": "https://www.naracoop.or.jp/naranews/cat2/4628.html",
+  "sources": [
+    {
+      "url": "https://www.naracoop.or.jp/naranews/cat2/4628.html",
+      "title": "重大なシステムトラブルに伴う個人情報についてのお知らせ",
+      "publisher": "生活協同組合ならコープ",
+      "published_on": "2023-01-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/01/23/48809.html",
+      "title": "ならコープにサイバー攻撃、組合員の個人情報が流出した可能性を完全に否定できず",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-01-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/01/10/50434.html",
+      "title": "今日もどこかで情報漏えい 第20回「2023年に最も読まれたセキュリティ事件・事故・情報漏えい・不正アクセス記事 ベスト10」",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-01-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

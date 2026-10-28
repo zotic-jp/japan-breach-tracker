@@ -1,0 +1,55 @@
+{
+  "id": "2024-marukawa-miso-online-shop",
+  "organization": {
+    "name_ja": "マルカワみそ株式会社",
+    "name_en": "Marukawa Miso Co., Ltd.",
+    "domain": "marukawamiso.com"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-04-02",
+  "discovered_on": "2023-11-06",
+  "affected": {
+    "count": 89673,
+    "unit": "people",
+    "approximate": false,
+    "note": "89,673 purchasers; 4,851 card holders (fake payment form, 2023-03-11 to 2023-11-13); in May 2024 added 20,606 My Page registrants' login passwords."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Miso maker Marukawa Miso in Fukui said its official online shop was altered through unauthorized access. Personal data of 89,673 purchasers may have leaked, including card data of 4,851 customers, and it later added that login passwords of 20,606 registered users may also have leaked.",
+    "ja": "福井県の味噌メーカー、マルカワみそは、公式通販サイトが不正アクセスで改ざんされたと公表した。購入者89,673人の個人情報が流出したおそれがあり、うち4,851人はクレジットカード情報も対象となるほか、のちにマイページ登録者20,606人のログインパスワードも流出した可能性があると発表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/155513",
+      "title": "福井県の味噌蔵通販サイトに不正アクセス - 個人情報流出のおそれ",
+      "publisher": "Security NEXT",
+      "published_on": "2024-04-03"
+    },
+    {
+      "url": "https://www.security-next.com/157034",
+      "title": "みそ通販サイトの侵害、ログイン用PWも流出した可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/04/09/50842.html",
+      "title": "「マルカワみそ公式サイト」に不正アクセス、4,851名分のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-04-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

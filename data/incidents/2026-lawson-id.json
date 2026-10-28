@@ -1,0 +1,48 @@
+{
+  "id": "2026-lawson-id",
+  "organization": {
+    "name_ja": "株式会社ローソン",
+    "name_en": "Lawson, Inc.",
+    "domain": "lawson.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-08",
+  "discovered_on": "2026-10-07",
+  "affected": {
+    "count": 2155345,
+    "unit": "records",
+    "approximate": false,
+    "note": "LAWSON ID records accessed between 2026-09-12 and 2026-09-14. A later correction said birthdates may have leaked and that email addresses were not leaked. Separately, 26 Lawson App reservation records, including partial card numbers, leaked on 2026-09-17."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "phone",
+    "address",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Lawson found during an investigation on 2026-10-07 that a third party had bypassed a mechanism in Lawson App related systems meant to show users only their own information. Names, genders, phone numbers, addresses and possibly birthdates tied to 2,155,345 LAWSON IDs leaked between 2026-09-12 and 2026-09-14.",
+    "ja": "ローソンは2026年10月7日の調査で、ローソンアプリ関連システムにおいて利用者本人の情報のみを表示するための仕組みが第三者に突破されていたことを確認した。2026年9月12日から14日にかけて、2,155,345件のローソンIDに紐づく氏名、性別、電話番号、住所などが漏えいし、生年月日も漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+  "sources": [
+    {
+      "url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+      "title": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社ローソン",
+      "published_on": "2026-10-08"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56434.html",
+      "title": "ローソンのアカウントサービスに不正アクセス、215 万 5,345 件のローソン ID が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "2020-johnan-web-server",
+  "organization": {
+    "name_ja": "株式会社城南進学研究社",
+    "name_en": "Johnan Shingaku Kenkyusha Co., Ltd.",
+    "domain": "johnan.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2020-07-16",
+  "discovered_on": "2020-07-11",
+  "affected": {
+    "count": 34263,
+    "unit": "records",
+    "approximate": false,
+    "note": "People who requested brochures or trial lessons through the websites of Johnan Yobiko, Johnan CoBetts and other brands since April 2016 (figure as known at the time). Grades, passwords, bank account and card data were not included. All website content data may also have leaked, and some data was lost."
+  },
+  "data_types": [],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Johnan Shingaku Kenkyusha, which runs cram schools, said a web server for its brand sites was accessed without authorization and data on it was lost. Personal data of 34,263 people who had requested materials or trial lessons through the sites may have leaked.",
+    "ja": "予備校や学習塾を展開する城南進学研究社は、ブランドサイトのウェブサーバが不正アクセスを受け、データが消失したと公表した。サイトから資料請求や体験学習を申し込んだ3万4,263件の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/116717",
+      "title": "不正アクセスで個人情報流出か、データ消失も - 城南進学研究社",
+      "publisher": "Security NEXT",
+      "published_on": "2020-07-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/07/20/44342.html",
+      "title": "Webサイトへの不正アクセス、コンテンツ全データと個人情報34,263件が流出の可能性（城南進学研究社）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-07-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2021-omiai-id-documents",
+  "organization": {
+    "name_ja": "株式会社ネットマーケティング",
+    "name_en": "Net Marketing Co., Ltd.",
+    "domain": "omiai-jp.com"
+  },
+  "industry": "other",
+  "disclosed_on": "2021-05-21",
+  "discovered_on": "2021-04-28",
+  "affected": {
+    "count": 1711756,
+    "unit": "records",
+    "approximate": false,
+    "note": "Images of age verification documents (about 60% driver's licenses, also health insurance cards, passports and My Number cards) submitted between 2018-01-31 and 2021-04-20, including by members who had left. The figure was unchanged in the investigation report of 2021-08-11."
+  },
+  "data_types": [
+    "id_document",
+    "name",
+    "address",
+    "birthdate",
+    "my_number"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Net Marketing, operator of the matching app Omiai, announced that 1,711,756 images of age verification documents such as driver's licenses were highly likely leaked through unauthorized access to its servers. Its later investigation found the attacker had obtained credentials and sent large volumes of legitimate-looking requests.",
+    "ja": "マッチングアプリ「Omiai」を運営するネットマーケティングは、サーバーへの不正アクセスにより、運転免許証などの年齢確認書類の画像1,711,756件が流出した可能性が高いと公表した。後の調査では、攻撃者が認証情報を入手し正規に見えるリクエストを大量に送っていたとした。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/126429",
+      "title": "マッチングアプリ「Omiai」の会員情報171万件が流出した可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2021-05-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/05/24/45702.html",
+      "title": "婚活アプリ「Omiai」管理サーバに不正アクセス、171万件の年齢確認書類の画像データ流出の可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-05-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/08/18/46136.html",
+      "title": "「Omiai」不正アクセス調査結果公表",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-08-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

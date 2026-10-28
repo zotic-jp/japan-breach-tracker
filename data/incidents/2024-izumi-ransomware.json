@@ -1,0 +1,59 @@
+{
+  "id": "2024-izumi-ransomware",
+  "organization": {
+    "name_ja": "株式会社イズミ",
+    "name_en": "IZUMI Co., Ltd.",
+    "domain": "izumi.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-02-16",
+  "discovered_on": "2024-02-15",
+  "affected": {
+    "count": 7782009,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 7,782,009 yumeCard member records (joined on/before 2024-02-15); plus up to 2,990 Izumi Techno part-time applicants; group mail server history destroyed (count unknown). Company says leak 'extremely unlikely' but viewing cannot be ruled out."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "address",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Supermarket operator Izumi, which runs the Youme Town and Youme Mart chains, suffered a system failure on 2024-02-15 after ransomware encrypted servers across its group, with attackers entering through a VPN device. No leak was found, but it said data of up to 7,782,009 yumeCard member records, including names, birthdates, addresses and phone numbers, may have been viewed.",
+    "ja": "ゆめタウンやゆめマートを展開するイズミは、2024年2月15日にグループの複数サーバがランサムウェアで暗号化されシステム障害が発生した。侵入経路はVPN機器とされ、流出の痕跡は見つかっていないが、ゆめカード会員の氏名、生年月日、住所、電話番号など最大7,782,009件が参照された可能性があると公表した。"
+  },
+  "official_notice_url": "https://izumi.co.jp/news_release/pdf/2024/0509news_01.pdf",
+  "sources": [
+    {
+      "url": "https://izumi.co.jp/news_release/pdf/2024/0509news_01.pdf",
+      "title": "当社システムに対する外部攻撃に伴う個人情報に関するお知らせとお詫び",
+      "publisher": "株式会社イズミ",
+      "published_on": "2024-05-09"
+    },
+    {
+      "url": "https://izumi.co.jp/news_release/pdf/2024/0216news_02.pdf",
+      "title": "システム障害の経過について",
+      "publisher": "株式会社イズミ",
+      "published_on": "2024-02-16"
+    },
+    {
+      "url": "https://www.security-next.com/153953",
+      "title": "イズミ、ランサム被害で宅配など一部サービスを停止 - 新店舗オープンを延期",
+      "publisher": "Security NEXT",
+      "published_on": "2024-02-20"
+    },
+    {
+      "url": "https://www.security-next.com/156803",
+      "title": "ランサム被害のイズミ、侵入経路はVPN - システムは概ね復旧",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2025-nssol-zero-day",
+  "organization": {
+    "name_ja": "日鉄ソリューションズ株式会社",
+    "name_en": "NS Solutions Corporation",
+    "domain": "nssol.nipponsteel.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2025-07-08",
+  "discovered_on": "2025-03-07",
+  "affected": {
+    "count": 90000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Security NEXT reported that NS Solutions put the possibly leaked personal data at about 90,000 records; the company's 2025-07-08 notice does not state a count. Covers business contact details of customers, partners (including former contractors) and NS Solutions employees. Customers of NS Solutions also disclosed their own impacts separately, such as Hosei University (16,542 students and staff, see 2025-hosei-university-nssol)."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "address",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "NS Solutions said that a zero-day attack on a network device, first noticed as suspicious server access on 2025-03-07, may have exposed part of the personal data of its customers, partners and employees. The data consisted of business contact details such as names, company names, job titles, business email addresses and phone numbers.",
+    "ja": "日鉄ソリューションズは、2025年3月7日にサーバへの不審なアクセスを検知し、ネットワーク機器へのゼロデイ攻撃により顧客、パートナー、従業員の個人情報の一部が外部に漏えいした可能性があると公表した。対象は氏名、会社名、役職、業務用メールアドレスや電話番号などの業務上の連絡先情報である。"
+  },
+  "official_notice_url": "https://www.nssol.nipponsteel.com/press/2025/20250708_160000.html",
+  "sources": [
+    {
+      "url": "https://www.nssol.nipponsteel.com/press/2025/20250708_160000.html",
+      "title": "不正アクセスによる情報漏洩の可能性に関するお詫びとお知らせ",
+      "publisher": "日鉄ソリューションズ株式会社",
+      "published_on": "2025-07-08"
+    },
+    {
+      "url": "https://www.security-next.com/172164",
+      "title": "ゼロデイ攻撃で個人情報流出の可能性 - 日鉄ソリューションズ",
+      "publisher": "Security NEXT",
+      "published_on": "2025-07-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/07/16/53230.html",
+      "title": "日鉄ソリューションズのネットワーク機器にゼロデイ攻撃、個人情報等の一部が外部に漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-07-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

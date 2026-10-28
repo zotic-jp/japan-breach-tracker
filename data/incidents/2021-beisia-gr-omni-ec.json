@@ -1,0 +1,56 @@
+{
+  "id": "2021-beisia-gr-omni-ec",
+  "organization": {
+    "name_ja": "株式会社ベイシア",
+    "name_en": "Beisia Co., Ltd.",
+    "domain": "beisia.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-11-01",
+  "discovered_on": "2021-09-01",
+  "affected": {
+    "count": 254207,
+    "unit": "records",
+    "approximate": false,
+    "note": "Personal data of 254,207 records (registered members, guest buyers, and catalog customers who picked up orders in store, from October 2013) plus card data of 3,101 records entered between 2021-04-26 and 2021-08-19. The category figures in the notice sum to 257,308 including card users."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ジーアール",
+  "status": "possible",
+  "summary": {
+    "en": "Supermarket chain Beisia announced that unauthorized access to systems of the contractors running its online store, Toshiba Tec and GR, may have leaked card data of 3,101 records and personal data of 254,207 records. Card companies had raised concerns on 2021-09-01.",
+    "ja": "スーパーのベイシアは、ネット通販サイトの制作・運用委託先である東芝テックとジーアールのシステムへの不正アクセスにより、クレジットカード情報3,101件と個人情報254,207件が流出した可能性があると公表した。2021年9月1日にカード会社から懸念の連絡があった。"
+  },
+  "official_notice_url": "https://www.beisia.co.jp/wp-content/uploads/2021/10/c9f3e8b196c27d7f25d6e823c664f247.pdf",
+  "sources": [
+    {
+      "url": "https://www.beisia.co.jp/wp-content/uploads/2021/10/c9f3e8b196c27d7f25d6e823c664f247.pdf",
+      "title": "弊社「ベイシアネットショッピング」委託先への不正アクセスによるお客様情報流出に関するお詫びとお知らせ",
+      "publisher": "株式会社ベイシア",
+      "published_on": "2021-11-01"
+    },
+    {
+      "url": "https://www.security-next.com/131254",
+      "title": "ベイシア通販サイトで個人情報が流出 - ECサービスの不正アクセスで",
+      "publisher": "Security NEXT",
+      "published_on": "2021-11-02"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/11/04/46581.html",
+      "title": "ジーアールへの不正アクセス、「ベイシアネットショッピング」のカード情報と個人情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-11-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

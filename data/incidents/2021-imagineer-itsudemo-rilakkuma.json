@@ -1,0 +1,43 @@
+{
+  "id": "2021-imagineer-itsudemo-rilakkuma",
+  "organization": {
+    "name_ja": "イマジニア株式会社",
+    "name_en": "Imagineer Co., Ltd.",
+    "domain": "imagineer.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2021-01-05",
+  "discovered_on": "2020-12-30",
+  "affected": {
+    "count": 105180,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses used for free membership registration of the Itsudemo Rilakkuma site between 2014-03-18 and 2020-01-19. The company said no other data such as passwords was confirmed leaked."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Imagineer, operator of the official Rilakkuma fan site Itsudemo Rilakkuma, detected abnormal access to its management server on 2020-12-30. It reported that 105,180 member email addresses were leaked through unauthorized access exploiting a system vulnerability.",
+    "ja": "イマジニアは、リラックマ公式サイト「いつでもリラックマ」の管理サーバーへの異常なアクセスを2020年12月30日に検知した。システムの脆弱性を突いた不正アクセスにより、会員のメールアドレス105,180件が流出したと公表した。"
+  },
+  "official_notice_url": "https://www.imagineer.co.jp/itsurila_notice/apology.php",
+  "sources": [
+    {
+      "url": "https://www.imagineer.co.jp/itsurila_notice/apology.php",
+      "title": "「いつでもリラックマ」への不正アクセスによるお客様メールアドレス流出のお知らせとお詫びについて",
+      "publisher": "イマジニア株式会社",
+      "published_on": "2021-01-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/01/08/45028.html",
+      "title": "「いつでもリラックマ」管理サーバへ不正アクセス、メールアドレス105,180件流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-01-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

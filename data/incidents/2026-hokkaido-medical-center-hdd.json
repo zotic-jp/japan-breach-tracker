@@ -1,0 +1,48 @@
+{
+  "id": "2026-hokkaido-medical-center-hdd",
+  "organization": {
+    "name_ja": "北海道医療センター",
+    "name_en": "Hokkaido Medical Center",
+    "domain": "hokkaido-mc.hosp.go.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2026-06-08",
+  "discovered_on": null,
+  "affected": {
+    "count": 170000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 170,000 patients (about 1.76 million records in total) were found on the recovered hard disks. The hospital says the maximum range it notified is based on the total number of patient IDs in its old electronic medical record system, and that not every patient's data was stored on the disks. No misuse had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "health",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Hokkaido Medical Center found that hard disks from medical PCs it had sent for disposal after an electronic medical record upgrade had not been destroyed as contracted and were circulating outside. The recovered disks held data on about 170,000 patients, including names, addresses, diagnoses and test results.",
+    "ja": "北海道医療センターは、電子カルテ更新に伴い廃棄を委託した診療用端末のハードディスクの一部が破砕されないまま外部に流通していたと発表した。回収したハードディスクには、氏名、住所、病名、検査結果などを含む約17万人分の患者情報が記録されていた。"
+  },
+  "official_notice_url": "https://hokkaido-mc.hosp.go.jp/common/img/index/202608.pdf",
+  "sources": [
+    {
+      "url": "https://hokkaido-mc.hosp.go.jp/common/img/index/202608.pdf",
+      "title": "【重要】個人情報の取扱いに関するお詫びとご報告",
+      "publisher": "北海道医療センター",
+      "published_on": "2026-06-08"
+    },
+    {
+      "url": "https://www.security-next.com/185620",
+      "title": "廃棄端末の内蔵HDDが外部流通、内部に患者情報 - 北海道医療センター",
+      "publisher": "Security NEXT",
+      "published_on": "2026-06-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

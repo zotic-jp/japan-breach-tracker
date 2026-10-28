@@ -1,0 +1,48 @@
+{
+  "id": "2022-diskunion-online-shop",
+  "organization": {
+    "name_ja": "株式会社ディスクユニオン",
+    "name_en": "disk union Co., Ltd.",
+    "domain": "diskunion.net"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-06-29",
+  "discovered_on": "2022-06-24",
+  "affected": {
+    "count": 701000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to about 701,000 records of members registered on diskunion.net and audiounion.jp."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Music retailer disk union shut down its online shops after an outside tip-off on 2022-06-24. Up to about 701,000 member records, including names, addresses, email addresses and login passwords, may have been leaked.",
+    "ja": "CDやレコード販売のディスクユニオンは、2022年6月24日の外部からの情報提供を受けてオンラインショップを停止した。氏名、住所、メールアドレス、ログインパスワードなどを含む会員情報最大約70万1,000件が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/137693",
+      "title": "ディスクユニオンで個人情報約70万件流出の可能性 - パスワードなども",
+      "publisher": "Security NEXT",
+      "published_on": "2022-06-29"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/07/01/47832.html",
+      "title": "ディスクユニオンのオンラインショップで最大約70万件の個人情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-07-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

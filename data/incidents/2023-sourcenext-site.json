@@ -1,0 +1,47 @@
+{
+  "id": "2023-sourcenext-site",
+  "organization": {
+    "name_ja": "ソースネクスト株式会社",
+    "name_en": "SOURCENEXT Corporation",
+    "domain": "sourcenext.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-02-14",
+  "discovered_on": "2023-01-04",
+  "affected": {
+    "count": 120982,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 120,982 customers' personal data (name, email address, and optionally postal address and phone number), including 112,132 credit card records (cardholder name, number, expiry and security code) entered between 2022-11-15 and 2023-01-17. Discovery date is when card companies first raised concerns."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Software retailer Sourcenext said a third party exploited a vulnerability in its online store and altered its payment application. Credit card data of 112,132 customers and personal data of up to 120,982 customers entered between November 2022 and January 2023 leaked, and some cards may have been misused.",
+    "ja": "ソースネクストは、第三者が同社サイトの脆弱性を悪用し決済アプリケーションを改ざんしたと公表した。2022年11月から2023年1月に入力された112,132人分のクレジットカード情報を含む最大120,982人分の個人情報が漏えいし、一部のカードが不正利用された可能性がある。"
+  },
+  "official_notice_url": "https://www.sourcenext.com/support/i/2023/0214_info/",
+  "sources": [
+    {
+      "url": "https://www.sourcenext.com/support/i/2023/0214_info/",
+      "title": "当サイトへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "ソースネクスト株式会社",
+      "published_on": "2023-02-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/02/15/48922.html",
+      "title": "ソースネクスト・サイトへ不正アクセス、112,132名のカード情報漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-02-15"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

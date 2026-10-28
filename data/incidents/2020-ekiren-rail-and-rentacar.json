@@ -1,0 +1,44 @@
+{
+  "id": "2020-ekiren-rail-and-rentacar",
+  "organization": {
+    "name_ja": "株式会社駅レンタカーシステム",
+    "name_en": "Eki Rent-A-Car System Co., Ltd.",
+    "domain": "ekiren.co.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2020-12-11",
+  "discovered_on": "2020-12-07",
+  "affected": {
+    "count": 253979,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses of customers who booked Rail & Rent-a-Car and similar products via the link on the company's site. Also leaked: a few birth year, month and day values, 65 office email addresses and phone and fax numbers of rental offices. A preliminary notice was posted on 2020-12-11 and details on 2020-12-18."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Eki Rent-A-Car System said its website was accessed without authorization through a vulnerability in an added booking system, after a customer reported phishing emails. 253,979 customer email addresses, mainly of Rail & Rent-a-Car bookers, were leaked.",
+    "ja": "駅レンタカーシステムは、顧客からフィッシングメールが届いたとの連絡を受けて調査し、追加構築したシステムの脆弱性を突いた不正アクセスを確認したと公表した。「レール＆レンタカー」の予約者などの顧客メールアドレス25万3,979件が流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/121895",
+      "title": "不正アクセスで「レール＆レンタカー」予約者のメアド流出",
+      "publisher": "Security NEXT",
+      "published_on": "2020-12-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/12/23/44977.html",
+      "title": "追加システムに脆弱性、駅レンタカーWebサイトからメールアドレスが流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-12-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

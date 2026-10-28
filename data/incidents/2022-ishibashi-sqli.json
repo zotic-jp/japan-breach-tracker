@@ -1,0 +1,43 @@
+{
+  "id": "2022-ishibashi-sqli",
+  "organization": {
+    "name_ja": "株式会社石橋楽器店",
+    "name_en": "Ishibashi Music Corporation",
+    "domain": "ishibashi.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-01-11",
+  "discovered_on": null,
+  "affected": {
+    "count": 98635,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses of point card members registered between 2006-09-05 and 2020-11-27. The company said names, addresses and credit card data were not leaked."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Musical instrument retailer Ishibashi Music reported that its web server was hit by an SQL injection attack on 2021-12-20. Up to 98,635 email addresses of point card members may have been leaked.",
+    "ja": "楽器販売の石橋楽器店は、2021年12月20日にウェブサーバがSQLインジェクション攻撃を受けたと公表した。ポイントカード会員のメールアドレス9万8,635件が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/133215",
+      "title": "サーバにSQLi攻撃、会員メアドが流出か - イシバシ楽器",
+      "publisher": "Security NEXT",
+      "published_on": "2022-01-13"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/01/13/46939.html",
+      "title": "イシバシ楽器WebサーバにSQLインジェクション攻撃、約10万件の会員メールアドレスが流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-01-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

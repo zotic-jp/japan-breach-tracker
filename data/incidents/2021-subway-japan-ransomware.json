@@ -1,0 +1,49 @@
+{
+  "id": "2021-subway-japan-ransomware",
+  "organization": {
+    "name_ja": "日本サブウェイ合同会社",
+    "name_en": "Subway Japan LLC",
+    "domain": "subway.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2021-04-26",
+  "discovered_on": "2021-04-14",
+  "affected": {
+    "count": 10000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 10,000 employees, job applicants, franchise owners and staff, and business partners. Also 64 customers (name, age, phone) and about 300,000 Sub Club Card membership numbers, about 80,000 of them linked to attributes such as birthday and prefecture but not names."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "id_document",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Subway Japan said a file server in Japan was hit by ransomware after unauthorized access on 2021-04-14. Data of about 10,000 employees, applicants and franchise staff, including contact details and ID documents, as well as some customer and membership card data, may have leaked.",
+    "ja": "日本サブウェイは、国内のファイルサーバーが2021年4月14日に不正アクセスを受けランサムウェアに感染したと公表した。従業員や応募者、加盟店関係者など約1万人分の連絡先や身分証などの情報に加え、一部の顧客情報や会員カード情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/06/02/45754.html",
+      "title": "サブウェイの従業員情報1万人保管するサーバへランサムウェア攻撃",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-06-02"
+    },
+    {
+      "url": "https://www.security-next.com/126654",
+      "title": "ランサム被害で顧客や関係者の情報が流出した可能性 - サブウェイ",
+      "publisher": "Security NEXT",
+      "published_on": "2021-06-03"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

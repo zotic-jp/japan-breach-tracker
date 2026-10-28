@@ -1,0 +1,41 @@
+{
+  "id": "2024-ofuji-tsurigu-ransomware",
+  "organization": {
+    "name_ja": "株式会社大藤つり具",
+    "name_en": "Ofuji Tsurigu",
+    "domain": null
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-01-29",
+  "discovered_on": "2023-12-13",
+  "affected": {
+    "count": 200000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to about 200,000 records of customers who were sent direct mail from March 2018 to November 2023. The attack was confirmed on 2023-12-13; disclosed_on is the first news report found (the company's own notice date was not confirmed)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Fishing tackle retailer Ofuji Tsurigu was hit by a ransomware attack confirmed on 2023-12-13. Up to about 200,000 records of customers who received its direct mail, including names, addresses, phone numbers and birthdates, may have leaked.",
+    "ja": "釣り具販売の大藤つり具は、2023年12月13日にランサムウェア攻撃を受けたことを確認した。同社からダイレクトメールを送付した顧客の氏名、住所、電話番号、生年月日など最大約20万件が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/153080",
+      "title": "ランサム被害、顧客情報20万件が流出か - 大藤つり具",
+      "publisher": "Security NEXT",
+      "published_on": "2024-01-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

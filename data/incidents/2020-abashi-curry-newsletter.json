@@ -1,0 +1,48 @@
+{
+  "id": "2020-abashi-curry-newsletter",
+  "organization": {
+    "name_ja": "アジアンブリッジ株式会社",
+    "name_en": "Asian Bridge Co., Ltd.",
+    "domain": "abashi.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2020-11-24",
+  "discovered_on": "2020-10-01",
+  "affected": {
+    "count": 27944,
+    "unit": "records",
+    "approximate": false,
+    "note": "Members of the Abashi email newsletter. Required items were nickname, email address, birthdate and favorite store; optional items included real name, gender, postal code, address and phone number. disclosed_on is the first news report date; the company's notice was dated November 2020."
+  },
+  "data_types": [
+    "email",
+    "birthdate",
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Asian Bridge, which runs the Fukuoka-based curry chain Abashi, said its email newsletter system was accessed without authorization through a system flaw. 27,944 member records, including nicknames, email addresses and birthdates and, for some members, names, addresses and phone numbers, were leaked.",
+    "ja": "福岡を中心にカレー店「亜橋」を展開するアジアンブリッジは、メールマガジンのシステムが不備を突かれ不正アクセスを受けたと公表した。ニックネーム、メールアドレス、生年月日に加え、一部は氏名、住所、電話番号を含む会員情報2万7,944件が流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/120927",
+      "title": "メルマガシステムに不正アクセス、顧客情報が流出 - 福岡のカレー店",
+      "publisher": "Security NEXT",
+      "published_on": "2020-11-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/11/30/44876.html",
+      "title": "カレー専門店のメールマガジンに不正アクセス、会員情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-11-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

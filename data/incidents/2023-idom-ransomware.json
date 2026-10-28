@@ -1,0 +1,47 @@
+{
+  "id": "2023-idom-ransomware",
+  "organization": {
+    "name_ja": "株式会社IDOM",
+    "name_en": "IDOM Inc.",
+    "domain": "221616.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-04-03",
+  "discovered_on": "2023-03-30",
+  "affected": {
+    "count": 2402233,
+    "unit": "records",
+    "approximate": false,
+    "note": "Figure from IDOM's investigation results of 2023-06-05 as reported by ScanNetSecurity and Tokyo Shoko Research. IDOM said viewing of the personal data could not be ruled out. Data items were not confirmed from the sources."
+  },
+  "data_types": [],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "IDOM, operator of the Gulliver used-car chain, confirmed a ransomware attack on its servers on 2023-03-30. Its investigation found that 2,402,233 records of personal data may have been viewed by the attacker.",
+    "ja": "中古車販売「ガリバー」を運営するIDOMは、2023年3月30日に同社サーバーへのランサムウェア攻撃を確認した。調査の結果、2,402,233件の個人データが攻撃者に閲覧された可能性を否定できないと公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/06/09/49492.html",
+      "title": "中古車「ガリバー」のIDOMにランサムウェア攻撃、個人データを閲覧された可能性を否定できず",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-06-09"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/07/27/49735.html",
+      "title": "今日もどこかで情報漏えい 第13回「2023年6月の情報漏えい」",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-07-27"
+    },
+    {
+      "url": "https://www.tsr-net.co.jp/data/detail/1198311_1527.html",
+      "title": "2023年の「個人情報漏えい・紛失事故」が年間最多 件数175件、流出・紛失情報も最多の4,090万人分",
+      "publisher": "東京商工リサーチ",
+      "published_on": "2024-01-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

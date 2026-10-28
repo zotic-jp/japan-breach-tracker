@@ -1,0 +1,46 @@
+{
+  "id": "2023-askul-kokuyo-ransomware",
+  "organization": {
+    "name_ja": "アスクル株式会社",
+    "name_en": "ASKUL Corporation",
+    "domain": "askul.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-09-12",
+  "discovered_on": "2023-06-05",
+  "affected": {
+    "count": 30263,
+    "unit": "records",
+    "approximate": false,
+    "note": "Order data for products shipped directly by Kokuyo for ASKUL (including quote-only requests) from 2019-03-13 to 2023-06-06. An outside investigator judged the likelihood of a leak to be extremely low based on the small volume of outbound transfers, but ASKUL said a leak could not be completely ruled out."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "コクヨ株式会社 (Kokuyo Co., Ltd.)",
+  "status": "possible",
+  "summary": {
+    "en": "ASKUL reported that a ransomware attack on the Kokuyo Group's systems, which handle direct shipping of some ASKUL orders, affected 30,263 records of recipients' names, company names, addresses and phone numbers. The attacker entered through a Kokuyo overseas subsidiary network, and a leak could not be completely ruled out.",
+    "ja": "アスクルは、同社の直送品の出荷業務を担うコクヨグループの情報システムがランサムウェア攻撃を受け、届け先の氏名、会社名、住所、電話番号を含む30,263件の情報が影響を受けたと公表した。攻撃者はコクヨの海外子会社のネットワークから侵入しており、情報流出の可能性を完全には否定できないとしている。"
+  },
+  "official_notice_url": "https://www.askul.co.jp/shopnews/news_230823_kokuyo.html",
+  "sources": [
+    {
+      "url": "https://www.askul.co.jp/shopnews/news_230823_kokuyo.html",
+      "title": "コクヨ社グループ情報システムに対する外部攻撃に関するご報告とお詫び",
+      "publisher": "アスクル株式会社",
+      "published_on": "2023-09-12"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/09/19/49965.html",
+      "title": "コクヨグループへのランサムウェア攻撃、商品直送サービス委託のアスクルにも影響",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-09-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

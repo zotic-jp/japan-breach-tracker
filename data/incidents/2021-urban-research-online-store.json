@@ -1,0 +1,54 @@
+{
+  "id": "2021-urban-research-online-store",
+  "organization": {
+    "name_ja": "株式会社アーバンリサーチ",
+    "name_en": "Urban Research Co., Ltd.",
+    "domain": "urban-research.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-03-10",
+  "discovered_on": "2021-03-08",
+  "affected": {
+    "count": 317326,
+    "unit": "people",
+    "approximate": false,
+    "note": "UR CLUB members of the official online store. Credit card numbers were not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Apparel retailer Urban Research confirmed on 2021-03-08 that its official online store had been accessed without authorization from the night of 2021-03-07. It said personal data of 317,326 UR CLUB members, including names, addresses, phone numbers, email addresses and birthdates, may have leaked.",
+    "ja": "アパレルのアーバンリサーチは、公式オンラインストアが2021年3月7日夜から外部の不正アクセスを受けたことを3月8日に確認した。UR CLUB会員317,326人分の氏名、住所、電話番号、メールアドレス、生年月日などが流出したおそれがあると公表した。"
+  },
+  "official_notice_url": "http://www.urban-research.co.jp/news/company/2021/03/info210310/",
+  "sources": [
+    {
+      "url": "http://www.urban-research.co.jp/news/company/2021/03/info210310/",
+      "title": "アーバンリサーチ公式オンラインストアからの個人情報流出に関するお詫びとお願い",
+      "publisher": "株式会社アーバンリサーチ",
+      "published_on": "2021-03-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/03/12/45321.html",
+      "title": "アーバンリサーチの公式 ECサイトへ不正アクセス、会員情報流出の可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-03-12"
+    },
+    {
+      "url": "https://www.security-next.com/124066",
+      "title": "アパレル「アーバンリサーチ」の通販サイトに不正アクセス",
+      "publisher": "Security NEXT",
+      "published_on": "2021-03-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

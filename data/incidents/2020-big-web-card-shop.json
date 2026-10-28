@@ -1,0 +1,45 @@
+{
+  "id": "2020-big-web-card-shop",
+  "organization": {
+    "name_ja": "株式会社ホビーズファクトリー",
+    "name_en": "Hobbies Factory Co., Ltd.",
+    "domain": null
+  },
+  "industry": "retail",
+  "disclosed_on": "2020-02-27",
+  "discovered_on": "2020-02-14",
+  "affected": {
+    "count": 63587,
+    "unit": "records",
+    "approximate": false,
+    "note": "Member records registered before April 2012 on Card Shop BIG-WEB, including login IDs, plaintext passwords and email addresses. The company believes a server used before September 2017 was breached, likely around April 2012. No credit card data was held."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Hobbies Factory, which runs the trading card store Card Shop BIG-WEB, confirmed that 63,587 member records registered before April 2012 had leaked after an outside organization reported them. The records contained login IDs, plaintext passwords and email addresses.",
+    "ja": "トレーディングカード通販「カードショップBIG-WEB」を運営するホビーズファクトリーは、外部機関からの通報を受けて調査し、2012年4月以前に登録された会員情報6万3,587件の漏えいを確認したと公表した。ログインID、平文のパスワード、メールアドレスが含まれていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/112734",
+      "title": "カードゲーム通販サイトで情報流出 - 旧サーバに不正アクセスか",
+      "publisher": "Security NEXT",
+      "published_on": "2020-02-28"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/03/02/43751.html",
+      "title": "カードショップBIG-WEB、平文パスワード含む会員情報流出（ホビーズファクトリー）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-03-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

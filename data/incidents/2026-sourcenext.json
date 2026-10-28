@@ -1,0 +1,49 @@
+{
+  "id": "2026-sourcenext",
+  "organization": {
+    "name_ja": "ソースネクスト株式会社",
+    "name_en": "SOURCENEXT Corporation",
+    "domain": "sourcenext.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-15",
+  "discovered_on": "2026-10-13",
+  "affected": {
+    "count": 22519960,
+    "unit": "records",
+    "approximate": false,
+    "note": "Member records retrieved through the member information API; the leaked fields differ by account depending on what each member registered. Credit card data is not stored in the affected system. All members are required to reset their password at next login."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Software vendor Sourcenext confirmed unauthorized access to its member information system on 2026-10-13 and found that a third party had been misusing its member information API since 2026-10-09. It announced that 22,519,960 member records, including email addresses, passwords, names, addresses and birthdates, had been taken.",
+    "ja": "ソースネクストは2026年10月13日に会員情報システムへの不正アクセスを確認し、10月9日頃から第三者が会員情報取得APIを不正に利用していたことが判明した。メールアドレス、パスワード、氏名、住所、生年月日などを含む22,519,960件の会員情報が外部に流出したと発表した。"
+  },
+  "official_notice_url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+  "sources": [
+    {
+      "url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+      "title": "当社サイトへの不正アクセスによるお客様情報流出のお詫びとお知らせ",
+      "publisher": "ソースネクスト株式会社",
+      "published_on": "2026-10-15"
+    },
+    {
+      "url": "https://www.watch.impress.co.jp/docs/news/2148547.html",
+      "title": "ソースネクスト、最大2251万件の情報流出 パスワード再設定を",
+      "publisher": "Impress Watch",
+      "published_on": "2026-10-15"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

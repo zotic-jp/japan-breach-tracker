@@ -1,0 +1,49 @@
+{
+  "id": "2022-harmonick-catalog-gift",
+  "organization": {
+    "name_ja": "株式会社ハーモニック",
+    "name_en": "Harmonick Co., Ltd.",
+    "domain": "harmonick.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-07-13",
+  "discovered_on": "2022-02-08",
+  "affected": {
+    "count": 150236,
+    "unit": "people",
+    "approximate": false,
+    "note": "Personal data of all 150,236 customers who registered or bought on the site up to 2020-11-14, plus data on 5,445 children provided for name engraving. Separately, card details of 28,700 customers used between 2020-11-14 and 2021-11-11 may have been stolen and misused."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Catalog gift retailer Harmonick said attackers tampered with the payment application of its e-commerce site. Card details of 28,700 customers and personal data of 150,236 customers may have been leaked.",
+    "ja": "カタログギフト販売のハーモニックは、ECサイトの決済アプリケーションが改ざんされたと公表した。顧客2万8,700人のクレジットカード情報と、顧客15万236人の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/138160",
+      "title": "カタログギフト販売サイトに不正アクセス - 顧客情報が流出した可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2022-07-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/07/15/47908.html",
+      "title": "カタログギフト販売ECサイトに不正アクセス、最大28,700名のカード情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-07-15"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

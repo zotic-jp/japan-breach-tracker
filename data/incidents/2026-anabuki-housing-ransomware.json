@@ -1,0 +1,51 @@
+{
+  "id": "2026-anabuki-housing-ransomware",
+  "organization": {
+    "name_ja": "株式会社穴吹ハウジングサービス",
+    "name_en": "Anabuki Housing Service Co., Ltd.",
+    "domain": "anabuki-housing.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2026-02-03",
+  "discovered_on": "2026-02-03",
+  "affected": {
+    "count": 207773,
+    "unit": "records",
+    "approximate": false,
+    "note": "Final figure from the sixth report (2026-05-21) of personal data held by the company and its group companies that may have been taken outside. An earlier report had estimated up to about 496,000 records."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Property management company Anabuki Housing Service found ransomware on some of its servers on 2026-02-03, after attackers entered through a vulnerability in a group company's network equipment. Its final report said 207,773 records of personal data held by the company and its group may have leaked.",
+    "ja": "マンション管理などを手がける穴吹ハウジングサービスは、2026年2月3日に一部サーバーでランサムウェア被害を確認した。グループ会社のネットワーク機器の脆弱性を突かれて侵入されたもので、最終報では同社とグループ会社が保有する207,773件の個人情報が外部に漏えいした可能性があるとした。"
+  },
+  "official_notice_url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=530",
+  "sources": [
+    {
+      "url": "https://www.anabuki-housing.co.jp/news/content.php?news_id=530",
+      "title": "情報漏えいに関する調査結果および今後の取り組みについて（ランサムウェア攻撃による不正アクセスについて・第6報）",
+      "publisher": "株式会社穴吹ハウジングサービス",
+      "published_on": "2026-05-21"
+    },
+    {
+      "url": "https://www.security-next.com/181922",
+      "title": "ランサムウェア被害による情報流出を確認 - 穴吹ハウジングサービス",
+      "publisher": "Security NEXT",
+      "published_on": "2026-03-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/06/03/55414.html",
+      "title": "穴吹ハウジングサービスへのランサムウェア攻撃、外部に漏えいした可能性のある個人情報は 207,773 件であることを最終確認",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-06-03"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

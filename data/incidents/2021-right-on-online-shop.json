@@ -1,0 +1,54 @@
+{
+  "id": "2021-right-on-online-shop",
+  "organization": {
+    "name_ja": "株式会社ライトオン",
+    "name_en": "Right-On Co., Ltd.",
+    "domain": "right-on.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-11-04",
+  "discovered_on": "2021-10-27",
+  "affected": {
+    "count": 247600,
+    "unit": "people",
+    "approximate": false,
+    "note": "Right-On Members data. Credit card numbers and passwords were not included."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "address",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Casual clothing chain Right-On detected abnormal access to its official online shop on 2021-10-27 and found intermittent attacks from around 2021-10-23. It confirmed that personal data of 247,600 members, including names, addresses, phone numbers and email addresses, had leaked.",
+    "ja": "カジュアル衣料のライトオンは、2021年10月27日に公式オンラインショップへの異常なアクセスを検知し、10月23日ごろから断続的な攻撃を受けていたことを確認した。会員24万7600人分の氏名、住所、電話番号、メールアドレスなどが流出したと公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.itmedia.co.jp/news/articles/2111/04/news155.html",
+      "title": "アパレル専門店「ライトオン」に不正アクセス、顧客情報24万件超が流出",
+      "publisher": "ITmedia NEWS",
+      "published_on": "2021-11-04"
+    },
+    {
+      "url": "https://www.security-next.com/131328",
+      "title": "ライトオンに不正アクセス、会員の個人情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2021-11-04"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/11/08/46597.html",
+      "title": "ライトオン公式オンラインショップに不正アクセス、約25万件の会員情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-11-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2024-nextlevel-worker-database",
+  "organization": {
+    "name_ja": "株式会社ネクストレベル",
+    "name_en": "Next Level Co., Ltd.",
+    "domain": "nextlevel2008.com"
+  },
+  "industry": "other",
+  "disclosed_on": "2024-05-24",
+  "discovered_on": "2023-07-14",
+  "affected": {
+    "count": 496119,
+    "unit": "records",
+    "approximate": false,
+    "note": "Detected July 2023; Security NEXT reported disclosure 2024-06-07. Org's first public notice date not verified - could predate 2024."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Short-term staffing platform operator Next Level said its worker database was accessed without authorization through the admin screen issued to a member company, and personal data of 496,119 registered workers was extracted. The data included names, addresses, birthdates, bank account details and links to ID document photos; the company recovered a USB stick from a person who said they had obtained the data.",
+    "ja": "短期人材サービスのネクストレベルは、加盟企業に付与していた管理画面からワーカーデータベースに不正アクセスされ、登録ワーカー496,119件の個人情報が抜き取られたと公表した。氏名、住所、生年月日、口座情報、身分証明書画像へのURLなどが含まれ、データを入手したと名乗る人物から警察立ち会いのもとUSBメモリの返却を受けた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/157649",
+      "title": "バイト情報サイトから登録者情報が流出 - 転得したとの人物から連絡も",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/06/04/51096.html",
+      "title": "「ネクストレベル」に不正アクセス、496,119 件のワーカーの個人情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-06-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

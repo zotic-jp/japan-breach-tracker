@@ -1,0 +1,49 @@
+{
+  "id": "2025-just-curtain-online-shop",
+  "organization": {
+    "name_ja": "株式会社インテリックス（ジャストカーテンオンラインショップ）",
+    "name_en": "Interix (Just Curtain Online Shop)",
+    "domain": "justcurtain.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-06-02",
+  "discovered_on": "2025-05-21",
+  "affected": {
+    "count": 60663,
+    "unit": "people",
+    "approximate": false,
+    "note": "Count per the 2026-01-26 investigation report as covered by Netshop Tanto-sha Forum (the official site could not be fetched): 60,663 people who purchased, registered or requested samples between 2019-06-01 and 2025-05-24 (name, address, phone, email, password, optional birthdate), and 10,423 people who paid by card between 2024-04-30 and 2025-05-24 (cardholder name, number, expiry, security code), with possible fraudulent card use. Store purchases were not affected."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "birthdate",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Interix, which runs the made-to-order curtain store Just Curtain Online Shop, was warned by a card company on 2025-05-21 and stopped card payments on 2025-05-26. Its investigation found the payment application had been tampered with via a vulnerability, and personal data of 60,663 people, including card data of 10,423, may have leaked.",
+    "ja": "オーダーカーテン通販「ジャストカーテンオンラインショップ」を運営するインテリックスは、2025年5月21日にカード会社から連絡を受け、5月26日にカード決済を停止した。調査で脆弱性を突かれ決済アプリケーションが改ざんされていたことが判明し、60,663人の個人情報と10,423人のカード情報が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/06/17/53056.html",
+      "title": "「ジャストカーテンオンラインショップ」に不正アクセス、カード払い顧客に利用履歴確認を呼びかけ",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-06-17"
+    },
+    {
+      "url": "https://netshop.impress.co.jp/n/2026/01/28/15499",
+      "title": "カーテンのECサイトに不正アクセス、カード情報約1万件が漏えいした可能性",
+      "publisher": "ネットショップ担当者フォーラム (Impress)",
+      "published_on": "2026-01-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

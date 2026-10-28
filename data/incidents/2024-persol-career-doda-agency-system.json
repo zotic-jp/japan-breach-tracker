@@ -1,0 +1,45 @@
+{
+  "id": "2024-persol-career-doda-agency-system",
+  "organization": {
+    "name_ja": "パーソルキャリア株式会社",
+    "name_en": "PERSOL CAREER CO., LTD.",
+    "domain": "doda.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2024-09-17",
+  "discovered_on": null,
+  "affected": {
+    "count": 549195,
+    "unit": "people",
+    "approximate": false,
+    "note": "549,195 recruiters at client companies viewable by 1,164 agencies/subcontractors since 2018-05-31; fixed 2024-08-30. Official notice not located; Security NEXT article 2024-09-17."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "PERSOL CAREER said a flaw in a system it provides to sales agencies for its doda job ads let 1,164 agencies and their subcontractors view business card-level data of 549,195 hiring managers at client companies that they did not need. It came to light when a hiring manager was approached by an agency with no business relationship.",
+    "ja": "パーソルキャリアは、転職サービス「doda」の求人広告販売代理店向けシステムの不備により、本来閲覧の必要がない法人顧客の採用担当者549,195人分の名刺情報に準ずる個人情報が、代理店とその委託先1,164社から閲覧できる状態だったと公表した。取引のない代理店から営業を受けた採用担当者の問い合わせで発覚した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/161938",
+      "title": "代理店用システムに不具合、一部個人情報が閲覧可能に - パーソルキャリア",
+      "publisher": "Security NEXT",
+      "published_on": "2024-09-17"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/10/01/51689.html",
+      "title": "「doda」販売代理店向けシステムに不備、549,195 名の個人情報が閲覧された可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-10-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

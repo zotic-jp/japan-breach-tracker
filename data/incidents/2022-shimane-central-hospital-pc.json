@@ -1,0 +1,52 @@
+{
+  "id": "2022-shimane-central-hospital-pc",
+  "organization": {
+    "name_ja": "島根県立中央病院",
+    "name_en": "Shimane Prefectural Central Hospital",
+    "domain": "spch.izumo.shimane.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2022-08-22",
+  "discovered_on": null,
+  "affected": {
+    "count": 30743,
+    "unit": "people",
+    "approximate": false,
+    "note": "24,563 patients seen or admitted between 2020-08-27 and 2021-01-26 (detailed exam and chart data for 79 of them) and 6,180 staff and contractor users of the electronic medical record system."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "health",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Shimane Prefectural Central Hospital said an electronic medical record terminal holding data on 24,563 patients and 6,180 staff went missing after it was sent for repair in March 2021. The hospital and the repair company disagreed about whether the device was handed over.",
+    "ja": "島根県立中央病院は、患者2万4,563人と職員6,180人の情報が保存された電子カルテ用端末が、2021年3月の修理依頼を機に所在不明となったと公表した。病院と修理業者で引き渡しをめぐる見解が分かれている。"
+  },
+  "official_notice_url": "https://www.spch.izumo.shimane.jp/post.html",
+  "sources": [
+    {
+      "url": "https://www.spch.izumo.shimane.jp/new/dl/20220822gaiyou.pdf",
+      "title": "個人情報が保存されている電子カルテ用端末の紛失について",
+      "publisher": "島根県立中央病院",
+      "published_on": "2022-08-22"
+    },
+    {
+      "url": "https://www.security-next.com/139119",
+      "title": "修理依頼の過程で電子カルテ端末が所在不明に - 病院と業者でわかれる見解",
+      "publisher": "Security NEXT",
+      "published_on": "2022-08-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/09/07/48150.html",
+      "title": "修理依頼したら電子カルテ用端末が所在不明に、業者は病院との見解の食い違いを表明",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-09-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

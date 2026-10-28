@@ -1,0 +1,48 @@
+{
+  "id": "2026-ntv-wands-faveconnect",
+  "organization": {
+    "name_ja": "株式会社日テレWands",
+    "name_en": "Nittele Wands Inc.",
+    "domain": "ntv-wands.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2026-10-14",
+  "discovered_on": "2026-10-13",
+  "affected": {
+    "count": 117392,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Combined total of members and former members (within six months of leaving) of two fan sites run on FaveConnect: the 高嶺のなでしこ official fan club (co-provided with TWIN PLANET) and HEROINES OFFICIAL WEBSITE (co-provided with imaginate). Card numbers were not included."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Nittele Wands detected suspicious access to the administrator screen of its fan community service FaveConnect on 2026-10-13. A third party had logged in with an administrator account between 2026-10-11 and 10-13, and personal data of 117,392 accounts on two fan club sites, including names, email addresses, addresses, phone numbers and birthdates, may have been viewed.",
+    "ja": "日テレWandsは2026年10月13日、ファンコミュニケーションサービス「FaveConnect」の運営管理者向け画面への不審なアクセスを検知した。第三者が10月11日から13日にかけて管理者アカウントで不正ログインしており、2つのファンクラブサイトの117,392アカウント分の氏名、メールアドレス、住所、電話番号、生年月日などが閲覧された可能性がある。"
+  },
+  "official_notice_url": "https://www.ntv-wands.co.jp/news/articles/pbs9b02rgl3oubrj.html",
+  "sources": [
+    {
+      "url": "https://www.ntv-wands.co.jp/news/articles/pbs9b02rgl3oubrj.html",
+      "title": "「FaveConnect」への不正アクセスによる個人情報閲覧の可能性について",
+      "publisher": "株式会社日テレWands",
+      "published_on": "2026-10-14"
+    },
+    {
+      "url": "https://twinplanet.co.jp/5805/",
+      "title": "「高嶺のなでしこオフィシャルファンクラブ」会員様の個人情報が閲覧された可能性に関するお詫びとお知らせ",
+      "publisher": "株式会社TWIN PLANET",
+      "published_on": "2026-10-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

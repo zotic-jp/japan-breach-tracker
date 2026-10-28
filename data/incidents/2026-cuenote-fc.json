@@ -1,0 +1,52 @@
+{
+  "id": "2026-cuenote-fc",
+  "organization": {
+    "name_ja": "ユミルリンク株式会社",
+    "name_en": "Ymirlink, Inc.",
+    "domain": "cuenote.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-19",
+  "discovered_on": "2026-10-16",
+  "affected": {
+    "count": 51628280,
+    "unit": "records",
+    "approximate": false,
+    "note": "Cumulative (延べ) count of records, including email addresses, output from 49 dedicated Cuenote FC email delivery systems as of the second report on 2026-10-26, up from an estimated 9 million in the first report. Duplicates are not removed, 16 systems were still being counted, and the attached fields vary by client company. Separately, 190 customer contact records in the Cuenote BASE customer management system were viewable. Many client companies published their own notices."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Ymirlink found on 2026-10-16 that attackers had exploited a library vulnerability in its email delivery service Cuenote FC, obtained support staff credentials and installed malicious programs that exported data from databases. Its second report said data had leaked from 49 systems used by client companies, totalling 51,628,280 records on a cumulative basis.",
+    "ja": "ユミルリンクは2026年10月16日、メール配信サービス「Cuenote FC」でライブラリの脆弱性を悪用され、サポート担当者の認証情報の取得や不正プログラムの設置によりデータベースからデータが出力されたことを確認した。第二報では、利用企業の49システムで情報漏洩が発生し、延べ51,628,280件に上るとした。"
+  },
+  "official_notice_url": "https://www.cuenote.jp/support/news-incident.html",
+  "sources": [
+    {
+      "url": "https://www.cuenote.jp/support/news-incident.html",
+      "title": "当社システムへの不正なアクセスに関するご報告（最新情報）",
+      "publisher": "ユミルリンク株式会社",
+      "published_on": "2026-10-26"
+    },
+    {
+      "url": "https://www.ymir.co.jp/info/ymir-information20261027.html",
+      "title": "当社システムへの不正なアクセスに関するご報告（第二報）",
+      "publisher": "ユミルリンク株式会社",
+      "published_on": "2026-10-26"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56541.html",
+      "title": "ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、メールアドレスを含む延べ約900万件の情報が出力されたと試算",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

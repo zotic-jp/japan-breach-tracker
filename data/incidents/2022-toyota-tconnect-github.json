@@ -1,0 +1,50 @@
+{
+  "id": "2022-toyota-tconnect-github",
+  "organization": {
+    "name_ja": "トヨタ自動車株式会社・トヨタコネクティッド株式会社",
+    "name_en": "Toyota Motor Corporation and Toyota Connected Corporation",
+    "domain": "toyota.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2022-10-07",
+  "discovered_on": null,
+  "affected": {
+    "count": 296019,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses and customer management numbers of some T-Connect users. The access key was exposed in source code a development contractor had published on GitHub."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Toyota and Toyota Connected said a development contractor published part of the T-Connect website source code on GitHub with an access key to a data server. 296,019 email addresses and customer management numbers of T-Connect users may have been leaked.",
+    "ja": "トヨタ自動車とトヨタコネクティッドは、開発委託先がGitHubに公開したT-Connectのウェブサイトのソースコードに、データサーバへのアクセスキーが含まれていたと公表した。利用者のメールアドレスと顧客管理番号29万6,019件が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://global.toyota/jp/newsroom/corporate/38095972.html",
+  "sources": [
+    {
+      "url": "https://global.toyota/jp/newsroom/corporate/38095972.html",
+      "title": "お客様のメールアドレス等の漏洩可能性に関するお詫びとお知らせについて",
+      "publisher": "トヨタ自動車株式会社",
+      "published_on": "2022-10-07"
+    },
+    {
+      "url": "https://www.security-next.com/140419",
+      "title": "トヨタのネット接続サービス、アクセスキーが公開ソースコード内に - 情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2022-10-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/10/11/48309.html",
+      "title": "トヨタ「T-Connect」登録情報が漏えいの可能性、GitHub上でデータサーバーへのアクセスキーを公開",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-10-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

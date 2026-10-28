@@ -1,0 +1,50 @@
+{
+  "id": "2020-tottori-city-online-mall",
+  "organization": {
+    "name_ja": "鳥取市",
+    "name_en": "Tottori City",
+    "domain": null
+  },
+  "industry": "government",
+  "disclosed_on": "2020-05-04",
+  "discovered_on": "2020-05-01",
+  "affected": {
+    "count": 59021,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (59,021) because no overall total was given. 27,270 member records and 59,021 order records (including non-member orders and furusato nozei donors) stolen on 2019-07-12; the two sets may overlap. A further 20 donor records and data on 20 shops were taken on 2020-02-18."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password",
+    "bank_account",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Tottori City said its online shopping mall Tottori-shi was accessed without authorization three times between July 2019 and March 2020. Member records (27,270) and order records (59,021) including names, addresses, phone numbers, birthdates and email addresses were leaked.",
+    "ja": "鳥取市は、市が運営するオンラインショッピングモール「とっとり市」が2019年7月から2020年3月にかけて3回の不正アクセスを受けたと公表した。氏名、住所、電話番号、生年月日、メールアドレスなどを含む会員情報2万7,270件と受注情報5万9,021件が流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/114645",
+      "title": "鳥取市の通販サイトに不正アクセス - 利用者情報が流出",
+      "publisher": "Security NEXT",
+      "published_on": "2020-05-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/05/11/44077.html",
+      "title": "ふるさと納税寄付者含む 59,021 件の受注情報が不正アクセスで流出（鳥取市）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-05-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

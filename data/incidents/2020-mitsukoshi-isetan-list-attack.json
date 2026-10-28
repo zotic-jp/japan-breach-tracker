@@ -1,0 +1,54 @@
+{
+  "id": "2020-mitsukoshi-isetan-list-attack",
+  "organization": {
+    "name_ja": "株式会社三越伊勢丹",
+    "name_en": "Mitsukoshi Isetan Co., Ltd.",
+    "domain": null
+  },
+  "industry": "retail",
+  "disclosed_on": "2020-08-05",
+  "discovered_on": null,
+  "affected": {
+    "count": 53868,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "50,285 Mitsukoshi Isetan Online Store accounts logged into between 2020-05-05 and 2020-08-03 (initially reported as 15,336), plus 3,583 accounts on the M Card website (MI Card). Only the last four digits and expiry of credit cards were visible."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Mitsukoshi Isetan said its online store and the website of group card company MI Card were hit by list-based login attacks from overseas IP addresses. A forensic investigation found 50,285 online store accounts and 3,583 card site accounts were logged into, and members' names, addresses, phone numbers, email addresses and birthdates may have been viewed.",
+    "ja": "三越伊勢丹は、「三越伊勢丹オンラインストア」とグループ会社エムアイカードのウェブサイトが、海外IPアドレスからのリスト型攻撃による不正ログインを受けたと公表した。フォレンジック調査でオンラインストア5万285件、エムアイカードのサイト3,583件の不正ログインが判明し、氏名、住所、電話番号、メールアドレス、生年月日などが閲覧された可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/118399",
+      "title": "三越伊勢丹に対する不正ログインは5月から発生 - 約5.4万人に影響",
+      "publisher": "Security NEXT",
+      "published_on": "2020-09-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/08/07/44410.html",
+      "title": "「三越伊勢丹オンラインストア」「エムアイカード ホームページ」にパスワードリスト型攻撃（三越伊勢丹）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-08-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/09/16/44561.html",
+      "title": "パスワードリスト型攻撃のフォレンジック調査で新たな不正ログイン判明（三越伊勢丹）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-09-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

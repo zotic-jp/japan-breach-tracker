@@ -1,0 +1,52 @@
+{
+  "id": "2026-gyazo",
+  "organization": {
+    "name_ja": "株式会社Helpfeel",
+    "name_en": "Helpfeel Inc.",
+    "domain": "gyazo.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-09-16",
+  "discovered_on": "2026-09-11",
+  "affected": {
+    "count": 23620000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 23.62 million user records, of which about 18.01 million were anonymous accounts without an email address and about 5.62 million had an email registered; the number of identifiable people was still under investigation. Separately, about 490 million image metadata records, about 2.4 million more, and (per the second report) about 174 million records for previously deleted images leaked. Card numbers were not leaked."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Helpfeel, operator of the image sharing service Gyazo, said an attacker exploited a vulnerability in its image upload server on 2026-09-11 and took data from the Gyazo database. About 23.62 million user records, including email addresses and password hashes, and hundreds of millions of image metadata records leaked.",
+    "ja": "画像共有サービス「Gyazo」を運営するHelpfeelは、2026年9月11日に画像アップロード用サーバーの脆弱性を突かれ、Gyazoのデータベースから情報が持ち出されたと発表した。メールアドレスやパスワードのハッシュ値などを含む約2,362万件のユーザー情報と、数億件規模の画像メタデータが流出した。"
+  },
+  "official_notice_url": "https://corp.helpfeel.com/news/news-20260916-1",
+  "sources": [
+    {
+      "url": "https://corp.helpfeel.com/news/news-20260916-1",
+      "title": "「Gyazo」への不正アクセスによる情報漏えいに関するお知らせとお詫び",
+      "publisher": "株式会社Helpfeel",
+      "published_on": "2026-09-16"
+    },
+    {
+      "url": "https://www.itmedia.co.jp/news/article/2609/16/2000001560/",
+      "title": "Gyazoに不正アクセス ユーザー情報約2362万件、画像メタデータ約4.9億件が流出",
+      "publisher": "ITmedia NEWS",
+      "published_on": "2026-09-16"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2143465.html",
+      "title": "Gyazo、不正アクセスで続報。過去に削除された画像のメタデータ約1.74億件も流出",
+      "publisher": "INTERNET Watch",
+      "published_on": "2026-09-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

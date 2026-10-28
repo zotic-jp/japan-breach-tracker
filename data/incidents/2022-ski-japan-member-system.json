@@ -1,0 +1,48 @@
+{
+  "id": "2022-ski-japan-member-system",
+  "organization": {
+    "name_ja": "公益財団法人全日本スキー連盟",
+    "name_en": "Ski Association of Japan",
+    "domain": "ski-japan.or.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2022-10-04",
+  "discovered_on": null,
+  "affected": {
+    "count": 110807,
+    "unit": "records",
+    "approximate": false,
+    "note": "All 110,807 member records, including former members, could be listed through a flaw in the search function of the admin screen for affiliated groups since 2019-08-01. Logs showed two groups triggered it and one downloaded a CSV with 223 records."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The Ski Association of Japan said a programming error in the search function of its member management system let affiliated group administrators view and download data of members outside their own group. 110,807 member records were exposed to this flaw.",
+    "ja": "全日本スキー連盟は、会員管理システムの加盟団体向け管理画面の検索機能に不備があり、管理下にない会員の情報を閲覧、ダウンロードできる状態だったと公表した。11万807件の会員情報が対象となった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/140292",
+      "title": "全日本スキー連盟の会員管理システムに不具合 - 検索機能に不備",
+      "publisher": "Security NEXT",
+      "published_on": "2022-10-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/10/07/48297.html",
+      "title": "全日本スキー連盟の会員管理システムに不具合、管理下にない会員情報の閲覧が可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-10-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

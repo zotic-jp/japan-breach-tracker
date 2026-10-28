@@ -1,0 +1,46 @@
+{
+  "id": "2026-niigata-nippo-blastmail",
+  "organization": {
+    "name_ja": "株式会社新潟日報社",
+    "name_en": "The Niigata Nippo Co., Ltd.",
+    "domain": "niigata-nippo.co.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-10-22",
+  "discovered_on": null,
+  "affected": {
+    "count": 253000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Estimated maximum of Niigata Nippo Passport members, all of whose data stored in Blastmail was reported leaked. Separately, data of about 7,000 Niigata Salmon Project members may have leaked and was still under investigation. One of many customer-side impacts of the Blastmail breach (see 2026-blastmail)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ラクスライトクラウド (ブラストメール)",
+  "status": "confirmed",
+  "summary": {
+    "en": "Regional newspaper Niigata Nippo said member data it stored in the email delivery service Blastmail leaked when the service was accessed without authorization. Data of up to about 253,000 Niigata Nippo Passport members, including katakana names, prefecture and municipality, email addresses, gender and age group, was affected.",
+    "ja": "新潟日報社は、利用していたメール配信サービス「ブラストメール」への不正アクセスにより、同サービスに登録していた会員情報が漏えいしたと発表した。対象は「新潟日報パスポート」会員最大約25万3,000人で、カナ氏名、都道府県・市区町村、メールアドレス、性別、年代などが含まれる。"
+  },
+  "official_notice_url": "https://www.niigata-nippo.co.jp/articles/-/929006",
+  "sources": [
+    {
+      "url": "https://www.niigata-nippo.co.jp/articles/-/929006",
+      "title": "【お詫びとお知らせ】株式会社ラクスライトクラウドへの不正アクセスに伴う当社会員の個人情報漏えいについて（第２報）",
+      "publisher": "新潟日報社",
+      "published_on": "2026-10-22"
+    },
+    {
+      "url": "https://www.niigata-nippo.co.jp/articles/-/930365",
+      "title": "【お詫びとお知らせ】株式会社ラクスライトクラウドへの不正アクセスに伴う当社会員の個人情報漏えいについて(第５報）",
+      "publisher": "新潟日報社",
+      "published_on": "2026-10-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

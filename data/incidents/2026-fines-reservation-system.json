@@ -1,0 +1,46 @@
+{
+  "id": "2026-fines-reservation-system",
+  "organization": {
+    "name_ja": "株式会社ファインズ",
+    "name_en": "Fines Inc.",
+    "domain": null
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-09-25",
+  "discovered_on": "2026-09-22",
+  "affected": {
+    "count": 1536322,
+    "unit": "records",
+    "approximate": false,
+    "note": "Reservation records in a reservation system Fines provides to stores, according to its preliminary report. The investigation was ongoing."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Fines detected an anomaly in a reservation system it operates on 2026-09-22 and confirmed unauthorized access by a third party. In a preliminary report it said 1,536,322 records of people who made reservations, including names, phone numbers, email addresses and booking details, had leaked.",
+    "ja": "ファインズは2026年9月22日に同社が運営する予約システムで異常を検知し、第三者による不正アクセスを確認した。速報で、予約者の氏名、電話番号、メールアドレス、予約内容を含む1,536,322件の情報が漏えいしたと公表した。"
+  },
+  "official_notice_url": "https://e-tenki.co.jp/news/%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84/",
+  "sources": [
+    {
+      "url": "https://e-tenki.co.jp/news/%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84/",
+      "title": "弊社システムへの不正アクセスによる情報漏えいについてのお詫びとお知らせ【速報】",
+      "publisher": "株式会社ファインズ",
+      "published_on": "2026-09-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/15/56459.html",
+      "title": "ファインズの予約システムに不正アクセス、1,536,322件の予約者情報が影響",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-15"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

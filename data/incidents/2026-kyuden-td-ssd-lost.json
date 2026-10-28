@@ -1,0 +1,46 @@
+{
+  "id": "2026-kyuden-td-ssd-lost",
+  "organization": {
+    "name_ja": "九州電力送配電株式会社",
+    "name_en": "Kyushu Electric Power Transmission and Distribution Co., Inc.",
+    "domain": "kyuden.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2026-06-08",
+  "discovered_on": "2026-05-26",
+  "affected": {
+    "count": 10900000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to about 10.9 million customer supply points (延べ, individuals and businesses across almost all of Kyushu) on a backup SSD that went missing between 2026-04-27 and 2026-05-26. No bank account or card data was stored, and no leak had been confirmed as of the reports. The company filed a damage report with Fukuoka Prefectural Police."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kyushu Electric Power Transmission and Distribution, a Kyushu Electric subsidiary, announced on 2026-06-08 that a backup SSD holding customer data had gone missing from an unlocked cabinet in a server room. The drive held names, supply addresses, phone numbers and electricity usage data for up to about 10.9 million supply points, which may leak.",
+    "ja": "九州電力の子会社である九州電力送配電は2026年6月8日、顧客情報を保存したバックアップ用SSDが、サーバ室内の施錠されていないキャビネットから所在不明になったと発表した。SSDには最大約1,090万口分の需要者名、供給場所住所、電話番号、使用電力量などが保存されており、漏えいのおそれがある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/10/news045.html",
+      "title": "九州電力送配電、1090万口分の顧客情報を保存した媒体が所在不明に",
+      "publisher": "@IT",
+      "published_on": "2026-06-10"
+    },
+    {
+      "url": "https://kumanichi.com/articles/2006619",
+      "title": "九電社長、顧客情報紛失を謝罪 株主総会で、九州ほぼ全域",
+      "publisher": "共同通信（熊本日日新聞）",
+      "published_on": "2026-06-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

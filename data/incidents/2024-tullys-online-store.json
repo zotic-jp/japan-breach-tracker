@@ -1,0 +1,62 @@
+{
+  "id": "2024-tullys-online-store",
+  "organization": {
+    "name_ja": "タリーズコーヒージャパン株式会社",
+    "name_en": "Tully's Coffee Japan Co., Ltd.",
+    "domain": "tullys.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-05-30",
+  "discovered_on": "2024-05-20",
+  "affected": {
+    "count": 92685,
+    "unit": "people",
+    "approximate": false,
+    "note": "92,685 members registered 2020-10-01 to 2024-05-23; of these 52,958 card users (2021-07-20 to 2024-05-20) may have had card data stolen."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Tully's Coffee Japan said its online store was compromised through a vulnerability and its payment application altered, after police warned it of a possible card data leak on 2024-05-20. Personal data of 92,685 members, including passwords, and card data of 52,958 customers may have leaked.",
+    "ja": "タリーズコーヒージャパンは、2024年5月20日に警視庁からカード情報流出の可能性を指摘され、調査の結果、オンラインストアが脆弱性を突かれ決済アプリケーションが改ざんされていたと公表した。パスワードを含む会員92,685人の個人情報と、52,958人分のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.tullys.co.jp/information/2024/10/post-14.html",
+  "sources": [
+    {
+      "url": "https://www.tullys.co.jp/information/2024/10/post-14.html",
+      "title": "【重要】弊社が運営する「タリーズ オンラインストア」への不正アクセスによる個人情報漏洩の恐れに関するお詫びと調査結果のご報告",
+      "publisher": "タリーズコーヒージャパン株式会社",
+      "published_on": "2024-10-03"
+    },
+    {
+      "url": "https://www.security-next.com/157744",
+      "title": "タリーズの通販サイトにサイバー攻撃 - 情報流出など影響を調査",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-30"
+    },
+    {
+      "url": "https://www.security-next.com/162565",
+      "title": "決済アプリ改ざん、顧客情報9万件が流出か - タリーズ通販サイト",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-04"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/10/16/51767.html",
+      "title": "「タリーズ オンラインストア」への不正アクセス、92,685 名の会員情報と 52,958 名のカード情報が漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-10-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

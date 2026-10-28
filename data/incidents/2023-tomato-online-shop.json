@@ -1,0 +1,49 @@
+{
+  "id": "2023-tomato-online-shop",
+  "organization": {
+    "name_ja": "株式会社トマト",
+    "name_en": "Tomato Co., Ltd.",
+    "domain": null
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-02-28",
+  "discovered_on": "2022-11-24",
+  "affected": {
+    "count": 62575,
+    "unit": "people",
+    "approximate": false,
+    "note": "Personal data of 62,575 people (name, address, birthdate, email, phone, purchase history), including credit card data of 14,256 people who bought between 2021-01-22 and 2022-10-03. ScanNetSecurity reported the card data as leaked; Mynavi described the data as possibly leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "birthdate",
+    "email",
+    "phone",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Tomato, which runs the fabric mail-order site Tomato Online Shop, reported that attackers exploited a vulnerability and planted malicious files on the site. Credit card data of 14,256 customers and other personal data of 62,575 people were affected.",
+    "ja": "生地・布の通販サイト「トマトオンラインショップ」を運営するトマトは、サイトの脆弱性を突かれ不正なファイルを設置されたと公表した。14,256人分のクレジットカード情報と、62,575人分の個人情報が対象となった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/03/06/49014.html",
+      "title": "生地・布の通販サイト「トマトオンラインショップ」へ不正アクセス、14,256名のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-03-06"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20230307-security",
+      "title": "先週のサイバー事件簿 - ラウンドワンのホームページで改ざん被害、外部サイトへ誘導",
+      "publisher": "マイナビニュース",
+      "published_on": "2023-03-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2023-kurashiki-hampu-online-store",
+  "organization": {
+    "name_ja": "倉敷帆布株式会社",
+    "name_en": "Kurashiki Hampu Co., Ltd.",
+    "domain": "kurashikihampu.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2023-08-17",
+  "discovered_on": "2023-05-02",
+  "affected": {
+    "count": 40869,
+    "unit": "people",
+    "approximate": false,
+    "note": "Personal information of 40,869 customers entered since the site opened through 2023-04-17. Of these, card information of 8,655 customers who paid by card from 2021-03-24 to 2023-04-17 may have leaked, and some cards may have been misused."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kurashiki Hampu reported that an attacker exploited a vulnerability in its online store and tampered with the payment application. Card data of 8,655 customers and personal data of 40,869 customers may have leaked.",
+    "ja": "倉敷帆布は、オンラインストアのシステムの脆弱性を突かれ、決済アプリケーションが改ざんされたと公表した。顧客8,655名のクレジットカード情報と40,869名の個人情報が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.kurashikihampu.co.jp/news/brand/2023-08-17.html",
+  "sources": [
+    {
+      "url": "https://www.kurashikihampu.co.jp/news/brand/2023-08-17.html",
+      "title": "【重要】「倉敷帆布オンラインストア」への不正アクセスによる個人情報漏洩に関するお詫びとお知らせ",
+      "publisher": "倉敷帆布株式会社",
+      "published_on": "2023-08-17"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/08/24/49859.html",
+      "title": "「倉敷帆布オンラインストア」に不正アクセス、8,655名のカード情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-08-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

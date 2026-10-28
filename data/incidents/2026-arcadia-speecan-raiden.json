@@ -1,0 +1,54 @@
+{
+  "id": "2026-arcadia-speecan-raiden",
+  "organization": {
+    "name_ja": "株式会社アルカディア",
+    "name_en": "Arcadia, Inc.",
+    "domain": "arcadia.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-13",
+  "discovered_on": "2026-10-11",
+  "affected": {
+    "count": 3136000,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Estimated maximum for the disaster-information mail service SpeeCAN RAIDEN, which also included about 105,000 phone numbers and about 15,000 fax numbers; the figure covers all 875 contracts, many of them local governments. Separately, about 97,000 email addresses of 119RAIDEN and 9,020 email addresses linked to personal data in the NET119 emergency call system for people with hearing or speech impairments may have leaked. Arcadia said the figures are estimates and may change."
+  },
+  "data_types": [
+    "email",
+    "phone",
+    "name",
+    "birthdate",
+    "address",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Arcadia, which provides the SpeeCAN RAIDEN disaster-information mail service to many local governments, detected suspicious activity suggesting unauthorized access on 2026-10-11 and blocked the intrusion route the next day. It announced that up to about 3,136,000 subscriber email addresses may have leaked, and later reported that about 1.42 million emails, many suspected to be phishing, had been sent from its system.",
+    "ja": "多くの自治体に防災情報メール配信サービス「SpeeCAN RAIDEN」を提供するアルカディアは、2026年10月11日に不正アクセスが疑われる不審な挙動を確認し、翌日に侵入経路を遮断した。利用者のメールアドレス最大約313万6千件が漏えいした可能性があると発表し、その後、同社システムから約142万通のメール（多くはフィッシングの疑い）が送信されていたことも公表した。"
+  },
+  "official_notice_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+  "sources": [
+    {
+      "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+      "title": "弊社サービスへの不正アクセスに伴う一連の対応について",
+      "publisher": "株式会社アルカディア",
+      "published_on": "2026-10-13"
+    },
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2148769.html",
+      "title": "「SpeeCAN RAIDEN」に不正アクセス発生のアルカディアが続報、情報漏えいは引き続き調査中",
+      "publisher": "INTERNET Watch",
+      "published_on": "2026-10-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/16/56481.html",
+      "title": "アルカディア運営の「SpeeCAN RAIDEN」に不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

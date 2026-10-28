@@ -1,0 +1,50 @@
+{
+  "id": "2024-creates-online-shop",
+  "organization": {
+    "name_ja": "株式会社クレイツ",
+    "name_en": "CREATE'S Co., Ltd.",
+    "domain": "createsnet.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-02-20",
+  "discovered_on": "2023-06-01",
+  "affected": {
+    "count": 65520,
+    "unit": "people",
+    "approximate": false,
+    "note": "65,520 customers who entered data before 2023-04-03; 4,583 customers' 4,748 cards (2021-04-21 to 2023-04-03)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Hair care tool maker Create's said its official online shop was hit by unauthorized access and a program to steal entered data was embedded. Personal data of 65,520 customers who entered information before 2023-04-03 may have leaked, including card data of 4,583 customers.",
+    "ja": "ヘアケア機器メーカーのクレイツは、公式オンラインショップが不正アクセスを受け、入力情報を窃取するプログラムが埋め込まれたと公表した。2023年4月3日以前に情報を入力した顧客65,520人の個人情報が流出したおそれがあり、うち4,583人はクレジットカード情報も対象となる。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/153992",
+      "title": "ヘアケアツール通販サイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-02-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/03/04/50666.html",
+      "title": "美容品取り扱い「クレイツ公式オンラインショップ」に不正アクセス、4,583名のカード情報漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-03-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

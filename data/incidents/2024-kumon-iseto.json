@@ -1,0 +1,66 @@
+{
+  "id": "2024-kumon-iseto",
+  "organization": {
+    "name_ja": "株式会社公文教育研究会",
+    "name_en": "Kumon Institute of Education Co., Ltd.",
+    "domain": "kumon.ne.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2024-06-29",
+  "discovered_on": "2024-06-28",
+  "affected": {
+    "count": 739714,
+    "unit": "people",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (739,714) because no overall total was given. 739,714 members (deduplicated by Kumon) + 17,481 instructors; Kumon does not state a combined total (Security NEXT: ~76万). First report (2024-07-05) identified 4,678 members with address/phone/iKUMON codes."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "bank_account",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "株式会社イセトー",
+  "status": "confirmed",
+  "summary": {
+    "en": "Kumon Institute of Education said data it had given printing contractor ISETO leaked after ransomware hit ISETO. After ISETO's final report, Kumon found that data of 739,714 members, such as names, member numbers and classroom names, and 17,481 instructors, including addresses and masked bank details, had leaked.",
+    "ja": "公文教育研究会は、発送物の印刷などを委託していたイセトーのランサムウェア被害により、同社が提供したデータが流出したと公表した。イセトーの最終報告を受けた調査で、氏名、会員番号、教室名などを含む会員739,714人と、住所やマスキングされた口座情報などを含む指導者17,481人の情報が流出したことが判明した。"
+  },
+  "official_notice_url": "https://www.kumon.ne.jp/oshirase/2024081.html",
+  "sources": [
+    {
+      "url": "https://www.kumon.ne.jp/oshirase/2024081.html",
+      "title": "【お詫びとご報告】業務委託先へのランサムウェア攻撃による個人情報の漏えいについて（第三報）",
+      "publisher": "株式会社公文教育研究会",
+      "published_on": "2024-08-20"
+    },
+    {
+      "url": "https://www.kumon.ne.jp/oshirase/2024061.html",
+      "title": "【お詫びとご報告】6/29委託先へのランサムウェア攻撃による個人情報の流出について",
+      "publisher": "株式会社公文教育研究会",
+      "published_on": "2024-06-29"
+    },
+    {
+      "url": "https://www.kumon.ne.jp/oshirase/2024071.html",
+      "title": "【7/5続報】委託先へのランサムウェア攻撃による個人情報の漏えいについて",
+      "publisher": "株式会社公文教育研究会",
+      "published_on": "2024-07-05"
+    },
+    {
+      "url": "https://www.security-next.com/160978",
+      "title": "会員や指導者情報など約76万件が流出 - 公文教育研究会",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/08/29/51549.html",
+      "title": "イセトーへのランサムウェア攻撃、公文教育研究会の会員 739,714 名の漏えい新たに判明",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-08-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

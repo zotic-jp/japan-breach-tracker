@@ -1,0 +1,44 @@
+{
+  "id": "2024-hokkaido-university-engineering-server",
+  "organization": {
+    "name_ja": "国立大学法人北海道大学",
+    "name_en": "Hokkaido University",
+    "domain": "hokudai.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2024-03-01",
+  "discovered_on": "2024-02-28",
+  "affected": {
+    "count": 23554,
+    "unit": "records",
+    "approximate": false,
+    "note": "Includes 19,570 records of students enrolled since FY2003, 2,890 of staff since FY2004 and 1,090 of some staff family members."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Hokkaido University found that a web server managed by its Faculty of Engineering had been compromised. A database used by engineering departments held 23,554 records of students, staff, staff family members and others that may have leaked.",
+    "ja": "北海道大学は、大学院工学研究院が管理するウェブサーバがサイバー攻撃を受けたと公表した。工学系部局のデータベースに保存されていた学生、教職員、その家族などに関する23,554件の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/154388",
+      "title": "工学部ウェブサーバから個人情報流出の可能性 - 北大",
+      "publisher": "Security NEXT",
+      "published_on": "2024-03-12"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/03/05/50673.html",
+      "title": "北海道大学工学部ウェブサーバに不正アクセス、23,554件の個人情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-03-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

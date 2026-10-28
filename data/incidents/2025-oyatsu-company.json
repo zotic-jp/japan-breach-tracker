@@ -1,0 +1,35 @@
+{
+  "id": "2025-oyatsu-company",
+  "organization": {
+    "name_ja": "株式会社おやつカンパニー",
+    "name_en": "Oyatsu Company, Ltd.",
+    "domain": "oyatsu.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2025-03-12",
+  "discovered_on": "2025-03-03",
+  "affected": {
+    "count": 170000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 170,000 customers, including campaign winners from 2012 to 2025, as reported by ScanNetSecurity. The company's original notice could not be retrieved because its website was offline at the time of review."
+  },
+  "data_types": [],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Snack maker Oyatsu Company reported that a third party gained unauthorized access to its system server on 2025-03-03, causing a system failure. Information on about 170,000 customers, including past campaign winners, may have leaked.",
+    "ja": "おやつカンパニーは2025年3月3日にシステムサーバーへ第三者による不正アクセスを受け、システム障害が発生したと公表した。過去のキャンペーン当選者などを含む約17万名の顧客情報が漏えいした可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/03/18/52517.html",
+      "title": "2012～2025年に当選した顧客ほか ～ おやつカンパニーに不正アクセス、約 17 万名の顧客情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-03-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

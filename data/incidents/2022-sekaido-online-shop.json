@@ -1,0 +1,43 @@
+{
+  "id": "2022-sekaido-online-shop",
+  "organization": {
+    "name_ja": "株式会社世界堂",
+    "name_en": "Sekaido Co., Ltd.",
+    "domain": "sekaido.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-09-16",
+  "discovered_on": "2022-08-19",
+  "affected": {
+    "count": 186704,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Up to 186,704 email addresses of members registered by 2022-08-19. Names, birthdates, addresses, phone numbers, passwords and order history were not leaked. The attacked server was managed by a contractor."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Art supply and stationery retailer Sekaido said a server for its online shop, managed by a contractor, was accessed through a vulnerability on 2022-08-19. Up to 186,704 member email addresses may have been leaked.",
+    "ja": "画材や文具を販売する世界堂は、委託先が管理する「世界堂オンラインショップ」のサーバが2022年8月19日に脆弱性を突く不正アクセスを受けたと公表した。会員のメールアドレス最大18万6,704件が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/140034",
+      "title": "不正アクセスでECサイト会員のメアドが流出 - 文具画材店",
+      "publisher": "Security NEXT",
+      "published_on": "2022-09-27"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/09/28/48245.html",
+      "title": "画材・文房具取り扱い「世界堂オンラインショップ」に不正アクセス、最大186,704件のメ－ルアドレスが漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-09-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

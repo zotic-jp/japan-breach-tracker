@@ -1,0 +1,42 @@
+{
+  "id": "2026-daiki-suisan-app",
+  "organization": {
+    "name_ja": "大起水産株式会社",
+    "name_en": "Daiki Suisan Co., Ltd.",
+    "domain": "daiki-suisan.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2026-10-05",
+  "discovered_on": "2026-09-15",
+  "affected": {
+    "count": 174933,
+    "unit": "people",
+    "approximate": false,
+    "note": "Everyone who registered for the Daiki Suisan official app from 2024-11-01 to 2026-09-15, including those who later withdrew. Address and birthdate were optional fields, so not every record contains every item. Passwords were stored on a separate server and were not affected."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "email",
+    "address",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Seafood restaurant and retail chain Daiki Suisan confirmed on 2026-09-15 that the system of its official app had been accessed without authorization. It said personal data of 174,933 app registrants, such as names, phone numbers, email addresses and addresses, may have leaked, although no actual leak or misuse had been confirmed.",
+    "ja": "回転寿司や鮮魚販売を手がける大起水産は、2026年9月15日に「大起水産公式アプリ」のシステムが第三者による不正アクセスを受けたことを確認した。実際の漏えいや不正利用は確認されていないものの、アプリ登録者174,933人の氏名、電話番号、メールアドレス、住所などが漏えいした可能性があるとした。"
+  },
+  "official_notice_url": "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf",
+  "sources": [
+    {
+      "url": "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf",
+      "title": "不正アクセスによる個人情報漏えいのおそれに関するお詫びとお知らせ",
+      "publisher": "大起水産株式会社",
+      "published_on": "2026-10-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

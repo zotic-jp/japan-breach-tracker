@@ -1,0 +1,54 @@
+{
+  "id": "2024-kenbiya-database-backup",
+  "organization": {
+    "name_ja": "株式会社健美家",
+    "name_en": "Kenbiya Co., Ltd. (LIFULL group)",
+    "domain": "kenbiya.com"
+  },
+  "industry": "other",
+  "disclosed_on": "2024-09-19",
+  "discovered_on": "2024-09-17",
+  "affected": {
+    "count": 217953,
+    "unit": "people",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (217,953) because no overall total was given. 217,953 in first report (2024-09-19) + 60,153 added in second report (2024-09-30), LIFULL notes some overlap. Individual-user data said to be encrypted; passwords hashed. LIFULL group company. Corporate form (株式会社) not verified."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "email",
+    "phone",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kenbiya, a LIFULL group company running a real estate investment information site, found that backup data of its database may have been accessed from outside. Data of registered users of Kenbiya and LIFULL HOME'S Real Estate Investment, about 278,000 people in two reports, may have leaked; individual user data was encrypted and passwords hashed.",
+    "ja": "LIFULLグループで不動産投資情報サイトを運営する健美家は、データベースのバックアップデータに外部からアクセスされた可能性があると公表した。「健美家」や「LIFULL HOME'S 不動産投資」の登録ユーザーなど、2回の発表で合計約27万8,000人分の情報が流出した可能性があり、個人ユーザーのデータは暗号化、パスワードはハッシュ化されていた。"
+  },
+  "official_notice_url": "https://lifull.com/news/39167/",
+  "sources": [
+    {
+      "url": "https://lifull.com/news/39167/",
+      "title": "当社グループ会社の健美家サーバーへの不正アクセスによる情報漏洩のお詫び(第2報)",
+      "publisher": "株式会社健美家",
+      "published_on": "2024-09-30"
+    },
+    {
+      "url": "https://www.security-next.com/162052",
+      "title": "不動産投資情報サイトのDBバックアップが流出した可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-09-20"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/10/11/51752.html",
+      "title": "健美家のデータベースに不正アクセス、新たに 60,153 名分の情報が対象となることが判明",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-10-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

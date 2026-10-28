@@ -1,0 +1,52 @@
+{
+  "id": "2026-digital-agency-gss",
+  "organization": {
+    "name_ja": "デジタル庁",
+    "name_en": "Digital Agency",
+    "domain": "digital.go.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2026-09-11",
+  "discovered_on": "2026-06-25",
+  "affected": {
+    "count": 246000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 189,000 records of staff and public servants at agencies using GSS and about 57,000 of businesses and individuals involved in their work. No personal data of the general public, My Number, financial account or pension numbers were included."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "address"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The Digital Agency detected access to large numbers of files on its Government Solution Service (GSS) shared work environment through a maintenance account on 2026-06-25, and later found that an intruder had exploited a VPN device vulnerability. About 246,000 records of government staff and related contractors may have leaked.",
+    "ja": "デジタル庁は2026年6月25日、政府共通の業務実施環境「ガバメントソリューションサービス（GSS）」で保守運用アカウントによる大量のファイルへのアクセスを検知し、その後第三者がVPN機器の脆弱性を突いて侵入していたことを確認した。職員や関係事業者など約24.6万件の個人情報が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www.digital.go.jp/news/2026-0911-01",
+  "sources": [
+    {
+      "url": "https://www.digital.go.jp/news/2026-0911-01",
+      "title": "ガバメントソリューションサービスへの不正アクセスによる職員等の個人情報の漏えいの可能性について",
+      "publisher": "デジタル庁",
+      "published_on": "2026-09-11"
+    },
+    {
+      "url": "https://www.security-next.com/190208",
+      "title": "政府共通の業務実施環境「GSS」に不正アクセス - VPN機器の脆弱性を悪用",
+      "publisher": "Security NEXT",
+      "published_on": "2026-09-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56223.html",
+      "title": "VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-09-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2020-nakabayashi-fuelmall",
+  "organization": {
+    "name_ja": "ナカバヤシ株式会社",
+    "name_en": "Nakabayashi Co., Ltd.",
+    "domain": null
+  },
+  "industry": "retail",
+  "disclosed_on": "2020-04-13",
+  "discovered_on": "2020-04-10",
+  "affected": {
+    "count": 120000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to about 120,000 customer records (order, purchaser and delivery details) may have leaked. In addition, card details of 94 customers who paid between 2020-04-06 and 2020-04-10 may have leaked through a tampered payment application (initially reported as 5)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "email",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Nakabayashi said its office supplies online store Fuel Mall was hit by an SQL injection attack and had its program altered. Up to about 120,000 customer records with names, addresses and email addresses may have leaked, as well as card details of 94 customers.",
+    "ja": "ナカバヤシは、運営する事務用品通販サイト「フエルモール」がSQLインジェクション攻撃を受け、プログラムを改ざんされたと公表した。氏名、住所、メールアドレスを含む最大約12万件の顧客情報と、94人分のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/114049",
+      "title": "事務用品通販サイトから個人情報流出 - 最大12万件に影響",
+      "publisher": "Security NEXT",
+      "published_on": "2020-04-14"
+    },
+    {
+      "url": "https://www.security-next.com/115431",
+      "title": "事務用品通販サイトの顧客情報流出 - クレカ流出件数を修正",
+      "publisher": "Security NEXT",
+      "published_on": "2020-06-04"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/06/05/44175.html",
+      "title": "「フエルモール」不正アクセス続報、カード情報流出は94件に（ナカバヤシ）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-06-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

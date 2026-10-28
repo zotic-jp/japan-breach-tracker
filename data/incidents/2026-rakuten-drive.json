@@ -1,0 +1,50 @@
+{
+  "id": "2026-rakuten-drive",
+  "organization": {
+    "name_ja": "楽天モバイル株式会社",
+    "name_en": "Rakuten Mobile, Inc.",
+    "domain": "rakuten-drive.com"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2026-10-06",
+  "discovered_on": null,
+  "affected": {
+    "count": 15382,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Accounts whose files stored on Rakuten Drive (such as photos and documents) were accessed between 2026-01-29 and 2026-09-17. Separately, on 2026-08-27, account names, display names and profile image URLs of 687 accounts, and the same plus encrypted passwords of 313 accounts, were accessed. Reports name Rakuten Mobile as the provider of the service."
+  },
+  "data_types": [
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Rakuten Drive, a cloud storage service, announced that a third party had obtained credentials of an administrator account for some of its systems and used them to access the systems. Files stored by 15,382 accounts were viewed or obtained, and account details including encrypted passwords of a further 313 accounts were also affected.",
+    "ja": "クラウドストレージサービス「楽天ドライブ」は、第三者が一部システムの管理用アカウントの認証情報を不正に取得し、システムにアクセスしたと発表した。15,382アカウントの保存データが閲覧・取得されたほか、313アカウントでは暗号化されたパスワードを含むアカウント情報も対象となった。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://internet.watch.impress.co.jp/docs/news/2146152.html",
+      "title": "「楽天ドライブ」、不正アクセスにより約1.5万アカウントのデータなどが漏えい",
+      "publisher": "INTERNET Watch",
+      "published_on": "2026-10-06"
+    },
+    {
+      "url": "https://k-tai.watch.impress.co.jp/docs/news/2146088.html",
+      "title": "「楽天ドライブ」で不正アクセス、保存データ1万5382件が閲覧・取得",
+      "publisher": "ケータイ Watch",
+      "published_on": "2026-10-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/08/56411.html",
+      "title": "楽天ドライブに不正アクセス、管理アカウント乗っ取りでデータ閲覧",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "2024-kumanichi-member-list-exposure",
+  "organization": {
+    "name_ja": "株式会社熊本日日新聞社",
+    "name_en": "Kumamoto Nichinichi Shimbun",
+    "domain": "kumanichi.com"
+  },
+  "industry": "media",
+  "disclosed_on": "2024-07-23",
+  "discovered_on": "2024-07-22",
+  "affected": {
+    "count": 28777,
+    "unit": "people",
+    "approximate": false,
+    "note": "A list of digital edition users as of August 2021. It was publicly viewable from 2024-07-21 10:56 to 2024-07-22 11:58 and was accessed 13 times."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Kumamoto Nichinichi Shimbun said a list of 28,777 digital edition subscribers with names, addresses, phone numbers and email addresses was viewable on the web for about a day after a vendor misconfigured the environment during a server migration. The file was accessed 13 times before it was taken down.",
+    "ja": "熊本日日新聞社は、電子版サーバの移行時に委託先ベンダーが環境設定を誤り、電子版利用者28,777人分の氏名、住所、電話番号、メールアドレスを含む名簿が約1日間ウェブ上で閲覧可能になり、13回アクセスされたと公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/160092",
+      "title": "電子版会員の個人情報がウェブから閲覧可能に - 熊本日日新聞",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

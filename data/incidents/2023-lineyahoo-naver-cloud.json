@@ -1,0 +1,45 @@
+{
+  "id": "2023-lineyahoo-naver-cloud",
+  "organization": {
+    "name_ja": "LINEヤフー株式会社",
+    "name_en": "LY Corporation",
+    "domain": "lycorp.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2023-11-27",
+  "discovered_on": "2023-10-17",
+  "affected": {
+    "count": 519506,
+    "unit": "records",
+    "approximate": false,
+    "note": "Totals as of the 2024-02-14 update, including estimated and possible leaks: 302,980 user records (130,192 in Japan), 86,211 business partner records and 130,315 employee and staff records. The first notice of 2023-11-27 gave about 440,000. User data was service usage history linked to internal LINE identifiers; LINE chat content, bank and card data were not included."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "NAVER Cloud (via a shared subcontractor)",
+  "status": "confirmed",
+  "summary": {
+    "en": "LY Corporation said a third party used a malware-infected PC of a subcontractor shared with Korea's NAVER Cloud to reach LINE's systems through a shared authentication platform, starting in September 2023. Data of users, business partners and employees leaked, totalling 519,506 records after later updates.",
+    "ja": "LINEヤフーは、韓国NAVER Cloudと共通の委託先の従業員PCがマルウェアに感染し、共通の認証基盤を経由して2023年9月以降にLINEのシステムへ不正アクセスされたと公表した。利用者、取引先、従業員などの情報が漏えいし、その後の更新で合計519,506件となった。"
+  },
+  "official_notice_url": "https://www.lycorp.co.jp/ja/news/announcements/007712/",
+  "sources": [
+    {
+      "url": "https://www.lycorp.co.jp/ja/news/announcements/001002/",
+      "title": "不正アクセスによる、情報漏えいに関するお知らせとお詫び",
+      "publisher": "LINEヤフー株式会社",
+      "published_on": "2023-11-27"
+    },
+    {
+      "url": "https://www.lycorp.co.jp/ja/news/announcements/007712/",
+      "title": "不正アクセスによる、情報漏えいに関するお知らせとお詫び（2024/2/14更新）",
+      "publisher": "LINEヤフー株式会社",
+      "published_on": "2024-02-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

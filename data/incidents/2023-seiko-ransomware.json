@@ -1,0 +1,53 @@
+{
+  "id": "2023-seiko-ransomware",
+  "organization": {
+    "name_ja": "セイコーグループ株式会社",
+    "name_en": "Seiko Group Corporation",
+    "domain": "seiko.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2023-08-10",
+  "discovered_on": "2023-07-28",
+  "affected": {
+    "count": 60000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 60,000 personal data records held by Seiko Group, Seiko Watch and Seiko Instruments, per the third report of 2023-10-25. Includes Seiko Watch customers, business contacts, recruitment applicants and current and former employees. Credit card data was not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Seiko Group detected unauthorized access to some of its servers on 2023-07-28 and later determined it was a ransomware attack. It confirmed that about 60,000 personal data records of customers, business contacts, job applicants and employees leaked.",
+    "ja": "セイコーグループは2023年7月28日に一部サーバーへの不正アクセスを検知し、その後ランサムウェア攻撃と判断した。顧客、取引先関係者、採用応募者、従業員などに関する約6万件の個人情報が漏えいしたことを確認したと公表した。"
+  },
+  "official_notice_url": "https://www.seiko.co.jp/information/202310251000.html",
+  "sources": [
+    {
+      "url": "https://www.seiko.co.jp/information/202308221300.html",
+      "title": "当社サーバへの不正アクセスによる情報漏えいについて",
+      "publisher": "セイコーグループ株式会社",
+      "published_on": "2023-08-22"
+    },
+    {
+      "url": "https://www.seiko.co.jp/information/202310251000.html",
+      "title": "当社サーバに対する不正アクセスに関するお知らせ（第３報）",
+      "publisher": "セイコーグループ株式会社",
+      "published_on": "2023-10-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/10/30/50167.html",
+      "title": "セイコーグループへのランサムウェア攻撃、約60,000件の個人情報の漏えいを確認",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-10-30"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

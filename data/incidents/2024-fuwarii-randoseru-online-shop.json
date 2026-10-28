@@ -1,0 +1,49 @@
+{
+  "id": "2024-fuwarii-randoseru-online-shop",
+  "organization": {
+    "name_ja": "株式会社協和",
+    "name_en": "Kyowa Co., Ltd.",
+    "domain": "kyowa-bag.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-10-29",
+  "discovered_on": "2024-07-17",
+  "affected": {
+    "count": 16396,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who paid by card on the site from 2021-03-28 to 2024-07-17."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kyowa, maker of the Fuwarii school backpack brand, said its official online shop was hit through a vulnerability and its payment application altered. Personal data and card details of 16,396 customers who paid by card may have leaked.",
+    "ja": "ランドセルブランド「ふわりぃ」の協和は、公式オンラインショップが脆弱性を突く不正アクセスを受け、決済アプリケーションが改ざんされたと公表した。カード決済を利用した顧客16,396人の個人情報とクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/163624",
+      "title": "老舗ランドセルメーカー通販サイト、個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-30"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/11/07/51881.html",
+      "title": "ランドセル販売「ふわりぃ公式オンラインショップ」に不正アクセス、16,396 名のカード情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-11-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

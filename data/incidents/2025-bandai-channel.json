@@ -1,0 +1,50 @@
+{
+  "id": "2025-bandai-channel",
+  "organization": {
+    "name_ja": "株式会社バンダイナムコフィルムワークス（バンダイチャンネル）",
+    "name_en": "Bandai Namco Filmworks Inc. (Bandai Channel)",
+    "domain": "b-ch.com"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2025-11-06",
+  "discovered_on": null,
+  "affected": {
+    "count": 1366000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to about 1.366 million member records, as reported when the service resumed in December 2025. Data at risk includes email addresses, nicknames, Bandai Namco Coin balances and chosen payment methods; login passwords and credit card numbers are not included. The company said the incident was not ransomware."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Bandai Namco Filmworks suspended its Bandai Channel video service on 2025-11-06 after unauthorized access caused some member accounts to be unintentionally deleted. Up to about 1.37 million member records, including email addresses and nicknames, may have leaked.",
+    "ja": "バンダイナムコフィルムワークスは、不正アクセスにより一部会員が意図せず退会処理される障害が起きたため、2025年11月6日に動画配信サービス「バンダイチャンネル」を一時停止した。メールアドレスやニックネームなどを含む最大約136.6万件の会員情報が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://info.b-ch.com/article/519027964.html",
+  "sources": [
+    {
+      "url": "https://info.b-ch.com/article/519027964.html",
+      "title": "「バンダイチャンネル」会員情報の漏えい等のおそれに関するお詫びとお知らせ",
+      "publisher": "株式会社バンダイナムコフィルムワークス",
+      "published_on": "2025-11-19"
+    },
+    {
+      "url": "https://info.b-ch.com/article/518844904.html",
+      "title": "バンダイチャンネルのサービス一時停止のお知らせ",
+      "publisher": "株式会社バンダイナムコフィルムワークス",
+      "published_on": "2025-11-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/12/23/54309.html",
+      "title": "バンダイチャンネルへの不正アクセス、最大 136.6 万件の会員情報漏えいの可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-12-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

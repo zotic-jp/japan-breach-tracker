@@ -1,0 +1,47 @@
+{
+  "id": "2026-mynavi-cloud",
+  "organization": {
+    "name_ja": "株式会社マイナビ",
+    "name_en": "Mynavi Corporation",
+    "domain": "mynavi.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2026-02-12",
+  "discovered_on": "2025-12-05",
+  "affected": {
+    "count": 111505,
+    "unit": "records",
+    "approximate": false,
+    "note": "Total from the third report (2026-03-31): 74,224 records of general users of Mynavi services, 21,609 of corporate contacts and 15,672 of Mynavi and group company employees. Includes data handled for group companies Mynavi Works, Mynavi Partners and Mynavi Global. Card data and My Number were not included. Mynavi said its service sites and their databases were not the target."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Mynavi detected an anomaly in a cloud service it uses on 2025-12-05 and confirmed on 2026-01-16 that a third party's unauthorized access may have exposed personal data. Its final count, published on 2026-03-31, was 111,505 records of service users, corporate contacts and employees, including names, email addresses and addresses.",
+    "ja": "マイナビは2025年12月5日に同社が利用するクラウドサービスで異常を検知し、2026年1月16日に第三者の不正アクセスにより個人情報が流出した可能性があることを確認した。3月31日の第三報で、サービス利用者、法人担当者、従業員の氏名、メールアドレス、住所などを含む計111,505件が対象と公表した。"
+  },
+  "official_notice_url": "https://www.mynavi.jp/json-topic/52681/",
+  "sources": [
+    {
+      "url": "https://www.mynavi.jp/json-topic/52681/",
+      "title": "（第三報）当社が利用するクラウドサービスに対する不正アクセスの発生および個人情報流出の可能性について",
+      "publisher": "株式会社マイナビ",
+      "published_on": "2026-03-31"
+    },
+    {
+      "url": "https://www.security-next.com/180975",
+      "title": "クラウドに不正アクセス、個人情報流出の可能性 - マイナビ",
+      "publisher": "Security NEXT",
+      "published_on": "2026-02-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

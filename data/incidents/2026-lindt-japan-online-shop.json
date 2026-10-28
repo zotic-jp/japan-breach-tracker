@@ -1,0 +1,49 @@
+{
+  "id": "2026-lindt-japan-online-shop",
+  "organization": {
+    "name_ja": "リンツ＆シュプルングリージャパン株式会社",
+    "name_en": "Lindt & Sprüngli Japan K.K.",
+    "domain": "lindt.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-23",
+  "discovered_on": "2026-10-19",
+  "affected": {
+    "count": 3147469,
+    "unit": "records",
+    "approximate": false,
+    "note": "Member records shared by the official online shop and app. Members who had withdrawn before 00:16 on 2026-10-18 are excluded. Login passwords were stored hashed; payment and card data were not included. Lindt learned of the breach from futureshop on 2026-10-19."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "birthdate",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社フューチャーショップ (futureshop)",
+  "status": "confirmed",
+  "summary": {
+    "en": "An attacker exploited a software vulnerability on a server of futureshop, the e-commerce platform used by Lindt & Sprüngli Japan, between 23:02 on 2026-10-17 and 00:16 the next day. Lindt announced that 3,147,469 member records of its online shop and app, including names, addresses, phone numbers, birthdates and hashed passwords, had leaked.",
+    "ja": "リンツ＆シュプルングリージャパンが利用するECプラットフォーム「futureshop」の運営会社フューチャーショップのサーバーで、2026年10月17日23時2分から翌0時16分にかけてソフトウェアの脆弱性が悪用された。リンツは、オンラインショップと公式アプリの会員情報3,147,469件（氏名、住所、電話番号、生年月日、ハッシュ化されたパスワード等）が漏えいしたと発表した。"
+  },
+  "official_notice_url": "https://www.lindt.jp/contents/chocolat-cafe/notice_20261023/",
+  "sources": [
+    {
+      "url": "https://www.lindt.jp/contents/chocolat-cafe/notice_20261023/",
+      "title": "委託先事業者への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "リンツ＆シュプルングリージャパン株式会社",
+      "published_on": "2026-10-23"
+    },
+    {
+      "url": "https://www.future-shop.jp/news/2026/10/25.html",
+      "title": "PHP脆弱性対策に伴う長時間メンテナンス、および不正アクセス事案に関するお詫びとご説明",
+      "publisher": "株式会社フューチャーショップ",
+      "published_on": "2026-10-25"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

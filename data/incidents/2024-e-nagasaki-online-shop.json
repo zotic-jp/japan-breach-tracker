@@ -1,0 +1,55 @@
+{
+  "id": "2024-e-nagasaki-online-shop",
+  "organization": {
+    "name_ja": "一般社団法人長崎県物産振興協会",
+    "name_en": "Nagasaki Prefecture Products Promotion Association",
+    "domain": "e-nagasaki.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-05-25",
+  "discovered_on": "2024-05-21",
+  "affected": {
+    "count": 60350,
+    "unit": "people",
+    "approximate": false,
+    "note": "60,350 members (2000-10-02 to 2024-05-22); also 78,840 delivery recipients; 18,746 card users (2021-03-10 to 2024-05-22). Initial estimate was about 60,400 members."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The Nagasaki Prefecture Products Promotion Association learned from police that its e-nagasaki.com shopping site may have leaked data, and found its payment application had been altered. Data of 60,350 members, 78,840 delivery recipients and card data of 18,746 customers may have leaked.",
+    "ja": "長崎県物産振興協会は、警察からの連絡で通販サイト「e-ながさきどっとこむ」の情報流出の可能性を把握し、決済アプリケーションが改ざんされていたことが判明した。会員60,350人、届け先78,840人の個人情報と、18,746人分のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/157587",
+      "title": "通販サイトで個人情報流出の可能性、警察の連絡で発覚 - 長崎県物産振興協会",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-29"
+    },
+    {
+      "url": "https://www.security-next.com/160654",
+      "title": "長崎県産品通販サイトの不正アクセス、調査結果を公表",
+      "publisher": "Security NEXT",
+      "published_on": "2024-08-08"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/08/20/51490.html",
+      "title": "「ｅ-ながさきどっとこむ」に不正アクセス、18,746 名分のカード情報漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-08-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

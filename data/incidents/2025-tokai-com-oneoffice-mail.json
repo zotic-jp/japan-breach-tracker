@@ -1,0 +1,50 @@
+{
+  "id": "2025-tokai-com-oneoffice-mail",
+  "organization": {
+    "name_ja": "株式会社ＴＯＫＡＩコミュニケーションズ",
+    "name_en": "TOKAI Communications Corporation",
+    "domain": "tokai-com.co.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2025-12-19",
+  "discovered_on": "2025-12-03",
+  "affected": {
+    "count": 79991,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Confirmed leaked per the 2026-01-23 final report: 79,991 OneOffice SPAM Filtering user email addresses, 1,931,902 quarantined emails, 892 whitelist/blacklist entries, 815 email addresses in OneOffice Mail Solution settings, 3,503 mailing list names, and 845 login IDs across three services. Passwords and email header data flagged as at risk in December 2025 were later found not to have leaked. Caused by a then-unknown vulnerability in Cisco email security appliances."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "TOKAI Communications detected suspected unauthorized access to servers of its OneOffice Mail Solution business email service on 2025-12-03, after attackers exploited a vulnerability in Cisco equipment. Its final report confirmed leakage of 79,991 user email addresses and about 1.93 million quarantined emails.",
+    "ja": "ＴＯＫＡＩコミュニケーションズは2025年12月3日、法人向けメールサービス「OneOffice Mail Solution」のサーバー機器への不正アクセスの疑いを検知した。シスコ製品の脆弱性が悪用されたもので、最終報で利用者のメールアドレス79,991件や隔離メール約193万件の漏洩を確認したと公表した。"
+  },
+  "official_notice_url": "https://www.tokai-com.co.jp/news/pdf/2026/20260123.pdf",
+  "sources": [
+    {
+      "url": "https://www.tokai-com.co.jp/news/pdf/2026/20260123.pdf",
+      "title": "OneOffice メールソリューションにおける不正アクセスによる個人情報漏洩についてのお知らせとお詫び（第三報）",
+      "publisher": "株式会社ＴＯＫＡＩコミュニケーションズ",
+      "published_on": "2026-01-23"
+    },
+    {
+      "url": "https://www.tokai-com.co.jp/news/pdf/2025/20251219.pdf",
+      "title": "OneOffice メールソリューションにおける不正アクセスによる個人情報漏洩の可能性についてのお知らせとお詫び",
+      "publisher": "株式会社ＴＯＫＡＩコミュニケーションズ",
+      "published_on": "2025-12-19"
+    },
+    {
+      "url": "https://www.tokai-com.co.jp/news/pdf/2025/20251222.pdf",
+      "title": "OneOffice メールソリューションにおける不正アクセスによる新たな個人情報漏洩の可能性についてのお知らせとお詫び（第二報）",
+      "publisher": "株式会社ＴＯＫＡＩコミュニケーションズ",
+      "published_on": "2025-12-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

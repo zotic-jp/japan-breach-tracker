@@ -1,0 +1,59 @@
+{
+  "id": "2022-crossplus-ransomware",
+  "organization": {
+    "name_ja": "クロスプラス株式会社",
+    "name_en": "Cross Plus Inc.",
+    "domain": "crossplus.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-07-21",
+  "discovered_on": "2022-07-19",
+  "affected": {
+    "count": 81318,
+    "unit": "records",
+    "approximate": false,
+    "note": "40,400 customer records, 33,882 shareholder records, 3,800 employee and former employee records, 2,475 job applicant records and 761 business partner records. Customer data registered on its online site was not affected."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Apparel company Cross Plus said servers in its data center were hit by a ransomware attack on 2022-07-19, encrypting some data. It later said 81,318 records of customers, shareholders, employees and others may have been leaked.",
+    "ja": "アパレルのクロスプラスは、2022年7月19日にデータセンターのサーバがランサムウェア攻撃を受け、一部データが暗号化されたと公表した。その後、顧客や株主、従業員などに関する8万1,318件の個人情報が流出した可能性があると発表した。"
+  },
+  "official_notice_url": "https://www.crossplus.co.jp/ir/2022/09/14/2915/",
+  "sources": [
+    {
+      "url": "https://www.crossplus.co.jp/ir/2022/09/14/2915/",
+      "title": "不正アクセスによる情報漏えいの可能性に関するお知らせとお詫び",
+      "publisher": "クロスプラス株式会社",
+      "published_on": "2022-09-14"
+    },
+    {
+      "url": "https://www.security-next.com/139773",
+      "title": "ランサム被害で個人情報流出の可能性 - クロスプラス",
+      "publisher": "Security NEXT",
+      "published_on": "2022-09-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/07/25/47948.html",
+      "title": "婦人服販売のクロスプラスサーバへの不正アクセス、ECサイトでの販売や取引先への配送にも影響",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-07-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/09/20/48212.html",
+      "title": "婦人服販売のクロスプラスサーバへのランサムウェア攻撃、個人情報の一部が漏えいした可能性を否定できない状況",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-09-20"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

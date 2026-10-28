@@ -1,0 +1,45 @@
+{
+  "id": "2022-acro-three-card-skimming",
+  "organization": {
+    "name_ja": "株式会社ACRO",
+    "name_en": "ACRO Inc.",
+    "domain": null
+  },
+  "industry": "retail",
+  "disclosed_on": "2022-02-24",
+  "discovered_on": "2021-08-20",
+  "affected": {
+    "count": 103944,
+    "unit": "people",
+    "approximate": false,
+    "note": "89,295 customers of the THREE official online shop and 14,649 customers of the Amplitude official online shop who paid by card between 2020-05-21 and 2021-08-18. Member IDs and passwords may also have leaked."
+  },
+  "data_types": [
+    "credit_card",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "ACRO, a Pola Orbis group cosmetics company, said attackers tampered with the payment application of its THREE and Amplitude online shops. Card details of 103,944 customers, along with member IDs and passwords, may have been stolen.",
+    "ja": "ポーラ・オルビスグループのACROは、「THREE公式オンラインショップ」と「Amplitude公式オンラインショップ」の決済アプリケーションが改ざんされたと公表した。顧客計10万3,944人のクレジットカード情報や会員ID、パスワードが流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/134403",
+      "title": "複数の化粧品通販サイトでクレカ情報流出のおそれ",
+      "publisher": "Security NEXT",
+      "published_on": "2022-02-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/02/28/47197.html",
+      "title": "ポーラグループのACRO運営の2サイトで合計10万超のカード情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-02-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

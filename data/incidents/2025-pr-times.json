@@ -1,0 +1,47 @@
+{
+  "id": "2025-pr-times",
+  "organization": {
+    "name_ja": "株式会社PR TIMES",
+    "name_en": "PR TIMES, Inc.",
+    "domain": "prtimes.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2025-05-07",
+  "discovered_on": "2025-04-25",
+  "affected": {
+    "count": 901603,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 901,603 personal-data records: 227,023 corporate users, 28,274 media users, 313,920 individual users, 331,619 media contacts imported by corporate users and 767 staff. Separately, up to 20,514 media-list contacts and pre-release information on 1,682 press releases from 1,182 companies were also exposed. Passwords were stored hashed. Counts as of 2025-04-24 include incomplete and deleted registrations."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "PR TIMES detected a suspicious file on its servers on 2025-04-25 and found that a third party had accessed its admin panel from 2025-04-24 using an unexplained allowed IP address and a shared account. It said up to 901,603 personal-data records and unpublished press releases may have leaked.",
+    "ja": "PR TIMESは2025年4月25日にサーバー上の不審なファイルを検知し、4月24日から管理者画面へ第三者の不正アクセスがあったことを確認した。最大901,603件の個人情報と発表前のプレスリリース情報が漏えいした可能性があると公表した。"
+  },
+  "official_notice_url": "https://prtimes.jp/main/html/rd/p/000001531.000000112.html",
+  "sources": [
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000001531.000000112.html",
+      "title": "PR TIMES、不正アクセスによる情報漏えいの可能性に関するお詫びとご報告",
+      "publisher": "株式会社PR TIMES",
+      "published_on": "2025-05-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/05/12/52820.html",
+      "title": "一定の容量のデータ転送を確認 ～ PR TIMES への不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-05-12"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2023-demaecan-account-linking",
+  "organization": {
+    "name_ja": "株式会社出前館",
+    "name_en": "Demae-can Co., Ltd.",
+    "domain": "demae-can.com"
+  },
+  "industry": "food",
+  "disclosed_on": "2023-03-23",
+  "discovered_on": null,
+  "affected": {
+    "count": 9244553,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "Figure from the follow-up of 2023-06-23, revised from the first notice. Covers 2020 to 2023-03-23. Data included name, date of birth, gender, address, phone number and email address. Credit card data was not included. No misuse had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Food delivery service Demae-can said a flaw in its account-linking login let a user on a shared device see part of the account information of a later user of the same device. Its follow-up put the number of accounts whose name, address, phone number and other data may have been viewed at 9,244,553.",
+    "ja": "出前館は、アカウント連携によるログイン機能の不備により、共用端末で後から同じ端末を使った別の利用者のアカウント情報の一部が閲覧できる状態だったと公表した。続報で、氏名、住所、電話番号などが閲覧された恐れのあるアカウントを9,244,553件とした。"
+  },
+  "official_notice_url": "https://corporate.demae-can.co.jp/pr/info/20230623.html",
+  "sources": [
+    {
+      "url": "https://corporate.demae-can.co.jp/pr/info/20230623.html",
+      "title": "【続報】アカウント連携システム不備による『出前館』アカウント情報閲覧の恐れに関するお詫びとお知らせ",
+      "publisher": "株式会社出前館",
+      "published_on": "2023-06-23"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/07/03/49613.html",
+      "title": "内部調査で判明、アカウント連携システムの不備で「出前館」アカウント情報が閲覧された可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-07-03"
+    },
+    {
+      "url": "https://www.tsr-net.co.jp/data/detail/1198311_1527.html",
+      "title": "2023年の「個人情報漏えい・紛失事故」が年間最多 件数175件、流出・紛失情報も最多の4,090万人分",
+      "publisher": "東京商工リサーチ",
+      "published_on": "2024-01-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

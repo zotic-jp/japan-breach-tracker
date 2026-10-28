@@ -1,0 +1,47 @@
+{
+  "id": "2020-kanazawa-university-pc-theft",
+  "organization": {
+    "name_ja": "国立大学法人金沢大学",
+    "name_en": "Kanazawa University",
+    "domain": "kanazawa-u.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2020-08-28",
+  "discovered_on": "2020-02-29",
+  "affected": {
+    "count": 248337,
+    "unit": "records",
+    "approximate": false,
+    "note": "21,945 records in data files plus 226,392 records in stored emails (students, staff and outside parties), as possibly stored on the stolen laptop; grade data of 889 students was also on it. The PC had no password set and taking the data off campus was not authorized. No leak damage was confirmed."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "email",
+    "phone",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kanazawa University said a faculty member's bag containing a laptop was stolen during a business trip to Lausanne, Switzerland, on 2020-02-29. The laptop, which had no password protection, may have held about 248,000 records of students, staff and outside parties, including names, addresses, email addresses, photos and grades.",
+    "ja": "金沢大学は、教員が2020年2月29日に出張先のスイス・ローザンヌでノートパソコンの入った鞄を盗まれたと公表した。パスワードが設定されていなかったパソコンには、学生や教職員、学外関係者の氏名、住所、メールアドレス、顔写真、成績など約24万8,000件の個人情報が保存されていた可能性がある。"
+  },
+  "official_notice_url": "https://www.kanazawa-u.ac.jp/news/83181",
+  "sources": [
+    {
+      "url": "https://www.kanazawa-u.ac.jp/wp/wp-content/uploads/2020/08/200828data.pdf",
+      "title": "金沢大学 2020年8月28日公表資料（PDF）",
+      "publisher": "国立大学法人金沢大学",
+      "published_on": "2020-08-28"
+    },
+    {
+      "url": "https://www.security-next.com/117946",
+      "title": "海外出張先で個人情報含むPCが鞄ごと盗難 - 金沢大",
+      "publisher": "Security NEXT",
+      "published_on": "2020-08-31"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

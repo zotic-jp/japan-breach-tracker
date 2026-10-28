@@ -1,0 +1,43 @@
+{
+  "id": "2022-beez-sqli",
+  "organization": {
+    "name_ja": "ビーズ株式会社",
+    "name_en": "Be's Co., Ltd.",
+    "domain": "be-s.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2022-02-28",
+  "discovered_on": "2022-02-21",
+  "affected": {
+    "count": 23435,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "10,772 customer email addresses (survey respondents and parts sales users from 2013-06 to 2016-04) and 12,663 business partner email addresses."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Outdoor and gaming furniture developer Be's found on 2022-02-21 that its website had been hit by SQL injection attacks. About 23,000 email addresses of customers and business partners may have been leaked.",
+    "ja": "アウトドア用品やゲーミング家具を企画するビーズは、2022年2月21日にウェブサイトがSQLインジェクション攻撃を受けたことを認知した。顧客と取引先のメールアドレス計2万3,435件が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/134486",
+      "title": "SQLi攻撃でメールアドレスが流出か - アウトドア用品企画会社",
+      "publisher": "Security NEXT",
+      "published_on": "2022-03-03"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/03/02/47220.html",
+      "title": "ブランド製品企画開発のビーズにSQLインジェクション、23,000件のメールアドレス流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-03-02"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

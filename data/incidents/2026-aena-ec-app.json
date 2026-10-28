@@ -1,0 +1,49 @@
+{
+  "id": "2026-aena-ec-app",
+  "organization": {
+    "name_ja": "株式会社アエナ",
+    "name_en": "Aena Inc.",
+    "domain": "aena.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-14",
+  "discovered_on": "2026-10-13",
+  "affected": {
+    "count": 817215,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum number of EC app members who had registered personal data; LINE members and Amazon or Rakuten buyers are excluded. Partial card data (last four digits, expiry, holder name) was included; full card numbers, security codes and passwords were not."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Aena found on 2026-10-13 that member pages of its EC app had been viewed through automated, continuous unauthorized access. Personal data of up to 817,215 members, including names, addresses, phone numbers, birthdates, delivery addresses and partial card details, may have been viewed.",
+    "ja": "アエナは2026年10月13日、機械的な連続アクセスによる不正アクセスで「ECアプリ」の会員マイページが閲覧されたことを把握した。氏名、住所、電話番号、生年月日、お届け先情報、クレジットカード情報の一部などを含む最大817,215人分の会員情報が閲覧された可能性がある。"
+  },
+  "official_notice_url": "https://www.aena.co.jp/news/detail/7826/",
+  "sources": [
+    {
+      "url": "https://www.aena.co.jp/news/detail/7826/",
+      "title": "外部からの不正アクセスによるお客様情報流出の可能性について",
+      "publisher": "株式会社アエナ",
+      "published_on": "2026-10-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/10/28/56598.html",
+      "title": "アエナ運営の「ECアプリ」に不正アクセス、最大81万7,215人の会員情報が閲覧された可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-10-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

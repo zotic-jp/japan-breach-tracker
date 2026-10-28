@@ -1,0 +1,48 @@
+{
+  "id": "2024-hags-ec-online-shop",
+  "organization": {
+    "name_ja": "株式会社HAGS",
+    "name_en": "HAGS Inc.",
+    "domain": "hags-ec.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-07-02",
+  "discovered_on": "2024-01-16",
+  "affected": {
+    "count": 21398,
+    "unit": "people",
+    "approximate": false,
+    "note": "Registered members of hags-ec.com. Card data of 1,432 customers who paid by card from 2021-05-27 to 2024-01-15 may also have leaked."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "email",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "HAGS, which runs the building materials online shop hags-ec.com, said a vulnerability was exploited and its payment application altered. Personal data of 21,398 registered customers, including passwords, and card data of 1,432 customers may have leaked.",
+    "ja": "建材通販サイト「hags-ec.com」を運営するHAGSは、脆弱性を突く不正アクセスで決済アプリケーションが改ざんされたと公表した。パスワードを含む会員21,398人分の個人情報と、1,432人分のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/159215",
+      "title": "デザイン建材通販サイトに不正アクセス - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-04"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/07/10/51283.html",
+      "title": "建材通販サイト「hags-ec.com」に不正アクセス、1,432 名のカード情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-07-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

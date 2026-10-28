@@ -1,0 +1,52 @@
+{
+  "id": "2025-hosei-university-nssol",
+  "organization": {
+    "name_ja": "学校法人法政大学",
+    "name_en": "Hosei University",
+    "domain": "hosei.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2025-08-06",
+  "discovered_on": "2025-03-07",
+  "affected": {
+    "count": 16542,
+    "unit": "people",
+    "approximate": false,
+    "note": "8,363 students who entered between fiscal 2000 and 2022, 7,438 faculty and staff employed between fiscal 2018 and 2022, and 741 of unknown category. NS Solutions, which manages the university's information network, detected the intrusion on 2025-03-07 and reported the possible leak to the university on 2025-04-17. No evidence of the data appearing online or of misuse had been found."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "日鉄ソリューションズ",
+  "status": "possible",
+  "summary": {
+    "en": "Hosei University said personal data of 16,542 students, faculty and staff may have leaked after unauthorized access to the internal network of NS Solutions, the contractor managing its information network, which was detected in March 2025. The data included names, email addresses, phone numbers, affiliations and authentication IDs.",
+    "ja": "法政大学は、情報ネットワーク管理の委託先である日鉄ソリューションズの社内ネットワークが2025年3月に不正アクセスを受け、学生・教職員16,542名分の個人情報が外部に漏えいした可能性があると公表した。氏名、メールアドレス、電話番号、所属、統合認証IDが含まれる。"
+  },
+  "official_notice_url": "https://www.hosei.ac.jp/info/article-20250710091502/",
+  "sources": [
+    {
+      "url": "https://www.hosei.ac.jp/info/article-20250710091502/",
+      "title": "不正アクセスによる情報漏洩の可能性に関するお詫びとお知らせ",
+      "publisher": "学校法人法政大学",
+      "published_on": "2025-08-06"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/08/21/53478.html",
+      "title": "日鉄ソリューションズへの不正アクセス、法政大学の学生等 16,542 名の個人情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-08-21"
+    },
+    {
+      "url": "https://www.security-next.com/173150",
+      "title": "個人情報流出の可能性、委託先のゼロデイ攻撃被害が影響 - 法政大",
+      "publisher": "Security NEXT",
+      "published_on": "2025-08-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

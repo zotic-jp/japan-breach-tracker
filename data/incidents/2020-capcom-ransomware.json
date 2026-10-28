@@ -1,0 +1,60 @@
+{
+  "id": "2020-capcom-ransomware",
+  "organization": {
+    "name_ja": "株式会社カプコン",
+    "name_en": "CAPCOM Co., Ltd.",
+    "domain": "capcom.co.jp"
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2020-11-04",
+  "discovered_on": "2020-11-02",
+  "affected": {
+    "count": 390000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to about 390,000 people outside the company (customers, business partners, shareholders, former employees and applicants, in Japan and overseas) possibly affected, per the 2021-01-12 third report; this figure was not updated in the final report. Confirmed leaked: 15,649 people as of the 2021-04-13 final report (revised from 16,415). Credit card data was not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Capcom was hit on 2020-11-02 by a ransomware attack by a group calling itself Ragnar Locker, which encrypted data and demanded a ransom. Capcom confirmed that personal data of 15,649 people was stolen and said data of up to about 390,000 people may have been affected.",
+    "ja": "カプコンは2020年11月2日、「Ragnar Locker」を名乗る攻撃グループによるランサムウェア攻撃を受け、データを暗号化されたうえ身代金を要求された。同社は1万5,649人分の個人情報の流出を確認し、最大約39万人分の情報が流出した可能性があるとした。"
+  },
+  "official_notice_url": "https://www.capcom.co.jp/ir/news/html/210413.html",
+  "sources": [
+    {
+      "url": "https://www.security-next.com/120697",
+      "title": "カプコン、ランサム被害を公表 - 個人情報最大36.4万件を窃取された可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2020-11-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/11/18/44830.html",
+      "title": "カプコンへのランサムウェア攻撃で最大35万件の情報流出、「Ragnar Locker」から身代金要求",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-11-18"
+    },
+    {
+      "url": "https://www.capcom.co.jp/ir/news/html/210112.html",
+      "title": "カプコン IRニュース 2021年1月12日（第3報）",
+      "publisher": "株式会社カプコン",
+      "published_on": "2021-01-12"
+    },
+    {
+      "url": "https://www.capcom.co.jp/ir/news/html/210413.html",
+      "title": "カプコン IRニュース 2021年4月13日（第4報）",
+      "publisher": "株式会社カプコン",
+      "published_on": "2021-04-13"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

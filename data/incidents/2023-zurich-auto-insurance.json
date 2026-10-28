@@ -1,0 +1,52 @@
+{
+  "id": "2023-zurich-auto-insurance",
+  "organization": {
+    "name_ja": "チューリッヒ保険会社",
+    "name_en": "Zurich Insurance Company Ltd. (Japan Branch)",
+    "domain": "zurich.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2023-01-10",
+  "discovered_on": "2023-01-09",
+  "affected": {
+    "count": 757463,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 757,463 past and current Super Auto Insurance policyholders. Data included surname only, gender, date of birth, email address, policy number, customer ID and vehicle and policy details. Credit card and bank account data were not included."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "Unnamed outside contractor",
+  "status": "confirmed",
+  "summary": {
+    "en": "Zurich Insurance's Japan branch said on 2023-01-10 that customer data had been posted on an overseas site after an outside contractor suffered unauthorized access. Data of up to 757,463 Super Auto Insurance policyholders, including surnames, birthdates and email addresses, was leaked.",
+    "ja": "チューリッヒ保険会社は2023年1月10日、外部委託業者が第三者からの不正アクセスを受け、顧客の個人情報が海外のサイトに掲載されたと公表した。「スーパー自動車保険」の契約者最大757,463人分の姓、生年月日、メールアドレスなどが漏えいした。"
+  },
+  "official_notice_url": "https://www.zurich.co.jp/-/media/jpz/zrh/pdf/pr/2023/NewsRelease_20230110_ZurichInsuranceCompanyLtd.pdf",
+  "sources": [
+    {
+      "url": "https://www.zurich.co.jp/-/media/jpz/zrh/pdf/pr/2023/NewsRelease_20230110_ZurichInsuranceCompanyLtd.pdf",
+      "title": "個人情報漏えいに関するお詫びとお知らせ",
+      "publisher": "チューリッヒ保険会社",
+      "published_on": "2023-01-10"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/01/12/48756.html",
+      "title": "チューリッヒ「スーパー自動車保険」加入者の情報が漏えい、外部委託業者が不正アクセス被害",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-01-12"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20230117-security",
+      "title": "チューリッヒ、最大757,463人分の個人情報が漏えい",
+      "publisher": "マイナビニュース",
+      "published_on": "2023-01-17"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

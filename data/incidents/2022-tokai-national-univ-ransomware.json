@@ -1,0 +1,53 @@
+{
+  "id": "2022-tokai-national-univ-ransomware",
+  "organization": {
+    "name_ja": "国立大学法人東海国立大学機構",
+    "name_en": "Tokai National Higher Education and Research System",
+    "domain": "thers.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2022-11-18",
+  "discovered_on": "2022-10-18",
+  "affected": {
+    "count": 40000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to about 40,000 Nagoya University students and staff since 2021-07 and Gifu University staff since 2022-05. Data includes names, affiliations, birthdates, student and staff numbers, account IDs, hashed passwords and email addresses."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "email",
+    "password",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "The Tokai National Higher Education and Research System, which runs Nagoya and Gifu universities, found on 2022-10-18 that its account authentication server had been encrypted by ransomware after a brute-force attack. A network setting error had left it reachable from outside, and data of up to about 40,000 people may have leaked.",
+    "ja": "名古屋大学と岐阜大学を運営する東海国立大学機構は、2022年10月18日にアカウント管理用の認証サーバがランサムウェアで暗号化されていることを確認した。ネットワーク機器の設定不備で外部からアクセス可能となっており、総当たり攻撃を受けていた。最大約4万人分の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.thers.ac.jp/news/2022/11/20221118-jimu.html",
+  "sources": [
+    {
+      "url": "https://www.thers.ac.jp/news/2022/11/20221118-jimu.html",
+      "title": "東海国立大学機構への不正アクセスによる個人情報流出について",
+      "publisher": "国立大学法人東海国立大学機構",
+      "published_on": "2022-11-18"
+    },
+    {
+      "url": "https://www.security-next.com/141573",
+      "title": "東海国立大学機構がランサム被害 - ログに総当り攻撃の痕跡",
+      "publisher": "Security NEXT",
+      "published_on": "2022-12-12"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/11/21/48522.html",
+      "title": "東海国立大学機構にパスワード総当たり攻撃でアカウント情報流出の可能性、設定不備が原因",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-11-21"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

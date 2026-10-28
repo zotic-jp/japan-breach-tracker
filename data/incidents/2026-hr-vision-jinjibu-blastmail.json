@@ -1,0 +1,37 @@
+{
+  "id": "2026-hr-vision-jinjibu-blastmail",
+  "organization": {
+    "name_ja": "株式会社HRビジョン",
+    "name_en": "HR Vision Co., Ltd.",
+    "domain": "jinjibu.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-10-23",
+  "discovered_on": "2026-10-22",
+  "affected": {
+    "count": 213294,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses registered for the weekly Nihon no Jinjibu mail magazine up to 2026-10-20 23:55, as finalized by the vendor on 2026-10-26 (the first report had cited 212,243 registered addresses). Names, employers, phone numbers and passwords were not shared with Blastmail. One of many customer-side impacts of the Blastmail breach (see 2026-blastmail)."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ラクスライトクラウド (ブラストメール)",
+  "status": "confirmed",
+  "summary": {
+    "en": "HR Vision, operator of the HR community site Nihon no Jinjibu, said the email addresses of its mail magazine subscribers leaked in the unauthorized access to the email delivery service Blastmail. The vendor later confirmed the number of leaked addresses as 213,294.",
+    "ja": "人事向けコミュニティサイト『日本の人事部』を運営するHRビジョンは、メール配信サービス「ブラストメール」への不正アクセスにより、メールマガジン登録者のメールアドレスが漏えいしたと発表した。その後、委託先から漏えい件数が213,294件で確定したとの報告を受けた。"
+  },
+  "official_notice_url": "https://jinjibu.jp/info/detl/2012/",
+  "sources": [
+    {
+      "url": "https://jinjibu.jp/info/detl/2012/",
+      "title": "【更新】メールマガジン配信用外部サービスへの不正アクセス、および配信先メールアドレスの漏えいに関するお詫びとお知らせ",
+      "publisher": "株式会社HRビジョン",
+      "published_on": "2026-10-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2025-fujisan-magazine",
+  "organization": {
+    "name_ja": "株式会社富士山マガジンサービス",
+    "name_en": "Fujisan Magazine Service Co., Ltd.",
+    "domain": "fujisan.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-06-20",
+  "discovered_on": "2025-05-31",
+  "affected": {
+    "count": 2259434,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum number of customers whose address-book information registered in My Page may have been accessed via 8 customer accounts that were logged into without authorization. The first notice (2025-06-20) gave 2,528,491 people and 9 accounts; the investigation completed on 2025-08-15 revised these to 2,259,434 and 8. Payment data such as card and bank account details was not included."
+  },
+  "data_types": [
+    "address"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Fujisan Magazine Service, which runs the magazine subscription site Fujisan.co.jp, detected mass access mainly from overseas from 2025-05-31 and later found unauthorized logins to customer My Pages. Attackers used those accounts to run a program against other customers' address-book pages, and up to 2,259,434 customers' address data may have been accessed.",
+    "ja": "雑誌定期購読サイト「Fujisan.co.jp」を運営する富士山マガジンサービスは、2025年5月31日から主に海外からの大量アクセスを検知し、その後顧客の「マイページ」への不正ログインが判明した。不正ログインされたアカウントを起点に他の顧客の住所録ページが攻撃され、最大2,259,434人の住所情報にアクセスされた可能性があると公表した。"
+  },
+  "official_notice_url": "https://www.fujisan.co.jp/guidance/20250815/",
+  "sources": [
+    {
+      "url": "https://www.fujisan.co.jp/guidance/20250620/",
+      "title": "当社への不正アクセスによる個人情報流出の可能性に関するお知らせ",
+      "publisher": "株式会社富士山マガジンサービス",
+      "published_on": "2025-06-20"
+    },
+    {
+      "url": "https://www.fujisan.co.jp/guidance/20250815/",
+      "title": "当社への不正アクセスによる個人情報流出の可能性に関するお知らせ（続報：2025/08/15）",
+      "publisher": "株式会社富士山マガジンサービス",
+      "published_on": "2025-08-15"
+    },
+    {
+      "url": "https://www.security-next.com/171609",
+      "title": "一部ユーザーで不正ログイン被害、他利用者情報にもアクセス - 雑誌ネット書店",
+      "publisher": "Security NEXT",
+      "published_on": "2025-06-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

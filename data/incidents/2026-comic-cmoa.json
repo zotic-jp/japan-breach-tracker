@@ -1,0 +1,46 @@
+{
+  "id": "2026-comic-cmoa",
+  "organization": {
+    "name_ja": "NTTソルマーレ株式会社",
+    "name_en": "NTT Solmare Corporation",
+    "domain": "cmoa.jp"
+  },
+  "industry": "media",
+  "disclosed_on": "2026-10-16",
+  "discovered_on": "2026-10-15",
+  "affected": {
+    "count": 4200000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Fourth report (2026-10-21): up to about 4.2 million records in system log files (email address, nickname, birthdate, gender; may include duplicates of the same customer; no passwords) plus 319 member database records that also included hashed passwords. Card data is not held in the affected system."
+  },
+  "data_types": [
+    "email",
+    "password",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "NTT Solmare suspended its e-book store Comic Cmoa on 2026-10-15 after judging that its servers had likely been accessed without authorization, and confirmed the next day that member data had leaked. Its fourth report said up to about 4.2 million log records containing email addresses, nicknames and birthdates, and 319 member database records with hashed passwords, leaked.",
+    "ja": "NTTソルマーレは2026年10月15日、電子書籍ストア「コミックシーモア」のサーバーに不正アクセスが行われた可能性が高いと判断してサービスを停止し、翌日に会員情報の流出を確認した。第4報では、メールアドレス、ニックネーム、生年月日などを含むシステムログ上の最大約420万件と、ハッシュ化されたパスワードを含む会員データベースの319件が流出したとした。"
+  },
+  "official_notice_url": "https://www.nttsolmare.com/press/2026/1021.html",
+  "sources": [
+    {
+      "url": "https://www.nttsolmare.com/press/2026/1021.html",
+      "title": "『コミックシーモア』お客様の情報流出に関するご報告（第4報）",
+      "publisher": "NTTソルマーレ株式会社",
+      "published_on": "2026-10-21"
+    },
+    {
+      "url": "https://www.nttsolmare.com/press/2026/1016.html",
+      "title": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)",
+      "publisher": "NTTソルマーレ株式会社",
+      "published_on": "2026-10-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

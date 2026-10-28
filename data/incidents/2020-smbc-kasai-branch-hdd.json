@@ -1,0 +1,45 @@
+{
+  "id": "2020-smbc-kasai-branch-hdd",
+  "organization": {
+    "name_ja": "株式会社三井住友銀行",
+    "name_en": "Sumitomo Mitsui Banking Corporation",
+    "domain": "smbc.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2020-05-01",
+  "discovered_on": null,
+  "affected": {
+    "count": 70000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 70,000 transaction records for passbook issuance and renewal at the Kasai branch between 2009-01-21 and 2018-10-15. The data was converted into strings of letters and symbols per the bank's system specification; no sign of removal or misuse was found."
+  },
+  "data_types": [
+    "name",
+    "bank_account",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": "OKIクロステック",
+  "status": "possible",
+  "summary": {
+    "en": "Sumitomo Mitsui Banking Corporation said two hard disks holding customer transaction data went missing at OKI CrossTech, a contractor that maintains its office equipment. The disks recorded about 70,000 transactions at its Kasai branch, including names, account numbers, amounts and balances.",
+    "ja": "三井住友銀行は、事務機器の保守を委託するOKIクロステックで、顧客情報を記録したハードディスク2台が所在不明になったと公表した。葛西支店での通帳発行や繰越に関する約7万件の取引情報（氏名、口座番号、入出金額、残高など）が記録されていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/114607",
+      "title": "委託先で取引情報含むHDD2台が所在不明 - 三井住友銀",
+      "publisher": "Security NEXT",
+      "published_on": "2020-05-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/05/07/44061.html",
+      "title": "三井住友銀行の保守委託企業がハードディスク紛失、葛西支店の顧客情報10年分",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-05-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

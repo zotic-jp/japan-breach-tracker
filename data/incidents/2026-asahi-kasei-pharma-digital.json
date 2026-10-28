@@ -1,0 +1,45 @@
+{
+  "id": "2026-asahi-kasei-pharma-digital",
+  "organization": {
+    "name_ja": "旭化成セラピューティクス株式会社",
+    "name_en": "Asahi Kasei Therapeutics Corporation",
+    "domain": "asahi-kasei.co.jp"
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2026-10-06",
+  "discovered_on": "2026-10-02",
+  "affected": {
+    "count": 514000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum of about 514,000 healthcare professionals registered with the Pharma DIGITAL website, of whom about 44,000 also had email addresses and other data involved. About 700 company employees (names, email addresses, photos) were also affected. Card data and sensitive personal data are not stored."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社医薬情報ネット",
+  "status": "possible",
+  "summary": {
+    "en": "Asahi Kasei Therapeutics was told on 2026-10-02 by its contractor Iyaku Joho Net, which runs its Pharma DIGITAL information website for healthcare professionals, that the site's member database had been accessed in a cyberattack. Names, facility names and addresses, job types and departments of up to about 514,000 healthcare professionals may have been viewed or taken.",
+    "ja": "旭化成セラピューティクスは2026年10月2日、医療関係者向け情報提供ウェブサイト「Pharma DIGITAL」の運営を委託する医薬情報ネットから、会員データベースがサイバー攻撃による不正アクセスを受けたとの報告を受けた。最大約51万4,000名の医療従事者の氏名、所属施設名、施設住所、職種、診療科などが閲覧または取得された可能性がある。"
+  },
+  "official_notice_url": "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html",
+  "sources": [
+    {
+      "url": "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html",
+      "title": "医療従事者向け情報提供ウェブサイト「Pharma DIGITAL」への不正アクセスおよび個人情報漏えいの可能性について",
+      "publisher": "旭化成セラピューティクス株式会社",
+      "published_on": "2026-10-06"
+    },
+    {
+      "url": "https://www.security-next.com/191148",
+      "title": "医療関係者向け情報サイトで会員情報流出の可能性 - 旭化成グループ会社",
+      "publisher": "Security NEXT",
+      "published_on": "2026-10-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

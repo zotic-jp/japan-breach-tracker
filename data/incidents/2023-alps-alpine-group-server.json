@@ -1,0 +1,45 @@
+{
+  "id": "2023-alps-alpine-group-server",
+  "organization": {
+    "name_ja": "アルプスアルパイン株式会社",
+    "name_en": "Alps Alpine Co., Ltd.",
+    "domain": "alpsalpine.com"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2023-07-14",
+  "discovered_on": "2023-07-06",
+  "affected": {
+    "count": 16000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 16,000 employees of Alps Alpine and its group companies. The company said no leak of customer information had been confirmed."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Alps Alpine detected unauthorized access to some servers managed by its group on 2023-07-06. It confirmed that names, email addresses and other data used for internal system access of about 16,000 group employees leaked externally.",
+    "ja": "アルプスアルパインは、2023年7月6日にグループで管理するサーバーの一部への不正アクセスを検知した。同社とグループ会社の社員約1万6,000人分の、社内システムへのアクセスに使う氏名やメールアドレスなどが外部に流出したことを確認したと公表した。"
+  },
+  "official_notice_url": "https://www.alpsalpine.com/cms.media/20230714_a34ef04607.pdf",
+  "sources": [
+    {
+      "url": "https://www.alpsalpine.com/cms.media/20230714_a34ef04607.pdf",
+      "title": "当社グループ会社に対するサイバー攻撃について",
+      "publisher": "アルプスアルパイン株式会社",
+      "published_on": "2023-07-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/07/24/49708.html",
+      "title": "アルプスアルパイングループ会社にサイバー攻撃、社員の個人情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-07-24"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

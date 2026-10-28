@@ -1,0 +1,50 @@
+{
+  "id": "2022-riskmonster-cybax-univ",
+  "organization": {
+    "name_ja": "リスクモンスター株式会社",
+    "name_en": "Riskmonster Inc.",
+    "domain": "cybaxuniv.jp"
+  },
+  "industry": "it_services",
+  "disclosed_on": "2022-07-01",
+  "discovered_on": "2022-06-29",
+  "affected": {
+    "count": 250000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Company names, department names and names of about 250,000 registered users were reachable from outside between 2020-02-16 and 2022-06-29. One download of 5,934 records was found and the data was deleted."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Riskmonster said pages on a server linked to its Cybax Univ. corporate training service had been publicly reachable and indexed by search engines since February 2020. Names, companies and departments of about 250,000 users were exposed.",
+    "ja": "リスクモンスターは、研修支援サービス「サイバックスUniv.」の連携用サーバのページが2020年2月以降外部からアクセス可能で、検索エンジンにも表示されていたと公表した。利用者約25万人の氏名、会社名、部署名が閲覧できる状態だった。"
+  },
+  "official_notice_url": "https://www.cybaxuniv.jp/news/2022/20220701",
+  "sources": [
+    {
+      "url": "https://www.cybaxuniv.jp/news/2022/20220701",
+      "title": "サイバックスUniv.システム連携用サーバーの個人情報流出事案について",
+      "publisher": "リスクモンスター株式会社",
+      "published_on": "2022-07-01"
+    },
+    {
+      "url": "https://www.security-next.com/137843",
+      "title": "研修支援サービスで外部より個人情報へアクセス可能に - リスモン",
+      "publisher": "Security NEXT",
+      "published_on": "2022-07-05"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/07/06/47849.html",
+      "title": "オンライン研修システムのユーザー25万名の情報が検索閲覧可能な状態に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-07-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

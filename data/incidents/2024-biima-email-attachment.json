@@ -1,0 +1,54 @@
+{
+  "id": "2024-biima-email-attachment",
+  "organization": {
+    "name_ja": "株式会社biima",
+    "name_en": "biima Inc.",
+    "domain": "biima.co.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2024-11-13",
+  "discovered_on": "2024-11-12",
+  "affected": {
+    "count": 22085,
+    "unit": "people",
+    "approximate": false,
+    "note": "The notice says about 23,000 people; its breakdown totals 22,085, of whom 9,352 also had bank names and account numbers. The CSV file was sent unprotected to 53 members."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "bank_account"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "biima, which runs the children's sports school biima sports, mistakenly attached an unprotected CSV file with personal data of 22,085 current, former and trial members to a notice email sent to 53 members on 2024-11-11. Bank account details of 9,352 people were included.",
+    "ja": "子ども向けスポーツ教室「biima sports」を運営するbiimaは、2024年11月11日に会員53人へ送ったお知らせメールに、体験者や過去の在籍者を含む22,085人分の個人情報を含むCSVファイルを誤って添付した。うち9,352人分には金融機関名と口座番号が含まれていた。"
+  },
+  "official_notice_url": "https://biima.co.jp/sports/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e4%bc%9a%e5%93%a1%e6%a7%98%e6%83%85%e5%a0%b1%e3%81%ae%e8%aa%a4%e9%80%81%e4%bf%a1%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab%e3%81%b3%e3%81%a8%e3%81%8a/",
+  "sources": [
+    {
+      "url": "https://biima.co.jp/sports/news/%e3%80%90%e9%87%8d%e8%a6%81%e3%80%91%e4%bc%9a%e5%93%a1%e6%a7%98%e6%83%85%e5%a0%b1%e3%81%ae%e8%aa%a4%e9%80%81%e4%bf%a1%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab%e3%81%b3%e3%81%a8%e3%81%8a/",
+      "title": "【重要】会員様情報の誤送信に関するお詫びとお知らせ",
+      "publisher": "株式会社biima",
+      "published_on": "2024-11-13"
+    },
+    {
+      "url": "https://www.security-next.com/164210",
+      "title": "会員向けメールに2.2万人分の個人情報を誤添付 - スポーツ教室",
+      "publisher": "Security NEXT",
+      "published_on": "2024-11-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/11/21/51946.html",
+      "title": "約 2.3 万人分の個人情報が記載された CSV データを誤添付し 53 名へ送信",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-11-21"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

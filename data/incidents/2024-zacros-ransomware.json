@@ -1,0 +1,55 @@
+{
+  "id": "2024-zacros-ransomware",
+  "organization": {
+    "name_ja": "ZACROS株式会社",
+    "name_en": "ZACROS Corporation",
+    "domain": "zacros.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2024-09-27",
+  "discovered_on": "2024-09-14",
+  "affected": {
+    "count": 157203,
+    "unit": "people",
+    "approximate": false,
+    "note": "143,718 business partners/related parties (business contact info) + 13,485 officers/employees and family (incl. My Number, pension numbers). Separately 13 files with 38 people's info were confirmed published online (Dec 2024)."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "my_number",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Packaging maker ZACROS (formerly Fujimori Kogyo) was hit by ransomware that disrupted its production management and core systems in September 2024. After its internal investigation it concluded that personal data of 157,203 people, including business contacts and employees and their families with My Number and pension numbers, may have leaked.",
+    "ja": "包装資材メーカーのZACROS（旧藤森工業）は、2024年9月にランサムウェア攻撃を受け、生産管理システムや基幹システムに障害が発生した。社内調査の結果、取引先関係者や、マイナンバーや基礎年金番号を含む役職員とその家族など15万7,203人分の個人情報が流出した可能性があると結論付けた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/162416",
+      "title": "生産管理システムや基幹システムがランサム被害 - ZACROS",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-02"
+    },
+    {
+      "url": "https://www.security-next.com/164870",
+      "title": "ZACROSへのサイバー攻撃、個人情報がネット上に公開される",
+      "publisher": "Security NEXT",
+      "published_on": "2024-12-03"
+    },
+    {
+      "url": "https://www.security-next.com/166043",
+      "title": "ZACROSのランサム被害 - 個人情報約15万人分が流出か",
+      "publisher": "Security NEXT",
+      "published_on": "2025-01-10"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

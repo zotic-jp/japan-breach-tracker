@@ -1,0 +1,47 @@
+{
+  "id": "2024-saizeriya-ransomware",
+  "organization": {
+    "name_ja": "株式会社サイゼリヤ",
+    "name_en": "Saizeriya Co., Ltd.",
+    "domain": "saizeriya.co.jp"
+  },
+  "industry": "food",
+  "disclosed_on": "2024-10-16",
+  "discovered_on": "2024-10-13",
+  "affected": {
+    "count": 61087,
+    "unit": "records",
+    "approximate": false,
+    "note": "2,234 business-partner contacts + 58,853 current/former employees and family members. Company said some data was confirmed leaked; these counts are 'may have leaked'."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Restaurant chain Saizeriya confirmed on 2024-10-13 that a system failure on several servers was caused by a ransomware attack. It found that some personal data leaked and that data of 2,234 business partner contacts and 58,853 current and former employees and their families may have leaked.",
+    "ja": "レストランチェーンのサイゼリヤは、複数サーバで発生したシステム障害がランサムウェア攻撃によるものと2024年10月13日に確認した。一部の個人情報の流出が判明し、取引先関係者2,234件と、退職者を含む従業員やその家族58,853件の情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/163049",
+      "title": "ランサムウェア被害が判明、個人情報流出の可能性 - サイゼリヤ",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-16"
+    },
+    {
+      "url": "https://www.security-next.com/165170",
+      "title": "サイゼリヤ、ランサムウェア攻撃で個人情報流出 -  6万件超が被害か",
+      "publisher": "Security NEXT",
+      "published_on": "2024-12-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

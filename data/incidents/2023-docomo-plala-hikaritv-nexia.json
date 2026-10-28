@@ -1,0 +1,54 @@
+{
+  "id": "2023-docomo-plala-hikaritv-nexia",
+  "organization": {
+    "name_ja": "株式会社NTTドコモ",
+    "name_en": "NTT DOCOMO, INC.",
+    "domain": "docomo.ne.jp"
+  },
+  "industry": "telecom",
+  "disclosed_on": "2023-03-31",
+  "discovered_on": "2023-03-30",
+  "affected": {
+    "count": 5960000,
+    "unit": "records",
+    "approximate": true,
+    "note": "About 1.65 million Plala and 4.31 million Hikari TV customer records, including former customers (people using both are counted under Plala). Initially announced on 2023-03-31 as up to about 5.29 million. Data included name, address, phone number, Flets line ID and part of the customer number, plus email address and date of birth for Hikari TV. Payment data and passwords were not included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "birthdate",
+    "other"
+  ],
+  "cause": "insider",
+  "via_vendor": "NTTネクシア (NTT Nexia)",
+  "status": "confirmed",
+  "summary": {
+    "en": "NTT Docomo said a former temporary worker at its sales-support contractor NTT Nexia used a work PC to move business data, including customer information, to a personal external storage service on 2023-03-30. About 5.96 million records of Plala ISP and Hikari TV customers leaked.",
+    "ja": "NTTドコモは、「ぷらら」「ひかりTV」の販売支援業務の委託先であるNTTネクシアの元派遣社員が、2023年3月30日に業務用パソコンから個人契約の外部ストレージへ顧客情報を含む業務データを持ち出したと公表した。約596万件の顧客情報が流出した。"
+  },
+  "official_notice_url": "https://www.docomo.ne.jp/info/notice/page/230721_00_m.html",
+  "sources": [
+    {
+      "url": "https://www.docomo.ne.jp/info/notice/page/230721_00_m.html",
+      "title": "【お詫び】「ぷらら」および「ひかりTV」をご利用のお客さま情報流出のお知らせとお詫び",
+      "publisher": "株式会社NTTドコモ",
+      "published_on": "2023-07-21"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/04/04/49156.html",
+      "title": "NTTドコモ「ぷらら」「ひかりTV」業務の委託先パソコンから最大 約529万件の個人情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-04-04"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/07/27/49731.html",
+      "title": "「ぷらら」「ひかりTV」の顧客情報 約596万件持ち出し ～ NTTドコモの委託先元派遣社員",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-07-27"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

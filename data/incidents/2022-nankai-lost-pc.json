@@ -1,0 +1,50 @@
+{
+  "id": "2022-nankai-lost-pc",
+  "organization": {
+    "name_ja": "南海電気鉄道株式会社",
+    "name_en": "Nankai Electric Railway Co., Ltd.",
+    "domain": "nankai.co.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2022-10-26",
+  "discovered_on": "2022-09-21",
+  "affected": {
+    "count": 10000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to about 10,000 employees of tenants at the Namba CITY shopping center from about 2005 to 2013, held on a Windows XP laptop used to make staff ID cards. The laptop was likely lost after 2013."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "lost_device",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Nankai Electric Railway found during a lease renewal that a laptop used to make staff ID cards for its Namba CITY shopping center was missing. It may hold names and other data of up to about 10,000 tenant employees.",
+    "ja": "南海電気鉄道は、リース契約の更新時に商業施設「なんばCITY」の従業員証作成用ノートパソコンが所在不明となっていることが判明したと公表した。テナント従業員最大約1万人分の氏名などが保存されている可能性がある。"
+  },
+  "official_notice_url": "https://www.nankai.co.jp/library/company/news/pdf/221026.pdf",
+  "sources": [
+    {
+      "url": "https://www.nankai.co.jp/library/company/news/pdf/221026.pdf",
+      "title": "個人情報が保存されている可能性のあるノートパソコンの紛失について（お詫び）",
+      "publisher": "南海電気鉄道株式会社",
+      "published_on": "2022-10-26"
+    },
+    {
+      "url": "https://www.security-next.com/140884",
+      "title": "商業施設テナントの従業員情報含むPC、2013年以降に紛失 - 南海電鉄",
+      "publisher": "Security NEXT",
+      "published_on": "2022-10-26"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/11/01/48420.html",
+      "title": "社員証作成用の WindowsXP 搭載パソコン紛失、時期は2013年以降か",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-11-01"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

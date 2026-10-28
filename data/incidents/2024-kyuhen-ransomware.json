@@ -1,0 +1,41 @@
+{
+  "id": "2024-kyuhen-ransomware",
+  "organization": {
+    "name_ja": "株式会社キューヘン",
+    "name_en": "Kyuhen Co., Ltd.",
+    "domain": "kyuhen.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2024-06-05",
+  "discovered_on": "2024-06-03",
+  "affected": {
+    "count": 374000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Initially ~104,000 (incl. ~4,000 Kyushu Electric water-heater sales data); revised to ~374,000 incl. ~20,000 Kyushu Electric PR data. Official notice not located; Security NEXT 2024-06-05."
+  },
+  "data_types": [],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kyuhen, a Kyushu Electric Power group company that makes electrical equipment and sells water heaters, confirmed on 2024-06-03 that some data had been encrypted by ransomware. It later said about 374,000 records of personal data, mostly from water heater sales and including about 20,000 records it handled for Kyushu Electric, may have leaked.",
+    "ja": "九州電力グループで電力機器の製造や給湯器販売を手がけるキューヘンは、2024年6月3日に一部データがランサムウェアで暗号化されたことを確認した。その後、給湯器販売などで扱った情報や九州電力から受託した約2万件を含む約37万4,000件の個人情報が流出した可能性があると公表した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/158010",
+      "title": "九州電力グループ会社でランサム被害 - 個人情報流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-05"
+    },
+    {
+      "url": "https://www.security-next.com/158445",
+      "title": "キューヘンのランサム被害、個人情報約37.4万件が流出か",
+      "publisher": "Security NEXT",
+      "published_on": "2024-06-14"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

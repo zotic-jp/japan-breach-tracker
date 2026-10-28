@@ -1,0 +1,47 @@
+{
+  "id": "2020-keio-sfc-unauthorized-access",
+  "organization": {
+    "name_ja": "慶應義塾大学",
+    "name_en": "Keio University",
+    "domain": "keio.ac.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2020-10-01",
+  "discovered_on": "2020-09-15",
+  "affected": {
+    "count": 18636,
+    "unit": "records",
+    "approximate": true,
+    "note": "Ranked by the largest single figure published (18,636) because no overall total was given. Figures published for the Shonan Fujisawa Campus (no total was published, and categories overlap): student data 5,088, student face photos 18,636, course histories 4,493, faculty data 2,276 and faculty profiles 2,276, faculty home addresses 193, staff and contractor data 233. Email or home-directory data of 19 users was also affected. Other data on the systems could not be ruled out."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Keio University said the information network and class support systems at its Shonan Fujisawa Campus were accessed without authorization. Student names, email addresses and face photos, course histories, and faculty data including some home addresses and syllabus system passwords may have leaked, totaling more than 33,000 records across categories.",
+    "ja": "慶應義塾大学は、湘南藤沢キャンパスの情報ネットワークシステムと授業支援システムが不正アクセスを受けたと公表した。学生の氏名、メールアドレス、顔写真、履修履歴や、一部の住所やシラバスシステムのパスワードを含む教員情報など、項目別に合計3万3,000件を超える情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.keio.ac.jp/ja/sfc-pem/news/20201110-2/",
+  "sources": [
+    {
+      "url": "https://www.security-next.com/120524",
+      "title": "SFCへ不正アクセス、個人情報流出の可能性 - 慶大",
+      "publisher": "Security NEXT",
+      "published_on": "2020-11-11"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/11/17/44820.html",
+      "title": "慶應義塾大学湘南藤沢キャンパスに不正アクセス、学生情報や顔写真データが流出の可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-11-17"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

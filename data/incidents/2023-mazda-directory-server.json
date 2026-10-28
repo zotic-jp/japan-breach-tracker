@@ -1,0 +1,47 @@
+{
+  "id": "2023-mazda-directory-server",
+  "organization": {
+    "name_ja": "マツダ株式会社",
+    "name_en": "Mazda Motor Corporation",
+    "domain": "mazda.co.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2023-09-15",
+  "discovered_on": "2023-07-24",
+  "affected": {
+    "count": 104732,
+    "unit": "accounts",
+    "approximate": false,
+    "note": "System account information of employees of Mazda and its group companies, staff of partner companies and contacts at business partners. Passwords were stored as encrypted values. Mazda said the server that was accessed held no customer personal data."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "phone",
+    "password",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Mazda detected unauthorized communication through one of its servers on 2023-07-24, and a third-party investigation found traces of access to the directory server that manages system accounts. The company said account information for 104,732 accounts of employees, partner-company staff and business contacts may have leaked; the attacker exploited a vulnerability in an application server.",
+    "ja": "マツダは2023年7月24日に自社サーバー経由の不正な通信を検知し、第三者機関の調査でシステムのアカウント情報を管理するディレクトリサーバーへの不正アクセスの形跡が確認された。社員や協力会社社員、取引先担当者のアカウント情報104,732件が流出した可能性があると公表した。原因はアプリケーションサーバーの脆弱性を悪用されたものとしている。"
+  },
+  "official_notice_url": "https://newsroom.mazda.com/ja/publicity/release/2023/202309/230915a.pdf",
+  "sources": [
+    {
+      "url": "https://newsroom.mazda.com/ja/publicity/release/2023/202309/230915a.pdf",
+      "title": "不正アクセス発生による個人情報流出可能性のお知らせとお詫び",
+      "publisher": "マツダ株式会社",
+      "published_on": "2023-09-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/10/04/50030.html",
+      "title": "マツダへの不正アクセスで104,732件のアカウント情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-10-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

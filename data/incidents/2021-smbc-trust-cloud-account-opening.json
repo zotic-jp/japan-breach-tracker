@@ -1,0 +1,48 @@
+{
+  "id": "2021-smbc-trust-cloud-account-opening",
+  "organization": {
+    "name_ja": "株式会社SMBC信託銀行",
+    "name_en": "SMBC Trust Bank Ltd.",
+    "domain": "smbctb.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2021-03-08",
+  "discovered_on": null,
+  "affected": {
+    "count": 37176,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum number of customers who applied to open accounts via the website between 2017-07-24 and 2020-07-18 and whose data was accessible. Unauthorized access to data of up to 101 customers was confirmed but they could not be identified; logs for 2017-07-24 to 2018-01-31 were not available."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "phone",
+    "email",
+    "address",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "SMBC Trust Bank disclosed that an access permission error in an external cloud-based account opening system left data of customers who applied online accessible to third parties. Up to 37,176 customers were affected, and unauthorized access to data of up to 101 customers, including names, contact details, employers and encrypted debit PINs, was confirmed.",
+    "ja": "SMBC信託銀行は、社外のクラウド型口座開設システムのアクセス権設定の不備により、ウェブで口座開設手続きをした顧客の情報が第三者からアクセスできる状態にあったと公表した。対象は最大37,176人分で、うち最大101人分について氏名、連絡先、勤務先、暗号化されたデビット用暗証番号などへの不正アクセスが確認された。"
+  },
+  "official_notice_url": "https://www.smbctb.co.jp/news/2021/pdf/news_030821_01.pdf",
+  "sources": [
+    {
+      "url": "https://www.smbctb.co.jp/news/2021/pdf/news_030821_01.pdf",
+      "title": "クラウド型口座開設システムへの第三者のアクセスについて",
+      "publisher": "株式会社SMBC信託銀行",
+      "published_on": "2021-03-08"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/03/11/45316.html",
+      "title": "クラウド型口座開設サービスの設定不備、第三者から不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-03-11"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2025-tokio-marine-agency-misdelivery",
+  "organization": {
+    "name_ja": "東京海上日動火災保険株式会社",
+    "name_en": "Tokio Marine & Nichido Fire Insurance Co., Ltd.",
+    "domain": "tokiomarine-nichido.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2025-05-02",
+  "discovered_on": "2025-02-19",
+  "affected": {
+    "count": 12000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Information on insurance sales staff belonging to other agencies (names and General Insurance Association of Japan staff IDs) was attached to customer survey data sent to one agency. The receiving agency deleted the data and no onward transfer was found."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Tokio Marine & Nichido said an employee sending customer survey data to one agency on 2025-02-19 mistakenly included information on sales staff of other agencies. About 12,000 records, including staff names and IDs, leaked to that agency.",
+    "ja": "東京海上日動火災保険は、2025年2月19日に社員が委託代理店1店へお客様アンケートのデータを送信した際、他代理店の募集人情報を誤って含めていたと公表した。募集人の氏名やIDなど約1.2万件が当該代理店に漏えいした。"
+  },
+  "official_notice_url": "https://www.tokiomarine-nichido.co.jp/company/release/pdf/250502_02.pdf",
+  "sources": [
+    {
+      "url": "https://www.tokiomarine-nichido.co.jp/company/release/pdf/250502_02.pdf",
+      "title": "当社代理店へのデータ誤送信による募集人情報の漏えいに関するお詫び",
+      "publisher": "東京海上日動火災保険株式会社",
+      "published_on": "2025-05-02"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/05/19/52866.html",
+      "title": "東京海上日動火災保険で代理店にデータ誤送信、約 12,000 件の情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-05-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

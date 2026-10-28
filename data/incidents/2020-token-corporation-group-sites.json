@@ -1,0 +1,49 @@
+{
+  "id": "2020-token-corporation-group-sites",
+  "organization": {
+    "name_ja": "東建コーポレーション株式会社",
+    "name_en": "Token Corporation",
+    "domain": "token.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2020-11-17",
+  "discovered_on": "2020-10-20",
+  "affected": {
+    "count": 657096,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to 657,096 records collected from 2000 to September 2020 through group sites such as the real estate portal Homemate, campaign entries and inquiries. Data was possibly exfiltrated between 2020-08-20 and 2020-09-12 via a vulnerability in the recipe site Nasluck Kitchen. No My Number or card numbers were included."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "birthdate",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Token Corporation, a real estate and construction company, said a server storing user data from its group websites was accessed without authorization through a vulnerability in a group recipe site. Up to 657,096 records collected over about 20 years, including names, addresses, phone numbers, email addresses and passwords, may have leaked.",
+    "ja": "不動産・建設会社の東建コーポレーションは、グループのレシピサイトの脆弱性を突かれ、グループ各サイトの利用者情報を保管するサーバが不正アクセスを受けたと公表した。約20年分の氏名、住所、電話番号、メールアドレス、パスワードなど最大65万7,096件の個人情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/120771",
+      "title": "サーバに不正アクセス、最大65万件の情報流出か - 東建コーポ",
+      "publisher": "Security NEXT",
+      "published_on": "2020-11-18"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/11/19/44835.html",
+      "title": "東建コーポレーショングループへの不正アクセスで最大657,096件、約20年分の個人情報が流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-11-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

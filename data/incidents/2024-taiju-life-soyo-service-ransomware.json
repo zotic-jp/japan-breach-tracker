@@ -1,0 +1,45 @@
+{
+  "id": "2024-taiju-life-soyo-service-ransomware",
+  "organization": {
+    "name_ja": "大樹生命保険株式会社",
+    "name_en": "Taiju Life Insurance Company Limited",
+    "domain": "taiju-life.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2024-09-24",
+  "discovered_on": "2024-09-18",
+  "affected": {
+    "count": 70000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 70,000 customers who requested printed policy terms since Oct 2021; investigation ongoing at time of report."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "倉業サービス",
+  "status": "possible",
+  "summary": {
+    "en": "Taiju Life said Soyo Service, its contractor for document storage and delivery, was hit by ransomware in September 2024. Names, addresses and phone numbers of about 70,000 customers who requested printed policy terms since October 2021 may have leaked.",
+    "ja": "大樹生命保険は、書類の保管や配送を委託していた倉業サービスが2024年9月にランサムウェア攻撃を受けたと公表した。2021年10月以降に冊子約款を希望した顧客約7万人の氏名、住所、電話番号などが流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/162106",
+      "title": "委託先がランサム被害、顧客情報が流出した可能性 - 大樹生命",
+      "publisher": "Security NEXT",
+      "published_on": "2024-09-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/10/03/51710.html",
+      "title": "倉業サービスへのランサムウェア攻撃、大樹生命保険の顧客 最大 7 万人分の個人情報が漏えいした可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-10-03"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

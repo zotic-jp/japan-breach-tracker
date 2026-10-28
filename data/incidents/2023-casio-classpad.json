@@ -1,0 +1,45 @@
+{
+  "id": "2023-casio-classpad",
+  "organization": {
+    "name_ja": "カシオ計算機株式会社",
+    "name_en": "Casio Computer Co., Ltd.",
+    "domain": "casio.co.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2023-10-18",
+  "discovered_on": "2023-10-11",
+  "affected": {
+    "count": 126970,
+    "unit": "records",
+    "approximate": false,
+    "note": "91,921 records in Japan (individuals and 1,108 educational institutions combined) and 35,049 records of customers in 148 other countries and regions, as of 2023-10-18. Data included name, email address, school name, grade, class, student number, purchase details and usage history. Casio does not hold card data."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Casio said a third party accessed the development-environment database of its ClassPad.net education app after some network security settings had been disabled through an operating error. Personal data of 126,970 customers in Japan and abroad, including names, email addresses and school details, leaked.",
+    "ja": "カシオ計算機は、運用ミスでネットワークのセキュリティ設定の一部が無効になっていたICT教育アプリ「ClassPad.net」の開発環境データベースに第三者が不正アクセスしたと公表した。氏名、メールアドレス、学校名などを含む国内外の顧客126,970件の個人情報が漏えいした。"
+  },
+  "official_notice_url": "https://www.casio.co.jp/release/2023/1018-incident/",
+  "sources": [
+    {
+      "url": "https://www.casio.co.jp/release/2023/1018-incident/",
+      "title": "不正アクセスによる個人情報漏えいのお詫びとご報告",
+      "publisher": "カシオ計算機株式会社",
+      "published_on": "2023-10-18"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/10/26/50152.html",
+      "title": "カシオの ICT教育アプリ「ClassPad.net」開発環境データベースに不正アクセス、国内外の顧客の個人情報漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-10-26"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2020-sod-prime-cdn-cache",
+  "organization": {
+    "name_ja": "ソフト・オン・デマンド株式会社",
+    "name_en": "Soft On Demand Co., Ltd.",
+    "domain": null
+  },
+  "industry": "entertainment",
+  "disclosed_on": "2020-03-19",
+  "discovered_on": "2020-03-16",
+  "affected": {
+    "count": 68898,
+    "unit": "people",
+    "approximate": true,
+    "note": "Up to 68,898 users' account details (nickname, email address, purchase and viewing history and more) could be shown to other logged-in users during four time windows on 2020-03-16 and 2020-03-17. For 564 users with a registered delivery address, name, address and phone number were also shown. Card data was not stored."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Soft On Demand said that after it started using a CDN for its video service SOD Prime, some logged-in users were shown other members' account pages. Account information of up to 68,898 people may have been viewed, and the company attributed the problem to personal data being cached by the CDN.",
+    "ja": "ソフト・オン・デマンドは、動画配信サービス「SODプライム」でCDNの利用を開始した後、ログインした利用者に別の会員のアカウント情報が表示される事象が発生したと公表した。最大6万8,898人分のアカウント情報が他の利用者に閲覧された可能性があり、原因は本来キャッシュされるべきでない情報がCDNにキャッシュされたことだとしている。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/113544",
+      "title": "「SODプライム」不具合、最大6万8898人に影響 - 最大5000円の補償方針",
+      "publisher": "Security NEXT",
+      "published_on": "2020-03-30"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/03/25/43856.html",
+      "title": "成人向け動画にログインすると別人アカウントに切り替わり、購入・視聴履歴等 閲覧可能に（ソフト・オン・デマンド）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-03-25"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/03/31/43887.html",
+      "title": "成人動画サービスの顧客情報漏えい続報、原因はＣＤＮのキャッシュか（ソフト・オン・デマンド）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-03-31"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

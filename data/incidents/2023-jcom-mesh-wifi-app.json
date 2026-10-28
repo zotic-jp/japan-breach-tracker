@@ -1,0 +1,44 @@
+{
+  "id": "2023-jcom-mesh-wifi-app",
+  "organization": {
+    "name_ja": "JCOM株式会社",
+    "name_en": "JCOM Co., Ltd.",
+    "domain": "jcom.co.jp"
+  },
+  "industry": "telecom",
+  "disclosed_on": "2023-11-22",
+  "discovered_on": "2023-11-21",
+  "affected": {
+    "count": 231941,
+    "unit": "people",
+    "approximate": false,
+    "note": "226,832 users of the J:COM mesh Wi-Fi app (names only) and 5,109 customers of cable TV operators offering the same mesh Wi-Fi (names and email addresses)."
+  },
+  "data_types": [
+    "name",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "Plume Design (mobile app partner)",
+  "status": "confirmed",
+  "summary": {
+    "en": "J:COM said an outside party accessed an access log server run by a mobile app partner of Plume Design, the US provider of its mesh Wi-Fi service. Names of 226,832 app users and names and email addresses of 5,109 cable TV operator customers leaked.",
+    "ja": "J:COMは、メッシュWi-Fiの提供元である米Plume Design社のモバイルアプリ提携会社が運用するアクセスログサーバーに外部から不正アクセスがあったと公表した。アプリ利用者226,832名の氏名と、ケーブルテレビ事業者の顧客5,109名の氏名とメールアドレスが漏えいした。"
+  },
+  "official_notice_url": "https://newsreleases.jcom.co.jp/news/20231122_9239.html",
+  "sources": [
+    {
+      "url": "https://newsreleases.jcom.co.jp/news/20231122_9239.html",
+      "title": "お客さまの個人情報漏えいに関するお知らせとお詫び",
+      "publisher": "JCOM株式会社",
+      "published_on": "2023-11-22"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/11/29/50297.html",
+      "title": "JCOM メッシュWi-Fi 提供元のモバイルアプリへ不正アクセス、顧客の個人情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-11-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

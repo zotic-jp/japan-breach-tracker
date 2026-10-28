@@ -1,0 +1,47 @@
+{
+  "id": "2024-kishispo-online-shop",
+  "organization": {
+    "name_ja": "株式会社岸和田スポーツ",
+    "name_en": "Kishiwada Sports Co., Ltd.",
+    "domain": "kishispo.com"
+  },
+  "industry": "retail",
+  "disclosed_on": "2024-05-14",
+  "discovered_on": "2024-01-17",
+  "affected": {
+    "count": 38664,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers who bought on the site from 2021-02-24 to 2024-01-17. Of these, 13,879 customers who entered card data may have had card details stolen."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "credit_card"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Kishiwada Sports, which runs the Kemari87 KISHISPO soccer gear online shop, said attackers exploited a site vulnerability after placing fraudulent orders and installed a data-stealing program. Personal data of 38,664 customers may have leaked, including card details of 13,879 of them.",
+    "ja": "サッカー用品の通販サイト「Kemari87KISHISPO公式通販サイト」を運営する岸和田スポーツは、攻撃者が不正注文の後にサイトの脆弱性を悪用し、情報を窃取するプログラムを設置したと公表した。顧客38,664人の個人情報が流出したおそれがあり、うち13,879人はクレジットカード情報も含まれる。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/157029",
+      "title": "サッカー用品通販サイトに不正アクセス - 不正注文後に侵害",
+      "publisher": "Security NEXT",
+      "published_on": "2024-05-15"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/05/22/51036.html",
+      "title": "「Kemari87KISHISPO公式通販サイト」に不正アクセス、13,879 名のカード情報漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-05-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

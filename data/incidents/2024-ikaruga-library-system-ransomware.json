@@ -1,0 +1,60 @@
+{
+  "id": "2024-ikaruga-library-system-ransomware",
+  "organization": {
+    "name_ja": "斑鳩町",
+    "name_en": "Ikaruga Town (Nara)",
+    "domain": "town.ikaruga.nara.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2024-10-03",
+  "discovered_on": "2024-09-30",
+  "affected": {
+    "count": 21994,
+    "unit": "people",
+    "approximate": false,
+    "note": "Library users whose data was on the new library system server being built by Kyocera Communication Systems. The town's final report (2024-10-25) says forensics found no trace of data being taken out, though viewing could not be ruled out."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "address",
+    "email",
+    "birthdate",
+    "password"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "京セラコミュニケーションシステム",
+  "status": "possible",
+  "summary": {
+    "en": "A server for Ikaruga Town's new library system, being built by contractor Kyocera Communication Systems, was infected with ransomware on 2024-09-30, a day before go-live. The server held personal data of 21,994 library users.",
+    "ja": "奈良県斑鳩町の町立図書館で、京セラコミュニケーションシステムに委託して構築中だった新図書館システムのサーバが、運用開始前日の2024年9月30日にランサムウェアに感染した。サーバには図書館利用者21,994人分の個人情報が保存されていた。"
+  },
+  "official_notice_url": "https://www.town.ikaruga.nara.jp/0000002943.html",
+  "sources": [
+    {
+      "url": "https://www.town.ikaruga.nara.jp/0000002914.html",
+      "title": "斑鳩町立図書館システム構築業務におけるコンピュータウィルス感染発生事案について（第1報）",
+      "publisher": "斑鳩町",
+      "published_on": "2024-10-03"
+    },
+    {
+      "url": "https://www.town.ikaruga.nara.jp/0000002943.html",
+      "title": "図書館システム構築業務におけるコンピュータウィルス感染発生事案について（最終報）",
+      "publisher": "斑鳩町",
+      "published_on": "2024-10-25"
+    },
+    {
+      "url": "https://www.security-next.com/162506",
+      "title": "図書館の新システム構築中にランサム被害、移行延期 - 斑鳩町",
+      "publisher": "Security NEXT",
+      "published_on": "2024-10-03"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2024/10/09/51740.html",
+      "title": "京セラコミュニケーションシステム、斑鳩町立図書館システムを導入中ランサムウェア感染",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2024-10-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

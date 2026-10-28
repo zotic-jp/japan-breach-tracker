@@ -1,0 +1,49 @@
+{
+  "id": "2021-mlit-fujitsu-projectweb",
+  "organization": {
+    "name_ja": "国土交通省",
+    "name_en": "Ministry of Land, Infrastructure, Transport and Tourism",
+    "domain": "mlit.go.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2021-05-26",
+  "discovered_on": null,
+  "affected": {
+    "count": 76000,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "At least about 76,000 email addresses: about 54,000 of ministry staff and about 22,000 of external parties on ministry mailing lists, as found by 2021-05-26. System configuration information also leaked. Fujitsu later said data of 129 customer organizations leaked through ProjectWEB."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "富士通株式会社",
+  "status": "confirmed",
+  "summary": {
+    "en": "The transport ministry announced that information related to it leaked through unauthorized access to ProjectWEB, a project information-sharing tool run by Fujitsu. At least about 76,000 email addresses of staff and external contacts, plus system configuration information, were taken.",
+    "ja": "国土交通省は、富士通が管理・運営するプロジェクト情報共有ツール「ProjectWEB」への不正アクセスにより、同省関係の情報が流出したと公表した。職員や外部関係者のメールアドレス少なくとも約7.6万件とシステム構成情報が流出した。"
+  },
+  "official_notice_url": "https://www.mlit.go.jp/report/press/joho02_hh_000004.html",
+  "sources": [
+    {
+      "url": "https://www.mlit.go.jp/report/press/joho02_hh_000004.html",
+      "title": "富士通株式会社が管理・運営するプロジェクト情報共有ツールへの不正アクセスによる国土交通省関係情報の流出について",
+      "publisher": "国土交通省",
+      "published_on": "2021-05-26"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/05/28/45733.html",
+      "title": "富士通のプロジェクト情報共有ツール「ProjectWEB」に不正アクセス、国土交通省とNISCで被害確認",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-05-28"
+    },
+    {
+      "url": "https://www.security-next.com/126566",
+      "title": "国交省のシステム情報やメアド7.6万件が流出 - 委託先の富士通から報告",
+      "publisher": "Security NEXT",
+      "published_on": "2021-05-26"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

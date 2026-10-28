@@ -1,0 +1,46 @@
+{
+  "id": "2021-marukyu-gr-omni-ec",
+  "organization": {
+    "name_ja": "株式会社丸久",
+    "name_en": "Marukyu Co., Ltd.",
+    "domain": "mrk09.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2021-09-16",
+  "discovered_on": "2021-09-06",
+  "affected": {
+    "count": 25693,
+    "unit": "records",
+    "approximate": false,
+    "note": "Customers of the gift and catalog order system. 330 records also included email addresses. Card data, e-money and point card data were not included. Several other retailers using GR's Omni EC system were affected by the same intrusion."
+  },
+  "data_types": [
+    "name",
+    "phone",
+    "address",
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社ジーアール",
+  "status": "possible",
+  "summary": {
+    "en": "Yamaguchi supermarket chain Marukyu said a shared server of its contractor GR, which ran its gift and catalog order system, was accessed without authorization. Names, phone numbers and addresses of 25,693 customers may have leaked.",
+    "ja": "山口県でスーパーを展開する丸久は、ギフト・カタログ注文システムを運営する委託先ジーアールの共用サーバーが第三者の不正アクセスを受けたと公表した。顧客25,693件の氏名、電話番号、住所などが流出した可能性がある。"
+  },
+  "official_notice_url": "http://www.mrk09.co.jp/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+  "sources": [
+    {
+      "url": "http://www.mrk09.co.jp/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "title": "お客様情報の流出の可能性に関するお知らせとお詫び",
+      "publisher": "株式会社丸久",
+      "published_on": "2021-09-16"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/09/22/46332.html",
+      "title": "山口県でスーパーマーケット展開する丸久の委託先ジーアールに不正アクセス、25,693件の個人情報流出",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-09-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

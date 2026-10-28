@@ -1,0 +1,44 @@
+{
+  "id": "2022-manulife-survey-admin-url",
+  "organization": {
+    "name_ja": "マニュライフ生命保険株式会社",
+    "name_en": "Manulife Life Insurance Company (Japan)",
+    "domain": "manulife.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2022-10-14",
+  "discovered_on": "2022-09-22",
+  "affected": {
+    "count": 21622,
+    "unit": "email_addresses",
+    "approximate": false,
+    "note": "Email addresses of survey respondents viewable through the admin URL. One customer downloaded the results and the company confirmed deletion; up to 571 addresses may have been viewed through other accesses. Names, card and policy data were not included."
+  },
+  "data_types": [
+    "email",
+    "other"
+  ],
+  "cause": "misdelivery",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Manulife Life Insurance mistakenly emailed some policyholders the URL of an admin page for a campaign survey on 2022-09-22. The page exposed 21,622 respondent email addresses and survey answers, and one customer downloaded the data.",
+    "ja": "マニュライフ生命保険は、2022年9月22日にキャンペーンのアンケート案内メールで、誤って管理者用サイトのURLを一部契約者に送信した。回答者のメールアドレス2万1,622件と回答結果が閲覧できる状態となり、顧客1人がデータをダウンロードしていた。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/140803",
+      "title": "アンケートで回答結果閲覧できる管理者URLを誤送信 - マニュライフ生命",
+      "publisher": "Security NEXT",
+      "published_on": "2022-10-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/11/29/48563.html",
+      "title": "マニュライフ生命保険、管理者用サイトのURLを誤ってメール記載 アンケート回答者のメールアドレス閲覧可能に",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-11-29"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

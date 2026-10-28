@@ -1,0 +1,42 @@
+{
+  "id": "2026-andst-business-servers",
+  "organization": {
+    "name_ja": "株式会社アンドエスティHD",
+    "name_en": "and ST HD Co., Ltd.",
+    "domain": "andst-hd.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-23",
+  "discovered_on": "2026-10-22",
+  "affected": {
+    "count": 2500000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 2.5 million customers. About 10,000 business partner records and an unspecified number of employee records may also have leaked. The company said credit card data and customer-set passwords were not included, and that its online store was not intruded."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "address",
+    "phone",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Apparel group and ST HD detected unauthorized access to multiple business servers on the morning of 2026-10-22, isolated them and blocked the access route the same day. It announced that names, birthdates, addresses, phone numbers and email addresses of about 2.5 million customers, as well as business partner and employee data, may have been taken.",
+    "ja": "アパレル大手のアンドエスティHDは、2026年10月22日朝に複数の業務サーバーへの不正アクセスを検知し、同日中にサーバーを隔離して侵入経路を遮断した。顧客約250万人の氏名、生年月日、住所、電話番号、メールアドレスのほか、取引先や従業員の情報が外部に流出した可能性があると発表した。"
+  },
+  "official_notice_url": "https://www.andst-hd.co.jp/news/notice/entry-17234/",
+  "sources": [
+    {
+      "url": "https://www.andst-hd.co.jp/news/notice/entry-17234/",
+      "title": "当社業務サーバーへの不正アクセスの発生および個人情報等流出の可能性に関するお詫びとお知らせ",
+      "publisher": "株式会社アンドエスティHD",
+      "published_on": "2026-10-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

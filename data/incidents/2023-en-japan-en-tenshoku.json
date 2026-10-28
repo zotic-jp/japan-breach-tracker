@@ -1,0 +1,43 @@
+{
+  "id": "2023-en-japan-en-tenshoku",
+  "organization": {
+    "name_ja": "エン・ジャパン株式会社",
+    "name_en": "en Japan Inc.",
+    "domain": "en-japan.com"
+  },
+  "industry": "other",
+  "disclosed_on": "2023-03-30",
+  "discovered_on": "2023-03-27",
+  "affected": {
+    "count": 255765,
+    "unit": "people",
+    "approximate": false,
+    "note": "Members registered since 2000 (excluding withdrawn members) whose web resumes may have been viewed through logins between 2023-03-20 and 2023-03-27. The company reset all users' passwords."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "en Japan said attackers used IDs and passwords obtained elsewhere to log in to its job site en Tenshoku between 2023-03-20 and 2023-03-27. Web resumes of 255,765 members may have been viewed, and the company reset all users' passwords.",
+    "ja": "エン・ジャパンは、2023年3月20日から27日にかけて、外部で入手されたIDとパスワードによる転職サイト「エン転職」への不正ログインがあったと公表した。会員255,765人分のWeb履歴書が閲覧された可能性があり、全ユーザーのパスワードを再設定した。"
+  },
+  "official_notice_url": "https://employment.en-japan.com/info/20230330/",
+  "sources": [
+    {
+      "url": "https://employment.en-japan.com/info/20230330/",
+      "title": "「エン転職」への不正ログイン発生に関するお詫びとパスワード再設定のお願い",
+      "publisher": "エン・ジャパン株式会社",
+      "published_on": "2023-03-30"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/04/04/49157.html",
+      "title": "「エン転職」にパスワードリスト型攻撃、25万5,765名分のWeb履歴書に不正ログインされた可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-04-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

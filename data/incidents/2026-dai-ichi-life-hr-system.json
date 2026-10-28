@@ -1,0 +1,52 @@
+{
+  "id": "2026-dai-ichi-life-hr-system",
+  "organization": {
+    "name_ja": "株式会社第一ライフグループ・第一生命保険株式会社",
+    "name_en": "Dai-ichi Life Holdings, Inc. and The Dai-ichi Life Insurance Company, Limited",
+    "domain": "dai-ichi-life.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2026-10-02",
+  "discovered_on": "2026-09-24",
+  "affected": {
+    "count": 124000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Updated on 2026-10-27 from about 120,000. About 54,000 current employees and about 70,000 former employees, including staff seconded to or from group companies; about 96,000 of them only had their address and phone number affected. Also includes the kana names of 259 staff of two HR outsourcing contractors. The companies said no access to policyholder data was found."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Dai-ichi Life Holdings and Dai-ichi Life Insurance detected unauthorized access to their employee HR system on 2026-09-24. The results of the investigation, announced on 2026-10-27, put the number of current and former employees whose kana names, addresses, phone numbers, employee numbers and job details may have been viewed and leaked at about 124,000.",
+    "ja": "第一ライフグループと第一生命保険は、2026年9月24日に両社が利用する従業員向け人事システムへの不正アクセスを検知した。10月27日の調査結果の公表では、カナ氏名、住所、電話番号、従業員番号、所属・職位などが閲覧・流出した可能性のある従業員・退職者は約12.4万名とされた。"
+  },
+  "official_notice_url": "https://www.daiichilife-group.com/news/assets/pdf/portalaccess2.pdf",
+  "sources": [
+    {
+      "url": "https://www.daiichilife-group.com/news/assets/pdf/portalaccess2.pdf",
+      "title": "従業員向け人事システムへの不正アクセスに関する調査結果について",
+      "publisher": "株式会社第一ライフグループ",
+      "published_on": "2026-10-27"
+    },
+    {
+      "url": "https://www.daiichilife-group.com/news/assets/pdf/portalaccess.pdf",
+      "title": "退職された皆さまへのお知らせ 当社の従業員向け人事システムへの不正アクセスについて",
+      "publisher": "株式会社第一ライフグループ",
+      "published_on": "2026-10-02"
+    },
+    {
+      "url": "https://www.security-next.com/190994",
+      "title": "人事システムから従業員の個人情報が流出した可能性 - 第一ライフG",
+      "publisher": "Security NEXT",
+      "published_on": "2026-10-06"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2021-linical-cyberattack",
+  "organization": {
+    "name_ja": "株式会社リニカル",
+    "name_en": "Linical Co., Ltd.",
+    "domain": null
+  },
+  "industry": "healthcare",
+  "disclosed_on": "2021-12-06",
+  "discovered_on": "2021-10-03",
+  "affected": {
+    "count": null,
+    "unit": "records",
+    "approximate": true,
+    "note": "Interim maximum estimates based on restored servers in Japan, with no overall total: about 14,000 job applicants, about 300 applicants under disability employment, about 21,000 individual shareholders (2015-2021 registers) plus about 60,000 cumulative shareholder records (2009-2014), about 30,000 business-partner employees, about 500 retirees and families, about 500 HR records, and smaller groups in other countries. Clinical trial subject data was held in a separate cloud environment and not affected."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "phone",
+    "email",
+    "address",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Clinical research organization Linical found traces of unauthorized access on servers in Japan and Taiwan on 2021-10-03 and at a European site later in October. It said personal data of job applicants, shareholders, business partners and employees may have leaked, and that it would not negotiate with the criminal group.",
+    "ja": "医薬品開発支援のリニカルは、2021年10月3日に日本と台湾のサーバーで不正アクセスの痕跡を確認し、同月には欧州拠点でも被害を確認した。採用応募者、株主、取引先、従業員などの個人情報が流出した可能性があると公表し、犯行グループとは交渉しないとした。"
+  },
+  "official_notice_url": "https://ssl4.eir-parts.net/doc/2183/tdnet/2056628/00.pdf",
+  "sources": [
+    {
+      "url": "https://ssl4.eir-parts.net/doc/2183/tdnet/2056628/00.pdf",
+      "title": "不正アクセスによる個人情報等流出の可能性に関するお知らせとお詫び",
+      "publisher": "株式会社リニカル",
+      "published_on": "2021-12-06"
+    },
+    {
+      "url": "https://www.security-next.com/132207",
+      "title": "個人情報流出の可能性示す痕跡を発見、最大対象件数を算出 - リニカル",
+      "publisher": "Security NEXT",
+      "published_on": "2021-12-07"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2021/12/09/46784.html",
+      "title": "治験支援行うリニカルへのサイバー攻撃、犯行グループと交渉に応じず",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2021-12-09"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

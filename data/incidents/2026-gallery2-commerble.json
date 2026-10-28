@@ -1,0 +1,41 @@
+{
+  "id": "2026-gallery2-commerble",
+  "organization": {
+    "name_ja": "株式会社GALLERY・2",
+    "name_en": "GALLERY 2 Co., Ltd.",
+    "domain": "gallery2.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-10-23",
+  "discovered_on": null,
+  "affected": {
+    "count": 128000,
+    "unit": "records",
+    "approximate": true,
+    "note": "Up to about 128,000 deduplicated buyer name and email records; also up to about 122,000 address and phone records and about 158,000 order-confirmation email records, which overlap. Data was viewed in the database but exfiltration had not been confirmed as of the announcement. The checkout page was also tampered with on 2026-10-18."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "株式会社Commerble (Commerble)",
+  "status": "possible",
+  "summary": {
+    "en": "Xebio Holdings said administrator credentials of Commerble, the e-commerce platform used by its subsidiary GALLERY 2, were stolen on 2026-10-16 and used to access the subsidiary's customer database the next day. Up to about 128,000 buyers' names and email addresses, along with addresses and phone numbers, may have leaked.",
+    "ja": "ゼビオホールディングスは、子会社GALLERY・2が利用するECプラットフォーム「Commerble」の運営会社側の管理用認証情報が2026年10月16日に不正取得され、翌日に顧客データベースへ不正アクセスされたと発表した。最大約12.8万件の購入者の氏名とメールアドレスのほか、住所や電話番号が漏えいした可能性がある。"
+  },
+  "official_notice_url": "https://www2.jpx.co.jp/disc/82810/140120261022554661.pdf",
+  "sources": [
+    {
+      "url": "https://www2.jpx.co.jp/disc/82810/140120261022554661.pdf",
+      "title": "第三者が運営するECプラットフォームで発生した不正アクセスによる当社連結子会社の個人情報漏えいの可能性に関するお知らせ",
+      "publisher": "ゼビオホールディングス株式会社",
+      "published_on": "2026-10-23"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

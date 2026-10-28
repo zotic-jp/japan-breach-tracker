@@ -1,0 +1,54 @@
+{
+  "id": "2026-kindal-ec-staff-account",
+  "organization": {
+    "name_ja": "株式会社カインドオル",
+    "name_en": "Kindal Co., Ltd.",
+    "domain": "kindal.co.jp"
+  },
+  "industry": "retail",
+  "disclosed_on": "2026-08-28",
+  "discovered_on": "2026-08-24",
+  "affected": {
+    "count": 136464,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers of the online store of Kindal, a used designer clothing subsidiary of Treasure Factory; 109,311 of them had addresses included. Credit card data and login passwords were not included. Follow-up investigation confirmed the exported file was downloaded by the attacker."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "birthdate",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Kindal, a subsidiary of Treasure Factory, said a third party took over a staff account on the e-commerce platform behind its online store, using credentials obtained through a phishing email, and bulk-exported customer data twice on 2026-08-23. Personal data of 136,464 customers, such as names, addresses, phone numbers and email addresses, leaked.",
+    "ja": "トレジャー・ファクトリーの子会社カインドオルは、ECサイトで利用するプラットフォームのスタッフアカウントがフィッシングメールで取得された認証情報により乗っ取られ、2026年8月23日に顧客情報が2回一括エクスポートされたと発表した。氏名、住所、電話番号、メールアドレスなど136,464人分の個人情報が漏えいした。"
+  },
+  "official_notice_url": "https://www2.jpx.co.jp/disc/30930/140120260902530578.pdf",
+  "sources": [
+    {
+      "url": "https://www2.jpx.co.jp/disc/30930/140120260902530578.pdf",
+      "title": "当社連結子会社における不正アクセスによる個人情報漏えいに関する専用お問い合わせ窓口開設のお知らせ",
+      "publisher": "株式会社トレジャー・ファクトリー",
+      "published_on": "2026-09-02"
+    },
+    {
+      "url": "https://netshop.impress.co.jp/n/2026/09/01/16648",
+      "title": "トレジャー・ファクトリー子会社のECサイトに不正アクセス、個人情報が漏えい",
+      "publisher": "ネットショップ担当者フォーラム",
+      "published_on": "2026-09-01"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56270.html",
+      "title": "顧客情報の一括エクスポートを確認 ～ カインドオルが利用するECプラットフォームに不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2026-09-18"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

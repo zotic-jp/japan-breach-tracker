@@ -1,0 +1,50 @@
+{
+  "id": "2023-aflac-vendor-leak",
+  "organization": {
+    "name_ja": "アフラック生命保険株式会社",
+    "name_en": "Aflac Life Insurance Japan Ltd.",
+    "domain": "aflac.co.jp"
+  },
+  "industry": "finance",
+  "disclosed_on": "2023-01-10",
+  "discovered_on": "2023-01-09",
+  "affected": {
+    "count": 1323468,
+    "unit": "people",
+    "approximate": false,
+    "note": "Policyholders of three cancer insurance products. The leaked data covered 3,158,199 records in total. Data included surname only, age, gender, policy number and coverage details; it had been given to an outside vendor for sending direct mail."
+  },
+  "data_types": [
+    "name",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": "Unnamed outside contractor (servers accessed from 2023-01-07)",
+  "status": "confirmed",
+  "summary": {
+    "en": "Aflac Life Insurance Japan said customer data it had given to an outside vendor appeared on an overseas leak site after the vendor's servers were accessed without authorization from 2023-01-07. Data of 1,323,468 cancer insurance policyholders, including surnames, ages, genders and policy details, was leaked.",
+    "ja": "アフラック生命保険は、ダイレクトメール送付のため外部業者に提供していた顧客情報が、同業者のサーバーへの2023年1月7日以降の不正アクセスにより海外サイトに掲載されたと公表した。がん保険の契約者1,323,468人分の姓、年齢、性別、証券番号などが流出した。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/01/12/48758.html",
+      "title": "アフラック「新がん保険」「スーパーがん保険」「スーパーがん保険Vタイプ」加入者情報漏えい、1月7日に外部業者に不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-01-12"
+    },
+    {
+      "url": "https://news.mynavi.jp/article/20230117-security",
+      "title": "アフラック、外部事業者の情報流出によって約130万件の個人情報が漏えい",
+      "publisher": "マイナビニュース",
+      "published_on": "2023-01-17"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/02/22/48958.html",
+      "title": "今日もどこかで情報漏えい 第8回「2023年1月の情報漏えい」リリースはどこへ消えた？",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-02-22"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "2025-konaka-difference",
+  "organization": {
+    "name_ja": "株式会社コナカ（DIFFERENCE）",
+    "name_en": "Konaka Co., Ltd. (DIFFERENCE)",
+    "domain": "difference.tokyo"
+  },
+  "industry": "retail",
+  "disclosed_on": "2025-04-24",
+  "discovered_on": "2025-04-22",
+  "affected": {
+    "count": 150491,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customers of the made-to-order suit brand DIFFERENCE. Exposed data was what appears on the app's order detail download screen: name, address, phone number and order details. Card data, email addresses and passwords were not included. Other Konaka brands were not affected."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "confirmed",
+  "summary": {
+    "en": "Konaka said a malicious program sent mass requests to the order detail download service of its made-to-order suit brand DIFFERENCE on 2025-04-22 before access was blocked. Names, addresses, phone numbers and order details of 150,491 customers leaked.",
+    "ja": "コナカは、オーダースーツ業態「DIFFERENCE」のアプリの「オーダー詳細ダウンロード」サービスに2025年4月22日、不正プログラムによる大量アクセスがあったと公表した。顧客150,491名分の氏名、住所、電話番号、注文情報が漏えいした。"
+  },
+  "official_notice_url": "https://www.konaka.co.jp/ir/assets/2025/04/20250424_1.pdf",
+  "sources": [
+    {
+      "url": "https://www.konaka.co.jp/ir/assets/2025/04/20250424_1.pdf",
+      "title": "不正プログラムによる、サービスの一部停止と個人情報漏洩に関するお知らせ",
+      "publisher": "株式会社コナカ",
+      "published_on": "2025-04-24"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/05/08/52803.html",
+      "title": "「DIFFERENCE」のサーバへの不正プログラム行使、15 万 491 名分の顧客情報が漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-05-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2025-nikkei-slack",
+  "organization": {
+    "name_ja": "株式会社日本経済新聞社",
+    "name_en": "Nikkei Inc.",
+    "domain": "nikkei.com"
+  },
+  "industry": "media",
+  "disclosed_on": "2025-11-04",
+  "discovered_on": null,
+  "affected": {
+    "count": 17368,
+    "unit": "people",
+    "approximate": false,
+    "note": "Names, email addresses, chat histories and other data registered in Slack, covering employees, business partners and others. Nikkei said no leak of information about news sources or reporting was confirmed."
+  },
+  "data_types": [
+    "name",
+    "email",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Nikkei reported that an attacker logged into its business Slack using credentials stolen from an employee's personal computer infected with malware, which the company learned of in September 2025. Data on 17,368 people, including names, email addresses and chat histories, may have leaked.",
+    "ja": "日本経済新聞社は、社員の個人保有パソコンがウイルスに感染して業務用チャット「Slack」の認証情報が流出し、外部から不正ログインされたと公表した。2025年9月に被害を把握し、氏名やメールアドレス、チャット履歴など1万7,368人分の情報が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1393.html",
+  "sources": [
+    {
+      "url": "https://www.nikkei.co.jp/nikkeiinfo/news/information/1393.html",
+      "title": "業務用チャット「スラック」への不正ログインと情報流出について",
+      "publisher": "株式会社日本経済新聞社",
+      "published_on": "2025-11-04"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/11/07/53972.html",
+      "title": "取材に関する情報漏えいは確認されず ～ 日本経済新聞社が利用する「Slack」に不正ログイン、社員や取引先など 1 万 7,368 人分の情報が流出した可能性",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-11-07"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

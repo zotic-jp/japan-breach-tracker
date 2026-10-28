@@ -1,0 +1,41 @@
+{
+  "id": "2024-toyota-mobility-booking-car",
+  "organization": {
+    "name_ja": "トヨタモビリティサービス株式会社",
+    "name_en": "Toyota Mobility Service Co., Ltd.",
+    "domain": "t-mobility-s.co.jp"
+  },
+  "industry": "transport",
+  "disclosed_on": "2024-02-19",
+  "discovered_on": "2024-02-02",
+  "affected": {
+    "count": 25000,
+    "unit": "people",
+    "approximate": true,
+    "note": "Users who registered an email address on the Booking Car service since November 2020. Data in the S3 bucket was deleted by the intruder."
+  },
+  "data_types": [
+    "email",
+    "name",
+    "phone",
+    "address",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Toyota Mobility Service said an intruder used an old AWS access key left active by a development contractor to enter a storage server of Booking Car, its fleet vehicle booking service for companies and local governments. Data of about 25,000 users, including email addresses and in some logs names and phone numbers, may have leaked.",
+    "ja": "トヨタモビリティサービスは、社用車管理クラウドサービス「Booking Car」で、開発委託先が無効化していなかった古いAWSアクセスキーを悪用され、データ保管サーバに侵入されたと公表した。メールアドレスのほか一部ログに含まれる氏名や電話番号など、利用者約2万5,000人分の情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/153922",
+      "title": "トヨタの社用車管理サービスに不正アクセス - 原因は古いアクセスキー",
+      "publisher": "Security NEXT",
+      "published_on": "2024-02-19"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "2022-caritas-shikaku-sqli",
+  "organization": {
+    "name_ja": "株式会社ディスコ",
+    "name_en": "DISCO Inc.",
+    "domain": "disc.co.jp"
+  },
+  "industry": "education",
+  "disclosed_on": "2022-05-20",
+  "discovered_on": null,
+  "affected": {
+    "count": 298826,
+    "unit": "email_addresses",
+    "approximate": true,
+    "note": "Up to 298,826 email addresses of users of the Caritas Shikaku Kentei exam application site up to 2022-05-16. Names, addresses, phone numbers, birthdates and application details were not leaked."
+  },
+  "data_types": [
+    "email"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "DISCO, operator of the Caritas Shikaku Kentei exam application site, said its server was hit by SQL injection attacks from overseas on 2022-05-15 and 16. Up to 298,826 user email addresses may have been leaked.",
+    "ja": "資格検定申込サイト「キャリタス資格検定」を運営するディスコは、2022年5月15日から16日にかけてサーバが海外からSQLインジェクション攻撃を受けたと公表した。利用者のメールアドレス最大29万8,826件が流出した可能性がある。"
+  },
+  "official_notice_url": "https://www.disc.co.jp/press_release/9288/",
+  "sources": [
+    {
+      "url": "https://www.disc.co.jp/topics/9137/",
+      "title": "「キャリタス資格検定」への不正アクセスに関するご報告とお詫び",
+      "publisher": "株式会社ディスコ",
+      "published_on": "2022-05-20"
+    },
+    {
+      "url": "https://www.disc.co.jp/press_release/9288/",
+      "title": "「キャリタス資格検定」への不正アクセスに関するご報告とお詫び（第2報）",
+      "publisher": "株式会社ディスコ",
+      "published_on": "2022-08-01"
+    },
+    {
+      "url": "https://www.security-next.com/138605",
+      "title": "資格検定申込サイトへSQLi攻撃 - メアド流出の可能性",
+      "publisher": "Security NEXT",
+      "published_on": "2022-08-04"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2022/08/05/48018.html",
+      "title": "「キャリタス資格検定」のサーバへのSQLインジェクションによる不正アクセス、最大298,826件のメールアドレスが漏えい",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2022-08-05"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

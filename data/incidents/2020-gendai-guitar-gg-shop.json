@@ -1,0 +1,49 @@
+{
+  "id": "2020-gendai-guitar-gg-shop",
+  "organization": {
+    "name_ja": "株式会社現代ギター社",
+    "name_en": "Gendai Guitar Co., Ltd.",
+    "domain": null
+  },
+  "industry": "retail",
+  "disclosed_on": "2020-01-07",
+  "discovered_on": "2019-10-24",
+  "affected": {
+    "count": 19328,
+    "unit": "people",
+    "approximate": false,
+    "note": "Customer records stored on the GG Internet Shop server (registered or purchased between 2008-06-25 and 2019-10-24). Separately, card details of 133 customers who paid by card between 2019-10-06 and 2019-10-24 may have been stolen through a tampered payment application."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "phone",
+    "email",
+    "password",
+    "credit_card",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Gendai Guitar said its online store GG Internet Shop was accessed without authorization through a system vulnerability. Data of 19,328 customers, including names, addresses, phone numbers, email addresses and encrypted passwords, may have been taken, and card details of 133 customers may have leaked.",
+    "ja": "現代ギター社は、運営する「GGインターネットショップ」がシステムの脆弱性を突いた不正アクセスを受けたと公表した。氏名、住所、電話番号、メールアドレス、暗号化されたパスワードなど顧客1万9,328人分の情報と、133人分のクレジットカード情報が流出した可能性がある。"
+  },
+  "official_notice_url": null,
+  "sources": [
+    {
+      "url": "https://www.security-next.com/111316",
+      "title": "通販サイトに不正アクセス、個人情報流出の可能性 - 現代ギター社",
+      "publisher": "Security NEXT",
+      "published_on": "2020-01-09"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2020/01/08/43495.html",
+      "title": "「GGインターネットショップ」に不正アクセス、2008年からの顧客情報が流出（現代ギター社）",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2020-01-08"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

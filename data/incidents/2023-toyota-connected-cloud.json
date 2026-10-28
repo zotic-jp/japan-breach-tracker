@@ -1,0 +1,49 @@
+{
+  "id": "2023-toyota-connected-cloud",
+  "organization": {
+    "name_ja": "トヨタ自動車株式会社",
+    "name_en": "Toyota Motor Corporation",
+    "domain": "toyota.jp"
+  },
+  "industry": "manufacturing",
+  "disclosed_on": "2023-05-12",
+  "discovered_on": null,
+  "affected": {
+    "count": 2150000,
+    "unit": "people",
+    "approximate": true,
+    "note": "About 2.15 million T-Connect, G-Link, G-Link Lite and G-BOOK subscribers (2012-01-02 to 2023-04-17) whose in-vehicle terminal ID, VIN and vehicle location with timestamps were exposed from 2013-11-06 to 2023-04-17. On 2023-05-31 Toyota disclosed a further about 260,000 customers in Japan (terminal ID and map update data, possibly overlapping) and an unstated number of customers in Asia and Oceania whose names, addresses, phone numbers and email addresses were exposed."
+  },
+  "data_types": [
+    "other"
+  ],
+  "cause": "misconfiguration",
+  "via_vendor": "トヨタコネクティッド (Toyota Connected)",
+  "status": "possible",
+  "summary": {
+    "en": "Toyota said a cloud environment managed by its subsidiary Toyota Connected was misconfigured, leaving data of about 2.15 million connected-service customers in Japan, including vehicle location data, accessible from outside for about ten years. A later review found further exposed data of about 260,000 customers in Japan and of customers overseas.",
+    "ja": "トヨタ自動車は、トヨタコネクティッドが管理するクラウド環境の誤設定により、コネクティッドサービスの国内顧客約215万人分の車両位置情報などが約10年間外部から閲覧可能な状態だったと公表した。その後の点検で国内約26万人分と海外顧客の情報も外部からアクセス可能だったことが判明した。"
+  },
+  "official_notice_url": "https://global.toyota/jp/newsroom/corporate/39174380.html",
+  "sources": [
+    {
+      "url": "https://global.toyota/jp/newsroom/corporate/39174380.html",
+      "title": "クラウド環境の誤設定によるお客様情報の漏洩可能性に関するお詫びとお知らせについて",
+      "publisher": "トヨタ自動車株式会社",
+      "published_on": "2023-05-12"
+    },
+    {
+      "url": "https://global.toyota/jp/newsroom/corporate/39241571.html",
+      "title": "クラウド設定によるお客様情報の漏洩可能性に関するお詫びとお知らせについて",
+      "publisher": "トヨタ自動車株式会社",
+      "published_on": "2023-05-31"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2023/05/16/49362.html",
+      "title": "顧客情報 約215万人分 10年間閲覧可 ～ トヨタ自動車 クラウド誤設定",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2023-05-16"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

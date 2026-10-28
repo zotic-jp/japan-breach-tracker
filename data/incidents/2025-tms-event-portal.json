@@ -1,0 +1,47 @@
+{
+  "id": "2025-tms-event-portal",
+  "organization": {
+    "name_ja": "株式会社トータルマリアージュサポート",
+    "name_en": "Total Marriage Support Co., Ltd.",
+    "domain": "exeo-japan.co.jp"
+  },
+  "industry": "other",
+  "disclosed_on": "2025-07-14",
+  "discovered_on": null,
+  "affected": {
+    "count": 910795,
+    "unit": "people",
+    "approximate": true,
+    "note": "Maximum number of people whose data was held across the TMS Event Portal, Smile Stage, Fiore Party and Matching Party services; the company said the actual number cannot be determined. Leakage was confirmed for 52 people as of 2025-07-14. Unauthorized access is believed to have occurred between 2025-05-19 and 2025-07-01. The investigation began after a customer reported phishing email from a lookalike domain on 2025-06-24."
+  },
+  "data_types": [
+    "name",
+    "birthdate",
+    "email",
+    "phone",
+    "other"
+  ],
+  "cause": "unauthorized_access",
+  "via_vendor": null,
+  "status": "possible",
+  "summary": {
+    "en": "Total Marriage Support, which runs the TMS Event Portal matchmaking event site, found that its website program had been accessed without authorization between May and July 2025. It said personal data of up to 910,795 people, including names, birthdates, email addresses and phone numbers, may have leaked, with leakage confirmed for 52 people.",
+    "ja": "婚活イベントサイト「TMSイベントポータル」を運営するトータルマリアージュサポートは、2025年5月から7月にかけてWebサイトのプログラムへの不正アクセスがあったと公表した。氏名、生年月日、メールアドレス、電話番号などを含む最大910,795名分の個人情報が漏えいした可能性があり、うち52名分は漏えいを確認したとしている。"
+  },
+  "official_notice_url": "https://www.smile-stage.jp/news/20250714.html",
+  "sources": [
+    {
+      "url": "https://www.smile-stage.jp/news/20250714.html",
+      "title": "不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ",
+      "publisher": "株式会社トータルマリアージュサポート",
+      "published_on": "2025-07-14"
+    },
+    {
+      "url": "https://scan.netsecurity.ne.jp/article/2025/07/28/53302.html",
+      "title": "最大 910,795 名の個人情報漏えいの可能性 ～ 婚活イベントサイトへ不正アクセス",
+      "publisher": "ScanNetSecurity",
+      "published_on": "2025-07-28"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}

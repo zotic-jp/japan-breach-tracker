@@ -1,0 +1,45 @@
+{
+  "id": "2024-wakayama-city-iseto",
+  "organization": {
+    "name_ja": "和歌山市",
+    "name_en": "Wakayama City",
+    "domain": "city.wakayama.wakayama.jp"
+  },
+  "industry": "government",
+  "disclosed_on": "2024-07-04",
+  "discovered_on": "2024-07-01",
+  "affected": {
+    "count": 151421,
+    "unit": "records",
+    "approximate": false,
+    "note": "135,118 individual taxpayers (salary-withheld) + 16,303 employer establishments."
+  },
+  "data_types": [
+    "name",
+    "address",
+    "other"
+  ],
+  "cause": "ransomware",
+  "via_vendor": "株式会社イセトー",
+  "status": "confirmed",
+  "summary": {
+    "en": "Wakayama City said 151,421 records of FY2023 special collection resident tax notices, including names, addresses and tax information, leaked from printing contractor ISETO after a ransomware attack. ISETO had kept a copy of the data on another department's server after the contract ended instead of deleting it.",
+    "ja": "和歌山市は、印刷業務の委託先イセトーのランサムウェア被害により、2023年度の市県民税特別徴収税額決定通知書のデータ151,421件（氏名、住所、課税情報など）が流出したと公表した。イセトーは契約終了後もデータを削除せず、別部門のサーバに保管していた。"
+  },
+  "official_notice_url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/059/289/071605.pdf",
+  "sources": [
+    {
+      "url": "https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/059/289/071605.pdf",
+      "title": "委託業者におけるコンピューターウイルス感染について（続報）",
+      "publisher": "和歌山市",
+      "published_on": "2024-07-16"
+    },
+    {
+      "url": "https://www.security-next.com/159314",
+      "title": "住民税決定通知書のデータ約15万件が外部流出 - 和歌山市",
+      "publisher": "Security NEXT",
+      "published_on": "2024-07-04"
+    }
+  ],
+  "updated_at": "2026-10-28"
+}
